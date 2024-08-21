@@ -34,6 +34,10 @@ header-includes:
   \usepackage{graphicx}
   \usepackage{parskip}
   \usepackage{xcolor}
+  \usepackage{longtable}
+  \usepackage{array}
+  \usepackage{lscape}
+  \usepackage{multirow}
  
   \newtcolorbox{info-box}{colback=cyan!5!white,arc=0pt,outer arc=0pt,colframe=cyan!60!black}
   \newtcolorbox{error-box}{colback=red!5!white,arc=0pt,outer arc=0pt,colframe=red!75!black}
@@ -70,6 +74,7 @@ pandoc-latex-environment:
 
 **Registro de Versiones del Informe**
 
+
 \begin{longtable}{|c|c|c|p{6cm}|}
   \hline
   \textbf{Versión} & \textbf{Fecha} & \textbf{Autor} & \textbf{Descripción de Modificación} \\
@@ -104,21 +109,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nu
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
 
-\definecolor{mybackground}{HTML}{f2e7e5}
-
-\begin{tcolorbox}[colframe=black, colback=mybackground, boxrule=0.8mm, width=\textwidth, sharp corners]
-{
-    \begin{minipage}[c]{0.3\textwidth}
-        \includegraphics[width=\linewidth]{gato.png}
-    \end{minipage}
-    \hfill
-    \begin{minipage}[c]{0.65\textwidth}
-        \textbf{Nombre del Integrante} \\
-        \textit{Profesión} \\
-        Descripción general: Aquí puedes colocar una breve descripción del integrante, su rol en el equipo, y cualquier otra información relevante.
-    \end{minipage}
-}
-\end{tcolorbox}
 
 ## *Solution Profile* 
 
