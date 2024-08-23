@@ -38,6 +38,8 @@ header-includes:
   \usepackage{array}
   \usepackage{lscape}
   \usepackage{multirow}
+  \usepackage{longtable}
+  \usepackage{geometry}
  
   \newtcolorbox{info-box}{colback=cyan!5!white,arc=0pt,outer arc=0pt,colframe=cyan!60!black}
   \newtcolorbox{error-box}{colback=red!5!white,arc=0pt,outer arc=0pt,colframe=red!75!black}
@@ -74,7 +76,6 @@ pandoc-latex-environment:
 
 **Registro de Versiones del Informe**
 
-
 \begin{longtable}{|c|c|c|p{6cm}|}
   \hline
   \textbf{Versión} & \textbf{Fecha} & \textbf{Autor} & \textbf{Descripción de Modificación} \\
@@ -89,9 +90,414 @@ pandoc-latex-environment:
   \hline
 \end{longtable}
 
+\newpage
+
 ***Student Outcome***
 
+El curso contribuye al cumplimiento del Student Outcome ABET: *ABET-EAC - Student Outcome 7*
+
+* **Criterio:** *La capacidad de adquirir y aplicar nuevos conocimientos según sea necesario, utilizando estrategias de aprendizaje apropiadas*.
+
+En el siguiente cuadro se describe las acciones realizadas y enunciadas de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro de ***ABET - EAC - Student Outcome 7.***
+
+\begin{longtable}{|p{4cm}|p{6cm}|p{5cm}|}
+\hline
+\textbf{Criterio Específico} & \textbf{Acciones Realizadas} & \textbf{Conclusiones} \\
+\hline
+\endfirsthead
+
+\hline
+\textbf{Criterio Específico} & \textbf{Acciones Realizadas} & \textbf{Conclusiones} \\
+\hline
+\endhead
+
+\multirow{3}{*}{
+\parbox[t]{4cm}{
+Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.
+}} 
+&  
+\parbox[t]{6cm}{
+\textbf{TB1:} \\
+\textbf{Abel Angel Ortega Huaraca} \\
+Coordiné y realicé la reunión inicial del proyecto, explicando claramente los objetivos y el plan de trabajo. Cree diferentes reuniones para clarificar los roles de cada integrante del equipo. \\
+\textbf{Belen} \\
+lorem ipsum. \\
+\textbf{Mateo} \\
+lorem ipsum. \\
+\textbf{Alex} \\
+lorem ipsum. \\} 
+&
+\parbox[t]{5cm}{
+\textbf{TB1:} \\
+Falta escribir las conclusiones uu. \\
+} \\ 
+
+\hline
+
+\multirow{3}{*}{
+\parbox[t]{4cm}{
+Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.
+}}
+&  
+\parbox[t]{6cm}{
+\textbf{TB1:} \\
+\textbf{Abel Angel Ortega Huaraca} \\
+Cree repositorios para almacenar nuestro informe con un registro de versiones constante, además de comenzar un registro de los puntos que nos falta completar. \\
+\textbf{Belen} \\
+lorem ipsum. \\
+\textbf{Mateo} \\
+lorem ipsum. \\
+\textbf{Alex} \\
+lorem ipsum. \\}
+&
+\parbox[t]{5cm}{
+\textbf{TB1:} \\
+falta escribir las conclusiones uu. \\
+} \\ 
+\hline
+\end{longtable}
+
+\newpage
+
 **Objetivos** ***SMART***
+
+\begin{longtable}{|>{\centering\arraybackslash}m{4cm}|>{\centering\arraybackslash}m{3cm}|>{\centering\arraybackslash}m{5cm}|>{\centering\arraybackslash}m{3cm}|}
+\hline
+\multicolumn{4}{|c|}{\textbf{TB1}} \\
+\hline
+\textbf{\textit{SMART Goals}} & \textbf{Estudiante} & \textbf{Descripción del objetivo} & \textbf{Fechas de entrega} \\
+\hline
+\endfirsthead
+
+\multirow{4}{*}{
+\parbox[t]{4cm}{
+\textbf{Específico:} \textit{¿Qué se va a lograr?} \\
+El objetivo indica con especificidad, cuál es el proceso, servicio o producto en cuestión, para qué área es relevante, u otro detalle clave que brinde contexto. \\
+}}
+&  
+\parbox[t]{3cm}{
+Abel Ortega Huaraca \\
+}
+&
+\parbox[t]{5cm}{
+Para esta entrega mi objetivo es realizar y dar una estructura detallada al informe con el fin de alcanzar una calidad profesional. Asimismo, entregar en tiempo y forma las puntos que se me encargaron; y coloborar en el proyecto backend a traves del uso de las herramientas designadas en grupo. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 28-08-2024 \\
+\textbf{Fecha de entrega:} 02-09-2024 \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Belen
+}
+&
+\parbox[t]{5cm}{
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} dd-mm-aaaa \\
+\textbf{Fecha de entrega:} dd-mm-aaaa \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Mateo \\
+}
+&
+\parbox[t]{5cm}{
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} dd-mm-aaaa \\
+\textbf{Fecha de entrega:} dd-mm-aaaa \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Alex \\
+}
+&
+\parbox[t]{5cm}{
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} dd-mm-aaaa \\
+\textbf{Fecha de entrega:} dd-mm-aaaa \\
+} \\
+\hline
+
+\multirow{4}{*}{
+\parbox[t]{4cm}{
+\textbf{Medible:} \textit{¿Tiene KPI o métrica clara?} \\
+El enunciado tiene una meta con indicador (KPI) o métrica clara, que determinará si el objetio se cumplió. Idealmente, describe el impacto (lo que vamos a lograr) más que el entregable (lo que vamos a hacer) \\
+}}
+&  
+\parbox[t]{3cm}{
+Abel Ortega Huaraca \\
+}
+&
+\parbox[t]{5cm}{
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 28-08-2024 \\
+\textbf{Fecha de entrega:} 02-09-2024 \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Belen
+}
+&
+\parbox[t]{5cm}{
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} dd-mm-aaaa \\
+\textbf{Fecha de entrega:} dd-mm-aaaa \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Mateo \\
+}
+&
+\parbox[t]{5cm}{
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} dd-mm-aaaa \\
+\textbf{Fecha de entrega:} dd-mm-aaaa \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Alex \\
+}
+&
+\parbox[t]{5cm}{
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} dd-mm-aaaa \\
+\textbf{Fecha de entrega:} dd-mm-aaaa \\
+} \\
+\hline
+
+\multirow{4}{*}{
+\parbox[t]{4cm}{
+\textbf{Ambicioso:} \textit{¿Es retador y va más allá de sus funciones?} \\
+El objetivo inspira y reta a pensar acciones para dar el salto que se requiere para el logro, no se lograría sin una estrategia y un foco potentes. \\
+}}
+&  
+\parbox[t]{3cm}{
+Abel Ortega Huaraca \\
+}
+&
+\parbox[t]{5cm}{
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 28-08-2024 \\
+\textbf{Fecha de entrega:} 02-09-2024 \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Belen
+}
+&
+\parbox[t]{5cm}{
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} dd-mm-aaaa \\
+\textbf{Fecha de entrega:} dd-mm-aaaa \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Mateo \\
+}
+&
+\parbox[t]{5cm}{
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} dd-mm-aaaa \\
+\textbf{Fecha de entrega:} dd-mm-aaaa \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Alex \\
+}
+&
+\parbox[t]{5cm}{
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} dd-mm-aaaa \\
+\textbf{Fecha de entrega:} dd-mm-aaaa \\
+} \\
+\hline
+
+\multirow{4}{*}{
+\parbox[t]{4cm}{
+\textbf{Relevante:} \textit{¿Está alineado a la estratégia?} \\
+Existe una explicación clara respecto a cómo el objetivo impacta sobre los objetivos estratégicos de la institución o \textit{Laurate} Perú. Brinda una noción del alcance del objetivo. \\
+}}
+&  
+\parbox[t]{3cm}{
+Abel Ortega Huaraca \\
+}
+&
+\parbox[t]{5cm}{
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 28-08-2024 \\
+\textbf{Fecha de entrega:} 02-09-2024 \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Belen
+}
+&
+\parbox[t]{5cm}{
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} dd-mm-aaaa \\
+\textbf{Fecha de entrega:} dd-mm-aaaa \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Mateo \\
+}
+&
+\parbox[t]{5cm}{
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} dd-mm-aaaa \\
+\textbf{Fecha de entrega:} dd-mm-aaaa \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Alex \\
+}
+&
+\parbox[t]{5cm}{
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} dd-mm-aaaa \\
+\textbf{Fecha de entrega:} dd-mm-aaaa \\
+} \\
+\hline
+
+\multirow{4}{*}{
+\parbox[t]{4cm}{
+\textbf{Tiempo Límite:} \textit{¿Cuándo se cumplirá?} \\
+En caso que la expectativa de fecha de cumplimiento sea previa al cierre de año, el enunciado contiene de forma explícita la fecha límite para alcanzar el objetivo. \\
+}}
+&  
+\parbox[t]{3cm}{
+Abel Ortega Huaraca \\
+}
+&
+\parbox[t]{5cm}{
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 28-08-2024 \\
+\textbf{Fecha de entrega:} 02-09-2024 \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Belen
+}
+&
+\parbox[t]{5cm}{
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} dd-mm-aaaa \\
+\textbf{Fecha de entrega:} dd-mm-aaaa \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Mateo \\
+}
+&
+\parbox[t]{5cm}{
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} dd-mm-aaaa \\
+\textbf{Fecha de entrega:} dd-mm-aaaa \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Alex \\
+}
+&
+\parbox[t]{5cm}{
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} dd-mm-aaaa \\
+\textbf{Fecha de entrega:} dd-mm-aaaa \\
+} \\
+\hline
+
+\end{longtable}
+
+\newpage
+
+***Project Report Collaboration Insights***
+
+::: warn
+Falta adjuntar el github de la organizacion
+:::
+
+\newpage
+
+*Actividades Colaborativas* ***(Github Kanban)***
+
+::: warn
+Falta adjuntar las fotos y para cada foto su descripcion de colaboracion
+:::
+
+\newpage
 
 # Capítulo I: Presentación 
 
