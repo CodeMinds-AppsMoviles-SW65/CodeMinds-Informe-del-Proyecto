@@ -6,7 +6,7 @@ author:
   - "Profesor: Mayta Guillermo, Jorge Luis"
   - "Integrantes:"
   - "Ortega Huaraca, Abel Angel - U20201B380"
-  - "[Name]"
+  - "Avila Asto, Alex Ramon - u20221a322"
   - "[Name]"
   - "[Name]"
   - "[Name]"
@@ -16,7 +16,7 @@ keywords: [Markdown, Report]
 subtitle: "Aplicaciones para Dispositivos Móviles - SW65 - CC238"
 lang: "es"
 colorlinks: true
-footer-left: "Temporaly"
+footer-left: "CodeMinds"
 titlepage: true
 titlepage-text-color: "FFFAFA"
 titlepage-color: "DC143C"
@@ -531,8 +531,69 @@ Nuestra visión en CodeMinds es ser líderes en el desarrollo de soluciones tecn
 
 ### Perfiles de integrantes del equipo
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
+Nuestro equipo está conformado por individuos apasionados y comprometidos, cada uno aportando
+sus habilidades únicas para lograr nuestros objetivos de manera efectiva y colaborativa. Aquí semuestra
+a nuestros miembros clave:
 
+\definecolor{mybackground}{HTML}{eed6d1}
+
+\begin{tcolorbox}[colframe=mybackground, colback=mybackground, boxrule=0.8mm, width=\textwidth, sharp corners]
+{
+\begin{minipage}[c]{0.3\textwidth}
+\includegraphics[width=\linewidth]{src/img/Integrantes/abel.jpg}
+\end{minipage}
+\hfill
+\begin{minipage}[c]{0.65\textwidth}
+\textbf{Abel Angel Ortega Huaraca} \\
+\textit{Ingeniero de Software} \\
+Me considero una persona responsable y comprometida en las funciones que se me designe. Conforme a mis habilidades, puedo adaptarme rápidamente al equipo y al ritmo de trabajo. Asimismo, puedo contribuir con información y soluciones a través de una exhaustiva investigación para los problemas que el proyecto presente.
+\end{minipage}
+}
+\end{tcolorbox}
+
+\begin{tcolorbox}[colframe=mybackground, colback=mybackground, boxrule=0.8mm, width=\textwidth, sharp corners]
+{
+\begin{minipage}[c]{0.3\textwidth}
+\includegraphics[width=\linewidth]{src/img/Integrantes/alex.jpg}
+\end{minipage}
+\hfill
+\begin{minipage}[c]{0.65\textwidth}
+\textbf{Alex Avila Asto} \\
+\textit{Ingeniero de Software} \\
+Soy una persona con buenas habilidades y adaptabilidad para todo lo relacionado a TI. Manejo un set robusto de tecnologías como C++, SQL, Java, Kotlin, etc. Por lo que puedo aportar al equipo con mis conocimientos técnicos y brindar soporte si lo amerita. 
+\end{minipage}
+}
+\end{tcolorbox}
+
+\begin{tcolorbox}[colframe=mybackground, colback=mybackground, boxrule=0.8mm, width=\textwidth, sharp corners]
+{
+\begin{minipage}[c]{0.3\textwidth}
+\includegraphics[width=\linewidth]{src/img/Integrantes/gato.png}
+\end{minipage}
+\hfill
+\begin{minipage}[c]{0.65\textwidth}
+\textbf{Belen} \\
+\textit{Ingeniera de Software} \\
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac.
+\end{minipage}
+}
+\end{tcolorbox}
+
+\begin{tcolorbox}[colframe=mybackground, colback=mybackground, boxrule=0.8mm, width=\textwidth, sharp corners]
+{
+\begin{minipage}[c]{0.3\textwidth}
+\includegraphics[width=\linewidth]{src/img/Integrantes/gato.png}
+\end{minipage}
+\hfill
+\begin{minipage}[c]{0.65\textwidth}
+\textbf{Mateo} \\
+\textit{Ingeniero de Software} \\
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac.
+\end{minipage}
+}
+\end{tcolorbox}
+
+\newpage
 
 ## *Solution Profile* 
 
