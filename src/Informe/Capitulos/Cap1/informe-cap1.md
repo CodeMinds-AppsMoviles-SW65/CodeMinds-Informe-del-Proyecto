@@ -52,7 +52,7 @@ header-includes:
   \newtcolorbox{outline-box}{colback=cyan!5!white,arc=0pt,outer arc=0pt,colframe=cyan!60!black,title=\textbf{Outline:}}
   \newtcolorbox{prereqs-box}{colback=red!5!white,arc=0pt,outer arc=0pt,colframe=red!60!black,title=\textbf{Prerequisites:}}
   \newtcolorbox{labtime-box}{colback=yellow!5!white,arc=0pt,outer arc=0pt,colframe=yellow!60!black,title=\textbf{Lab:}}
-
+  \newcommand{\pandocbounded}[1]{#1} 
   ```
 pandoc-latex-environment:
   tcolorbox: [box]
@@ -609,27 +609,223 @@ A través de nuestra plataforma, buscamos transformar la manera en que los indiv
 
 ### Antecedentes y problemática
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
+::: info
+***What***
 
-### *Lean UX Process*
+- El uso del internet es omnipresente, lo que expone a riesgos significativos de ciberseguridad.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
+- La mayoría de las soluciones actuales no están diseñadas con la protección adecuada, exponiéndose innecesariamente a riesgos.
+:::
+
+::: info
+***Why***
+
+- Los estudiantes, debido a su alta exposición digital y a menudo escasa conciencia sobre los riesgos en línea, son particularmente vulnerables a las amenazas cibernéticas. 
+  
+- *“CodeMinds"* tiene como objetivo garantizar que la interacción de los jóvenes con la tecnología sea segura, proporcionando una protección alineada con sus comportamientos y necesidades digitales.
+:::
+
+::: info
+***Who***
+
+- Jóvenes de secundaria, estudiantes de pregrado y postgrado, quienes son usuarios frecuentes de plataformas digitales, enfrentan elevados riesgos de ciberseguridad. 
+
+- Además, los padres son actores clave, preocupados por la seguridad digital de sus hijos.
+:::
+
+::: info
+***When***
+
+- La necesidad de proteger los datos y la privacidad de los jóvenes es constante, especialmente cada vez que acceden a internet, utilizan aplicaciones móviles o interactúan en plataformas educativas y sociales.
+:::
+
+::: info
+***Where***
+
+- Esta problemática es particularmente prevalente en entornos educativos y sociales digitales, donde los jóvenes pasan la mayor parte de su tiempo interactuando con la tecnología y compartiendo información personal.
+:::
+
+::: attn
+***How***
+
+- En el contexto actual, muchos jóvenes pueden estar expuestos a amenazas en línea sin siquiera saberlo. *"CodeMinds"* ofrece una solución que se integra de manera sencilla en sus rutinas digitales, utilizando herramientas intuitivas para proteger sus datos personales y académicos en tiempo real. 
+  
+- El enfoque de *“CodeMinds”* se basa en la simplicidad y efectividad, permitiendo que los estudiantes se concentren en sus estudios y vida social sin preocuparse por la seguridad de su información.
+:::
+
+::: attn
+***How Much***
+
+- El costo de no proteger adecuadamente la información de los jóvenes puede ser significativo, tanto en términos de pérdida de datos como de exposición a ciberataques. *“CodeMinds”* ofrece una solución asequible y escalable que reduce estos riesgos considerablemente, asegurando la privacidad y seguridad de sus usuarios.
+:::
+
+### *Lean UX Process*\newline 
+
+![Recurso extraído de Google](src/img/Cap1/LeanUXProcess.png)
 
 #### *Lean UX Problem Statements*
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
+::: note
+***Problem Statement***
+
+- Los estudiantes de secundaria, pregrado y postgrado enfrentan riesgos de privacidad y seguridad al utilizar su correo electrónico principal para registrarse en plataformas en línea, lo que también afecta su productividad debido a la saturación de correos irrelevantes.\newline
+
+- Las soluciones existentes no ofrecen una protección integral que combine seguridad, privacidad, y una gestión eficiente de la bandeja de entrada.\newline
+
+- ¿Cómo podemos mejorar la experiencia de los estudiantes en la gestión de su información personal que garanticen su privacidad y optimicen su productividad?
+:::
 
 #### *Lean UX Assumptions*
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
+***Business Assumptions***
+
+**1. El cliente necesita** proteger su información personal y privacidad al registrarse en diversas plataformas en línea.
+
+**2. Las necesidades del cliente se resolverán mediante** el uso de un servicio de correos temporales que les permita registrarse en sitios web sin exponer su dirección de correo principal.
+
+**3. Los clientes son (o serán)** estudiantes de secundaria, pregrado y postgrado que son activos en línea y están preocupados por su privacidad digital.
+
+**4. El cliente quiere** seguridad y simplicidad **de nuestro servicio**, asegurando que sus datos permanezcan privados y que sea fácil de usar.
+
+**5. El cliente también puede obtener** una experiencia de bandeja de entrada organizada y libre de spam e mails irrelevantes mediante el uso de correos temporales.
+
+**6. Obtendré mi base de clientes mediante** la promoción del servicio a través de instituciones educativas, comunidades en línea y plataformas de redes sociales donde los estudiantes están activos.
+
+**7. Ganaré dinero mediante** la oferta de planes de suscripción premium con características extendidas, como tiempos de expiración más largos para los correos electrónicos y opciones de seguridad mejoradas.
+
+**8. Mi principal competencia son** otros servicios de correos temporales y proveedores de correo enfocados en la privacidad que ofrecen funcionalidades similares.
+
+**9. Superaremos a la competencia mediante** la oferta de una aplicación móvil fácil de usar, específicamente diseñada para estudiantes, con integraciones que satisfacen sus necesidades educativas y de privacidad.
+
+**10. Mi mayor riesgo es** la posibilidad de que los estudiantes no vean suficiente valor en el uso de correos temporales o consideren que las soluciones existentes son suficientes.
+
+**11. Solucionaremos el riesgo mediante** la iteración continua de nuestro producto basada en la retroalimentación de los usuarios, asegurando que nuestro servicio esté optimizado para las necesidades específicas de nuestro público objetivo.
+
+**12. ¿Cuáles son las suposiciones que, si se demuestran falsas, harán que el proyecto fracase?**
+
+- Los estudiantes están lo suficientemente preocupados por su privacidad como para buscar y utilizar un servicio de correos temporales.
+
+- La facilidad de uso y las características de seguridad serán suficientes para incentivar el uso continuo del servicio.\newline
+
+***Business Outcomes***
+
+- El 30% de los usuarios generan al menos un correo temporal cada semana.
+ 
+- Un aumento del 20% en la retención de usuarios a los 3 meses.
+
+- Un 15% de usuarios gratuitos se convierten a planes premium dentro de los primeros 2 meses.
+
+- Un 15% de nuevos usuarios provienen de referencias de usuarios existentes.\newline
+
+***User Assumptions***
+
+**1. ¿Quién es el usuario?**
+   
+- Estudiantes de secundaria, pregrado y postgrado que son activos en línea y están preocupados por su privacidad digital.\newline
+
+**2. ¿Dónde encajaría nuestro producto en la vida (o trabajo, según el contexto del producto) del usuario?**
+   
+- Durante el registro en plataformas en línea, foros, o sitios de recursos académicos.
+
+- Al acceder a recursos educativos o inscribirse en plataformas de aprendizaje.
+  
+- Cuando necesitan proteger su información personal en contextos donde no confían completamente en la seguridad del sitio web.\newline
+
+**3. ¿Qué problemas resuelve el producto para el usuario?**
+   
+- Protección de la información personal durante registros en línea.
+  
+- Prevención de la saturación de la bandeja de entrada con correos no deseados.
+  
+- Provisión de una solución segura y temporal para registros en múltiples plataformas.\newline
+
+**4. ¿En qué contexto utiliza el usuario el producto?**
+   
+- Contextos académicos, como inscripciones en plataformas educativas o acceso a recursos online.
+  
+- Participación en comunidades y foros en línea.
+  
+- Registros en sitios de entretenimiento o servicios en línea donde se requiere un correo electrónico.\newline
+
+**5. ¿Qué características son esenciales para el usuario? ¿Y por qué?**
+
+- Generación rápida de correos temporales: Para una experiencia ágil y sin complicaciones.
+  
+- Facilidad de uso: Para que cualquier estudiante, independientemente de su nivel de habilidades tecnológicas, pueda utilizar el servicio.
+  
+- Personalización de la duración de los correos: Para adaptarse a las necesidades específicas de cada registro o situación.
+  
+- Integración con plataformas educativas: Para facilitar el acceso a recursos académicos con mayor seguridad.\newline
+
+**6. ¿Cómo debería verse y comportarse el producto?**
+   
+- Interfaz simple, intuitiva y minimalista.
+
+- Diseño moderno y atractivo que apele a los estudiantes.
+
+- Comportamiento rápido y confiable, con procesos fáciles de entender y ejecutar.
+
+- Generación y gestión de correos temporales en pocos clics, con navegación fluida.\newline
+
+***User Outcomes***
+
+- Los estudiantes quieren proteger su privacidad sin complicaciones al registrarse en sitios web.
+  
+- Los estudiantes quieren sentirse seguros y tranquilos sabiendo que su información personal no será comprometida.
+  
+- Utilizar una herramienta que garantice la protección de la información personal en cada uso.\newline
+
+***Features Assumptions***
+
+**1. Seguridad de la Información:**
+
+- **Suposición:** La implementación de cifrado de extremo a extremo para los correos temporales asegurará que los usuarios confíen en la seguridad de la aplicación.
+  
+- **Riesgo:** Si el cifrado no es lo suficientemente robusto o si los usuarios no perciben el valor de esta medida, la confianza en la seguridad podría no mejorar.\newline
+
+**2. Facilidad de Uso:**
+   
+- **Suposición:** Un proceso de generación de correos temporales con un solo clic hará que la aplicación sea fácil de usar y aumentará la adopción entre los usuarios.
+  
+- **Riesgo:** Si el proceso no es tan intuitivo como se espera, los usuarios podrían encontrar la aplicación difícil de usar y abandonar su uso.\newline
+
+**3. Protección de Privacidad:**
+
+- **Suposición:** La implementación de una función que automáticamente borre los correos temporales después de un período predeterminado mejorará la percepción de privacidad entre los usuarios.
+
+- **Riesgo:** Si los usuarios desean más control sobre cuándo se eliminan sus correos, esta función podría generar frustración en lugar de confianza.\newline
+
+**4. Notificaciones y Recordatorios:**
+  
+- **Suposición:** Proveer notificaciones y recordatorios cuando un correo temporal esté a punto de expirar ayudará a los usuarios a gestionar mejor sus registros y evitar perder información importante.
+
+- **Riesgo:** Si las notificaciones son percibidas como intrusivas o innecesarias, podrían causar descontento y disminuir la satisfacción del usuario.\newline
+
+**5. Proceso de Registro Simplificado:**
+
+- **Suposición:** Ofrecer un registro simplificado que no requiera información personal adicional aumentará la tasa de adopción de la aplicación, ya que los usuarios valorarán la simplicidad y la privacidad desde el primer contacto.
+  
+- **Riesgo:** Si el proceso de registro es demasiado simple, los usuarios podrían dudar de la legitimidad o seguridad de la aplicación, lo que podría afectar negativamente su confianza en el producto.\newline
+
 
 #### *Lean UX Hypothesis Statements*
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
+::: tip
+
+**1. Creemos que lograremos** aumentar la retención de usuarios en un 20%. **Si** estudiantes preocupados por su privacidad digital **obtienen** una experiencia de registro en línea más segura y sin spam **con** la implementación de correos temporales rápidos y fáciles de generar.\newline
+
+**2. Creemos que lograremos** incrementar la tasa de conversión a suscripciones premium en un 15%. **Si** los estudiantes que utilizan correos temporales regularmente **obtienen** acceso a características avanzadas como mayor tiempo de expiración para sus correos **con** la oferta de un plan premium accesible y fácil de entender.\newline
+
+**3. Creemos que lograremos** aumentar la cantidad de referencias a la aplicación en un 10%. **Si** los usuarios satisfechos con la seguridad y privacidad de la aplicación **obtienen** incentivos para compartir la aplicación **con** sus amigos y compañeros con un programa de referidos que ofrezca beneficios exclusivos.\newline
+
+**4. Creemos que lograremos** mejorar la percepción de seguridad entre los usuarios en un 25%. **Si** los estudiantes que se preocupan por la privacidad **obtienen** tranquilidad sobre la protección de sus datos personales **con** la implementación de notificaciones que confirmen la eliminación segura de sus correos temporales.\newline
+
+**5. Creemos que lograremos** incrementar la adopción de la aplicación en un 30%. **Si** los estudiantes que buscan proteger su privacidad en línea **obtienen** una manera rápida y eficiente de generar correos temporales **con** una función de generación con un solo clic.
+:::
 
 #### *Lean UX Canvas*
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
+![Artefacto creado en Figma [URL](https://www.figma.com/design/K3gw63Gdzr8KOgE32BgreJ/Lean-UX-Canvas-Template-by-Jeff-Gothelf-(Community)?node-id=0-1&t=q5cZNvpSyA30WQQd-1)](src/img/Cap1/LeanUXCanvas.png) 
 
 \newpage
 
