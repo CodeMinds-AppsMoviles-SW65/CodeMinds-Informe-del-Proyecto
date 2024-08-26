@@ -22,6 +22,8 @@ titlepage-text-color: "FFFAFA"
 titlepage-color: "DC143C"
 titlepage-rule-height: 2
 titlepage-rule-color: "FFFAFA"
+titlepage-logo: "src/img/Logo/logo-upc.pdf"
+logo-width: 30mm
 book: true
 classoption: oneside
 code-block-font-size: \scriptsize
@@ -40,6 +42,7 @@ header-includes:
   \usepackage{multirow}
   \usepackage{longtable}
   \usepackage{geometry}
+  \usepackage{booktabs}
  
   \newtcolorbox{info-box}{colback=cyan!5!white,arc=0pt,outer arc=0pt,colframe=cyan!60!black}
   \newtcolorbox{error-box}{colback=red!5!white,arc=0pt,outer arc=0pt,colframe=red!75!black}
