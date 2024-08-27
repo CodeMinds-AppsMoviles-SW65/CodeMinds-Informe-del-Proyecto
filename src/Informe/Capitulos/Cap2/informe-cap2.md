@@ -591,7 +591,92 @@ Ivette revisa y ajusta ocasionalmente las configuraciones de privacidad en sus c
 
 ### Análisis de entrevistas
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
+**Segmento de estudiantes de nivel escolar: **
+**Perfil Demográfico**
+- a
+- b
+- c
+
+**Experiencia y Conocimientos en Seguridad y Privacidad Digital**
+- a
+- b
+
+**Herramientas y Tecnologías utilizadas**
+- xd
+- xd
+
+**Intereses y Necesidades en Plataformas de Seguridad y Privacidad Digital**
+- a
+- b
+
+**Preferencias y Comportamientos**
+- a
+- b
+- c
+
+**Estadísticas y Porcentajes**
+Gráfico sobre la sistema operativo mas usado:
+![Creado en Excel](src/img/Cap2/intro_needfinding.png)
+
+Gráfico sobre dispositivo móvil mas usado:
+![Creado en Excel](src/img/Cap2/intro_needfinding.png)
+
+Gráfico sobre browser mas usado:
+![Creado en Excel](src/img/Cap2/intro_needfinding.png)
+
+- s
+- s
+- s
+- s
+- s
+
+::: info
+texto texto xd
+:::
+
+**Segmento de estudiantes de Pregrado/Postgrado: **
+**Perfil Demográfico**
+- a
+- b
+- c
+
+**Experiencia y Conocimientos en Seguridad y Privacidad Digital**
+- a
+- b
+
+**Herramientas y Tecnologías utilizadas**
+- xd
+- xd
+
+**Intereses y Necesidades en Plataformas de Seguridad y Privacidad Digital**
+- a
+- b
+
+**Preferencias y Comportamientos**
+- a
+- b
+- c
+
+**Estadísticas y Porcentajes**
+Gráfico sobre la sistema operativo mas usado:
+![Creado en Excel](src/img/Cap2/intro_needfinding.png)
+
+Gráfico sobre dispositivo móvil mas usado:
+![Creado en Excel](src/img/Cap2/intro_needfinding.png)
+
+Gráfico sobre browser mas usado:
+![Creado en Excel](src/img/Cap2/intro_needfinding.png)
+
+- s
+- s
+- s
+- s
+- s
+
+::: info
+texto texto xd
+:::
+
 
 ## *Needfinding*
 
