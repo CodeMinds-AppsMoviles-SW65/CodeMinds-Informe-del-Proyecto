@@ -526,8 +526,39 @@ Tiende a desconfiar de los sitios web que solicitan demasiada información perso
 Carlet nunca ha utilizado una VPN, pero expresa preocupación por la posible filtración de su información privada. Para mitigar estos riesgos, evita compartir datos excesivos y abandona aplicaciones o sitios web sospechosos. Prefiere utilizar dispositivos con el sistema operativo iOS y valora la protección adicional que ofrecen las contraseñas. Para realizar sus tareas escolares, prefiere utilizar sitios web en lugar de aplicaciones y no emplea herramientas específicas para proteger su privacidad en línea.
 
 
-![Imagen extraída del video de entrevistas](src/img/Cap2/segmento1_CarletOlivera.png)
+![Imagen extraída del video de entrevistas](src/img/Cap2/segmento1_CarletOlivera.png)\newline
 
+
+**Segmento 2: Estudiantes de Pregrado/Postgrado**
+
+**Entrevista #1**
+
+\begin{table}[H]
+\begin{center}  % Centrar la tabla
+\begin{tabular}{|p{5cm}|p{6cm}|}  % Ajusta los anchos de las columnas
+\hline
+\textbf{Nombre y Apellido}    & Daniel Mateo del Castillo \\ \hline
+\textbf{Edad}                 & 19 años                \\ \hline
+\textbf{Ubicación geográfica} & Lima, Perú         \\ \hline
+\textbf{Grado}                & Pregrado             \\ \hline
+\textbf{Tiempo de entrevista} & inicio - fin           \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+**Resumen de la entrevista**
+
+Daniel del Castillo, un estudiante universitario, compartió sus prácticas y preocupaciones sobre el uso de dispositivos y la seguridad en línea en una entrevista. Daniel utiliza principalmente su laptop para actividades académicas y personales, prefiriendo el sistema operativo Windows en sus computadoras y iOS en dispositivos móviles. Mantiene sus dispositivos actualizados y utiliza un antivirus junto con un firewall para proteger su información, sintiéndose cómodo con las configuraciones de seguridad que maneja.
+
+Para navegar por internet, Daniel prefiere el navegador Brave debido a sus capacidades para bloquear rastreadores, anuncios y pop-ups. Aunque ha experimentado problemas de seguridad, estos se relacionan más con la red a la que se conecta que con el navegador. Usa el modo incógnito para compras y verifica la seguridad de los sitios web revisando si tienen HTTPS y certificados válidos. En caso de encontrar un sitio sospechoso, lo evita y ajusta las configuraciones de privacidad de su navegador.
+
+Daniel es consciente de la importancia de proteger sus datos, especialmente cuando se trata de información privada o académica. Utiliza la autenticación de dos factores para mayor seguridad y evita compartir información sensible en línea. Aunque no ha recibido formación específica en seguridad digital, sigue las recomendaciones de sus profesores y compañeros. Valora la claridad en las políticas de privacidad de las aplicaciones y es cauteloso al aceptar términos y condiciones.
+
+Además, Daniel utiliza herramientas como el autenticador de Microsoft para gestionar sus contraseñas y se siente más seguro utilizando servicios en la nube. No ha utilizado una VPN para proteger su conexión, pero sí para acceder a información de otros países. Prefiere una combinación de aplicaciones y sitios web para sus tareas académicas, y siempre verifica que las aplicaciones sean gratuitas y seguras antes de instalarlas.
+
+Aunque no ha dejado de usar ninguna aplicación por motivos de seguridad, Daniel revisa y ajusta regularmente las configuraciones de privacidad de sus cuentas en línea. Ha sido más consciente de los riesgos en línea después de haber lidiado con malware en su computadora, y aunque la autenticación de dos factores puede ser tediosa, la considera esencial para proteger sus cuentas. Daniel estaría dispuesto a pagar por aplicaciones o servicios que garanticen su seguridad y privacidad si cumplen con su propósito.
+
+![Imagen extraída del video de entrevistas](src/img/Cap2/entrevista-Daniel.png)
 
 ### Análisis de entrevistas
 
@@ -583,14 +614,29 @@ Las siguientes secciones detallan los *User Journey Maps* de cada segmento de us
 
 ![Artefacto creado en UXPressia](src/img/Cap2/journeymap-segmento2.png)
 
+\newpage
 
 ### *Empathy Mapping*
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
+***Empathy Mapping:*** John Doe
+
+![Artefacto creado en UXPressia](src/img/Cap2/EmpathyMap-1.png)
+
+***Empathy Mapping:*** Robert Downey
+
+![Artefacto creado en UXPressia](src/img/Cap2/EmpathyMap-2.png)
 
 ### *As-Is Scenario Mapping*
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
+El As-Is Scenario Mapping es una herramienta para identificar los pensamientos que tendrán los usuarios a la hora de utilizar la aplicación actual.
+
+***As-Is Scenario Map:*** **Estudiante de Nivel Secundario**
+
+![Recurso creado en Miro](src/img/Cap2/As-is-1.png)
+
+***As-Is Scenario Map:*** **Estudiante de Pregrado/Postgrado**
+
+![Recurso creado en Miro](src/img/Cap2/As-is-2.png)
 
 \newpage
 
