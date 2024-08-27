@@ -726,17 +726,17 @@ En la siguiente sección de Needfinding, exploraremos cómo CodeMinds se dedica 
 Presentaremos los User Persona por cada segmento objetivo, en los cuales nos basamos en los usuarios
 ideales de cada segmento. A continuación, los presentamos:
 
-*User Persona 1* - Segmento de Estudiantes de secundaria: John Doe
+**User Persona 1** - Segmento de Estudiantes de secundaria: John Doe
 
-aca la img xd
+![Artefacto creado en UXPressia](src/img/Cap2/user_persona_seg_1.png)
 
-*User Persona 2* - Segmento de Estudiantes de universidad-postgrado: Robert Downey
+**User Persona 2** - Segmento de Estudiantes de universidad-postgrado: Robert Downey
 
-// img
+![Artefacto creado en UXPressia](src/img/Cap2/user_persona_seg_2.png)
 
 ### *User Task Matrix*
 
-*User Task Matrix*: John Doe 2 y John Doe 3
+*User Task Matrix*: John Doe y Robert Downey
 
 ### *User Journey Mapping*
 
