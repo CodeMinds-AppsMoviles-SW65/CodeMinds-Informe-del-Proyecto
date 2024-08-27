@@ -647,6 +647,8 @@ Las siguientes secciones detallan los *User Journey Maps* de cada segmento de us
 
 ### *Empathy Mapping*
 
+El Empathy Map es una herramienta visual que permite comprender mejor a los usuarios al capturar sus pensamientos, sentimientos y comportamientos. Facilita la identificación de sus necesidades y expectativas, ayudando a diseñar soluciones más alineadas con sus experiencias y desafíos.
+
 ***Empathy Mapping:*** John Doe
 
 ![Artefacto creado en UXPressia](src/img/Cap2/EmpathyMap-1.png)
@@ -1696,7 +1698,15 @@ US43 & Landing page - Menú superior & \textbf{Como} visitante de la landing pag
 
 ### *Impact Mapping*
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
+El Impact Map es una herramienta estratégica que ayuda a identificar y mejorar las características de una aplicación para cumplir con un objetivo empresarial específico. Partiendo de un objetivo clave, se determinan los comportamientos necesarios de los usuarios, las acciones que deben realizar en la aplicación, y las características que habilitarán esas acciones. Luego, se evalúa el impacto potencial de cada característica en el cumplimiento del objetivo y se desarrolla un plan de acción detallado, alineando así las acciones de los usuarios con los objetivos estratégicos de la empresa.
+
+**Segmento 1: Estudiantes de Secundaria**
+
+![Artefacto creado en UXPressia](src/img/Cap2/Impact-1.png)
+
+**Segmento 2: Estudiantes de Pregrado/Postgrado**
+
+![Artefacto creado en UXPressia](src/img/Cap2/Impact-2.png)
 
 \newpage
 
