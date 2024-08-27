@@ -7,9 +7,9 @@ author:
   - "Integrantes:"
   - "Ortega Huaraca, Abel Angel - U20201B380"
   - "Avila Asto, Alex Ramon - u20221a322"
-  - "[Name]"
-  - "[Name]"
-  - "[Name]"
+  - "Vilchez Rios, Mateo Alejandro - u202210059"
+  - "Ramos Rios, Belén del Rocio - u202216246"
+
 date: "2024-02"
 subject: "Markdown"
 keywords: [Markdown, Report]
@@ -86,7 +86,7 @@ pandoc-latex-environment:
   \hline
   tb1 & 27/08/2024 & Ortega Huaraca, Abel & Ayudé con la estructura del informe en general. Respecto a los puntos específicos, contribuí con la elaboración del *Solution Profile*, *Startup Profile*, Segmentos objetivo, *User Stories* y una introducción para los *Requirements Specification*. \\
   \hline
-  tb1 & lorem & lorem, lorem & lorem. \\
+  tb1 & 27/08/2024 & Ramos Rios, Belén del Rocio & Realice la descripcion de competidores, análisis competitivo y las estrategias frente a competidores. Tambien aporte en la creación de los *User Journey Mapping*, *To-Be Scenario Mapping* y el *Product Backlog*. \\
   \hline
   tb1 & lorem & lorem, lorem & lorem. \\
   \hline
@@ -124,10 +124,10 @@ En el siguiente cuadro se describe las acciones realizadas y enunciadas de concl
 \textbf{TB1:} \\
 \textbf{Abel Angel Ortega Huaraca} \\
 Coordiné y realicé la reunión inicial del proyecto, explicando claramente los objetivos y el plan de trabajo. Cree diferentes reuniones para clarificar los roles de cada integrante del equipo y organicé los flujos de trabajas de un tablero Kanban (Scrum). Respecto al informe, culminé en tiempo y forma las pendientes que se me asignaron. Todo esto aportando claramente en mi actualización de ciertos conceptos y metodologías necesarios para mi desarrollo profesional. \\
-\textbf{Belen} \\
-lorem ipsum. \\
-\textbf{Mateo} \\
-lorem ipsum. \\
+\textbf{Belen del Rocio Ramos Rios} \\
+Utilicé nuevas herramientas para documentar el informe y amplié mis conocimientos en áreas clave como User Journey Mapping y análisis competitivo. \\
+\textbf{Mateo Alejandro Vilchez Rios} \\
+Aprendí nuevas herramientas para mejorar la documentación del informe y profundicé en la metodología Lean UX para aplicarla en nuestro proyecto. \\
 \textbf{Alex} \\
 lorem ipsum. \\} 
 &
@@ -147,10 +147,10 @@ NO EDITAR ESTA PARTE. \\
 \textbf{TB1:} \\
 \textbf{Abel Angel Ortega Huaraca} \\
 Cree repositorios para almacenar nuestro informe con un registro de versiones constante, además de comenzar un registro de los puntos que nos falta completar.Siempre monitoreando y asesorando a mi equipo acerca de sus avances. En donde, la necesidad del aprendizaje permanente nos llevó al uso de mejores herramientas para la solución del proyecto.  \\
-\textbf{Belen} \\
-lorem ipsum. \\
-\textbf{Mateo} \\
-lorem ipsum. \\
+\textbf{Belen del Rocio Ramos Rios} \\
+Reconocí la necesidad de seguir aprendiendo para optimizar tanto las herramientas de documentación como los procesos de Needfinding para el desarrollo de un producto que se destaque y cumpla con las expectativas de los usuarios. \\
+\textbf{Mateo Alejandro Vilchez Rios} \\
+Reconocí la importancia de actualizarme en herramientas de documentación y profundicé en metodologías ágiles para gestionar mejor el trabajo en equipo. \\
 \textbf{Alex} \\
 lorem ipsum. \\}
 &
@@ -194,30 +194,30 @@ Para esta entrega mi objetivo es realizar y dar una estructura detallada al info
 \cline{2-4}
 &
 \parbox[t]{3cm}{
-Belen
+Belen del Rocio Ramos Rios
 }
 &
 \parbox[t]{5cm}{
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \\
+Contribuir a la mejora del informe del proyecto a través del uso de nuevas herramientas, preparando el camino para participar en el desarrollo del frontend y en la estructuración de la base de datos en futuras etapas del proyecto. \\
 }
 &
 \parbox[t]{3cm}{
-\textbf{Fecha de inicio:} dd-mm-aaaa \\
-\textbf{Fecha de entrega:} dd-mm-aaaa \\
+\textbf{Fecha de inicio:} 21-08-2024 \\
+\textbf{Fecha de entrega:} 28-08-2024 \\
 } \\
 \cline{2-4}
 &
 \parbox[t]{3cm}{
-Mateo \\
+Mateo Alejandro Vilchez Rios \\
 }
 &
 \parbox[t]{5cm}{
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \\
+Aportar en la mejora del informe del proyecto y asegurar la correcta aplicación de metodologías relevantes, con la vista puesta en fortalecer mi participación en el desarrollo del backend en futuras fases del proyecto. \\
 }
 &
 \parbox[t]{3cm}{
-\textbf{Fecha de inicio:} dd-mm-aaaa \\
-\textbf{Fecha de entrega:} dd-mm-aaaa \\
+\textbf{Fecha de inicio:} 21-08-2024 \\
+\textbf{Fecha de entrega:} 28-08-2024 \\
 } \\
 \cline{2-4}
 &
@@ -256,30 +256,30 @@ Considero que para esta entrega se establecieron métricas claras. En donde, cad
 \cline{2-4}
 &
 \parbox[t]{3cm}{
-Belen
+Belen del Rocio Ramos Rios
 }
 &
 \parbox[t]{5cm}{
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \\
+El éxito se medirá a través de la calidad del informe entregado y la planificación efectiva para próximas fases. \\
 }
 &
 \parbox[t]{3cm}{
-\textbf{Fecha de inicio:} dd-mm-aaaa \\
-\textbf{Fecha de entrega:} dd-mm-aaaa \\
+\textbf{Fecha de inicio:} 21-08-2024 \\
+\textbf{Fecha de entrega:} 28-08-2024 \\
 } \\
 \cline{2-4}
 &
 \parbox[t]{3cm}{
-Mateo \\
+Mateo Alehandro Vilchez Rios \\
 }
 &
 \parbox[t]{5cm}{
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \\
+El éxito se medirá por la calidad del informe entregado y la preparación para contribuir al backend en las siguientes etapas. \\
 }
 &
 \parbox[t]{3cm}{
-\textbf{Fecha de inicio:} dd-mm-aaaa \\
-\textbf{Fecha de entrega:} dd-mm-aaaa \\
+\textbf{Fecha de inicio:} 21-08-2024 \\
+\textbf{Fecha de entrega:} 28-08-2024 \\
 } \\
 \cline{2-4}
 &
@@ -318,30 +318,30 @@ Considero que el motivar a mi equipo a utilizar herramientas nuevas para la real
 \cline{2-4}
 &
 \parbox[t]{3cm}{
-Belen
+Belen del Rocio Ramos Rios
 }
 &
 \parbox[t]{5cm}{
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \\
+Este objetivo implica tanto la consolidación del trabajo actual como la preparación para tareas más técnicas. \\
 }
 &
 \parbox[t]{3cm}{
-\textbf{Fecha de inicio:} dd-mm-aaaa \\
-\textbf{Fecha de entrega:} dd-mm-aaaa \\
+\textbf{Fecha de inicio:} 21-08-2024 \\
+\textbf{Fecha de entrega:} 28-08-2024 \\
 } \\
 \cline{2-4}
 &
 \parbox[t]{3cm}{
-Mateo \\
+Mateo Alejandro Vilchez Rios\\
 }
 &
 \parbox[t]{5cm}{
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \\
+Este objetivo desafía a avanzar en áreas técnicas mientras se asegura la calidad del trabajo actual. \\
 }
 &
 \parbox[t]{3cm}{
-\textbf{Fecha de inicio:} dd-mm-aaaa \\
-\textbf{Fecha de entrega:} dd-mm-aaaa \\
+\textbf{Fecha de inicio:} 21-08-2024 \\
+\textbf{Fecha de entrega:} 28-08-2024 \\
 } \\
 \cline{2-4}
 &
@@ -380,16 +380,16 @@ Considero que nuestro trabajo y el resultado de este, reflejan claramente nuestr
 \cline{2-4}
 &
 \parbox[t]{3cm}{
-Belen
+Belen del Rocio Ramos Rios
 }
 &
 \parbox[t]{5cm}{
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \\
+A lo largo del desarrollo del proyecto, he enfocado mis esfuerzos en asegurar que cada acción esté en sintonía con los objetivos estratégicos de \textit{Laurate} Perú. La planificación rigurosa y la atención a los detalles han sido claves para contribuir al cumplimiento de los lineamientos que la universidad establece como prioritarios.\\
 }
 &
 \parbox[t]{3cm}{
-\textbf{Fecha de inicio:} dd-mm-aaaa \\
-\textbf{Fecha de entrega:} dd-mm-aaaa \\
+\textbf{Fecha de inicio:} 21-08-2024 \\
+\textbf{Fecha de entrega:} 28-08-2024 \\
 } \\
 \cline{2-4}
 &
@@ -398,12 +398,12 @@ Mateo \\
 }
 &
 \parbox[t]{5cm}{
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \\
+ El proyecto que hemos realizado no solo es un reflejo de nuestro esfuerzo individual, sino también de nuestra capacidad para alinear nuestras acciones con los objetivos estratégicos de \textit{Laurate} Perú. \\
 }
 &
 \parbox[t]{3cm}{
-\textbf{Fecha de inicio:} dd-mm-aaaa \\
-\textbf{Fecha de entrega:} dd-mm-aaaa \\
+\textbf{Fecha de inicio:} 21-08-2024 \\
+\textbf{Fecha de entrega:} 28-08-2024 \\
 } \\
 \cline{2-4}
 &
@@ -442,30 +442,30 @@ Para esta entrega, he cumplido satisfactoriamente con la colaboración y entrega
 \cline{2-4}
 &
 \parbox[t]{3cm}{
-Belen
+Belen del Rocio Ramos Rios
 }
 &
 \parbox[t]{5cm}{
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \\
+ Para esta entrega, logré cumplir con todas mis responsabilidades dentro del plazo acordado, asegurando que cada tarea se completara según lo previsto. La claridad en las fechas límite desde el principio me permitió organizar mi trabajo de manera efectiva. \\
 }
 &
 \parbox[t]{3cm}{
-\textbf{Fecha de inicio:} dd-mm-aaaa \\
-\textbf{Fecha de entrega:} dd-mm-aaaa \\
+\textbf{Fecha de inicio:} 21-08-2024 \\
+\textbf{Fecha de entrega:} 27-08-2024 \\
 } \\
 \cline{2-4}
 &
 \parbox[t]{3cm}{
-Mateo \\
+Mateo Alejandro Vilchez Rios\\
 }
 &
 \parbox[t]{5cm}{
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \\
+En esta entrega, logré cumplir con mis tareas dentro de los tiempos previstos, manteniendo un enfoque constante en las fechas límite. Esto no solo me permitió finalizar mis responsabilidades a tiempo, sino también estar disponible para asistir a mi equipo. \\
 }
 &
 \parbox[t]{3cm}{
-\textbf{Fecha de inicio:} dd-mm-aaaa \\
-\textbf{Fecha de entrega:} dd-mm-aaaa \\
+\textbf{Fecha de inicio:} 21-08-2024 \\
+\textbf{Fecha de entrega:} 27-08-2024 \\
 } \\
 \cline{2-4}
 &
@@ -572,13 +572,13 @@ Soy una persona con buenas habilidades y adaptabilidad para todo lo relacionado 
 \begin{tcolorbox}[colframe=mybackground, colback=mybackground, boxrule=0.8mm, width=\textwidth, sharp corners]
 {
 \begin{minipage}[c]{0.3\textwidth}
-\includegraphics[width=\linewidth]{src/img/Integrantes/gato.png}
+\includegraphics[width=\linewidth]{src/img/Integrantes/belen.jpg}
 \end{minipage}
 \hfill
 \begin{minipage}[c]{0.65\textwidth}
-\textbf{Belen} \\
+\textbf{Belen del Rocio Ramos Rios} \\
 \textit{Ingeniera de Software} \\
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac.
+Soy estudiante del sexto ciclo de la carrera de Ingeniería de Software. A lo largo de mi formación, he adquirido conocimientos en diversos lenguajes de programación, como Java, C++, y SQL. Además, manejo frameworks como Spring Boot para el desarrollo backend, y tanto Vue como Angular para el desarrollo frontend. Siempre estoy en busca de nuevas oportunidades que me permitan aprender y expandir mis habilidades, con el objetivo de contribuir de manera significativa a cualquier proyecto en el que participe.
 \end{minipage}
 }
 \end{tcolorbox}
@@ -590,7 +590,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nu
 \end{minipage}
 \hfill
 \begin{minipage}[c]{0.65\textwidth}
-\textbf{Mateo} \\
+\textbf{Mateo Alejandro Vilchez Rios} \\
 \textit{Ingeniero de Software} \\
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac.
 \end{minipage}
