@@ -541,6 +541,8 @@ En CodeMinds, estamos convencidos de que el éxito de nuestras soluciones radica
 
 En la siguiente sección de Needfinding, exploraremos cómo CodeMinds se dedica a comprender y abordar proactivamente las necesidades cambiantes de nuestros usuarios, permitiéndoles gestionar su información personal de manera más segura y eficiente que nunca.
 
+![Imagen extraída de Canva](src/img/Cap2/intro_needfinding.png)
+
 ### *User Personas*
 
 Presentaremos los User Persona por cada segmento objetivo, en los cuales nos basamos en los usuarios
@@ -550,7 +552,7 @@ ideales de cada segmento. A continuación, los presentamos:
 
 aca la img xd
 
-*User Persona 2* - Segmento de Estudiantes de universidad-postgrado: John Doe 2
+*User Persona 2* - Segmento de Estudiantes de universidad-postgrado: Robert Downey
 
 // img
 
