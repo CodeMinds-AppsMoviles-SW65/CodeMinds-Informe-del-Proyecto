@@ -39,6 +39,7 @@ header-includes:
   \usepackage{longtable}
   \usepackage{array}
   \usepackage{lscape}
+  \usepackage{float} 
   \usepackage{multirow}
   \usepackage{longtable}
   \usepackage{geometry}
@@ -83,7 +84,7 @@ pandoc-latex-environment:
   \hline
   \textbf{Versión} & \textbf{Fecha} & \textbf{Autor} & \textbf{Descripción de Modificación} \\
   \hline
-  tb1 & 20/08/2024 & Ortega Huaraca, Abel & Falta escribir uu. \\
+  tb1 & 27/08/2024 & Ortega Huaraca, Abel & Ayudé con la estructura del informe en general. Respecto a los puntos específicos, contribuí con la elaboración del *Solution Profile*, *Startup Profile*, Segmentos objetivo, *User Stories* y una introducción para los *Requirements Specification*. \\
   \hline
   tb1 & lorem & lorem, lorem & lorem. \\
   \hline
@@ -97,7 +98,7 @@ pandoc-latex-environment:
 
 ***Student Outcome***
 
-El curso contribuye al cumplimiento del Student Outcome ABET: *ABET-EAC - Student Outcome 7*
+El curso contribuye al cumplimiento del ***Student Outcome ABET:*** *ABET-EAC - Student Outcome 7*
 
 * **Criterio:** *La capacidad de adquirir y aplicar nuevos conocimientos según sea necesario, utilizando estrategias de aprendizaje apropiadas*.
 
@@ -116,13 +117,13 @@ En el siguiente cuadro se describe las acciones realizadas y enunciadas de concl
 
 \multirow{3}{*}{
 \parbox[t]{4cm}{
-Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.
+\textit{Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.}
 }} 
 &  
 \parbox[t]{6cm}{
 \textbf{TB1:} \\
 \textbf{Abel Angel Ortega Huaraca} \\
-Coordiné y realicé la reunión inicial del proyecto, explicando claramente los objetivos y el plan de trabajo. Cree diferentes reuniones para clarificar los roles de cada integrante del equipo. \\
+Coordiné y realicé la reunión inicial del proyecto, explicando claramente los objetivos y el plan de trabajo. Cree diferentes reuniones para clarificar los roles de cada integrante del equipo y organicé los flujos de trabajas de un tablero Kanban (Scrum). Respecto al informe, culminé en tiempo y forma las pendientes que se me asignaron. Todo esto aportando claramente en mi actualización de ciertos conceptos y metodologías necesarios para mi desarrollo profesional. \\
 \textbf{Belen} \\
 lorem ipsum. \\
 \textbf{Mateo} \\
@@ -132,20 +133,20 @@ lorem ipsum. \\}
 &
 \parbox[t]{5cm}{
 \textbf{TB1:} \\
-Falta escribir las conclusiones uu. \\
+NO EDITAR ESTA PARTE. \\
 } \\ 
 
 \hline
 
 \multirow{3}{*}{
 \parbox[t]{4cm}{
-Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.
+\textit{Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.}
 }}
 &  
 \parbox[t]{6cm}{
 \textbf{TB1:} \\
 \textbf{Abel Angel Ortega Huaraca} \\
-Cree repositorios para almacenar nuestro informe con un registro de versiones constante, además de comenzar un registro de los puntos que nos falta completar. \\
+Cree repositorios para almacenar nuestro informe con un registro de versiones constante, además de comenzar un registro de los puntos que nos falta completar.Siempre monitoreando y asesorando a mi equipo acerca de sus avances. En donde, la necesidad del aprendizaje permanente nos llevó al uso de mejores herramientas para la solución del proyecto.  \\
 \textbf{Belen} \\
 lorem ipsum. \\
 \textbf{Mateo} \\
@@ -155,7 +156,7 @@ lorem ipsum. \\}
 &
 \parbox[t]{5cm}{
 \textbf{TB1:} \\
-falta escribir las conclusiones uu. \\
+NO EDITAR ESTA PARTE. \\
 } \\ 
 \hline
 \end{longtable}
@@ -187,8 +188,8 @@ Para esta entrega mi objetivo es realizar y dar una estructura detallada al info
 }
 &
 \parbox[t]{3cm}{
-\textbf{Fecha de inicio:} 28-08-2024 \\
-\textbf{Fecha de entrega:} 02-09-2024 \\
+\textbf{Fecha de inicio:} 21-08-2024 \\
+\textbf{Fecha de entrega:} 27-08-2024 \\
 } \\
 \cline{2-4}
 &
@@ -245,12 +246,12 @@ Abel Ortega Huaraca \\
 }
 &
 \parbox[t]{5cm}{
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \\
+Considero que para esta entrega se establecieron métricas claras. En donde, cada actividad o responsabilidad fue designado y colaborado corractamente. Asimismo, cada punto reflejo un indicador de relevancia y peso en el trabajo del proyecto. Por último, el logro de este primer entregable fue claro; realizar un informe de calidad profesional tanto en contenido como en diseño y estructura. 
 }
 &
 \parbox[t]{3cm}{
-\textbf{Fecha de inicio:} 28-08-2024 \\
-\textbf{Fecha de entrega:} 02-09-2024 \\
+\textbf{Fecha de inicio:} 21-08-2024 \\
+\textbf{Fecha de entrega:} 27-08-2024 \\
 } \\
 \cline{2-4}
 &
@@ -307,12 +308,12 @@ Abel Ortega Huaraca \\
 }
 &
 \parbox[t]{5cm}{
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \\
+Considero que el motivar a mi equipo a utilizar herramientas nuevas para la realización de este trabajo, refleja el reto y compromiso con nuestro desenvolvimiento para los objetivos que queremos lograr. Siempre buscando realizar funciones ambiciosas que van mas allá de nuestros conocimientos y que nos inspiran a realizar proyectos con una alta calidad.
 }
 &
 \parbox[t]{3cm}{
-\textbf{Fecha de inicio:} 28-08-2024 \\
-\textbf{Fecha de entrega:} 02-09-2024 \\
+\textbf{Fecha de inicio:} 21-08-2024 \\
+\textbf{Fecha de entrega:} 27-08-2024 \\
 } \\
 \cline{2-4}
 &
@@ -369,12 +370,12 @@ Abel Ortega Huaraca \\
 }
 &
 \parbox[t]{5cm}{
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \\
+Considero que nuestro trabajo y el resultado de este, reflejan claramente nuestra constancia por cumplir con los objetivos estratégicos establecidos por la institución \textit{Laurate} Perú. En donde, abordamos minuciosamente cada aspecto a través de una planificación del proyecto basada en los lineamientos exigidos por la universidad.
 }
 &
 \parbox[t]{3cm}{
-\textbf{Fecha de inicio:} 28-08-2024 \\
-\textbf{Fecha de entrega:} 02-09-2024 \\
+\textbf{Fecha de inicio:} 21-08-2024 \\
+\textbf{Fecha de entrega:} 27-08-2024 \\
 } \\
 \cline{2-4}
 &
@@ -431,12 +432,12 @@ Abel Ortega Huaraca \\
 }
 &
 \parbox[t]{5cm}{
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \\
+Para esta entrega, he cumplido satisfactoriamente con la colaboración y entrega de mis responsabilidades en conjunto con mi equipo de trabajo. Las fechas límite estuvieron establecidas claramente desde el inicio, por lo pude cumplir en tiempo y forma con mis deberes; y a su vez, colaborar con mi equipo siempre que se presentó una dificultad o tarea que involucrara a todos.
 }
 &
 \parbox[t]{3cm}{
-\textbf{Fecha de inicio:} 28-08-2024 \\
-\textbf{Fecha de entrega:} 02-09-2024 \\
+\textbf{Fecha de inicio:} 21-08-2024 \\
+\textbf{Fecha de entrega:} 27-08-2024 \\
 } \\
 \cline{2-4}
 &
@@ -489,7 +490,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor i
 ***Project Report Collaboration Insights***
 
 ::: warn
-Falta adjuntar el github de la organizacion
+Falta adjuntar el github de la organizacion (No editar)
 :::
 
 \newpage
@@ -497,7 +498,7 @@ Falta adjuntar el github de la organizacion
 *Actividades Colaborativas* ***(Github Kanban)***
 
 ::: warn
-Falta adjuntar las fotos y para cada foto su descripcion de colaboracion
+Falta adjuntar las fotos y para cada foto su descripcion de colaboracion (No editar)
 :::
 
 \newpage
@@ -662,7 +663,7 @@ A través de nuestra plataforma, buscamos transformar la manera en que los indiv
 - El costo de no proteger adecuadamente la información de los jóvenes puede ser significativo, tanto en términos de pérdida de datos como de exposición a ciberataques. *“CodeMinds”* ofrece una solución asequible y escalable que reduce estos riesgos considerablemente, asegurando la privacidad y seguridad de sus usuarios.
 :::
 
-### *Lean UX Process*\newline 
+### *Lean UX Process*
 
 ![Recurso extraído de Google](src/img/Cap1/LeanUXProcess.png)
 
