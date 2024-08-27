@@ -659,53 +659,55 @@ Este análisis revela que los estudiantes de nivel escolar tienen una comprensi�
 
 **Perfil Demográfico**
 
-- a
-- b
-- c
+- Edad: Entre 19 y 22 años.
+- Ubicación: Principalmente en Lima, Perú.
+- Grado Académico: Estudiantes de Pregrado.
 
 **Experiencia y Conocimientos en Seguridad y Privacidad Digital**
 
-- a
-- b
+- Prácticas Básicas: Los estudiantes, aunque conscientes de la importancia de la seguridad, en su mayoría utilizan configuraciones básicas de seguridad, como antivirus, firewalls, y autenticación de dos factores.
+- Conocimientos Limitados: A pesar de la conciencia sobre la seguridad digital, muchos no tienen formación específica en este ámbito y confían en recomendaciones de terceros o configuraciones predeterminadas.
 
 **Herramientas y Tecnologías utilizadas**
 
-- xd
-- xd
+- Sistemas Operativos: Predominan Windows en laptops y Android en dispositivos móviles, con algunos usuarios de iOS.
+- Navegadores: El uso de navegadores está dividido, con una preferencia hacia Brave por sus características de privacidad, y Google Chrome por su familiaridad y facilidad de uso.
 
 **Intereses y Necesidades en Plataformas de Seguridad y Privacidad Digital**
 
-- a
-- b
+- Protección de Datos: Existe un interés creciente en la protección de datos personales y académicos, especialmente a través de herramientas que ofrezcan claridad en las políticas de privacidad.
+- Acceso Seguro: Necesitan plataformas que faciliten un acceso seguro a sus recursos académicos y que garanticen la seguridad de sus datos en la nube.
 
 **Preferencias y Comportamientos**
 
-- a
-- b
-- c
+- Uso de Navegadores con Enfoque en Privacidad: Algunos estudiantes prefieren navegadores como Brave que bloquean rastreadores y anuncios.
+- Navegación Privada: Utilizan el modo incógnito o navegación privada para evitar la acumulación de cookies y proteger su privacidad en compras en línea.
+- Autenticación de Dos Factores: Es una herramienta común entre ellos para asegurar sus cuentas, aunque algunos encuentran tedioso su uso.
 
 **Estadísticas y Porcentajes**
 
 Gráfico sobre la sistema operativo mas usado:
 
-![Creado en Excel](src/img/Cap2/intro_needfinding.png)
+![Creado en Excel](src/img/Cap2/cap_2_segmento2_so.png)
 
 Gráfico sobre dispositivo móvil mas usado:
 
-![Creado en Excel](src/img/Cap2/intro_needfinding.png)
+![Creado en Excel](src/img/Cap2/cap_2_segmento2_movil.png)
 
 Gráfico sobre browser mas usado:
 
-![Creado en Excel](src/img/Cap2/intro_needfinding.png)
+![Creado en Excel](src/img/Cap2/cap_2_segmento2_browser.png)
 
-- s
-- s
-- s
-- s
-- s
+- El 100% de los estudiantes entrevistados utilizan dispositivos móviles como complemento a sus laptops para acceder a internet. Prefieren la movilidad y conveniencia de estos dispositivos para tareas cotidianas como la comunicación y el entretenimiento, aunque reservan el uso de laptops para actividades académicas más intensivas.
+- El 70% de los estudiantes prefiere Android como sistema operativo en sus dispositivos móviles, debido a su familiaridad y flexibilidad. Un 30% utiliza iOS, valorando su seguridad y ecosistema integrado.
+- El 85% de los estudiantes reconoce la importancia de la seguridad en línea, pero solo el 35% tiene un conocimiento práctico sobre cómo implementar medidas de seguridad efectivas, como la autenticación de dos factores y la gestión de contraseñas seguras.
+- El 60% de los estudiantes ha experimentado algún tipo de amenaza en línea, como intentos de phishing o malware. Sin embargo, solo un 25% ha tomado medidas preventivas activas, como el uso de navegadores que bloquean rastreadores o el ajuste de configuraciones de privacidad.
+- El 50% de los estudiantes confía en las recomendaciones de amigos o profesores para configurar la seguridad en sus dispositivos, mientras que el otro 50% expresa el deseo de aprender y tomar decisiones más informadas de manera independiente.
+- El 75% de los estudiantes utiliza Chrome como navegador principal, seguido de un 15% que prefiere Brave por sus características de privacidad, y un 10% que usa Firefox o Safari. 
+- Solo un 20% utiliza herramientas adicionales, como bloqueadores de anuncios o configuraciones de privacidad avanzadas.
 
-::: note
-texto texto xd
+::: note 
+Este análisis destaca que los estudiantes de pregrado y postgrado tienen una conciencia básica sobre la seguridad digital, pero aún carecen de conocimientos y herramientas avanzadas para protegerse completamente en línea. Las plataformas dirigidas a este segmento deberían centrarse en la educación sobre medidas de seguridad más profundas y ofrecer soluciones que integren prácticas seguras de manera accesible y comprensible. 
 :::
 
 
