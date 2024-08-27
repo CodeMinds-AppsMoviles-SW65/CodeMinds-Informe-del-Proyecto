@@ -558,7 +558,7 @@ Además, Daniel utiliza herramientas como el autenticador de Microsoft para gest
 
 Aunque no ha dejado de usar ninguna aplicación por motivos de seguridad, Daniel revisa y ajusta regularmente las configuraciones de privacidad de sus cuentas en línea. Ha sido más consciente de los riesgos en línea después de haber lidiado con malware en su computadora, y aunque la autenticación de dos factores puede ser tediosa, la considera esencial para proteger sus cuentas. Daniel estaría dispuesto a pagar por aplicaciones o servicios que garanticen su seguridad y privacidad si cumplen con su propósito.
 
-![Imagen extraída del video de entrevistas](src/img/Cap2/segmento1_CarletOlivera.png)
+![Imagen extraída del video de entrevistas](src/img/Cap2/entrevista-Daniel.png)
 
 ### Análisis de entrevistas
 
@@ -613,7 +613,15 @@ Las siguientes secciones detallan los *User Journey Maps* de cada segmento de us
 
 ### *As-Is Scenario Mapping*
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
+El As-Is Scenario Mapping es una herramienta para identificar los pensamientos que tendrán los usuarios a la hora de utilizar la aplicación actual.
+
+***As-Is Scenario Map:*** **Estudiante de Nivel Secundario**
+
+![Recurso creado en Miro](src/img/Cap2/As-is-1.png)
+
+***As-Is Scenario Map:*** **Estudiante de Pregrado/Postgrado**
+
+![Recurso creado en Miro](src/img/Cap2/As-is-2.png)
 
 \newpage
 
