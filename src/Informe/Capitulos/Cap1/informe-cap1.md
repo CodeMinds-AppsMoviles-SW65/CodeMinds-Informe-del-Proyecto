@@ -88,7 +88,9 @@ pandoc-latex-environment:
   \hline
   tb1 & 27/08/2024 & Ramos Rios, Belén del Rocio & Realice la descripcion de competidores, análisis competitivo y las estrategias frente a competidores. Tambien aporte en la creación de los *User Journey Mapping*, *To-Be Scenario Mapping* y el *Product Backlog*. \\
   \hline
-  tb1 & lorem & lorem, lorem & lorem. \\
+  tb1 & 24/08/2024 & Vilchez Rios, Mateo Alejandro & Capitulo 1: *Lean UX Process* - Antecendetes y Problematica.\\
+  \hline
+  tb1 & 27/08/2024 & Vilchez Rios, Mateo Alejandro & Capitulo 2: Registro de Entrevista - *Empathy Map* - *As-is - Scenario Mapping* - *Impact Mapping*. \\
   \hline
   tb1 & lorem & lorem, lorem & lorem. \\
   \hline
@@ -586,13 +588,13 @@ Soy estudiante del sexto ciclo de la carrera de Ingeniería de Software. A lo la
 \begin{tcolorbox}[colframe=mybackground, colback=mybackground, boxrule=0.8mm, width=\textwidth, sharp corners]
 {
 \begin{minipage}[c]{0.3\textwidth}
-\includegraphics[width=\linewidth]{src/img/Integrantes/gato.png}
+\includegraphics[width=\linewidth]{src/img/Integrantes/mateo.jpg}
 \end{minipage}
 \hfill
 \begin{minipage}[c]{0.65\textwidth}
 \textbf{Mateo Alejandro Vilchez Rios} \\
 \textit{Ingeniero de Software} \\
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac.
+Soy estudiante de la carrera de Ingeniería de Software cursando actualmente el 6to ciclo. Me considero una persona eficiente, disciplinada y responsable. Poseo conocimientos básicos en C++, Java y JavaScript. Manejo de Base de Datos relacionales. Conocimientos en Frameworks como Angular y Spring. Me comprometo a brindar todo el apoyo necesario para cumplir con todos los requerimientos.
 \end{minipage}
 }
 \end{tcolorbox}
