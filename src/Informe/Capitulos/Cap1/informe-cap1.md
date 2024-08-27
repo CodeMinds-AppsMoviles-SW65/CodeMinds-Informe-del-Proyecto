@@ -663,7 +663,7 @@ A través de nuestra plataforma, buscamos transformar la manera en que los indiv
 - El costo de no proteger adecuadamente la información de los jóvenes puede ser significativo, tanto en términos de pérdida de datos como de exposición a ciberataques. *“CodeMinds”* ofrece una solución asequible y escalable que reduce estos riesgos considerablemente, asegurando la privacidad y seguridad de sus usuarios.
 :::
 
-### *Lean UX Process*\newline 
+### *Lean UX Process*
 
 ![Recurso extraído de Google](src/img/Cap1/LeanUXProcess.png)
 
