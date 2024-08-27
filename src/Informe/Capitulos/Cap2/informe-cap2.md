@@ -637,7 +637,7 @@ Las siguientes secciones detallan los *User Journey Maps* de cada segmento de us
 
 ![Artefacto creado en UXPressia](src/img/Cap2/journeymap-segmento1.png)
 
-***User Journey Mapping*** Nombre del user persona del segundo segmento
+***User Journey Mapping*** Robert Downey
 
 ![](src/img/Cap2/jm_codeminds.png)
 
