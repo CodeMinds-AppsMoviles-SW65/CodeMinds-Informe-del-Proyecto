@@ -679,7 +679,22 @@ En este capítulo, nos adentramos en la identificación detallada de los requisi
 
 ### *To-Be Scenario Mapping*
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
+::: info
+
+El To-Be Scenario Mapping es una técnica utilizada para visualizar el estado futuro deseado de un proceso o sistema después de implementar mejoras o cambios. Este enfoque permite a las organizaciones proyectar cómo deberían funcionar sus procesos para lograr un mayor nivel de eficiencia y satisfacción del usuario. Según lo señala Johnson (2019), el mapeo del escenario futuro es crucial para establecer metas claras y guiar la transformación de los procesos hacia un estado optimizado. 
+:::
+
+A continuación, se presenta un mapa del escenario futuro (To-Be) para nuestro sistema de correos temporales, que refleja las mejoras propuestas y cómo estas alinearán mejor nuestras operaciones con las necesidades de nuestros usuarios.
+
+
+**To-Be Scenario Map: Estudiante de Nivel Secundario**
+
+![Recurso extraído de Miro](src/img/Cap2/Tobe_Segmento1.png)
+
+**To-Be Scenario Map: Estudiante de Estudiante de Pregrado/Postgrado**
+
+![Recurso extraído de Miro](src/img/Cap2/Tobe_Segmento2.png)
+
 
 \newpage
 
