@@ -451,10 +451,11 @@ Entrevista a personas referentes a nuestro segmentos objetivo, las preguntas var
 
 ### Registro de entrevistas
 
-**Segmento 1: Estudiantes de nivel escolar**
+::: box
+**Segmento Objetivo 1:** Estudiantes de nivel escolar
+:::
 
 **Entrevista #1**
-
 
 \begin{table}[H]
 \begin{center}  % Centrar la tabla
@@ -478,6 +479,7 @@ Finalmente, Pol confía en su capacidad para evaluar nuevas aplicaciones y sitio
 
 ![Imagen extraída del video de entrevistas](src/img/Cap2/segmento1_AdrianoRamos.png)
 
+\newpage
 
 **Entrevista #2**
 
@@ -500,9 +502,9 @@ Grecia es selectiva al aceptar cookies: solo las permite en sitios web en los qu
 Grecia reconoce que, si su información personal llegara a ser comprometida, no estaría segura de cómo manejar la situación, ya que nunca ha enfrentado un problema de este tipo. No ha utilizado VPNs y, por el momento, no tiene preocupaciones particulares sobre su seguridad en línea. Tampoco sabría qué hacer si alguien intentara acceder a su información sin su permiso.
 Grecia prefiere iOS como sistema operativo y considera que su dispositivo móvil es más seguro que una computadora. Para sus tareas escolares, opta por utilizar sitios web en lugar de aplicaciones, ya que considera que estos le ofrecen mayor información. Aunque no utiliza aplicaciones específicas para proteger su privacidad, se mantiene informada sobre nuevas herramientas a través de recomendaciones de sus compañeros o anuncios. Antes de instalar una nueva aplicación, Grecia se asegura de que esta solicite únicamente los permisos adecuados. En el pasado, ha dejado de usar aplicaciones cuando no se sentía segura, como en una ocasión en la que se filtraron sus contactos, lo que la llevó a cambiar su número de teléfono.
 
-
 ![Imagen extraída del video de entrevistas](src/img/Cap2/segmento1_GreciaCapristan.png)
 
+\newpage
 
 **Entrevista #3**
 
@@ -525,11 +527,13 @@ Carlet utiliza el modo de navegación privada de manera ocasional, sobre todo cu
 Tiende a desconfiar de los sitios web que solicitan demasiada información personal y evita proporcionar datos sensibles. Aunque no confía completamente en las aplicaciones para mantener su información segura, suele descargarlas por entretenimiento, después de investigar brevemente sobre ellas. En caso de que su información personal fuera comprometida, investigaría más a fondo y consideraría presentar una denuncia.
 Carlet nunca ha utilizado una VPN, pero expresa preocupación por la posible filtración de su información privada. Para mitigar estos riesgos, evita compartir datos excesivos y abandona aplicaciones o sitios web sospechosos. Prefiere utilizar dispositivos con el sistema operativo iOS y valora la protección adicional que ofrecen las contraseñas. Para realizar sus tareas escolares, prefiere utilizar sitios web en lugar de aplicaciones y no emplea herramientas específicas para proteger su privacidad en línea.
 
+![Imagen extraída del video de entrevistas](src/img/Cap2/segmento1_CarletOlivera.png)
 
-![Imagen extraída del video de entrevistas](src/img/Cap2/segmento1_CarletOlivera.png)\newline
+\newpage
 
-
-**Segmento 2: Estudiantes de Pregrado/Postgrado**
+::: box
+**Segmento Objetivo 2:** Estudiantes de Pregrado/Postgrado
+:::
 
 **Entrevista #1**
 
@@ -549,16 +553,41 @@ Carlet nunca ha utilizado una VPN, pero expresa preocupación por la posible fil
 **Resumen de la entrevista**
 
 Daniel del Castillo, un estudiante universitario, compartió sus prácticas y preocupaciones sobre el uso de dispositivos y la seguridad en línea en una entrevista. Daniel utiliza principalmente su laptop para actividades académicas y personales, prefiriendo el sistema operativo Windows en sus computadoras y iOS en dispositivos móviles. Mantiene sus dispositivos actualizados y utiliza un antivirus junto con un firewall para proteger su información, sintiéndose cómodo con las configuraciones de seguridad que maneja.
-
 Para navegar por internet, Daniel prefiere el navegador Brave debido a sus capacidades para bloquear rastreadores, anuncios y pop-ups. Aunque ha experimentado problemas de seguridad, estos se relacionan más con la red a la que se conecta que con el navegador. Usa el modo incógnito para compras y verifica la seguridad de los sitios web revisando si tienen HTTPS y certificados válidos. En caso de encontrar un sitio sospechoso, lo evita y ajusta las configuraciones de privacidad de su navegador.
-
 Daniel es consciente de la importancia de proteger sus datos, especialmente cuando se trata de información privada o académica. Utiliza la autenticación de dos factores para mayor seguridad y evita compartir información sensible en línea. Aunque no ha recibido formación específica en seguridad digital, sigue las recomendaciones de sus profesores y compañeros. Valora la claridad en las políticas de privacidad de las aplicaciones y es cauteloso al aceptar términos y condiciones.
-
 Además, Daniel utiliza herramientas como el autenticador de Microsoft para gestionar sus contraseñas y se siente más seguro utilizando servicios en la nube. No ha utilizado una VPN para proteger su conexión, pero sí para acceder a información de otros países. Prefiere una combinación de aplicaciones y sitios web para sus tareas académicas, y siempre verifica que las aplicaciones sean gratuitas y seguras antes de instalarlas.
-
 Aunque no ha dejado de usar ninguna aplicación por motivos de seguridad, Daniel revisa y ajusta regularmente las configuraciones de privacidad de sus cuentas en línea. Ha sido más consciente de los riesgos en línea después de haber lidiado con malware en su computadora, y aunque la autenticación de dos factores puede ser tediosa, la considera esencial para proteger sus cuentas. Daniel estaría dispuesto a pagar por aplicaciones o servicios que garanticen su seguridad y privacidad si cumplen con su propósito.
 
 ![Imagen extraída del video de entrevistas](src/img/Cap2/entrevista-Daniel.png)
+
+\newpage
+
+**Entrevista #2**
+
+\begin{table}[H]
+\begin{center}  % Centrar la tabla
+\begin{tabular}{|p{5cm}|p{6cm}|}  % Ajusta los anchos de las columnas
+\hline
+\textbf{Nombre y Apellido}    & Ivette Cóndor Ñahui \\ \hline
+\textbf{Edad}                 & 22 años                \\ \hline
+\textbf{Ubicación geográfica} & Lima, Perú         \\ \hline
+\textbf{Grado}                & Pregrado             \\ \hline
+\textbf{Tiempo de entrevista} & inicio - fin           \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+**Resumen de la entrevista**
+
+Ivette Cóndor Ñahui es una usuaria que emplea una variedad de dispositivos para sus estudios y actividades en línea, incluyendo un celular Huawei, una tablet Lenovo, y una laptop HP, todos con diferentes sistemas operativos. Prefiere usar Android en su celular y tablet, mientras que su laptop HP funciona con Windows. Estos dispositivos son actualizados regularmente, aunque no especificó una frecuencia exacta. A pesar de tener poco conocimiento sobre configuraciones de seguridad avanzadas, se siente cómoda usando métodos de seguridad básicos, como la gestión de contraseñas a través de Google y la autenticación de dos factores. No ha sufrido la pérdida o robo de dispositivos, por lo que no ha tenido que gestionar la seguridad de sus datos en esas circunstancias.
+Ivette utiliza principalmente Google Chrome para sus actividades en línea. Aunque no es experta en las medidas de seguridad integradas en los navegadores, es consciente de su importancia y toma precauciones básicas. Suele aceptar cookies en la mayoría de los sitios web que visita, pero se muestra cautelosa cuando percibe que un sitio es inseguro. Utiliza la navegación privada cuando quiere evitar la acumulación de cookies y caché, y ha instalado bloqueadores de anuncios para mejorar su experiencia de navegación. Afortunadamente, nunca ha enfrentado problemas graves de ciberseguridad mientras navegaba por internet.
+La seguridad y privacidad de sus datos son temas importantes para Ivette, aunque admite tener conocimientos limitados en la configuración de aplicaciones para regular el uso de sus datos. Confía en herramientas como gestores de contraseñas y autenticación de dos factores para proteger sus cuentas. Sin embargo, no ha considerado seriamente el uso de servicios adicionales como una VPN, principalmente porque no le preocupa excesivamente el seguimiento en línea. Nunca ha experimentado un ciberataque que comprometiera su información personal y, hasta ahora, no ha dejado de usar un servicio o aplicación por preocupaciones de seguridad.
+Para sus estudios, Ivette prefiere usar Google Chrome y una aplicación de notas en su tablet, encontrando estas herramientas esenciales para su trabajo diario. Aunque no es fan de las aplicaciones pagas, valora la seguridad y privacidad que ofrecen las aplicaciones que usa. Sin embargo, la falta de conocimiento sobre configuraciones avanzadas y su renuencia a pagar por servicios adicionales limitan su uso de herramientas más especializadas en seguridad.
+Ivette revisa y ajusta ocasionalmente las configuraciones de privacidad en sus cuentas en línea, pero no de forma regular. Está consciente de amenazas cibernéticas como el phishing y el malware, aunque no ha experimentado intentos de estafa en línea. Se siente cómoda utilizando la autenticación de dos factores (2FA) y es consciente de la importancia de proteger su información en redes sociales y plataformas públicas, aunque no busca activamente herramientas adicionales para mejorar su seguridad en línea. Finalmente, es cautelosa en cuanto a pagar por servicios que garanticen mayor seguridad y privacidad, prefiriendo servicios gratuitos o incluidos con su hardware o software existente.
+
+![Imagen extraída del video de entrevistas](src/img/Cap2/segmento2_IvetteCondor.png)
+
+\newpage
 
 ### Análisis de entrevistas
 
@@ -1668,6 +1697,8 @@ US43 & Landing page - Menú superior & \textbf{Como} visitante de la landing pag
 ### *Impact Mapping*
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
+
+\newpage
 
 ### *Product Backlog*
 
