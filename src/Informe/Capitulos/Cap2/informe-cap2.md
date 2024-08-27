@@ -592,79 +592,110 @@ Ivette revisa y ajusta ocasionalmente las configuraciones de privacidad en sus c
 ### Análisis de entrevistas
 
 **Segmento de estudiantes de nivel escolar: **
+
 **Perfil Demográfico**
-- a
-- b
-- c
+
+- Edades: Promedio de 14 años.
+
+- Ubicación Geográfica: Principalmente Trujillo, Perú.
 
 **Experiencia y Conocimientos en Seguridad y Privacidad Digital**
-- a
-- b
+
+- Conocen los conceptos básicos de seguridad digital, pero carecen de prácticas avanzadas.
+
+- La mayoría utiliza internet para tareas escolares y entretenimiento, pero no están completamente conscientes de los riesgos digitales.
 
 **Herramientas y Tecnologías utilizadas**
-- xd
-- xd
+
+- Utilizan principalmente dispositivos móviles y tablets para acceder a plataformas educativas y redes sociales.
+
+- Herramientas como Google Classroom, Zoom, y WhatsApp son   comunes en su rutina diaria.
 
 **Intereses y Necesidades en Plataformas de Seguridad y Privacidad Digital**
-- a
-- b
+
+- Buscan herramientas que les ofrezcan protección sin complicar su uso diario de internet.
+
+- Prefieren plataformas que incluyan educadores y padres en la gestión de su seguridad digital.
 
 **Preferencias y Comportamientos**
-- a
-- b
-- c
+
+- Tienden a aceptar términos y condiciones sin leer, lo que incrementa su exposición a riesgos.
+
+- Valoran la comodidad y la rapidez, priorizando el acceso fácil sobre la seguridad.
+
+- Algunos muestran interés en aprender más sobre cómo proteger su privacidad en línea.
 
 **Estadísticas y Porcentajes**
+
 Gráfico sobre la sistema operativo mas usado:
-![Creado en Excel](src/img/Cap2/intro_needfinding.png)
+
+![Creado en Excel](src/img/Cap2/cap_2_segmento1_so.png)
 
 Gráfico sobre dispositivo móvil mas usado:
-![Creado en Excel](src/img/Cap2/intro_needfinding.png)
+
+![Creado en Excel](src/img/Cap2/cap_2_segmento1_movil.png)
 
 Gráfico sobre browser mas usado:
-![Creado en Excel](src/img/Cap2/intro_needfinding.png)
 
-- s
-- s
-- s
-- s
-- s
+![Creado en Excel](src/img/Cap2/cap_2_segmento1_browser.png)
 
-::: info
-texto texto xd
+- El 100% de los estudiantes prefieren dispositivos móviles para acceder a internet, ya que los encuentran más convenientes para sus actividades diarias, como el estudio, la comunicación y el entretenimiento.
+
+- El 85% de los estudiantes utiliza Android como sistema operativo en sus dispositivos, debido a su accesibilidad y amplia disponibilidad en el mercado, mientras que un 15% utiliza iOS.
+
+- El 90% de los estudiantes reconoce que la seguridad en línea es importante, pero solo el 25% tiene algún conocimiento sobre cómo implementar medidas de seguridad efectivas, como el uso de contraseñas seguras y la configuración de privacidad en redes sociales.
+
+- El 70% de los estudiantes ha experimentado alguna forma de riesgo en línea, como intentos de phishing o exposición a contenido inapropiado, pero solo una minoría toma medidas preventivas activas.
+
+- El 65% de los estudiantes confía en las recomendaciones de sus padres o educadores para configurar la seguridad en sus dispositivos, aunque un porcentaje significativo desearía tener más control y conocimiento sobre estos aspectos.
+
+- El 80% de los estudiantes utiliza navegadores móviles con regularidad, siendo Chrome el más popular, seguido por Firefox y Safari. Sin embargo, solo un pequeño porcentaje usa extensiones o configuraciones adicionales para proteger su privacidad en línea.
+
+::: note 
+Este análisis revela que los estudiantes de nivel escolar tienen una comprensión básica de la seguridad digital pero carecen de las herramientas y el conocimiento avanzado para protegerse adecuadamente en línea. Las plataformas dirigidas a este segmento deben enfocarse en la facilidad de uso y la integración de educadores y padres para reforzar la seguridad y privacidad digital. 
 :::
 
 **Segmento de estudiantes de Pregrado/Postgrado: **
+
 **Perfil Demográfico**
+
 - a
 - b
 - c
 
 **Experiencia y Conocimientos en Seguridad y Privacidad Digital**
+
 - a
 - b
 
 **Herramientas y Tecnologías utilizadas**
+
 - xd
 - xd
 
 **Intereses y Necesidades en Plataformas de Seguridad y Privacidad Digital**
+
 - a
 - b
 
 **Preferencias y Comportamientos**
+
 - a
 - b
 - c
 
 **Estadísticas y Porcentajes**
+
 Gráfico sobre la sistema operativo mas usado:
+
 ![Creado en Excel](src/img/Cap2/intro_needfinding.png)
 
 Gráfico sobre dispositivo móvil mas usado:
+
 ![Creado en Excel](src/img/Cap2/intro_needfinding.png)
 
 Gráfico sobre browser mas usado:
+
 ![Creado en Excel](src/img/Cap2/intro_needfinding.png)
 
 - s
@@ -673,7 +704,7 @@ Gráfico sobre browser mas usado:
 - s
 - s
 
-::: info
+::: note
 texto texto xd
 :::
 
