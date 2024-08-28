@@ -92,7 +92,7 @@ pandoc-latex-environment:
   \hline
   tb1 & 27/08/2024 & Vilchez Rios, Mateo Alejandro & Capitulo 2: Registro de Entrevista - *Empathy Map* - *As-is - Scenario Mapping* - *Impact Mapping*. \\
   \hline
-  tb1 & lorem & lorem, lorem & lorem. \\
+  tb1 & 27/08/2024 & Avila Asto, Alex Ramon Alberto & Realice la el analisis de entrevistas, netfinding, la creacion de User Personas y la tabla de *Use Task Matrix*. \\
   \hline
 \end{longtable}
 
@@ -131,7 +131,8 @@ Utilicé nuevas herramientas para documentar el informe y amplié mis conocimien
 \textbf{Mateo Alejandro Vilchez Rios} \\
 Aprendí nuevas herramientas para mejorar la documentación del informe y profundicé en la metodología Lean UX para aplicarla en nuestro proyecto. \\
 \textbf{Alex} \\
-lorem ipsum. \\} 
+Utilicé nuevas herramientas para la elaboración del informe y mejoré mis habilidades en el reconocimiento de puntos clave para la creación de User Personas y User Task Matrix. Estas actividades han optimizado mi comprensión del usuario y el enfoque del proyecto, fortaleciendo mi desarrollo profesional y alineando mejor las soluciones con las necesidades reales de los usuarios.
+\\} 
 &
 \parbox[t]{5cm}{
 \textbf{TB1:} \\
