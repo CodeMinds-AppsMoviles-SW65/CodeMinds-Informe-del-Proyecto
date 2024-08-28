@@ -587,6 +587,33 @@ Ivette revisa y ajusta ocasionalmente las configuraciones de privacidad en sus c
 
 ![Imagen extraída del video de entrevistas](src/img/Cap2/segmento2_IvetteCondor.png)
 
+**Entrevista #3**
+
+\begin{table}[H]
+\begin{center}  % Centrar la tabla
+\begin{tabular}{|p{5cm}|p{6cm}|}  % Ajusta los anchos de las columnas
+\hline
+\textbf{Nombre y Apellido}    & Alisoon Arrieta \\ \hline
+\textbf{Edad}                 & 18 años                \\ \hline
+\textbf{Ubicación geográfica} & Lima, Perú         \\ \hline
+\textbf{Grado}                & Pregrado             \\ \hline
+\textbf{Tiempo de entrevista} & inicio - fin           \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+**Resumen de la entrevista**
+
+Alisoon Arrieta, una estudiante de ingeniería de software de 18 años, compartió sus prácticas y preocupaciones sobre el uso de dispositivos y la seguridad en línea en una entrevista. Alison utiliza principalmente su laptop HP y un monitor para sus estudios y actividades relacionadas con la programación, prefiriendo Linux para su carrera por su flexibilidad y popularidad entre programadores, aunque también usa iOS en su celular. Su laptop, aunque funcional, es pesada para transportar.
+
+Alisoon ha comenzado a usar Linux por recomendación en su carrera y utiliza iOS en su celular, aunque no actualiza sus dispositivos con frecuencia debido a la incomodidad. En cuanto a seguridad, usa el antivirus preinstalado en su laptop y la autenticación de dos factores para proteger sus cuentas, pero no está completamente segura sobre las configuraciones avanzadas. No utiliza antivirus en su celular y se siente un poco perdida al gestionar configuraciones de seguridad por sí sola, prefiriendo contactar a expertos si surge algún problema.
+
+Nunca ha sufrido el robo de un dispositivo, pero toma precauciones básicas como revisar términos y condiciones al registrarse en nuevos servicios. Usa gestores de contraseñas y herramientas de autenticación de dos factores para facilitar la seguridad de sus cuentas, y aunque considera la posibilidad de usar una VPN para protegerse en redes públicas, aún no ha contratado un servicio.
+
+Alisoon está consciente de la recopilación de datos por parte de aplicaciones y sitios web, aunque no está profundamente informada sobre cómo manejar estos riesgos. Prefiere usar aplicaciones y sitios web que sean rápidos y bien valorados, y suele descubrir nuevas herramientas a través de recomendaciones en redes sociales. Aunque no ha dejado de usar servicios por preocupaciones de seguridad, está dispuesta a pagar por servicios que garanticen una mayor protección de su privacidad.
+
+![Imagen extraída del video de entrevistas](src/img/Cap2/segmento2_AlisoonArrieta.png)
+
 \newpage
 
 ### Análisis de entrevistas
