@@ -155,7 +155,7 @@ Reconocí la necesidad de seguir aprendiendo para optimizar tanto las herramient
 \textbf{Mateo Alejandro Vilchez Rios} \\
 Reconocí la importancia de actualizarme en herramientas de documentación y profundicé en metodologías ágiles para gestionar mejor el trabajo en equipo. \\
 \textbf{Alex} \\
-lorem ipsum. \\}
+Identifiqué la necesidad de seguir aprendiendo para mejorar mis habilidades en el desarrollo de software, lo que me llevó a explorar nuevas tecnologías y metodologías ágiles. Gracias a esto, pude implementar herramientas más eficientes para la gestión de proyectos y la documentación, lo que facilitó el trabajo en equipo y aseguró que el proyecto cumpliera con las expectativas de calidad y funcionalidad. \\}
 &
 \parbox[t]{5cm}{
 \textbf{TB1:} \\
@@ -229,12 +229,12 @@ Alex \\
 }
 &
 \parbox[t]{5cm}{
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \\
+Para esta entrega, me he centrado en el análisis de entrevistas y la estructuración del informe, asegurando una comprensión profunda de las necesidades del proyecto. En entregas futuras, mi objetivo es contribuir al desarrollo del backend y del móvil de la aplicación, áreas en las que tengo mayor experiencia y fortalezas. Esto permitirá asegurar que ambas partes del proyecto se desarrollen de manera eficiente y estén bien integradas. \\
 }
 &
 \parbox[t]{3cm}{
-\textbf{Fecha de inicio:} dd-mm-aaaa \\
-\textbf{Fecha de entrega:} dd-mm-aaaa \\
+\textbf{Fecha de inicio:} 21-08-2024 \\
+\textbf{Fecha de entrega:} 28-08-2024 \\
 } \\
 \hline
 
@@ -291,12 +291,12 @@ Alex \\
 }
 &
 \parbox[t]{5cm}{
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \\
+El éxito en esta entrega se medirá a través de la calidad y la profundidad del análisis de entrevistas realizado, así como la claridad y cohesión del informe estructurado. En futuras etapas, el éxito se evaluará mediante la eficiencia y calidad del código desarrollado para el backend y la aplicación móvil, utilizando métricas como la tasa de bugs, el tiempo de desarrollo, y la satisfacción del usuario final con la funcionalidad implementada. \\
 }
 &
 \parbox[t]{3cm}{
-\textbf{Fecha de inicio:} dd-mm-aaaa \\
-\textbf{Fecha de entrega:} dd-mm-aaaa \\
+\textbf{Fecha de inicio:} 21-08-2024 \\
+\textbf{Fecha de entrega:} 28-08-2024 \\
 } \\
 \hline
 
@@ -353,12 +353,12 @@ Alex \\
 }
 &
 \parbox[t]{5cm}{
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \\
+Implementar nuevas herramientas y metodologías en la organización del informe representa un reto significativo y un compromiso con la calidad y eficiencia del proyecto. Este enfoque va más allá de mis funciones actuales, impulsándome a aplicar soluciones innovadoras y a desarrollar tanto el backend como la aplicación móvil con un alto estándar de calidad, superando mis habilidades previas y contribuyendo de manera destacada al éxito del proyecto.  \\
 }
 &
 \parbox[t]{3cm}{
-\textbf{Fecha de inicio:} dd-mm-aaaa \\
-\textbf{Fecha de entrega:} dd-mm-aaaa \\
+\textbf{Fecha de inicio:} 21-08-2024 \\
+\textbf{Fecha de entrega:} 28-08-2024 \\
 } \\
 \hline
 
@@ -415,12 +415,12 @@ Alex \\
 }
 &
 \parbox[t]{5cm}{
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \\
+El informe al que contribuí y mi participación en el proyecto reflejan no solo mi esfuerzo individual, sino también nuestra capacidad colectiva para alinear nuestras acciones con los objetivos estratégicos de \textit{Laurate} Perú. Este trabajo en equipo asegura que cada aspecto del proyecto esté en sintonía con las directrices establecidas por la institución, contribuyendo de manera efectiva al cumplimiento de sus metas estratégicas. \\
 }
 &
 \parbox[t]{3cm}{
-\textbf{Fecha de inicio:} dd-mm-aaaa \\
-\textbf{Fecha de entrega:} dd-mm-aaaa \\
+\textbf{Fecha de inicio:} 21-08-2024 \\
+\textbf{Fecha de entrega:} 28-08-2024 \\
 } \\
 \hline
 
@@ -477,12 +477,12 @@ Alex \\
 }
 &
 \parbox[t]{5cm}{
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \\
+He completado todas mis responsabilidades dentro del plazo establecido, asegurando que cada tarea se finalizara según lo previsto. La claridad en las fechas límite desde el inicio facilitó la organización efectiva de mi trabajo, permitiéndome cumplir con los objetivos a tiempo. Además, esto me permitió colaborar eficientemente con el equipo y contribuir al éxito del proyecto en el plazo acordado. \\
 }
 &
 \parbox[t]{3cm}{
-\textbf{Fecha de inicio:} dd-mm-aaaa \\
-\textbf{Fecha de entrega:} dd-mm-aaaa \\
+\textbf{Fecha de inicio:} 21-08-2024 \\
+\textbf{Fecha de entrega:} 28-08-2024 \\
 } \\
 \hline
 
