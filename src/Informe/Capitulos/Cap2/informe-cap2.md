@@ -736,7 +736,9 @@ ideales de cada segmento. A continuación, los presentamos:
 
 ### *User Task Matrix*
 
-*User Task Matrix*: John Doe y Robert Downey
+**User Task Matrix**: John Doe y Robert Downey
+
+![Artefacto creado en LucidChart](src/img/Cap2/cap2_user_task_matrix.png)
 
 ### *User Journey Mapping*
 
