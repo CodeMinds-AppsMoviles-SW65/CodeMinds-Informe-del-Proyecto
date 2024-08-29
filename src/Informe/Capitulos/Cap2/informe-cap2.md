@@ -653,7 +653,7 @@ Alisoon está consciente de la recopilación de datos por parte de aplicaciones 
 
 **Estadísticas y Porcentajes**
 
-Gráfico sobre la sistema operativo mas usado:
+Gráfico sobre el sistema operativo mas usado:
 
 ![Creado en Excel](src/img/Cap2/cap_2_segmento1_so.png)
 

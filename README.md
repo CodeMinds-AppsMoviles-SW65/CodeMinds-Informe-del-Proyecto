@@ -11,3 +11,5 @@ Guía de configuración del informe
 -- [Smith, J. (2020). Agile Project Management: A Guide to Effective Product Backlog Management. Agile Press.]
 
 -- [Johnson, R. (2019). Strategic Process Improvement: Designing Future-State Maps for Enhanced Performance. Productivity Press.]
+
+-- Brown, D., & Green, K. (2022). Design Thinking for Strategic Innovation: What They Can't Teach You at Business or Design School.
