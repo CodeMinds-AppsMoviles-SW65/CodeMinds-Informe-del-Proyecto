@@ -1,15 +1,76 @@
-Guía de configuración del informe
+# CodeMinds - Report
 
--- [Jeff Gothelf, & Josh Seiden. (2021). Lean UX: Designing Great Products with Agile Teams (3rd ed.). O'Reilly Media. https://learning.oreilly.com/library/view/lean-ux-3rd/9781098116293/]
+**CodeMinds** es una startup dedicada a crear soluciones innovadoras que se ajustan a los estándares y necesidades del público general. Nos especializamos en el desarrollo de tecnologías que priorizan la seguridad y la privacidad de los datos de nuestros usuarios, conscientes de que en el mundo digital actual, proteger la información personal es fundamental. 
 
--- [Hernández, M. (2018, May 11). Framing assumptions (Lean UX IV). Medium. https://medium.com/swlh/framing-assumptions-lean-ux-iv-4d3679d2155b]
+## Preview
 
--- [Kašparová, P. (2022). New approaches to the application of business intelligence in the strategic management process. Science of Economics, 33.]
+| Portada del documento | Tabla de contenidos |
+| :----------------: | :----------------: |
+| ![Portada del documento](examples/preview-doc/portada.png) | ![Tabla de contenidos](examples/preview-doc/tabla-de-contenidos.png) |
 
--- [Kalbach, J. (2016). Mapping Experiences: A Complete Guide to Creating Value through Journeys, Blueprints, and Diagrams. O'Reilly Media.]
+| Ejemplo de capítulo | Bibliografía |
+| :---------------: | :---------------: |
+| ![Ejemplo de capítulo](examples/preview-doc/capitulo.png) | ![Bibliografía](examples/preview-doc/bibliografia.png) |
 
--- [Smith, J. (2020). Agile Project Management: A Guide to Effective Product Backlog Management. Agile Press.]
+## Advertencia
 
--- [Johnson, R. (2019). Strategic Process Improvement: Designing Future-State Maps for Enhanced Performance. Productivity Press.]
+Para poder visualizar los documentos en formato .pdf, siga los pasos de indicados para la instalación y ejecución de los comando a continuación.
 
--- Brown, D., & Green, K. (2022). Design Thinking for Strategic Innovation: What They Can't Teach You at Business or Design School.
+## Instalación
+
+1. Instala pandoc desde <http://pandoc.org/>. También necesitas instalar [LaTeX](https://en.wikibooks.org/wiki/LaTeX/Installation#Distributions).
+2. Descarga la última versión de la plantilla Eisvogel desde [la página de lanzamientos](https://github.com/Wandmalfarbe/pandoc-latex-template/releases/latest).
+3. Extrae el archivo ZIP descargado y abre la carpeta.
+4. Mueve la plantilla `eisvogel.latex` a la carpeta de plantillas de pandoc. La ubicación de la carpeta de plantillas depende de tu sistema operativo:
+      - Unix, Linux, macOS: `/Users/USERNAME/.local/share/pandoc/templates/` o `/Users/USERNAME/.pandoc/templates/`
+      - Windows Vista o posterior: `C:\Users\USERNAME\AppData\Roaming\pandoc\templates\`
+
+    Si no existen carpetas llamadas `templates` o `pandoc`, necesitas crearlas y poner la plantilla `eisvogel.latex` dentro. Puedes encontrar el directorio de datos de usuario predeterminado en tu sistema observando la salida de `pandoc --version`.
+
+### Imagen de Docker
+
+Alternativamente, si no deseas instalar LaTeX, puedes usar la imagen de Docker llamada [pandoc/extra]. La imagen contiene pandoc, LaTeX y una selección curada de componentes como la plantilla eisvogel, filtros de pandoc y fuentes de código abierto. Un uso común de la imagen se ve así (saltos de línea para mayor legibilidad):
+
+```bash
+docker run --rm \
+       --volume "$(pwd):/data" \
+       --user $(id -u):$(id -g) \
+       pandoc/extra example.md -o example.pdf --template eisvogel --listings
+```
+
+Para un uso frecuente en la línea de comandos, puedes definir el siguiente alias de shell:
+
+``` bash
+alias pandock='docker run --rm -v "$(pwd):/data" -u $(id -u):$(id -g) pandoc/extra'
+```
+
+La invocación de ejemplo con Docker desde arriba ahora se ve así:
+
+``` bash
+pandock example.md -o example.pdf --template eisvogel --listings
+```
+
+[pandoc/extra]: https://hub.docker.com/r/pandoc/extra
+
+## Uso
+
+1. Abre la terminal y navega a la carpeta donde se encuentra tu archivo markdown.
+
+2. Ejecuta el siguiente comando
+
+    ```bash
+    pandoc example.md -o example.pdf --from markdown --template eisvogel --listings
+    ```
+
+    donde `example.md` es el archivo markdown que quieres convertir a PDF.
+
+```markdown
+---
+title: "El Título del Documento"
+author: [Autor de Ejemplo, Otro Autor]
+date: "2017-02-20"
+keywords: [Markdown, Ejemplo]
+...
+
+Aquí está el texto actual del documento...
+```
