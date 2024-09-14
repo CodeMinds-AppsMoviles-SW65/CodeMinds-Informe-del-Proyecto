@@ -80,6 +80,139 @@ pandoc-latex-environment:
 
 # Capítulo III: **Arquitectura**
 
+## ***Product design***
+
+El diseño de producto es un aspecto fundamental que influye directamente en la percepción, usabilidad y éxito de cualquier aplicación o solución tecnológica. A través de un enfoque cuidadoso en los principios del diseño, buscamos crear un producto que no solo cumplan con las necesidades funcionales de los usuarios, sino que también brinde una experiencia visualmente atractiva y consistente. En las siguientes secciones, se detallan las pautas específicas que seguimos para garantizar la coherencia en el diseño.
+
+**STYLE GUIDELINES**
+
+Las directrices de estilo juegan un rol crucial en la creación de una identidad visual sólida y coherente en el diseño de productos. Estas guías permiten establecer estándares comunes que aseguran que todos los elementos visuales sigan un patrón uniforme. A continuación, se presentan las pautas generales que seguimos para mantener una coherencia visual en nuestros productos.
+
+**General Style Guidelines**
+
+![Artefacto creado en Figma](src/img/Cap3/Style_Guidelines.png)
+
+
+El diseño visual es uno de los aspectos fundamentales para crear una experiencia de usuario coherente, intuitiva y atractiva. Establecer pautas claras sobre la identidad de marca, la paleta de colores, la tipografía y el tono de comunicación es esencial para garantizar que cada interacción con el producto sea consistente y efectiva. 
+
+\begin{quote}
+Según Goodwin (2019), un diseño claro y sencillo facilita que los usuarios se enfoquen en sus objetivos sin encontrarse con obstáculos innecesarios, lo que optimiza la usabilidad del producto.
+\end{quote}
+
+\vspace{1em}
+
+Estas guías no solo refuerzan los valores de simplicidad y accesibilidad, sino que también aseguran que el diseño sea flexible, adaptable y atractivo para una amplia variedad de usuarios. A continuación, se explicarán los elementos clave de diseño que sustentan nuestra visión de ofrecer una experiencia de usuario impecable y una identidad visual sólida.
+
+
+**Branding:**
+
+*Temporaly* es una herramienta diseñada específicamente para proteger la información de los estudiantes en el mundo digital. Su principal objetivo es proporcionar una solución práctica y temporal que ofrezca a los usuarios la tranquilidad de que sus datos están seguros en todo momento. Nos enfocamos en simplificar la complejidad de la protección de datos, haciendo que Temporaly sea fácil de usar, accesible y altamente eficaz, sin comprometer la seguridad. La esencia de Temporaly radica en combinar tecnología avanzada con una experiencia fluida que resuelva un problema crucial en el día a día de nuestros usuarios: la privacidad.
+
+\vspace{2em}
+
+
+**Logotipo:**
+
+El logotipo de *Temporaly* captura la simplicidad y la seguridad que representan nuestra app. Su diseño moderno y minimalista refleja el enfoque directo que tenemos para proteger la información de los usuarios sin complicaciones. El color azul vibrante simboliza la confianza y la estabilidad, mientras que la estructura del logotipo transmite una sensación de innovación tecnológica accesible para todos. La elección de colores y formas refuerza el mensaje de una app joven, práctica y confiable que resuelve de manera eficiente las necesidades de seguridad de nuestros usuarios.
+
+![Artefacto creado en Figma](src/img/Cap3/Logos.png)
+
+\vspace{1em}
+
+**Iconografía de la Aplicación**
+
+La iconografía de *Temporaly* incluye el imagotipo de la marca, compuesto por una "T" estilizada en forma de rayo, que simboliza rapidez, eficiencia y la temporalidad de los correos electrónicos temporales que ofrece la app. Este imagotipo se utiliza de manera flexible, tanto en el logo completo de la aplicación como en su icono para dispositivos móviles.
+
+
+![Artefacto creado en Figma](src/img/Cap3/Icon_App.png)
+
+
+**Colores**
+
+La paleta de colores de *Temporaly* ha sido seleccionada cuidadosamente para garantizar coherencia visual en toda la interfaz y en las variantes del logotipo y los iconos. Todos los colores utilizados forman parte de la misma paleta, conocida como *Hailey Blue*, lo que asegura una identidad visual armónica.
+
+- **Colores Principales (Interfaz de la Aplicación)**
+  
+  - **Azul #2979FF (600):** Este es el color principal de la aplicación, utilizado en los botones, la barra de navegación y otros elementos interactivos. Su tono vibrante refuerza la identidad tecnológica y moderna de *Temporaly*, destacando las acciones clave del usuario.
+  
+  - **Blanco #FFFFFF:** Se utiliza como fondo de los botones y otros elementos de la interfaz, asegurando contraste y legibilidad. Este color permite que el azul principal destaque con claridad.
+  
+  - **Gris #93868A:** Un tono gris medio transparente que se utiliza para textos sobre fondos semi-transparentes, aportando un estilo moderno y minimalista.
+  
+  - **Negro #000000:** Utilizado para textos en algunas secciones clave de la interfaz, proporciona contraste y asegura la legibilidad en los elementos más importantes.
+  
+  ![Artefacto creado en Figma](src/img/Cap3/PrimaryColors.png)
+
+- **Colores Secundarios (Variantes de Logos e Iconos)**
+  Las variantes del logotipo e icono utilizan otros tonos dentro de la misma paleta *Hailey Blue*, lo que refuerza la cohesión visual de la marca:
+
+  - **Azul #256CE4 (700):** Este tono complementa al color principal en algunas versiones del logotipo, proporcionando flexibilidad visual en distintas situaciones.
+  
+  - **Azul #205EC6 (800):** Un tono más profundo utilizado en algunas variantes del logotipo y los iconos. Ofrece una opción más seria y formal sin perder la relación visual con el color principal.
+  
+  - **Azul Oscuro #123672 (1000):** Este tono de azul oscuro se utiliza en otras variantes del logotipo, aportando un contraste elegante y sofisticado en ciertas aplicaciones gráficas.
+  
+  ![Artefacto creado en Figma](src/img/Cap3/SecondColors.png)
+
+
+**Tipografía**
+
+La tipografía en *Temporaly* es clave para asegurar una experiencia visual coherente, moderna y fácil de leer. Cada fuente seleccionada cumple una función específica en la aplicación y en la landing page, aportando claridad y accesibilidad.
+
+- ***Urbanist* (Google Fonts)**
+  
+  - Peso utilizado: *Medium*
+  
+  La tipografía *Urbanist* se utiliza principalmente en los títulos, encabezados y secciones destacadas dentro de la app. Su estilo moderno y minimalista asegura que los elementos clave de la interfaz sean reconocibles y accesibles, reforzando la identidad tecnológica y accesible de *Temporaly*.
+
+  ![Artefacto creado en Figma](src/img/Cap3/Typography_Urbanist.png)
+
+
+- ***Work Sans* (Google Fonts)**
+  
+  - Pesos utilizados: *Bold* y *Regular*
+  
+  Work Sans es la tipografía utilizada en el cuerpo del texto y en los botones de acción dentro de la app. La versión Bold se usa para resaltar acciones clave, mientras que la versión Regular asegura una legibilidad fluida en el contenido principal.
+
+  ![Artefacto creado en Figma](src/img/Cap3/Typography_WorkSans.png)
+
+- ***Inter* (Google Fonts)**
+  
+  - Pesos utilizados: Variantes de *Regular* y *Bold*
+  
+  Para la landing page de *Temporaly*, se utiliza Inter, una tipografía altamente funcional y legible en entornos web. Su estilo limpio y moderno garantiza que la información en la landing page sea clara, accesible y alineada con el diseño general de la marca.
+
+  ![Artefacto creado en Figma](src/img/Cap3/Typography_Inter.png)
+
+
+
+**Tonos de Comunicación**
+
+El tono de voz de *Temporaly* está diseñado para alinearse con su audiencia principal, compuesta por estudiantes de distintos niveles educativos, y reflejar los valores de la aplicación: simplicidad, accesibilidad y confianza. A continuación, se describen las características principales del tono de comunicación:
+
+- **Casual:** El tono empleado en las comunicaciones de Temporaly es cercano y accesible, permitiendo que los estudiantes se sientan cómodos al interactuar con la app sin una formalidad excesiva.
+
+- **Respetuoso:** A pesar de su naturaleza casual, Temporaly mantiene un tono respetuoso, reconociendo la importancia de la privacidad y seguridad de los datos personales de los usuarios.
+
+- **Relajado:** El uso de un tono relajado busca transmitir tranquilidad y eliminar cualquier complejidad innecesaria, facilitando que los usuarios utilicen la app sin preocupaciones.
+
+- **Amigable:** La aplicación utiliza un lenguaje amigable para generar una conexión cercana y confiable con los usuarios, lo que les anima a explorar y utilizar la app de manera eficiente.
+
+- **Neutral:** En comunicaciones más informativas, como explicaciones técnicas o detalles sobre seguridad, se emplea un tono neutral para mantener la claridad y objetividad.
+
+Estas características del tono de voz han sido diseñadas para generar confianza en los usuarios, manteniendo un equilibrio entre cercanía y profesionalismo. El tono de comunicación es consistente en todas las plataformas de Temporaly, desde la app hasta la landing page, asegurando una experiencia homogénea.
+
+![Artefacto creado en Figma](src/img/Cap3/ToneOfVoice.png)
+
+
+**Eslogan**
+
+El eslogan de Temporaly, "Create, use and forget ;)", refleja perfectamente el enfoque de la app. En pocas palabras, se comunica la simplicidad del servicio: crear un correo temporal, utilizarlo, y olvidarse de él cuando ya no es necesario. El guiño añadido al final " ;)" le da un toque juvenil y relajado, alineado con el tono amigable y cercano que busca la marca.
+
+![Artefacto creado en Figma](src/img/Cap3/Eslogan.png)
+
+
+
 ### ***Domain-Driven Software Architecture***
 
 #### ***Software Architecture Context Level Diagram***
