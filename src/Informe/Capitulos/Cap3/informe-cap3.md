@@ -87,6 +87,7 @@ El diseño de producto es un aspecto fundamental que influye directamente en la 
 ### **Style Guidelines**
 
 ![Artefacto creado en Figma](src/img/Cap3/Style_Guidelines.png)
+
 Las directrices de estilo juegan un rol crucial en la creación de una identidad visual sólida y coherente en el diseño de productos. Estas guías permiten establecer estándares comunes que aseguran que todos los elementos visuales sigan un patrón uniforme. A continuación, se presentan las pautas generales que seguimos para mantener una coherencia visual en nuestros productos.
 
 
@@ -218,6 +219,215 @@ El eslogan de Temporaly, "Create, use and forget ;)", refleja perfectamente el e
 ![Artefacto creado en Figma](src/img/Cap3/Eslogan.png)
 
 \vspace{1em}
+
+### ***Information Architecture***
+
+![Artefacto creado en Canva](src/img/Cap3/info_arch.png)
+
+La Arquitectura de la Información (AI) organiza y estructura el contenido en sistemas digitales, permitiendo a los usuarios navegar de manera eficiente y acceder a lo que necesitan sin dificultades. Una buena AI alinea las necesidades del usuario con los objetivos del negocio, optimizando la experiencia de uso.
+
+\begin{quote}
+Como describe Rosenfeld et al. (2015), una buena arquitectura de la información no solo ayuda a los usuarios a orientarse, sino que también optimiza la experiencia general del producto, haciéndola más intuitiva y eficiente.
+\end{quote}
+
+\vspace{1em}
+
+En esta sección, se exploran los principios y estrategias que hemos aplicado en Temporaly para organizar su contenido de manera lógica, coherente y accesible, garantizando que los usuarios puedan navegar por la aplicación sin dificultades y encontrar la información que buscan de manera rápida y sencilla.
+
+
+#### ***Organization Systems***
+
+Los usuarios pueden navegar por la interfaz de *Temporaly* de manera clara y efectiva, gracias a su estructura organizativa optimizada para la protección de datos temporales.
+
+\begin{tabular}{|l|p{11cm}|}
+\hline
+\textbf{Tópico} & \textbf{Definición} \\
+\hline
+\textbf{Email Management} & Administración de correos temporales de manera rápida, permitiendo la creación, uso y eliminación de correos electrónicos desechables. \\
+\hline
+\textbf{User Authentication} & Implementación de métodos de autenticación como inicio de sesión con terceros (Google, Facebook) y autenticación biométrica (huella dactilar). \\
+\hline
+\textbf{Inbox Organization} & Organización de correos electrónicos en categorías como activos e inactivos para facilitar la gestión y el acceso. \\
+\hline
+\textbf{Security Protocols} & Uso de tecnologías avanzadas para proteger los datos temporales generados por los usuarios, garantizando la privacidad. \\
+\hline
+\textbf{User-Friendly Navigation} & Diseño de una interfaz sencilla con un menú lateral y navegación clara para mejorar la experiencia de usuario. \\
+\hline
+\textbf{Email History} & Registro completo del historial de correos electrónicos temporales generados, categorizados por estado (activo o inactivo). \\
+\hline
+\textbf{Data Deletion} & Proceso fácil de eliminación de cuentas y datos de usuarios, asegurando que toda la información temporal sea eliminada de manera permanente. \\
+\hline
+\end{tabular}
+
+\vspace{1em}
+
+La estructura organizativa de *Temporaly* está diseñada para ofrecer una experiencia de usuario eficiente, centrada en la seguridad y facilidad de uso. Cada sistema ha sido implementado con el objetivo de simplificar la gestión de correos temporales y garantizar que los usuarios puedan proteger su información personal de manera efectiva. Esta organización clara permite que los usuarios interactúen con la aplicación de manera intuitiva, sin complicaciones.
+
+
+#### ***Labelling Systems***
+
+Los sistemas de etiquetado en *Temporaly* se han diseñado para que los usuarios puedan navegar de manera eficiente a través de la aplicación con una terminología clara y coherente. Cada etiqueta, botón y sección ha sido nombrada para que los usuarios puedan comprender de inmediato su función o propósito.
+
+\begin{tabular}{|l|p{13cm}|}
+\hline
+\textbf{Etiqueta} & \textbf{Descripción} \\
+\hline
+\textbf{Sign In} & Etiqueta utilizada para que los usuarios accedan a la aplicación con sus credenciales de inicio de sesión o cuentas externas como Google o Facebook. \\
+\hline
+\textbf{New Email} & Etiqueta para crear un nuevo correo temporal en la plataforma de manera rápida y sencilla. \\
+\hline
+\textbf{Delete Email} & Etiqueta que permite eliminar un correo temporal una vez que ya no se necesita. \\
+\hline
+\textbf{Email History} & Etiqueta que muestra el historial de correos electrónicos generados por el usuario, organizados por estado (activo o inactivo). \\
+\hline
+\textbf{Settings} & Etiqueta que proporciona acceso a las configuraciones de la cuenta del usuario, incluyendo la eliminación de cuentas o cambios en las notificaciones. \\
+\hline
+\textbf{Sign Up} & Etiqueta que guía a los usuarios para crear una cuenta nueva en la aplicación. \\
+\hline
+\textbf{Inbox} & Etiqueta que indica la sección principal donde los correos temporales activos e inactivos son visibles. \\
+\hline
+\end{tabular}
+
+\vspace{1em}
+
+#### ***SEO Tags and Meta Tags***
+
+En la aplicación *Temporaly*, los SEO Tags y Meta Tags juegan un rol crucial en la optimización de la visibilidad de la aplicación en motores de búsqueda y en proporcionar información esencial para su correcto funcionamiento en entornos web. Aunque *Temporaly* es principalmente una aplicación móvil, la landing page y cualquier página relacionada con el servicio puede beneficiarse enormemente del uso correcto de estas etiquetas.
+
+**SEO Tags**
+
+Los SEO (Search Engine Optimization) Tags son utilizados para mejorar el posicionamiento de la landing page de Temporaly en motores de búsqueda como *Google*. Algunos ejemplos de *SEO Tags* utilizados incluyen:
+
+- **Title Tag:** Especifica el título de la página que aparece en los resultados de búsqueda.
+
+::: norm
+```html
+   <title>Temporaly - Protección Temporal de Datos para Estudiantes</title>
+```
+:::
+
+- **Meta Description:** Proporciona un breve resumen del contenido de la página para los motores de búsqueda.
+
+::: norm
+```html
+   <meta name="description" content="Temporaly es una aplicación que permite la creación de correos temporales para proteger tu información personal de forma rápida y segura." />
+```
+:::
+
+- **Header Tags (H1, H2, H3):** Estas etiquetas son utilizadas para estructurar el contenido y mejorar la jerarquía de la información en la *landing page*.
+
+::: norm
+```html
+   <h1>Protege tu Privacidad con Correos Temporales</h1>
+```
+:::
+
+**Meta Tags**
+
+Los *Meta Tags* son etiquetas que proporcionan información adicional sobre la página web al navegador y a los motores de búsqueda. Estas etiquetas no afectan directamente al contenido visible por los usuarios, pero son esenciales para mejorar la experiencia en la web y optimizar el posicionamiento SEO. Algunos ejemplos de Meta Tags utilizados en Temporaly son:
+
+- **Charset Meta Tag:** Define el conjunto de caracteres que la página está utilizando, esencial para evitar errores de visualización.
+  
+::: code
+```html
+   <meta charset="UTF-8">
+```
+:::
+
+- **Viewport Meta Tag:** Asegura que la página se vea bien en dispositivos móviles.
+
+::: code
+```html  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
+:::
+
+**Robots Meta Tag:** Indica a los motores de búsqueda si deben o no indexar la página.
+
+::: code
+```html  
+   <meta name="robots" content="index, follow">
+```
+:::
+
+**Canonical Tag:** Evita contenido duplicado al especificar la URL principal.
+
+::: code
+```html 
+    <link rel="canonical" href="https://temporaly.com">
+```
+:::
+
+Además de estas etiquetas clave, para la optimización específica de Temporaly como una aplicación móvil, se pueden añadir las siguientes etiquetas, especialmente en la landing page para maximizar la visibilidad y facilitar el acceso a la descarga de la app:
+
+**Landing Page SEO Tags (para la aplicación móvil):**
+
+- **Title:** Temporaly | Protección Temporal de Datos en tu Móvil
+- **Description:** Temporaly - Crea correos temporales directamente desde tu móvil para proteger tu información personal de manera rápida y segura. Disponible para iOS y Android.
+- **Keywords:** correos temporales, app móvil, protección de datos, privacidad, seguridad, estudiantes.
+- **Author:** CodeMinds
+- **Canonical:** https://temporaly.com/
+
+**Meta Tags adicionales para la landing page:**
+
+- **og(Open Graph):** Temporaly | Protección Temporal de Datos
+- **og(Open Graph):** Temporaly te permite crear correos temporales directamente desde tu dispositivo móvil, disponible en las tiendas de apps.
+- **og(Open Graph):** https://temporaly.com/assets/logo.png
+- **og(Open Graph):** https://temporaly.com/
+- **app-download-url:**
+  - Android: https://play.google.com/store/apps/details?id=com.temporaly
+  - iOS: https://apps.apple.com/app/temporaly/id123456789
+
+El uso adecuado de SEO Tags y Meta Tags garantiza que la landing page de Temporaly tenga un mayor alcance y visibilidad en los motores de búsqueda, permitiendo a los usuarios encontrar rápidamente la aplicación y acceder a sus servicios. Asimismo, estas etiquetas aseguran una experiencia optimizada para los usuarios que acceden desde dispositivos móviles, facilitando la descarga y el uso de la aplicación.
+
+
+#### ***Searching Systems***
+
+El sistema de búsqueda de Temporaly está diseñado para ofrecer una experiencia de usuario eficiente y sencilla, permitiendo a los usuarios acceder rápidamente a la información que necesitan. Dado que Temporaly es una aplicación enfocada en la generación y gestión de correos electrónicos temporales, los mecanismos de búsqueda dentro de la app son clave para la organización y recuperación de la información.
+
+\begin{tabular}{|l|p{10cm}|}
+\hline
+\textbf{Filtro} & \textbf{Definición} \\
+\hline
+\textbf{Email Address} & Filtro que permite buscar los correos electrónicos temporales generados por dirección de correo. \\
+\hline
+\textbf{Creation Date} & Filtro que permite buscar los correos según la fecha en que fueron generados en la plataforma. \\
+\hline
+\textbf{Active/Inactive Status} & Filtro que permite visualizar los correos según su estado: activos o inactivos. \\
+\hline
+\textbf{Duration} & Filtro que permite buscar correos según el tiempo de validez seleccionado al momento de su creación (10, 30 o 60 minutos). \\
+\hline
+\textbf{Advanced Search} & Opciones avanzadas de búsqueda que permiten combinar múltiples criterios como correo electrónico, estado y duración para obtener resultados más precisos. \\
+\hline
+\end{tabular}
+
+\vspace{1em}
+
+El sistema de búsqueda está optimizado para asegurar que el usuario no pierda tiempo en la gestión de sus correos temporales y pueda acceder a la información de manera inmediata.
+
+#### ***Navigation Systems***
+
+El sistema de navegación en Temporaly está diseñado para ser intuitivo y accesible, ofreciendo a los usuarios una experiencia de uso fluida y sin complicaciones. La estructura de navegación asegura que los usuarios puedan desplazarse fácilmente entre las diferentes funcionalidades de la aplicación, optimizando la interacción y minimizando el tiempo de aprendizaje.
+
+\begin{tabular}{|l|p{10cm}|}
+\hline
+\textbf{Nombre} & \textbf{Definición} \\
+\hline
+\textbf{Menú Lateral} & Despliega opciones principales de navegación como Home, Contact Us, About Us, Terms and Conditions, y Settings, permitiendo una navegación rápida entre las diferentes secciones de la aplicación. \\
+\hline
+\textbf{Barra de Navegación Inferior} & Proporciona acceso rápido a las funciones clave como Email (bandeja de entrada) y History (historial de correos generados), mejorando la accesibilidad a las características más utilizadas. \\
+\hline
+\textbf{Email} & Vista principal de los correos electrónicos temporales activos y la opción de crear, actualizar o eliminar correos desde esta sección. \\
+\hline
+\textbf{History} & Historial de todos los correos temporales creados por el usuario, organizados según su estado (activo o inactivo). \\
+\hline
+\textbf{Settings} & Opciones de configuración de la cuenta del usuario, incluyendo ajustes de notificaciones, cierre de sesión y eliminación de cuenta. \\
+\hline
+\end{tabular}
+
+
+\vspace{1em}
+
 
 ### ***Domain-Driven Software Architecture***
 
