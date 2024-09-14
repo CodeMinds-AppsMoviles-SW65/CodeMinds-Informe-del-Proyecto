@@ -91,3 +91,32 @@ pandoc-latex-environment:
 ### ***Software Architecture Components Diagram***
 
 ![Artefacto creado en Structurizr](src/img/Cap3/Diagrama_Componentes.png)
+
+## ***Software Object-Oriented Design****
+
+### ***Class Diagrams***
+Nuestro dominio se divide en 4 Bounded Contexts:
+
+1.- **Login Bounded Context**: Centrado en los actores/usuarios que se autentican en la solución y la gestión del proceso de login y logout.
+
+2.- **Profile Settings Bounded Context**: Centrado en los cambios de configuración del perfil de los usuarios, incluyendo preferencias, ajustes y personalización.
+
+3.- **Privacy Policy Bounded Context**: Centrado en la gestión de las políticas de privacidad y la obtención o revocación de consentimiento por parte de los usuarios.
+
+4.- **Email History Management Bounded Context**: Centrado en el registro y seguimiento del historial de acciones de correo electrónico realizadas por el sistema y los usuarios.
+
+![Class diagram Temporally, imagen creada en PlantUML](src/img/Cap3/iam_bc.jpeg)
+
+![Class diagram Temporally, imagen creada en PlantUML](src/img/Cap3/email_management_bc.jpeg)
+
+![Class diagram Temporally, imagen creada en PlantUML](src/img/Cap3/profile_settings_bc.jpeg)
+
+![Class diagram Temporally, imagen creada en PlantUML](src/img/Cap3/privacy_policy_bc.jpeg)
+
+![Class diagram Temporally, imagen creada en PlantUML](src/img/Cap3/email_history_bc.jpeg)
+
+### ***Class Dictionary***
+
+## ***Database Design****
+
+### ***Database Diagram***
