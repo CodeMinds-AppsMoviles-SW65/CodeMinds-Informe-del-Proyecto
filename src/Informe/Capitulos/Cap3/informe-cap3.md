@@ -119,4 +119,8 @@ Nuestro dominio se divide en 4 Bounded Contexts:
 
 ## ***Database Design****
 
+![Class diagram Temporally, imagen creada en Mermaid](src/img/Cap3/database_desing.png)
+
 ### ***Database Diagram***
+
+![Class diagram Temporally, imagen creada en Mermaid](src/img/Cap3/database_diagram.png)
