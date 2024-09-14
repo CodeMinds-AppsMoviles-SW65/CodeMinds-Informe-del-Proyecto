@@ -101,7 +101,7 @@ Esta sección recopila y resume toda la información obtenida, y se analizan los
 
 - **IntelliJ IDEA:** IDE que utilizaremos para trabajar con Java y desarrollar el backend.
 
-- **FRONT:** IDE que utilizaremos para trabajar con Kotlin/Flutter y desarrollar el frontend.
+- **Android Studio/Visual Studio Code:** IDE que utilizaremos para trabajar con Kotlin/Flutter y desarrollar el frontend.
 
 ### ***Source Code Management***
 
@@ -137,12 +137,22 @@ Donde:
 ```
 :::
 
-
 - ***type:*** Indica el tipo de modificación realizada, como feat, fix, docs, entre otros.
   
 - ***scope:*** Define opcionalmente el alcance del cambio en el código.
 
 - ***description:*** Proporciona un resumen breve y claro de los cambios implementados.
+
+**Convenciones de versionado de lanzamientos**
+
+Para la gestión de versiones, seguimos el estándar "Semantic Versioning 2.0.0". En este formato, las versiones se presentan como (X.Y.Z), con las siguientes interpretaciones:
+
+- **X:** Indica una versión principal que introduce cambios incompatibles con versiones anteriores. Comenzamos en 0 durante la fase de desarrollo inicial y pasamos a 1 cuando la versión está lista para su lanzamiento público. Por convención, los números Y y Z se reinician a 0 cada vez que X aumenta.
+
+- **Y:** Representa una versión secundaria que incluye cambios compatibles con versiones anteriores. También abarca los commits de las "release branches" cuando se agregan nuevas funcionalidades. Al igual que con X, Z se reinicia a 0 cuando Y aumenta.
+
+- **Z:** Refleja parches o correcciones de errores menores. Se integra con commits provenientes de la "rama de corrección" y se fusiona con la rama principal.
+
 
 ### ***Software Deployment Configuration***
 
