@@ -84,16 +84,14 @@ pandoc-latex-environment:
   \hline
   \textbf{Versión} & \textbf{Fecha} & \textbf{Autor} & \textbf{Descripción de Modificación} \\
   \hline
-  tb1 & 27/08/2024 & Ortega Huaraca, Abel & Ayudé con la estructura del informe en general. Respecto a los puntos específicos, contribuí con la elaboración del *Solution Profile*, *Startup Profile*, Segmentos objetivo, *User Stories* y una introducción para los *Requirements Specification*. \\
+  tb1 & 27/08/2024 & Ortega Huaraca, Abel & Ayudé con la estructura del informe en general. Respecto a los puntos específicos, contribuí con la elaboración del \textit{Solution Profile}, \textit{Startup Profile}, Segmentos objetivo, \textit{User Stories} y una introducción para los \textit{Requirements Specification}. \\
   \hline
-  tb1 & 27/08/2024 & Ramos Rios, Belén del Rocio & Realice la descripcion de competidores, análisis competitivo y las estrategias frente a competidores. Tambien aporte en la creación de los *User Journey Mapping*, *To-Be Scenario Mapping* y el *Product Backlog*. \\
+  tb1 & 27/08/2024 & Ramos Rios, Belén del Rocio & Realice la descripción de competidores, análisis competitivo y las estrategias frente a competidores. También aporté en la creación de los \textit{User Journey Mapping}, \textit{To-Be Scenario Mapping} y el \textit{Product Backlog}. \\
   \hline
-  tb1 & 24/08/2024 & Vilchez Rios, Mateo Alejandro & Capitulo 1: *Lean UX Process* - Antecendetes y Problematica.\\
+  tb1 & 27/08/2024 & Vilchez Rios, Mateo Alejandro & Capitulo 1: \textit{Lean UX Process} - Antecendetes y Problemática, Capitulo 2: Registro de Entrevista - \textit{Empathy Map} - \textit{As-is} - \textit{Scenario Mapping} - \textit{Impact Mapping}. \\
   \hline
-  tb1 & 27/08/2024 & Vilchez Rios, Mateo Alejandro & Capitulo 2: Registro de Entrevista - *Empathy Map* - *As-is - Scenario Mapping* - *Impact Mapping*. \\
-  \hline
-  tb1 & 27/08/2024 & Avila Asto, Alex Ramon Alberto & Realice la el analisis de entrevistas, netfinding, la creacion de User Personas y la tabla de *Use Task Matrix*. \\
-  \hline
+  tb1 & 27/08/2024 & Avila Asto, Alex Ramon Alberto & Realicé el análisis de entrevistas, \textit{netfinding}, la creación de \textit{User Personas} y la tabla de \textit{User Task Matrix}. \\
+\bottomrule
 \end{longtable}
 
 \newpage
@@ -108,19 +106,12 @@ En el siguiente cuadro se describe las acciones realizadas y enunciadas de concl
 
 \begin{longtable}{|p{4cm}|p{6cm}|p{5cm}|}
 \hline
-\textbf{Criterio Específico} & \textbf{Acciones Realizadas} & \textbf{Conclusiones} \\
+\multicolumn{1}{|c|}{\textbf{Criterio Específico}} & \multicolumn{1}{c|}{\textbf{Acciones Realizadas}} & \multicolumn{1}{c|}{\textbf{Conclusiones}} \\
 \hline
 \endfirsthead
-
-\hline
-\textbf{Criterio Específico} & \textbf{Acciones Realizadas} & \textbf{Conclusiones} \\
-\hline
-\endhead
-
-\multirow{3}{*}{
 \parbox[t]{4cm}{
 \textit{Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.}
-}} 
+} 
 &  
 \parbox[t]{6cm}{
 \textbf{TB1:} \\
@@ -130,21 +121,21 @@ Coordiné y realicé la reunión inicial del proyecto, explicando claramente los
 Utilicé nuevas herramientas para documentar el informe y amplié mis conocimientos en áreas clave como User Journey Mapping y análisis competitivo. \\
 \textbf{Mateo Alejandro Vilchez Rios} \\
 Aprendí nuevas herramientas para mejorar la documentación del informe y profundicé en la metodología Lean UX para aplicarla en nuestro proyecto. \\
-\textbf{Alex} \\
+\textbf{Alex Avila Asto} \\
 Utilicé nuevas herramientas para la elaboración del informe y mejoré mis habilidades en el reconocimiento de puntos clave para la creación de User Personas y User Task Matrix. Estas actividades han optimizado mi comprensión del usuario y el enfoque del proyecto, fortaleciendo mi desarrollo profesional y alineando mejor las soluciones con las necesidades reales de los usuarios.
 \\} 
 &
 \parbox[t]{5cm}{
 \textbf{TB1:} \\
-NO EDITAR ESTA PARTE. \\
+Como grupo, nos hemos comprometido a mantenernos en constante actualización de los conceptos y conocimientos necesarios para nuestro desarrollo profesional, especialmente en el ámbito de los proyectos de soluciones de software. A lo largo de este proceso, hemos aprendido a implementar nuevas herramientas y metodologías que no solo han fortalecido nuestras habilidades individuales, sino que también han potenciado el éxito del proyecto en su conjunto.
+En conjunto, hemos demostrado que nuestro compromiso con el aprendizaje continuo y la aplicación de nuevas estrategias es fundamental para garantizar el éxito de nuestro proyecto. Este proceso nos ha permitido no solo crecer como profesionales, sino también asegurar que nuestras soluciones de software sean relevantes, eficientes y estén perfectamente alineadas con las necesidades reales de los usuarios. \\
 } \\ 
 
 \hline
 
-\multirow{3}{*}{
 \parbox[t]{4cm}{
 \textit{Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.}
-}}
+}
 &  
 \parbox[t]{6cm}{
 \textbf{TB1:} \\
@@ -154,14 +145,15 @@ Cree repositorios para almacenar nuestro informe con un registro de versiones co
 Reconocí la necesidad de seguir aprendiendo para optimizar tanto las herramientas de documentación como los procesos de Needfinding para el desarrollo de un producto que se destaque y cumpla con las expectativas de los usuarios. \\
 \textbf{Mateo Alejandro Vilchez Rios} \\
 Reconocí la importancia de actualizarme en herramientas de documentación y profundicé en metodologías ágiles para gestionar mejor el trabajo en equipo. \\
-\textbf{Alex} \\
-Identifiqué la necesidad de seguir aprendiendo para mejorar mis habilidades en el desarrollo de software, lo que me llevó a explorar nuevas tecnologías y metodologías ágiles. Gracias a esto, pude implementar herramientas más eficientes para la gestión de proyectos y la documentación, lo que facilitó el trabajo en equipo y aseguró que el proyecto cumpliera con las expectativas de calidad y funcionalidad. \\}
+\textbf{Alex Avila Asto} \\
+Identifiqué la necesidad de seguir aprendiendo para mejorar mis habilidades en el desarrollo de software, lo que me llevó a explorar nuevas tecnologías y metodologías ágiles. Gracias a esto, pude implementar herramientas más eficientes para la gestión de proyectos y la documentación, lo que facilitó el trabajo en equipo. \\}
 &
 \parbox[t]{5cm}{
 \textbf{TB1:} \\
-NO EDITAR ESTA PARTE. \\
-} \\ 
-\hline
+Como equipo, hemos reconocido la importancia del aprendizaje continuo para nuestro desarrollo profesional y la ejecución exitosa de proyectos en soluciones de software. A lo largo de nuestro trabajo, hemos identificado que la necesidad de actualizar y adquirir nuevos conocimientos es esencial para mejorar nuestras competencias y la calidad de nuestras entregas.
+En conjunto, hemos comprendido que el aprendizaje permanente no solo es un requisito para mantenernos actualizados, sino también un pilar que nos permite enfrentar desafíos con soluciones innovadoras y eficientes, garantizando así el éxito y la relevancia de nuestros proyectos. \\
+} \\
+\bottomrule
 \end{longtable}
 
 \newpage
@@ -225,7 +217,7 @@ Aportar en la mejora del informe del proyecto y asegurar la correcta aplicación
 \cline{2-4}
 &
 \parbox[t]{3cm}{
-Alex \\
+Alex Avila Asto \\
 }
 &
 \parbox[t]{5cm}{
@@ -249,7 +241,7 @@ Abel Ortega Huaraca \\
 }
 &
 \parbox[t]{5cm}{
-Considero que para esta entrega se establecieron métricas claras. En donde, cada actividad o responsabilidad fue designado y colaborado corractamente. Asimismo, cada punto reflejo un indicador de relevancia y peso en el trabajo del proyecto. Por último, el logro de este primer entregable fue claro; realizar un informe de calidad profesional tanto en contenido como en diseño y estructura. 
+Considero que para esta entrega se establecieron métricas claras. En donde, cada actividad o responsabilidad fue designado y colaborado corractamente. Asimismo, cada punto reflejo un indicador de relevancia y peso en el trabajo del proyecto. Por último, el logro de este primer entregable fue claro; realizar un informe de calidad profesional tanto en contenido como en diseño y estructura. \\
 }
 &
 \parbox[t]{3cm}{
@@ -287,7 +279,7 @@ El éxito se medirá por la calidad del informe entregado y la preparación para
 \cline{2-4}
 &
 \parbox[t]{3cm}{
-Alex \\
+Alex Avila Asto \\
 }
 &
 \parbox[t]{5cm}{
@@ -311,7 +303,7 @@ Abel Ortega Huaraca \\
 }
 &
 \parbox[t]{5cm}{
-Considero que el motivar a mi equipo a utilizar herramientas nuevas para la realización de este trabajo, refleja el reto y compromiso con nuestro desenvolvimiento para los objetivos que queremos lograr. Siempre buscando realizar funciones ambiciosas que van mas allá de nuestros conocimientos y que nos inspiran a realizar proyectos con una alta calidad.
+Considero que el motivar a mi equipo a utilizar herramientas nuevas para la realización de este trabajo, refleja el reto y compromiso con nuestro desenvolvimiento para los objetivos que queremos lograr. Siempre buscando realizar funciones ambiciosas que van mas allá de nuestros conocimientos y que nos inspiran a realizar proyectos con una alta calidad. \\
 }
 &
 \parbox[t]{3cm}{
@@ -349,7 +341,7 @@ Este objetivo desafía a avanzar en áreas técnicas mientras se asegura la cali
 \cline{2-4}
 &
 \parbox[t]{3cm}{
-Alex \\
+Alex Avila Asto \\
 }
 &
 \parbox[t]{5cm}{
@@ -373,7 +365,7 @@ Abel Ortega Huaraca \\
 }
 &
 \parbox[t]{5cm}{
-Considero que nuestro trabajo y el resultado de este, reflejan claramente nuestra constancia por cumplir con los objetivos estratégicos establecidos por la institución \textit{Laurate} Perú. En donde, abordamos minuciosamente cada aspecto a través de una planificación del proyecto basada en los lineamientos exigidos por la universidad.
+Considero que nuestro trabajo y el resultado de este, reflejan claramente nuestra constancia por cumplir con los objetivos estratégicos establecidos por la institución \textit{Laurate} Perú. En donde, abordamos minuciosamente cada aspecto a través de una planificación del proyecto basada en los lineamientos exigidos por la universidad. \\
 }
 &
 \parbox[t]{3cm}{
@@ -397,7 +389,7 @@ A lo largo del desarrollo del proyecto, he enfocado mis esfuerzos en asegurar qu
 \cline{2-4}
 &
 \parbox[t]{3cm}{
-Mateo \\
+Mateo Alejandro Vilchez Rios\\
 }
 &
 \parbox[t]{5cm}{
@@ -411,7 +403,7 @@ Mateo \\
 \cline{2-4}
 &
 \parbox[t]{3cm}{
-Alex \\
+Alex Avila Asto \\
 }
 &
 \parbox[t]{5cm}{
@@ -435,7 +427,7 @@ Abel Ortega Huaraca \\
 }
 &
 \parbox[t]{5cm}{
-Para esta entrega, he cumplido satisfactoriamente con la colaboración y entrega de mis responsabilidades en conjunto con mi equipo de trabajo. Las fechas límite estuvieron establecidas claramente desde el inicio, por lo pude cumplir en tiempo y forma con mis deberes; y a su vez, colaborar con mi equipo siempre que se presentó una dificultad o tarea que involucrara a todos.
+Para esta entrega, he cumplido satisfactoriamente con la colaboración y entrega de mis responsabilidades en conjunto con mi equipo de trabajo. Las fechas límite estuvieron establecidas claramente desde el inicio, por lo pude cumplir en tiempo y forma con mis deberes; y a su vez, colaborar con mi equipo siempre que se presentó una dificultad o tarea que involucrara a todos. \\
 }
 &
 \parbox[t]{3cm}{
@@ -473,7 +465,7 @@ En esta entrega, logré cumplir con mis tareas dentro de los tiempos previstos, 
 \cline{2-4}
 &
 \parbox[t]{3cm}{
-Alex \\
+Alex Avila Asto \\
 }
 &
 \parbox[t]{5cm}{
@@ -484,7 +476,7 @@ He completado todas mis responsabilidades dentro del plazo establecido, aseguran
 \textbf{Fecha de inicio:} 21-08-2024 \\
 \textbf{Fecha de entrega:} 28-08-2024 \\
 } \\
-\hline
+\bottomrule
 
 \end{longtable}
 
@@ -493,16 +485,24 @@ He completado todas mis responsabilidades dentro del plazo establecido, aseguran
 ***Project Report Collaboration Insights***
 
 ::: warn
-Falta adjuntar el github de la organizacion (No editar)
+Para mayor información, haga click en la [URL](https://github.com/CodeMinds-AppsMoviles-SW65/CodeMinds-Informe-del-Proyecto/pulse) 
 :::
+
+![Imagen extraída de Github - Codeminds](src/img/Cap1/insights-1.png)
+
+![Imagen extraída de Github - Codeminds](src/img/Cap1/insights-2.png)
 
 \newpage
 
 *Actividades Colaborativas* ***(Github Kanban)***
 
 ::: warn
-Falta adjuntar las fotos y para cada foto su descripcion de colaboracion (No editar)
+Para mayor información, haga click en la [URL](https://github.com/orgs/CodeMinds-AppsMoviles-SW65/projects/1)
 :::
+
+![Imagen extraída de Github - Codeminds](src/img/Cap1/report-collaboration-1.png)
+
+![Imagen extraída de Github - Codeminds](src/img/Cap1/report-collaboration-2.png)
 
 \newpage
 
@@ -581,7 +581,7 @@ Soy una persona con buenas habilidades y adaptabilidad para todo lo relacionado 
 \begin{minipage}[c]{0.65\textwidth}
 \textbf{Belen del Rocio Ramos Rios} \\
 \textit{Ingeniera de Software} \\
-Soy estudiante del sexto ciclo de la carrera de Ingeniería de Software. A lo largo de mi formación, he adquirido conocimientos en diversos lenguajes de programación, como Java, C++, y SQL. Además, manejo frameworks como Spring Boot para el desarrollo backend, y tanto Vue como Angular para el desarrollo frontend. Siempre estoy en busca de nuevas oportunidades que me permitan aprender y expandir mis habilidades, con el objetivo de contribuir de manera significativa a cualquier proyecto en el que participe.
+Soy estudiante del sexto ciclo de la carrera de Ingeniería de Software. A lo largo de mi formación, he adquirido conocimientos en diversos lenguajes de programación, como Java, C++, y SQL. Además, manejo frameworks como Spring Boot para el desarrollo backend, y tanto Vue como Angular para el desarrollo frontend.
 \end{minipage}
 }
 \end{tcolorbox}
@@ -589,7 +589,7 @@ Soy estudiante del sexto ciclo de la carrera de Ingeniería de Software. A lo la
 \begin{tcolorbox}[colframe=mybackground, colback=mybackground, boxrule=0.8mm, width=\textwidth, sharp corners]
 {
 \begin{minipage}[c]{0.3\textwidth}
-\includegraphics[width=\linewidth]{src/img/Integrantes/mateo.jpg}
+\includegraphics[width=\linewidth, height=\linewidth, keepaspectratio]{src/img/Integrantes/mateo.jpg}
 \end{minipage}
 \hfill
 \begin{minipage}[c]{0.65\textwidth}
