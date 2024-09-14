@@ -84,13 +84,13 @@ pandoc-latex-environment:
 
 El diseño de producto es un aspecto fundamental que influye directamente en la percepción, usabilidad y éxito de cualquier aplicación o solución tecnológica. A través de un enfoque cuidadoso en los principios del diseño, buscamos crear un producto que no solo cumplan con las necesidades funcionales de los usuarios, sino que también brinde una experiencia visualmente atractiva y consistente. En las siguientes secciones, se detallan las pautas específicas que seguimos para garantizar la coherencia en el diseño.
 
-**STYLE GUIDELINES**
-
-Las directrices de estilo juegan un rol crucial en la creación de una identidad visual sólida y coherente en el diseño de productos. Estas guías permiten establecer estándares comunes que aseguran que todos los elementos visuales sigan un patrón uniforme. A continuación, se presentan las pautas generales que seguimos para mantener una coherencia visual en nuestros productos.
-
-**General Style Guidelines**
+### **Style Guidelines**
 
 ![Artefacto creado en Figma](src/img/Cap3/Style_Guidelines.png)
+Las directrices de estilo juegan un rol crucial en la creación de una identidad visual sólida y coherente en el diseño de productos. Estas guías permiten establecer estándares comunes que aseguran que todos los elementos visuales sigan un patrón uniforme. A continuación, se presentan las pautas generales que seguimos para mantener una coherencia visual en nuestros productos.
+
+
+#### **General Style Guidelines**
 
 
 El diseño visual es uno de los aspectos fundamentales para crear una experiencia de usuario coherente, intuitiva y atractiva. Establecer pautas claras sobre la identidad de marca, la paleta de colores, la tipografía y el tono de comunicación es esencial para garantizar que cada interacción con el producto sea consistente y efectiva. 
@@ -103,6 +103,7 @@ Según Goodwin (2019), un diseño claro y sencillo facilita que los usuarios se 
 
 Estas guías no solo refuerzan los valores de simplicidad y accesibilidad, sino que también aseguran que el diseño sea flexible, adaptable y atractivo para una amplia variedad de usuarios. A continuación, se explicarán los elementos clave de diseño que sustentan nuestra visión de ofrecer una experiencia de usuario impecable y una identidad visual sólida.
 
+\vspace{2em}
 
 **Branding:**
 
@@ -126,6 +127,8 @@ La iconografía de *Temporaly* incluye el imagotipo de la marca, compuesto por u
 
 ![Artefacto creado en Figma](src/img/Cap3/Icon_App.png)
 
+\vspace{1em}
+
 
 **Colores**
 
@@ -143,6 +146,7 @@ La paleta de colores de *Temporaly* ha sido seleccionada cuidadosamente para gar
   
   ![Artefacto creado en Figma](src/img/Cap3/PrimaryColors.png)
 
+
 - **Colores Secundarios (Variantes de Logos e Iconos)**
   Las variantes del logotipo e icono utilizan otros tonos dentro de la misma paleta *Hailey Blue*, lo que refuerza la cohesión visual de la marca:
 
@@ -154,6 +158,7 @@ La paleta de colores de *Temporaly* ha sido seleccionada cuidadosamente para gar
   
   ![Artefacto creado en Figma](src/img/Cap3/SecondColors.png)
 
+\vspace{1em}
 
 **Tipografía**
 
@@ -184,7 +189,7 @@ La tipografía en *Temporaly* es clave para asegurar una experiencia visual cohe
 
   ![Artefacto creado en Figma](src/img/Cap3/Typography_Inter.png)
 
-
+\vspace{1em}
 
 **Tonos de Comunicación**
 
@@ -204,6 +209,7 @@ Estas características del tono de voz han sido diseñadas para generar confianz
 
 ![Artefacto creado en Figma](src/img/Cap3/ToneOfVoice.png)
 
+\vspace{1em}
 
 **Eslogan**
 
@@ -211,7 +217,7 @@ El eslogan de Temporaly, "Create, use and forget ;)", refleja perfectamente el e
 
 ![Artefacto creado en Figma](src/img/Cap3/Eslogan.png)
 
-
+\vspace{1em}
 
 ### ***Domain-Driven Software Architecture***
 
