@@ -105,22 +105,22 @@ Nuestro dominio se divide en 4 Bounded Contexts:
 
 4.- **Email History Management Bounded Context**: Centrado en el registro y seguimiento del historial de acciones de correo electrónico realizadas por el sistema y los usuarios.
 
-![Class diagram Temporally, imagen creada en PlantUML](src/img/Cap3/iam_bc.jpeg)
+![Class diagram Temporaly, imagen creada en PlantUML](src/img/Cap3/iam_bc.jpeg)
 
-![Class diagram Temporally, imagen creada en PlantUML](src/img/Cap3/email_management_bc.jpeg)
+![Class diagram Temporaly, imagen creada en PlantUML](src/img/Cap3/email_management_bc.jpeg)
 
-![Class diagram Temporally, imagen creada en PlantUML](src/img/Cap3/profile_settings_bc.jpeg)
+![Class diagram Temporaly, imagen creada en PlantUML](src/img/Cap3/profile_settings_bc.jpeg)
 
-![Class diagram Temporally, imagen creada en PlantUML](src/img/Cap3/privacy_policy_bc.jpeg)
+![Class diagram Temporaly, imagen creada en PlantUML](src/img/Cap3/privacy_policy_bc.jpeg)
 
-![Class diagram Temporally, imagen creada en PlantUML](src/img/Cap3/email_history_bc.jpeg)
+![Class diagram Temporaly, imagen creada en PlantUML](src/img/Cap3/email_history_bc.jpeg)
 
 ### ***Class Dictionary***
 
 ## ***Database Design****
 
-![Class diagram Temporally, imagen creada en Mermaid](src/img/Cap3/database_desing.png)
+![Class diagram Temporaly, imagen creada en Mermaid](src/img/Cap3/database_desing.png)
 
 ### ***Database Diagram***
 
-![Class diagram Temporally, imagen creada en Mermaid](src/img/Cap3/database_diagram.png)
+![Class diagram Temporaly, imagen creada en Mermaid](src/img/Cap3/database_diagram.png)

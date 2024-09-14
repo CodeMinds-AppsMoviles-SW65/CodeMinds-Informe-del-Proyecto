@@ -93,15 +93,15 @@ Esta sección recopila y resume toda la información obtenida, y se analizan los
 
 - **Figma:** Herramienta colaborativa que nos permitirá desarrollar Wireframes, Mockups, Wireflows, UsersFlows y Tags. 
 
-- **BASE DE DATOS...:** LOREM...
+- **Mermaid:** Plataforma colaborativa que nos permitirá crear nuestro diagrama de base de datos.
 
-- **DIAGRAMAS DE CLASE...:** LOREM...
+- **PlantUML:** Plataforma que nos permitirá crear diagramas de clases.
 
 - **Webstorm:** IDE que utilizaremos para trabajar con javascript y desarrollar la landing page mobile.
 
 - **IntelliJ IDEA:** IDE que utilizaremos para trabajar con Java y desarrollar el backend.
 
-- **FRONT:** IDE que utilizaremos para trabajar con Java y desarrollar el frontend.
+- **FRONT:** IDE que utilizaremos para trabajar con Kotlin/Flutter y desarrollar el frontend.
 
 ### ***Source Code Management***
 
@@ -127,4 +127,40 @@ Para el desarrollo de nuestro proyecto, hemos empleado diversas nomenclaturas, r
 
 - **Lenguaje Gherkin:** Empleamos Gherkin para diseñar las pruebas de cada historia de usuario, siguiendo su estructura básica.
 
+Convenciones de Commits: Nuestro equipo de desarrollo sigue las pautas establecidas por las Convenciones de Commits, adoptando el formato "Conventional Commits" en su versión 1.0.0 (disponible en [URL](https://www.conventionalcommits.org/en/v1.0.0/)). Esto nos permite mantener un historial de cambios claro y comprensible. Nos guiamos por la siguiente estructura:
+
+Donde:
+
+::: code
+```
+<type>[scope opcional]: <description>
+```
+:::
+
+
+- ***type:*** Indica el tipo de modificación realizada, como feat, fix, docs, entre otros.
+  
+- ***scope:*** Define opcionalmente el alcance del cambio en el código.
+
+- ***description:*** Proporciona un resumen breve y claro de los cambios implementados.
+
 ### ***Software Deployment Configuration***
+
+::: note
+Para acceder al flujo de trabajo, haga click a la [URL](https://github.com/orgs/CodeMinds-AppsMoviles-SW65/repositories)
+:::
+
+![Organización CodeMinds, imagen extraída de Github](src/img/Cap4/git_repo.png)
+
+Seleccionar el repositorio CodeMinds-LandingPage
+
+![Repositorio de la Landing Page, imagen extraída de Github](src/img/Cap4/git_repo.png)
+
+Abrir, descargar y ejecutar en VSCode o WebsTorm
+
+![Index de la Landing Page, imagen extraída de Github](src/img/Cap4/git_repo.png)
+
+
+![Landing Page - CodeMinds, imagen extraída de Github](src/img/Cap4/git_repo.png)
+
+## ***Software Development & Implementation***
