@@ -80,23 +80,23 @@ pandoc-latex-environment:
 
 # Capítulo III: **Arquitectura**
 
-## ***Domain-Driven Software Architecture***
+### ***Domain-Driven Software Architecture***
 
-### ***Software Architecture Context Level Diagram***
+#### ***Software Architecture Context Level Diagram***
 
 ![Artefacto creado en Structurizr](src/img/Cap3/Diagrama_Contexto.png)
 
-### ***Software Architecture Container Level Diagram***
+#### ***Software Architecture Container Level Diagram***
 
 ![Artefacto creado en Structurizr](src/img/Cap3/Diagrama_Contenedores.png)
 
-### ***Software Architecture Components Diagram***
+#### ***Software Architecture Components Diagram***
 
 ![Artefacto creado en Structurizr](src/img/Cap3/Diagrama_Componentes.png)
 
-## ***Software Object-Oriented Design****
+### ***Software Object-Oriented Design****
 
-### ***Class Diagrams***
+#### ***Class Diagrams***
 Nuestro dominio se divide en 4 Bounded Contexts:
 
 1.- **Login Bounded Context**: Centrado en los actores/usuarios que se autentican en la solución y la gestión del proceso de login y logout.
@@ -117,12 +117,206 @@ Nuestro dominio se divide en 4 Bounded Contexts:
 
 ![Class diagram Temporaly, imagen creada en PlantUML](src/img/Cap3/email_history_bc.jpeg)
 
-### ***Class Dictionary***
+#### ***Class Dictionary***
 
-## ***Database Design****
+##### ***Email History Management Bounded Context***
+
+- ***EmailHistoryManagementContext***
+
+  - ***`retrieveEmailHistory(userId: String): List<EmailHistory>`***: Recupera el historial de correos electrónicos de un usuario específico.
+    
+  - ***`logEmailEvent(userId: String, email: String, action: String): void`***: Registra un evento de correo electrónico (como la creación o expiración de un correo temporal).
+
+- ***EmailHistory***
+
+  - ***`id: String`***: Identificador único del historial del correo electrónico.
+    
+  - ***`email: String`***: Dirección de correo electrónico asociada al historial.
+    
+  - ***`action: String`***: Acción tomada (como creación, expiración).
+    
+  - ***`timestamp: Date`***: Marca de tiempo del evento registrado.
+    
+  - ***`logEmailAction(email: String, action: String): void`***: Registra una acción específica realizada sobre el correo electrónico.
+    
+  - ***`getHistory(): List<EmailHistory>`***: Devuelve una lista de los eventos de correo electrónico registrados.
+
+#####  ***Email Management Bounded Context***
+
+- ***EmailManagementContext***
+
+  - ***`handleTemporaryEmailCreation(): void`***: Gestiona la creación de correos electrónicos temporales.
+    
+  - ***`handleTemporaryEmailExpiration(): void`***: Gestiona la expiración de correos electrónicos temporales.
+
+  **TemporaryEmail**
+  - ***`tempId: String`***: Identificador único para el correo temporal.
+    
+  - ***`creationDate: Date`***: Fecha de creación del correo temporal.
+    
+  - ***`getTempId(): String`***: Obtiene el identificador del correo temporal.
+    
+  - ***`getCreationDate(): Date`***: Obtiene la fecha de creación del correo temporal.
+    
+  - ***`expireEmail(): void`***: Expira el correo temporal.
+
+- ***Email***
+
+  - ***`id: String`***: Identificador único del correo electrónico.
+    
+  - ***`email: String`***: Dirección del correo electrónico.
+    
+  - ***`expirationDate: Date`***: Fecha de expiración del correo electrónico.
+    
+  - ***`createEmail(): Email`***: Crea una nueva instancia de correo 
+  electrónico.
+
+  - ***`getId(): String`***: Obtiene el identificador del correo electrónico.
+    
+  - ***`getEmail(): String`***: Obtiene la dirección de correo electrónico.
+    
+  - ***`getExpirationDate(): Date`***: Obtiene la fecha de expiración del correo electrónico.
+
+##### ***Login Bounded Context (Identity and Access Management)***
+
+- ***User***
+
+  - ***`username: String`***: Nombre de usuario.
+    
+  - ***`info: UserInfo`***: Información adicional del usuario.
+    
+  - ***`roles: Set<Role>`***: Conjunto de roles asignados al usuario.
+    
+  - ***`email: String`***: Dirección de correo electrónico del usuario.
+    
+  - ***`password: String`***: Contraseña del usuario.
+    
+  - ***`id: String`***: Identificador único del usuario.
+    
+  - ***`getId(): String`***: Devuelve el identificador del usuario.
+    
+  - ***`getUsername(): String`***: Devuelve el nombre de usuario.
+    
+  - ***`getEmail(): String`***: Devuelve la dirección de correo electrónico del usuario.
+    
+  - ***`getPassword(): String`***: Devuelve la contraseña del usuario.
+    
+  - ***`getRoles(): Set<Role>`***: Devuelve el conjunto de roles asignados.
+    
+  - ***`getInfo(): UserInfo`***: Devuelve la información del usuario.
+    
+  - ***`getFullName(): String`***: Devuelve el nombre completo del usuario.
+
+- ***UserInfo***
+
+  - ***`lastNames: List<String>`***: Apellidos del usuario.
+    
+  - ***`names: List<String>`***: Nombres del usuario.
+    
+  - ***`getNames(): List<String>`***: Devuelve una lista con los nombres del usuario.
+    
+  - ***`getLastNames(): List<String>`***: Devuelve una lista con los apellidos del usuario.
+    
+  - ***`setNames(List<String>): void`***: Establece los nombres del usuario.
+    
+  - ***`setLastNames(List<String>): void`***: Establece los apellidos del usuario.
+    
+  - ***`equals(Object): boolean`***: Compara dos objetos UserInfo.
+    
+  - ***`canEqual(Object): boolean`***: Verifica si dos objetos pueden ser iguales.
+    
+  - ***`hashCode(): int`***: Devuelve el código hash del objeto.
+
+  - ***`toString(): String`***: Convierte el objeto en cadena de texto.
+
+- ***Role***
+
+  - ***`id: String`***: Identificador único del rol.
+    
+  - ***`name: Roles`***: Nombre del rol.
+    
+  - ***`toRoleFromName(String): Role`***: Convierte el nombre en un objeto Role.
+    
+  - ***`getId(): String`***: Devuelve el identificador del rol.
+    
+  - ***`getName(): Roles`***: Devuelve el nombre del rol.
+    
+  - ***`getDefaultRole(): Role`***: Devuelve el rol por defecto.
+
+##### ***Privacy Policy Bounded Context***
+
+- ***PrivacyPolicyBoundedContext***
+
+  - ***`manageUserConsent(): void`***: Gestiona el consentimiento del usuario para las políticas de privacidad.
+    
+  - ***`updatePrivacyPolicy(): void`***: Actualiza las políticas de privacidad.
+
+- **PrivacyPolicy**
+
+  - ***`id: String`***: Identificador único de la política de privacidad.
+    
+  - ***`policyText: String`***: Texto de la política de privacidad.
+    
+  - ***`lastUpdated: Date`***: Fecha de la última actualización de la política.
+    
+  - ***`getPolicy(): String`***: Devuelve el texto de la política de privacidad.
+    
+  - ***`updatePolicy(String): void`***: Actualiza el texto de la política de privacidad.
+
+- **Consent**
+
+  - ***`userId: String`***: Identificador del usuario que ha dado o no su consentimiento.
+    
+  - ***`consentGiven: boolean`***: Indica si el usuario ha dado su consentimiento.
+    
+  - ***`giveConsent(): void`***: Otorga el consentimiento del usuario.
+    
+  - ***`revokeConsent(): void`***: Revoca el consentimiento del usuario.
+    
+  - ***`hasGivenConsent(): boolean`***: Verifica si el usuario ha dado su consentimiento.
+
+
+##### ***Profile Settings Bounded Context***
+
+- ***ProfileSettingsBoundedContext***
+
+  - ***`handleUserSettings(): void`***: Gestiona la configuración de usuario.
+    
+  - ***`updateUserPreferences(): void`***: Actualiza las preferencias del usuario.
+
+- **UserProfile**
+
+  - ***`id: String`***: Identificador único del perfil de usuario.
+    
+  - ***`username: String`***: Nombre de usuario.
+    
+  - ***`email: String`***: Dirección de correo electrónico del usuario.
+    
+  - ***`preferences: Map<String, String>`***: Preferencias del usuario.
+    
+  - ***`updateProfile(): void`***: Actualiza el perfil del usuario.
+    
+  - ***`getPreferences(): Map<String, String>`***: Devuelve las preferencias del usuario.
+  
+  - ***`getUsername(): String`***: Devuelve el nombre de usuario.
+    
+  - ***`getEmail(): String`***: Devuelve la dirección de correo electrónico del usuario.
+
+- ***UserSettings***
+
+  - ***`theme: String`***: Tema seleccionado por el usuario.
+    
+  - ***`notificationsEnabled: boolean`***: Indica si las notificaciones están habilitadas.
+    
+  - ***`getSettings(): Map<String, String>`***: Devuelve la configuración del usuario.
+    
+  - ***`updateSettings(Map<String, String>): void`***: Actualiza la configuración del usuario.
+
+
+#### ***Database Design***
 
 ![Class diagram Temporaly, imagen creada en Mermaid](src/img/Cap3/database_desing.png)
 
-### ***Database Diagram***
+#### ***Database Diagram***
 
 ![Class diagram Temporaly, imagen creada en Mermaid](src/img/Cap3/database_diagram.png)
