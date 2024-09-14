@@ -154,13 +154,15 @@ Para acceder al flujo de trabajo, haga click a la [URL](https://github.com/orgs/
 
 Seleccionar el repositorio CodeMinds-LandingPage
 
-![Repositorio de la Landing Page, imagen extraída de Github](src/img/Cap4/git_repo.png)
+![Repositorio de la Landing Page, imagen extraída de Github](src/img/Cap4/git_repo_landing.png)
 
 Abrir, descargar y ejecutar en VSCode o WebsTorm
 
-![Index de la Landing Page, imagen extraída de Github](src/img/Cap4/git_repo.png)
+![Index de la Landing Page, imagen extraída de Github](src/img/Cap4/index_landing.png)
 
 
-![Landing Page - CodeMinds, imagen extraída de Github](src/img/Cap4/git_repo.png)
+![Web Landing Page - CodeMinds, imagen extraída de Github](src/img/Cap4/desk_landing.png)
+
+![Mobile Landing Page - CodeMinds, imagen extraída de Github](src/img/Cap4/mobile_landing.png)
 
 ## ***Software Development & Implementation***
