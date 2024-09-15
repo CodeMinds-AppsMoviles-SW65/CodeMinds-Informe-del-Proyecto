@@ -96,6 +96,8 @@ Las directrices de estilo juegan un rol crucial en la creación de una identidad
 
 El diseño visual es uno de los aspectos fundamentales para crear una experiencia de usuario coherente, intuitiva y atractiva. Establecer pautas claras sobre la identidad de marca, la paleta de colores, la tipografía y el tono de comunicación es esencial para garantizar que cada interacción con el producto sea consistente y efectiva. 
 
+\vspace{1em}
+
 \begin{quote}
 Según Goodwin (2019), un diseño claro y sencillo facilita que los usuarios se enfoquen en sus objetivos sin encontrarse con obstáculos innecesarios, lo que optimiza la usabilidad del producto.
 \end{quote}
@@ -158,8 +160,6 @@ La paleta de colores de *Temporaly* ha sido seleccionada cuidadosamente para gar
   - **Azul Oscuro #123672 (1000):** Este tono de azul oscuro se utiliza en otras variantes del logotipo, aportando un contraste elegante y sofisticado en ciertas aplicaciones gráficas.
   
   ![Artefacto creado en Figma](src/img/Cap3/SecondColors.png)
-
-\vspace{1em}
 
 **Tipografía**
 
@@ -428,6 +428,87 @@ El sistema de navegación en Temporaly está diseñado para ser intuitivo y acce
 
 \vspace{1em}
 
+### ***Landing Page UI Design***
+
+#### ***Landing Page Wireframe***
+
+::: note
+Para acceder al los Wireframes de trabajo, haga click a la [URL](https://www.figma.com/design/ofFIiA94N3qwhXABKh0Yie/Landing-App-movil?node-id=0-1&t=ZeaTDjPO2hi8tUPQ-1)
+:::
+
+***Web Landing Page Wireframe***
+
+![Hero Wireframe, Artefacto creado en Figma](src/img/Cap3/landing1.png)
+
+![Features Wireframe, Artefacto creado en Figma](src/img/Cap3/landing2.png)
+
+![Features Wireframe, Artefacto creado en Figma](src/img/Cap3/landing3.png)
+
+![App Wireframes, Artefacto creado en Figma](src/img/Cap3/landing4.png)
+
+![Testimonials Wireframe, Artefacto creado en Figma](src/img/Cap3/landing5.png)
+
+![Pricing Wireframe, Artefacto creado en Figma](src/img/Cap3/landing6.png)
+
+![Contact us Wireframe, Artefacto creado en Figma](src/img/Cap3/landing7.png)
+
+![Contact us Wireframe, Artefacto creado en Figma](src/img/Cap3/landing8.png)
+
+***Mobile Landing Page Wireframe***
+
+![Hero Wireframe, Artefacto creado en Figma](src/img/Cap3/mob1.png)
+
+![Features Wireframe, Artefacto creado en Figma](src/img/Cap3/mob2.png)
+
+![Features Wireframe, Artefacto creado en Figma](src/img/Cap3/mob3.png)
+
+![App Wireframes, Artefacto creado en Figma](src/img/Cap3/mob4.png)
+
+![Testimonials Wireframe, Artefacto creado en Figma](src/img/Cap3/mob5.png)
+
+![Pricing Wireframe, Artefacto creado en Figma](src/img/Cap3/mob6.png)
+
+![Contact us Wireframe, Artefacto creado en Figma](src/img/Cap3/mob7.png)
+
+![Contact us Wireframe, Artefacto creado en Figma](src/img/Cap3/mob8.png)
+
+#### ***Landing Page Mock-up***
+
+***Web Landing Page Mock-up***
+
+![Hero Wireframe, Artefacto creado en Figma](src/img/Cap3/lan1.png)
+
+![Features Wireframe, Artefacto creado en Figma](src/img/Cap3/lan2.png)
+
+![Features Wireframe, Artefacto creado en Figma](src/img/Cap3/lan3.png)
+
+![App Wireframes, Artefacto creado en Figma](src/img/Cap3/lan4.png)
+
+![Testimonials Wireframe, Artefacto creado en Figma](src/img/Cap3/lan5.png)
+
+![Pricing Wireframe, Artefacto creado en Figma](src/img/Cap3/lan6.png)
+
+![Contact us Wireframe, Artefacto creado en Figma](src/img/Cap3/lan7.png)
+
+![Contact us Wireframe, Artefacto creado en Figma](src/img/Cap3/lan8.png)
+
+***Mobile Landing Page Mock-up***
+
+![Hero Wireframe, Artefacto creado en Figma](src/img/Cap3/mobc1.png)
+
+![Features Wireframe, Artefacto creado en Figma](src/img/Cap3/mobc2.png)
+
+![Features Wireframe, Artefacto creado en Figma](src/img/Cap3/mobc3.png)
+
+![App Wireframes, Artefacto creado en Figma](src/img/Cap3/mobc4.png)
+
+![Testimonials Wireframe, Artefacto creado en Figma](src/img/Cap3/mobc5.png)
+
+![Pricing Wireframe, Artefacto creado en Figma](src/img/Cap3/mobc6.png)
+
+![Contact us Wireframe, Artefacto creado en Figma](src/img/Cap3/mobc7.png)
+
+![Contact us Wireframe, Artefacto creado en Figma](src/img/Cap3/mobc8.png)
 
 ### ***Domain-Driven Software Architecture***
 
