@@ -252,7 +252,7 @@ Belen del Rocio Ramos Rios
 }
 &
 \parbox[t]{5cm}{
-Contribuir a la mejora del informe del proyecto a través del uso de nuevas herramientas, preparando el camino para participar en el desarrollo del frontend y en la estructuración de la base de datos en futuras etapas del proyecto. \\
+Contribuí a la mejora del informe y el proyecto mediante la implementación de herramientas de documentación avanzadas y el desarrollo de sistemas de etiquetado y organización. Esto me permitió adquirir habilidades clave en arquitectura de la información, lo cual es esencial para mi futuro profesional en desarrollo web y diseño de sistemas. \\
 }
 &
 \parbox[t]{3cm}{
@@ -266,7 +266,7 @@ Mateo Alejandro Vilchez Rios \\
 }
 &
 \parbox[t]{5cm}{
-Aportar en la mejora del informe del proyecto y asegurar la correcta aplicación de metodologías relevantes, con la vista puesta en fortalecer mi participación en el desarrollo del backend en futuras fases del proyecto. \\
+Mi objetivo en esta entrega fue mejorar la documentación del informe y aplicar correctamente metodologías ágiles, como Lean UX, para asegurar que mi crecimiento en la creación de productos digitales se refleje en el resultado del proyecto. Este conocimiento es relevante para mi carrera, ya que me proporciona habilidades clave en diseño UX/UI y gestión de proyectos. \\
 }
 &
 \parbox[t]{3cm}{
@@ -314,7 +314,7 @@ Belen del Rocio Ramos Rios
 }
 &
 \parbox[t]{5cm}{
-El éxito se medirá a través de la calidad del informe entregado y la planificación efectiva para próximas fases. \\
+El éxito se midió por la calidad del informe entregado y la implementación efectiva de mejoras en la arquitectura de la landing page, un paso relevante en mi formación profesional. Esto no solo se refleja en el trabajo del curso, sino que fortalece mis competencias para el ámbito laboral. \\
 }
 &
 \parbox[t]{3cm}{
@@ -328,7 +328,7 @@ Mateo Alehandro Vilchez Rios \\
 }
 &
 \parbox[t]{5cm}{
-El éxito se medirá por la calidad del informe entregado y la preparación para contribuir al backend en las siguientes etapas. \\
+El éxito de esta entrega se midió por la claridad y coherencia del informe entregado y por la implementación de wireframes y mockups que cumplieron con las expectativas del equipo. Esto refuerza mi capacidad para aplicar herramientas de diseño y gestionar la documentación, habilidades necesarias para mi desarrollo profesional. \\
 }
 &
 \parbox[t]{3cm}{
@@ -376,7 +376,7 @@ Belen del Rocio Ramos Rios
 }
 &
 \parbox[t]{5cm}{
-Este objetivo implica tanto la consolidación del trabajo actual como la preparación para tareas más técnicas. \\
+Este objetivo me retó a consolidar el aprendizaje de nuevas herramientas y sistemas de etiquetado SEO, habilidades que no dominaba por completo pero que son cruciales para mi crecimiento en diseño y desarrollo de productos digitales. \\
 }
 &
 \parbox[t]{3cm}{
@@ -390,7 +390,7 @@ Mateo Alejandro Vilchez Rios\\
 }
 &
 \parbox[t]{5cm}{
-Este objetivo desafía a avanzar en áreas técnicas mientras se asegura la calidad del trabajo actual. \\
+Este objetivo me desafió a mejorar en áreas como la planificación y organización de sistemas UX. Logré consolidar mi aprendizaje en un entorno práctico, lo que me prepara mejor para futuros proyectos en mi carrera. \\
 }
 &
 \parbox[t]{3cm}{
@@ -438,7 +438,7 @@ Belen del Rocio Ramos Rios
 }
 &
 \parbox[t]{5cm}{
-A lo largo del desarrollo del proyecto, he enfocado mis esfuerzos en asegurar que cada acción esté en sintonía con los objetivos estratégicos de \textit{Laurate} Perú. La planificación rigurosa y la atención a los detalles han sido claves para contribuir al cumplimiento de los lineamientos que la universidad establece como prioritarios.\\
+La mejora en mi habilidad para organizar sistemas de navegación y optimizar la accesibilidad de las interfaces es directamente relevante para mi desarrollo profesional, ayudándome a prepararme mejor para los retos futuros en mi carrera.\\
 }
 &
 \parbox[t]{3cm}{
@@ -452,7 +452,7 @@ Mateo Alejandro Vilchez Rios\\
 }
 &
 \parbox[t]{5cm}{
- El proyecto que hemos realizado no solo es un reflejo de nuestro esfuerzo individual, sino también de nuestra capacidad para alinear nuestras acciones con los objetivos estratégicos de \textit{Laurate} Perú. \\
+Mi desarrollo profesional se beneficia de este objetivo, ya que fortalece mi capacidad para trabajar con metodologías ágiles y mejorar mi dominio en diseño de interfaces, habilidades esenciales para el crecimiento en la industria tecnológica. \\
 }
 &
 \parbox[t]{3cm}{
@@ -500,7 +500,7 @@ Belen del Rocio Ramos Rios
 }
 &
 \parbox[t]{5cm}{
- Para esta entrega, logré cumplir con todas mis responsabilidades dentro del plazo acordado, asegurando que cada tarea se completara según lo previsto. La claridad en las fechas límite desde el principio me permitió organizar mi trabajo de manera efectiva. \\
+Logré cumplir el objetivo a tiempo, entregando todos los avances el 28 de agosto de 2024, lo que permitió que mi equipo avanzara sin retrasos, y reforzando mis capacidades de gestión de tiempo y proyectos. \\
 }
 &
 \parbox[t]{3cm}{
@@ -514,7 +514,7 @@ Mateo Alejandro Vilchez Rios\\
 }
 &
 \parbox[t]{5cm}{
-En esta entrega, logré cumplir con mis tareas dentro de los tiempos previstos, manteniendo un enfoque constante en las fechas límite. Esto no solo me permitió finalizar mis responsabilidades a tiempo, sino también estar disponible para asistir a mi equipo. \\
+Cumplí con el objetivo dentro del plazo establecido, entregando los avances el 28 de agosto de 2024, lo que me permitió integrar estos aprendizajes y asegurar un trabajo colaborativo eficaz.\\
 }
 &
 \parbox[t]{3cm}{
@@ -564,8 +564,8 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 }
 &
 \parbox[t]{3cm}{
-\textbf{Fecha de inicio:} 21-08-2024 \\
-\textbf{Fecha de entrega:} 27-08-2024 \\
+\textbf{Fecha de inicio:} 07-09-2024 \\
+\textbf{Fecha de entrega:} 15-09-2024 \\
 } \\
 \cline{2-4}
 &
@@ -574,12 +574,12 @@ Belen del Rocio Ramos Rios
 }
 &
 \parbox[t]{5cm}{
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \\
+Mi objetivo en esta entrega es mejorar la arquitectura de la landing page, centrándome en la optimización del etiquetado SEO y la navegabilidad del sitio. Esto no solo es importante para el proyecto, sino que también me ayudará a adquirir habilidades necesarias para destacarme en el desarrollo web y optimización de motores de búsqueda (SEO), áreas en crecimiento profesional. \\
 }
 &
 \parbox[t]{3cm}{
-\textbf{Fecha de inicio:} 21-08-2024 \\
-\textbf{Fecha de entrega:} 28-08-2024 \\
+\textbf{Fecha de inicio:} 07-09-2024 \\
+\textbf{Fecha de entrega:} 15-09-2024 \\
 } \\
 \cline{2-4}
 &
@@ -588,12 +588,12 @@ Mateo Alejandro Vilchez Rios \\
 }
 &
 \parbox[t]{5cm}{
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \\
+En esta entrega, continuaré perfeccionando la documentación del proyecto y mejoré mis habilidades en configuración de software y diagramado arquitectónico. Estos conocimientos son esenciales para mi desarrollo en roles técnicos como ingeniero de software, permitiéndole tener una base sólida para la gestión de proyectos a gran escala. \\
 }
 &
 \parbox[t]{3cm}{
-\textbf{Fecha de inicio:} 21-08-2024 \\
-\textbf{Fecha de entrega:} 28-08-2024 \\
+\textbf{Fecha de inicio:} 07-09-2024 \\
+\textbf{Fecha de entrega:} 15-09-2024 \\
 } \\
 \cline{2-4}
 &
@@ -606,8 +606,8 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 }
 &
 \parbox[t]{3cm}{
-\textbf{Fecha de inicio:} 21-08-2024 \\
-\textbf{Fecha de entrega:} 28-08-2024 \\
+\textbf{Fecha de inicio:} 07-09-2024 \\
+\textbf{Fecha de entrega:} 15-09-2024 \\
 } \\
 \hline
 
@@ -626,8 +626,8 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 }
 &
 \parbox[t]{3cm}{
-\textbf{Fecha de inicio:} 21-08-2024 \\
-\textbf{Fecha de entrega:} 27-08-2024 \\
+\textbf{Fecha de inicio:} 07-09-2024 \\
+\textbf{Fecha de entrega:} 15-09-2024 \\
 } \\
 \cline{2-4}
 &
@@ -636,12 +636,12 @@ Belen del Rocio Ramos Rios
 }
 &
 \parbox[t]{5cm}{
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \\
+El éxito se medirá por la efectividad de los sistemas de etiquetado SEO y la navegación de la página, asegurando que el trabajo esté alineado con los estándares del proyecto y con las expectativas de usuarios y clientes, reforzando mis competencias en desarrollo web. \\
 }
 &
 \parbox[t]{3cm}{
-\textbf{Fecha de inicio:} 21-08-2024 \\
-\textbf{Fecha de entrega:} 28-08-2024 \\
+\textbf{Fecha de inicio:} 07-09-2024 \\
+\textbf{Fecha de entrega:} 15-09-2024 \\
 } \\
 \cline{2-4}
 &
@@ -650,12 +650,12 @@ Mateo Alehandro Vilchez Rios \\
 }
 &
 \parbox[t]{5cm}{
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \\
+El éxito se medirá por la calidad de los diagramas arquitectónicos y la correcta configuración del software, elementos clave que no solo cumplirán con los objetivos del proyecto, sino que contribuirán a mi crecimiento como profesional en desarrollo de software. \\
 }
 &
 \parbox[t]{3cm}{
-\textbf{Fecha de inicio:} 21-08-2024 \\
-\textbf{Fecha de entrega:} 28-08-2024 \\
+\textbf{Fecha de inicio:} 07-09-2024 \\
+\textbf{Fecha de entrega:} 15-09-2024 \\
 } \\
 \cline{2-4}
 &
@@ -668,8 +668,8 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 }
 &
 \parbox[t]{3cm}{
-\textbf{Fecha de inicio:} 21-08-2024 \\
-\textbf{Fecha de entrega:} 28-08-2024 \\
+\textbf{Fecha de inicio:} 07-09-2024 \\
+\textbf{Fecha de entrega:} 15-09-2024 \\
 } \\
 \hline
 
@@ -688,8 +688,8 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 }
 &
 \parbox[t]{3cm}{
-\textbf{Fecha de inicio:} 21-08-2024 \\
-\textbf{Fecha de entrega:} 27-08-2024 \\
+\textbf{Fecha de inicio:} 07-09-2024 \\
+\textbf{Fecha de entrega:} 15-09-2024 \\
 } \\
 \cline{2-4}
 &
@@ -698,12 +698,12 @@ Belen del Rocio Ramos Rios
 }
 &
 \parbox[t]{5cm}{
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \\
+Este objetivo es ambicioso ya que me reta a mejorar mis conocimientos en SEO, una herramienta clave para la creación de productos digitales competitivos, lo cual es fundamental para mi desarrollo a largo plazo. \\
 }
 &
 \parbox[t]{3cm}{
-\textbf{Fecha de inicio:} 21-08-2024 \\
-\textbf{Fecha de entrega:} 28-08-2024 \\
+\textbf{Fecha de inicio:} 07-09-2024 \\
+\textbf{Fecha de entrega:} 15-09-2024 \\
 } \\
 \cline{2-4}
 &
@@ -712,12 +712,12 @@ Mateo Alejandro Vilchez Rios\\
 }
 &
 \parbox[t]{5cm}{
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \\
+Este objetivo es retador, ya que me exige dominar nuevas herramientas de configuración y mejorar mi comprensión de la arquitectura de software, áreas cruciales para mi avance en roles técnicos de mayor responsabilidad en mi carrera.\\
 }
 &
 \parbox[t]{3cm}{
-\textbf{Fecha de inicio:} 21-08-2024 \\
-\textbf{Fecha de entrega:} 28-08-2024 \\
+\textbf{Fecha de inicio:} 07-09-2024 \\
+\textbf{Fecha de entrega:} 15-09-2024 \\
 } \\
 \cline{2-4}
 &
@@ -730,8 +730,8 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 }
 &
 \parbox[t]{3cm}{
-\textbf{Fecha de inicio:} 21-08-2024 \\
-\textbf{Fecha de entrega:} 28-08-2024 \\
+\textbf{Fecha de inicio:} 07-09-2024 \\
+\textbf{Fecha de entrega:} 15-09-2024 \\
 } \\
 \hline
 
@@ -750,8 +750,8 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 }
 &
 \parbox[t]{3cm}{
-\textbf{Fecha de inicio:} 21-08-2024 \\
-\textbf{Fecha de entrega:} 27-08-2024 \\
+\textbf{Fecha de inicio:} 07-09-2024 \\
+\textbf{Fecha de entrega:} 15-09-2024 \\
 } \\
 \cline{2-4}
 &
@@ -760,12 +760,12 @@ Belen del Rocio Ramos Rios
 }
 &
 \parbox[t]{5cm}{
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \\
+Optimizar la arquitectura de la landing page y asegurar una navegación eficiente es vital no solo para este proyecto, sino para mi carrera, ya que estas son competencias esenciales en el ámbito del desarrollo web y diseño de productos. \\
 }
 &
 \parbox[t]{3cm}{
-\textbf{Fecha de inicio:} 21-08-2024 \\
-\textbf{Fecha de entrega:} 28-08-2024 \\
+\textbf{Fecha de inicio:} 07-09-2024 \\
+\textbf{Fecha de entrega:} 15-09-2024 \\
 } \\
 \cline{2-4}
 &
@@ -774,12 +774,12 @@ Mateo Alejandro Vilchez Rios\\
 }
 &
 \parbox[t]{5cm}{
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \\
+La correcta implementación de diagramas de arquitectura y configuraciones de software es vital para mi crecimiento en la industria de la tecnología, preparándome para enfrentar retos más grandes en el futuro. \\
 }
 &
 \parbox[t]{3cm}{
-\textbf{Fecha de inicio:} 21-08-2024 \\
-\textbf{Fecha de entrega:} 28-08-2024 \\
+\textbf{Fecha de inicio:} 07-09-2024 \\
+\textbf{Fecha de entrega:} 15-09-2024 \\
 } \\
 \cline{2-4}
 &
@@ -792,8 +792,8 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 }
 &
 \parbox[t]{3cm}{
-\textbf{Fecha de inicio:} 21-08-2024 \\
-\textbf{Fecha de entrega:} 28-08-2024 \\
+\textbf{Fecha de inicio:} 07-09-2024 \\
+\textbf{Fecha de entrega:} 15-09-2024 \\
 } \\
 \hline
 
@@ -812,8 +812,8 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 }
 &
 \parbox[t]{3cm}{
-\textbf{Fecha de inicio:} 21-08-2024 \\
-\textbf{Fecha de entrega:} 27-08-2024 \\
+\textbf{Fecha de inicio:} 07-09-2024 \\
+\textbf{Fecha de entrega:} 15-09-2024 \\
 } \\
 \cline{2-4}
 &
@@ -822,12 +822,12 @@ Belen del Rocio Ramos Rios
 }
 &
 \parbox[t]{5cm}{
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \\
+El objetivo será cumplido para el 15 de septiembre de 2024, asegurando que la planificación del sprint backlog también esté lista para la próxima iteración del proyecto. \\
 }
 &
 \parbox[t]{3cm}{
-\textbf{Fecha de inicio:} 21-08-2024 \\
-\textbf{Fecha de entrega:} 27-08-2024 \\
+\textbf{Fecha de inicio:} 07-09-2024 \\
+\textbf{Fecha de entrega:} 15-09-2024 \\
 } \\
 \cline{2-4}
 &
@@ -836,12 +836,12 @@ Mateo Alejandro Vilchez Rios\\
 }
 &
 \parbox[t]{5cm}{
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \\
+El objetivo se cumplirá para el 15 de septiembre de 2024, asegurando que las contribuciones estén completas a tiempo para las próximas fases del proyecto, lo que refuerza mi habilidad para trabajar bajo plazos estrictos. \\
 }
 &
 \parbox[t]{3cm}{
-\textbf{Fecha de inicio:} 21-08-2024 \\
-\textbf{Fecha de entrega:} 27-08-2024 \\
+\textbf{Fecha de inicio:} 07-09-2024 \\
+\textbf{Fecha de entrega:} 15-09-2024 \\
 } \\
 \cline{2-4}
 &
@@ -854,8 +854,8 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 }
 &
 \parbox[t]{3cm}{
-\textbf{Fecha de inicio:} 21-08-2024 \\
-\textbf{Fecha de entrega:} 28-08-2024 \\
+\textbf{Fecha de inicio:} 07-09-2024 \\
+\textbf{Fecha de entrega:} 15-09-2024 \\
 } \\
 \bottomrule
 
