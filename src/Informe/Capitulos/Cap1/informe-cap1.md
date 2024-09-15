@@ -91,6 +91,14 @@ pandoc-latex-environment:
   tb1 & 27/08/2024 & Vilchez Rios, Mateo Alejandro & Capitulo 1: \textit{Lean UX Process} - Antecendetes y Problemática, Capitulo 2: Registro de Entrevista - \textit{Empathy Map} - \textit{As-is} - \textit{Scenario Mapping} - \textit{Impact Mapping}. \\
   \hline
   tb1 & 27/08/2024 & Avila Asto, Alex Ramon Alberto & Realicé el análisis de entrevistas, \textit{netfinding}, la creación de \textit{User Personas} y la tabla de \textit{User Task Matrix}. \\
+  \hline
+  tb2 & 14/09/2024 & Vilchez Rios, Mateo Alejandro & Capitulo 3: \textit{Landing Page UI Design} - \textit{Architecture Overview} - \textit{Class Dictionary}, Capitulo 4: \textit{Sofware Configuration Management} - \textit{Testing Suite Evidence for Sprint Review}\\
+  \hline
+  tb2 & 15/09/2024 &  Ramos Rios, Belen del Rocio & Capitulo 3: \textit{Style Guidelines} - \textit{Information Arhitecture} - \textit{Landing Page UI Design}, Capitulo 4: \textit{Sprint Backlog 1}\\
+  \hline
+  tb2 & 15/09/2024 & Ortega Huaraca, Abel Angel & falta completar \\
+  \hline
+  tb2 & 15/09/2024 & Avila Asto, Alex Ramon Alberto & falta completar \\
 \bottomrule
 \end{longtable}
 
@@ -109,9 +117,11 @@ En el siguiente cuadro se describe las acciones realizadas y enunciadas de concl
 \multicolumn{1}{|c|}{\textbf{Criterio Específico}} & \multicolumn{1}{c|}{\textbf{Acciones Realizadas}} & \multicolumn{1}{c|}{\textbf{Conclusiones}} \\
 \hline
 \endfirsthead
+\multirow{2}{*}{
 \parbox[t]{4cm}{
 \textit{Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.}
-} 
+}
+}
 &  
 \parbox[t]{6cm}{
 \textbf{TB1:} \\
@@ -131,10 +141,35 @@ Como grupo, nos hemos comprometido a mantenernos en constante actualización de 
 En conjunto, hemos demostrado que nuestro compromiso con el aprendizaje continuo y la aplicación de nuevas estrategias es fundamental para garantizar el éxito de nuestro proyecto. Este proceso nos ha permitido no solo crecer como profesionales, sino también asegurar que nuestras soluciones de software sean relevantes, eficientes y estén perfectamente alineadas con las necesidades reales de los usuarios. \\
 } \\ 
 
+\cline{2-3}
+
+&  
+\parbox[t]{6cm}{
+\textbf{TB2:} \\
+\textbf{Abel Angel Ortega Huaraca} \\
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. \\
+\textbf{Belen del Rocio Ramos Rios} \\
+En esta entrega, me enfoqué en el diseño de la arquitectura de la landing page, trabajando en sistemas de organización, etiquetado y navegación. Apliqué nuevas herramientas de documentación y diseñé la arquitectura de información, lo que fue clave para mejorar la experiencia de usuario. Además, participé activamente en la creación de wireframes y mockups para asegurar la coherencia visual y funcional del proyecto. \\
+\textbf{Mateo Alejandro Vilchez Rios} \\
+Para esta entrega, me enfoqué en profundizar mis conocimientos en la configuración de software y la documentación de la arquitectura. Trabajé en la creación y diseño de los diagramas de arquitectura (diagrama de contexto, de contenedor y de componentes), aplicando metodologías ágiles para organizar el flujo de trabajo. Además, implementé mejoras en la UI de la landing page mediante wireframes y mockups, siguiendo las guías de estilo establecidas. \\
+\textbf{Alex Avila Asto} \\
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. \\
+\\} 
+&
+\parbox[t]{5cm}{
+\textbf{TB2:} \\
+(NO EDITAR)
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. \\
+} \\ 
+
 \hline
 
+\multirow{2}{*}{
 \parbox[t]{4cm}{
 \textit{Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.}
+}
 }
 &  
 \parbox[t]{6cm}{
@@ -153,6 +188,30 @@ Identifiqué la necesidad de seguir aprendiendo para mejorar mis habilidades en 
 Como equipo, hemos reconocido la importancia del aprendizaje continuo para nuestro desarrollo profesional y la ejecución exitosa de proyectos en soluciones de software. A lo largo de nuestro trabajo, hemos identificado que la necesidad de actualizar y adquirir nuevos conocimientos es esencial para mejorar nuestras competencias y la calidad de nuestras entregas.
 En conjunto, hemos comprendido que el aprendizaje permanente no solo es un requisito para mantenernos actualizados, sino también un pilar que nos permite enfrentar desafíos con soluciones innovadoras y eficientes, garantizando así el éxito y la relevancia de nuestros proyectos. \\
 } \\
+
+\cline{2-3}
+
+&  
+\parbox[t]{6cm}{
+\textbf{TB2:} \\
+\textbf{Abel Angel Ortega Huaraca} \\
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. \\
+\textbf{Belen del Rocio Ramos Rios} \\
+Reconocí la necesidad de seguir aprendiendo y optimizando las herramientas de documentación y los procesos de desarrollo, específicamente en la gestión de etiquetas SEO y sistemas de búsqueda. Este enfoque me ayudó a asegurar que la landing page esté bien organizada y sea accesible, cumpliendo con los estándares de navegación y experiencia del usuario.\\
+\textbf{Mateo Alejandro Vilchez Rios} \\
+Identifiqué la importancia de seguir aprendiendo sobre gestión del código fuente y configuración del entorno de desarrollo, lo que me permitió mejorar mis contribuciones al proyecto. También trabajé en la integración de buenas prácticas de gestión de código y configuración de despliegue, asegurando que el proceso de desarrollo sea más eficiente y colaborativo. \\
+\textbf{Alex Avila Asto} \\
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. \\
+}
+&
+\parbox[t]{5cm}{
+\textbf{TB2:} \\
+(NO EDITAR)
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. \\
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. \\
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. \\
+} \\
+
 \bottomrule
 \end{longtable}
 
@@ -193,7 +252,7 @@ Belen del Rocio Ramos Rios
 }
 &
 \parbox[t]{5cm}{
-Contribuir a la mejora del informe del proyecto a través del uso de nuevas herramientas, preparando el camino para participar en el desarrollo del frontend y en la estructuración de la base de datos en futuras etapas del proyecto. \\
+Contribuí a la mejora del informe y el proyecto mediante la implementación de herramientas de documentación avanzadas y el desarrollo de sistemas de etiquetado y organización. Esto me permitió adquirir habilidades clave en arquitectura de la información, lo cual es esencial para mi futuro profesional en desarrollo web y diseño de sistemas. \\
 }
 &
 \parbox[t]{3cm}{
@@ -207,7 +266,7 @@ Mateo Alejandro Vilchez Rios \\
 }
 &
 \parbox[t]{5cm}{
-Aportar en la mejora del informe del proyecto y asegurar la correcta aplicación de metodologías relevantes, con la vista puesta en fortalecer mi participación en el desarrollo del backend en futuras fases del proyecto. \\
+Mi objetivo en esta entrega fue mejorar la documentación del informe y aplicar correctamente metodologías ágiles, como Lean UX, para asegurar que mi crecimiento en la creación de productos digitales se refleje en el resultado del proyecto. Este conocimiento es relevante para mi carrera, ya que me proporciona habilidades clave en diseño UX/UI y gestión de proyectos. \\
 }
 &
 \parbox[t]{3cm}{
@@ -255,7 +314,7 @@ Belen del Rocio Ramos Rios
 }
 &
 \parbox[t]{5cm}{
-El éxito se medirá a través de la calidad del informe entregado y la planificación efectiva para próximas fases. \\
+El éxito se midió por la calidad del informe entregado y la implementación efectiva de mejoras en la arquitectura de la landing page, un paso relevante en mi formación profesional. Esto no solo se refleja en el trabajo del curso, sino que fortalece mis competencias para el ámbito laboral. \\
 }
 &
 \parbox[t]{3cm}{
@@ -269,7 +328,7 @@ Mateo Alehandro Vilchez Rios \\
 }
 &
 \parbox[t]{5cm}{
-El éxito se medirá por la calidad del informe entregado y la preparación para contribuir al backend en las siguientes etapas. \\
+El éxito de esta entrega se midió por la claridad y coherencia del informe entregado y por la implementación de wireframes y mockups que cumplieron con las expectativas del equipo. Esto refuerza mi capacidad para aplicar herramientas de diseño y gestionar la documentación, habilidades necesarias para mi desarrollo profesional. \\
 }
 &
 \parbox[t]{3cm}{
@@ -317,7 +376,7 @@ Belen del Rocio Ramos Rios
 }
 &
 \parbox[t]{5cm}{
-Este objetivo implica tanto la consolidación del trabajo actual como la preparación para tareas más técnicas. \\
+Este objetivo me retó a consolidar el aprendizaje de nuevas herramientas y sistemas de etiquetado SEO, habilidades que no dominaba por completo pero que son cruciales para mi crecimiento en diseño y desarrollo de productos digitales. \\
 }
 &
 \parbox[t]{3cm}{
@@ -331,7 +390,7 @@ Mateo Alejandro Vilchez Rios\\
 }
 &
 \parbox[t]{5cm}{
-Este objetivo desafía a avanzar en áreas técnicas mientras se asegura la calidad del trabajo actual. \\
+Este objetivo me desafió a mejorar en áreas como la planificación y organización de sistemas UX. Logré consolidar mi aprendizaje en un entorno práctico, lo que me prepara mejor para futuros proyectos en mi carrera. \\
 }
 &
 \parbox[t]{3cm}{
@@ -379,7 +438,7 @@ Belen del Rocio Ramos Rios
 }
 &
 \parbox[t]{5cm}{
-A lo largo del desarrollo del proyecto, he enfocado mis esfuerzos en asegurar que cada acción esté en sintonía con los objetivos estratégicos de \textit{Laurate} Perú. La planificación rigurosa y la atención a los detalles han sido claves para contribuir al cumplimiento de los lineamientos que la universidad establece como prioritarios.\\
+La mejora en mi habilidad para organizar sistemas de navegación y optimizar la accesibilidad de las interfaces es directamente relevante para mi desarrollo profesional, ayudándome a prepararme mejor para los retos futuros en mi carrera.\\
 }
 &
 \parbox[t]{3cm}{
@@ -393,7 +452,7 @@ Mateo Alejandro Vilchez Rios\\
 }
 &
 \parbox[t]{5cm}{
- El proyecto que hemos realizado no solo es un reflejo de nuestro esfuerzo individual, sino también de nuestra capacidad para alinear nuestras acciones con los objetivos estratégicos de \textit{Laurate} Perú. \\
+Mi desarrollo profesional se beneficia de este objetivo, ya que fortalece mi capacidad para trabajar con metodologías ágiles y mejorar mi dominio en diseño de interfaces, habilidades esenciales para el crecimiento en la industria tecnológica. \\
 }
 &
 \parbox[t]{3cm}{
@@ -441,7 +500,7 @@ Belen del Rocio Ramos Rios
 }
 &
 \parbox[t]{5cm}{
- Para esta entrega, logré cumplir con todas mis responsabilidades dentro del plazo acordado, asegurando que cada tarea se completara según lo previsto. La claridad en las fechas límite desde el principio me permitió organizar mi trabajo de manera efectiva. \\
+Logré cumplir el objetivo a tiempo, entregando todos los avances el 28 de agosto de 2024, lo que permitió que mi equipo avanzara sin retrasos, y reforzando mis capacidades de gestión de tiempo y proyectos. \\
 }
 &
 \parbox[t]{3cm}{
@@ -455,7 +514,7 @@ Mateo Alejandro Vilchez Rios\\
 }
 &
 \parbox[t]{5cm}{
-En esta entrega, logré cumplir con mis tareas dentro de los tiempos previstos, manteniendo un enfoque constante en las fechas límite. Esto no solo me permitió finalizar mis responsabilidades a tiempo, sino también estar disponible para asistir a mi equipo. \\
+Cumplí con el objetivo dentro del plazo establecido, entregando los avances el 28 de agosto de 2024, lo que me permitió integrar estos aprendizajes y asegurar un trabajo colaborativo eficaz.\\
 }
 &
 \parbox[t]{3cm}{
@@ -475,6 +534,328 @@ He completado todas mis responsabilidades dentro del plazo establecido, aseguran
 \parbox[t]{3cm}{
 \textbf{Fecha de inicio:} 21-08-2024 \\
 \textbf{Fecha de entrega:} 28-08-2024 \\
+} \\
+\bottomrule
+
+\end{longtable}
+
+\newpage
+
+\begin{longtable}{|>{\centering\arraybackslash}m{4cm}|>{\centering\arraybackslash}m{3cm}|>{\centering\arraybackslash}m{5cm}|>{\centering\arraybackslash}m{3cm}|}
+\hline
+\multicolumn{4}{|c|}{\textbf{TB2}} \\
+\hline
+\textbf{\textit{SMART Goals}} & \textbf{Estudiante} & \textbf{Descripción del objetivo} & \textbf{Fechas de entrega} \\
+\hline
+\endfirsthead
+
+\multirow{4}{*}{
+\parbox[t]{4cm}{
+\textbf{Específico:} \textit{¿Qué se va a lograr?} \\
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \\
+}}
+&  
+\parbox[t]{3cm}{
+Abel Ortega Huaraca \\
+}
+&
+\parbox[t]{5cm}{
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 07-09-2024 \\
+\textbf{Fecha de entrega:} 15-09-2024 \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Belen del Rocio Ramos Rios
+}
+&
+\parbox[t]{5cm}{
+Mi objetivo en esta entrega es mejorar la arquitectura de la landing page, centrándome en la optimización del etiquetado SEO y la navegabilidad del sitio. Esto no solo es importante para el proyecto, sino que también me ayudará a adquirir habilidades necesarias para destacarme en el desarrollo web y optimización de motores de búsqueda (SEO), áreas en crecimiento profesional. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 07-09-2024 \\
+\textbf{Fecha de entrega:} 15-09-2024 \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Mateo Alejandro Vilchez Rios \\
+}
+&
+\parbox[t]{5cm}{
+En esta entrega, continuaré perfeccionando la documentación del proyecto y mejoré mis habilidades en configuración de software y diagramado arquitectónico. Estos conocimientos son esenciales para mi desarrollo en roles técnicos como ingeniero de software, permitiéndole tener una base sólida para la gestión de proyectos a gran escala. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 07-09-2024 \\
+\textbf{Fecha de entrega:} 15-09-2024 \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Alex Avila Asto \\
+}
+&
+\parbox[t]{5cm}{
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 07-09-2024 \\
+\textbf{Fecha de entrega:} 15-09-2024 \\
+} \\
+\hline
+
+\multirow{4}{*}{
+\parbox[t]{4cm}{
+\textbf{Medible:} \textit{¿Tiene KPI o métrica clara?} \\
+El enunciado tiene una meta con indicador (KPI) o métrica clara, que determinará si el objetio se cumplió. Idealmente, describe el impacto (lo que vamos a lograr) más que el entregable (lo que vamos a hacer) \\
+}}
+&  
+\parbox[t]{3cm}{
+Abel Ortega Huaraca \\
+}
+&
+\parbox[t]{5cm}{
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 07-09-2024 \\
+\textbf{Fecha de entrega:} 15-09-2024 \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Belen del Rocio Ramos Rios
+}
+&
+\parbox[t]{5cm}{
+El éxito se medirá por la efectividad de los sistemas de etiquetado SEO y la navegación de la página, asegurando que el trabajo esté alineado con los estándares del proyecto y con las expectativas de usuarios y clientes, reforzando mis competencias en desarrollo web. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 07-09-2024 \\
+\textbf{Fecha de entrega:} 15-09-2024 \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Mateo Alehandro Vilchez Rios \\
+}
+&
+\parbox[t]{5cm}{
+El éxito se medirá por la calidad de los diagramas arquitectónicos y la correcta configuración del software, elementos clave que no solo cumplirán con los objetivos del proyecto, sino que contribuirán a mi crecimiento como profesional en desarrollo de software. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 07-09-2024 \\
+\textbf{Fecha de entrega:} 15-09-2024 \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Alex Avila Asto \\
+}
+&
+\parbox[t]{5cm}{
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 07-09-2024 \\
+\textbf{Fecha de entrega:} 15-09-2024 \\
+} \\
+\hline
+
+\multirow{4}{*}{
+\parbox[t]{4cm}{
+\textbf{Ambicioso:} \textit{¿Es retador y va más allá de sus funciones?} \\
+El objetivo inspira y reta a pensar acciones para dar el salto que se requiere para el logro, no se lograría sin una estrategia y un foco potentes. \\
+}}
+&  
+\parbox[t]{3cm}{
+Abel Ortega Huaraca \\
+}
+&
+\parbox[t]{5cm}{
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 07-09-2024 \\
+\textbf{Fecha de entrega:} 15-09-2024 \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Belen del Rocio Ramos Rios
+}
+&
+\parbox[t]{5cm}{
+Este objetivo es ambicioso ya que me reta a mejorar mis conocimientos en SEO, una herramienta clave para la creación de productos digitales competitivos, lo cual es fundamental para mi desarrollo a largo plazo. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 07-09-2024 \\
+\textbf{Fecha de entrega:} 15-09-2024 \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Mateo Alejandro Vilchez Rios\\
+}
+&
+\parbox[t]{5cm}{
+Este objetivo es retador, ya que me exige dominar nuevas herramientas de configuración y mejorar mi comprensión de la arquitectura de software, áreas cruciales para mi avance en roles técnicos de mayor responsabilidad en mi carrera.\\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 07-09-2024 \\
+\textbf{Fecha de entrega:} 15-09-2024 \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Alex Avila Asto \\
+}
+&
+\parbox[t]{5cm}{
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 07-09-2024 \\
+\textbf{Fecha de entrega:} 15-09-2024 \\
+} \\
+\hline
+
+\multirow{4}{*}{
+\parbox[t]{4cm}{
+\textbf{Relevante:} \textit{¿Está alineado a la estratégia?} \\
+Existe una explicación clara respecto a cómo el objetivo impacta sobre los objetivos estratégicos de la institución o \textit{Laurate} Perú. Brinda una noción del alcance del objetivo. \\
+}}
+&  
+\parbox[t]{3cm}{
+Abel Ortega Huaraca \\
+}
+&
+\parbox[t]{5cm}{
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 07-09-2024 \\
+\textbf{Fecha de entrega:} 15-09-2024 \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Belen del Rocio Ramos Rios
+}
+&
+\parbox[t]{5cm}{
+Optimizar la arquitectura de la landing page y asegurar una navegación eficiente es vital no solo para este proyecto, sino para mi carrera, ya que estas son competencias esenciales en el ámbito del desarrollo web y diseño de productos. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 07-09-2024 \\
+\textbf{Fecha de entrega:} 15-09-2024 \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Mateo Alejandro Vilchez Rios\\
+}
+&
+\parbox[t]{5cm}{
+La correcta implementación de diagramas de arquitectura y configuraciones de software es vital para mi crecimiento en la industria de la tecnología, preparándome para enfrentar retos más grandes en el futuro. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 07-09-2024 \\
+\textbf{Fecha de entrega:} 15-09-2024 \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Alex Avila Asto \\
+}
+&
+\parbox[t]{5cm}{
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 07-09-2024 \\
+\textbf{Fecha de entrega:} 15-09-2024 \\
+} \\
+\hline
+
+\multirow{4}{*}{
+\parbox[t]{4cm}{
+\textbf{Tiempo Límite:} \textit{¿Cuándo se cumplirá?} \\
+En caso que la expectativa de fecha de cumplimiento sea previa al cierre de año, el enunciado contiene de forma explícita la fecha límite para alcanzar el objetivo. \\
+}}
+&  
+\parbox[t]{3cm}{
+Abel Ortega Huaraca \\
+}
+&
+\parbox[t]{5cm}{
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 07-09-2024 \\
+\textbf{Fecha de entrega:} 15-09-2024 \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Belen del Rocio Ramos Rios
+}
+&
+\parbox[t]{5cm}{
+El objetivo será cumplido para el 15 de septiembre de 2024, asegurando que la planificación del sprint backlog también esté lista para la próxima iteración del proyecto. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 07-09-2024 \\
+\textbf{Fecha de entrega:} 15-09-2024 \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Mateo Alejandro Vilchez Rios\\
+}
+&
+\parbox[t]{5cm}{
+El objetivo se cumplirá para el 15 de septiembre de 2024, asegurando que las contribuciones estén completas a tiempo para las próximas fases del proyecto, lo que refuerza mi habilidad para trabajar bajo plazos estrictos. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 07-09-2024 \\
+\textbf{Fecha de entrega:} 15-09-2024 \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Alex Avila Asto \\
+}
+&
+\parbox[t]{5cm}{
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 07-09-2024 \\
+\textbf{Fecha de entrega:} 15-09-2024 \\
 } \\
 \bottomrule
 
