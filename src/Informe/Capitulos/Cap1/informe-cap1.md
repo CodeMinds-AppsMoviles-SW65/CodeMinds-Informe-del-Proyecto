@@ -91,6 +91,18 @@ pandoc-latex-environment:
   tb1 & 27/08/2024 & Vilchez Rios, Mateo Alejandro & Capitulo 1: \textit{Lean UX Process} - Antecendetes y Problemática, Capitulo 2: Registro de Entrevista - \textit{Empathy Map} - \textit{As-is} - \textit{Scenario Mapping} - \textit{Impact Mapping}. \\
   \hline
   tb1 & 27/08/2024 & Avila Asto, Alex Ramon Alberto & Realicé el análisis de entrevistas, \textit{netfinding}, la creación de \textit{User Personas} y la tabla de \textit{User Task Matrix}. \\
+  \hline
+  tb2 & 10/09/2024 & Vilchez Rios, Mateo Alejandro & Capitulo 3: \textit{Landing Page UI Design} - \textit{Architecture Overview} - \textit{Class Dictionary}\\
+  \hline
+  \hline
+  tb2 & 14/09/2024 & Vilchez Rios, Mateo Alejandro & Capitulo 4: \textit{Sofware Configuration Management} - \textit{Testing Suite Evidence for Sprint Review}\\
+  \hline
+  \hline
+  tb2 & 13/09/2024 &  Ramos Rios, Belen del Rocio & Capitulo 4: \textit{Style Guidelines} - \textit{Information Arhitecture} - /textit{Landing Page UI Design}\\
+  \hline
+  \hline
+  tb2 & 15/09/2024 &  Ramos Rios, Belen del Rocio & Capitulo 4: \textit{Sprint Backlog 1}\\
+  \hline
 \bottomrule
 \end{longtable}
 
