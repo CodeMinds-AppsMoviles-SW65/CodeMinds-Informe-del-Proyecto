@@ -510,6 +510,10 @@ Para acceder al los Wireframes de trabajo, haga click a la [URL](https://www.fig
 
 ![Contact us Wireframe, Artefacto creado en Figma](src/img/Cap3/mobc8.png)
 
+***Mockup concepts:***
+
+![Mockup concepts, Artefacto creado en canva](src/img/Cap3/Mockup_concepts.png)
+
 ### ***Domain-Driven Software Architecture***
 
 #### ***Software Architecture Context Level Diagram***
