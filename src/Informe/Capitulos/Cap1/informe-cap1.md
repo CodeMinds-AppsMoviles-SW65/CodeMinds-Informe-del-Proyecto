@@ -94,7 +94,7 @@ pandoc-latex-environment:
   \hline
   tb2 & 14/09/2024 & Vilchez Rios, Mateo Alejandro & Capitulo 3: \textit{Landing Page UI Design} - \textit{Architecture Overview} - \textit{Class Dictionary}, Capitulo 4: \textit{Sofware Configuration Management} - \textit{Testing Suite Evidence for Sprint Review}\\
   \hline
-  tb2 & 15/09/2024 &  Ramos Rios, Belen del Rocio & Capitulo 4: \textit{Style Guidelines} - \textit{Information Arhitecture} - /textit{Landing Page UI Design}, Capitulo 4: \textit{Sprint Backlog 1}\\
+  tb2 & 15/09/2024 &  Ramos Rios, Belen del Rocio & Capitulo 3: \textit{Style Guidelines} - \textit{Information Arhitecture} - \textit{Landing Page UI Design}, Capitulo 4: \textit{Sprint Backlog 1}\\
   \hline
   tb2 & 15/09/2024 & Ortega Huaraca, Abel Angel & falta completar \\
   \hline
@@ -149,9 +149,9 @@ En conjunto, hemos demostrado que nuestro compromiso con el aprendizaje continuo
 \textbf{Abel Angel Ortega Huaraca} \\
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. \\
 \textbf{Belen del Rocio Ramos Rios} \\
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. \\
+En esta entrega, me enfoqué en el diseño de la arquitectura de la landing page, trabajando en sistemas de organización, etiquetado y navegación. Apliqué nuevas herramientas de documentación y diseñé la arquitectura de información, lo que fue clave para mejorar la experiencia de usuario. Además, participé activamente en la creación de wireframes y mockups para asegurar la coherencia visual y funcional del proyecto. \\
 \textbf{Mateo Alejandro Vilchez Rios} \\
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. \\
+Para esta entrega, me enfoqué en profundizar mis conocimientos en la configuración de software y la documentación de la arquitectura. Trabajé en la creación y diseño de los diagramas de arquitectura (diagrama de contexto, de contenedor y de componentes), aplicando metodologías ágiles para organizar el flujo de trabajo. Además, implementé mejoras en la UI de la landing page mediante wireframes y mockups, siguiendo las guías de estilo establecidas. \\
 \textbf{Alex Avila Asto} \\
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. \\
 \\} 
@@ -197,9 +197,9 @@ En conjunto, hemos comprendido que el aprendizaje permanente no solo es un requi
 \textbf{Abel Angel Ortega Huaraca} \\
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. \\
 \textbf{Belen del Rocio Ramos Rios} \\
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. \\
+Reconocí la necesidad de seguir aprendiendo y optimizando las herramientas de documentación y los procesos de desarrollo, específicamente en la gestión de etiquetas SEO y sistemas de búsqueda. Este enfoque me ayudó a asegurar que la landing page esté bien organizada y sea accesible, cumpliendo con los estándares de navegación y experiencia del usuario.\\
 \textbf{Mateo Alejandro Vilchez Rios} \\
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. \\
+Identifiqué la importancia de seguir aprendiendo sobre gestión del código fuente y configuración del entorno de desarrollo, lo que me permitió mejorar mis contribuciones al proyecto. También trabajé en la integración de buenas prácticas de gestión de código y configuración de despliegue, asegurando que el proceso de desarrollo sea más eficiente y colaborativo. \\
 \textbf{Alex Avila Asto} \\
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. \\
 }
