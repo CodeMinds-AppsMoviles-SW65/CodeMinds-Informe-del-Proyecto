@@ -1100,3 +1100,61 @@ Examples:
   | "Confirm your account"  | no-reply@site.io | 2024-09-11   |
 
 ```
+
+#### ***Execution Evidence for Spring Review***
+Durante este primer sprint se realizó la implementación de la landing page, incluyendo las siguientes features:
+
+* Se implementó un menú superior que permite un acceso rápido a las diferentes secciones de la página.
+* Cada sección de la landing page tiene partes funcionales según las características deseadas para cada una.
+
+Además, se implementó el backend con gestión de usuarios a través de IAM (Identity and Access Management), integrando OAuth para la autenticación y autorización segura.
+
+En las imágenes y videos adjuntos se podrá apreciar de mejor manera los avances mencionados.
+
+![Landing page: Imagen extraída del navegador](src/img/Cap4/cap4_landing_1.png)
+
+![Landing page: Imagen extraída del navegador](src/img/Cap4/cap4_landing_2.png)
+
+![Landing page: Imagen extraída del navegador](src/img/Cap4/cap4_landing_3.png)
+
+![Landing page: Imagen extraída del navegador](src/img/Cap4/cap4_backend_1.png)
+
+#### ***Services Documentation Evidence for Sprint Review***
+
+::: info
+En esta seccion, se muestra la documentacion de los servicios del back end de la aplicacion web, asi como tambien se muestra el uso de Swagger para la documentacion de los servicios.
+
+Utilizamos SpringBoot, Spring Security, Spring Mongo, Spring Oauthclient, JWToken y Spring Data
+
+[https://docs.spring.io/spring-boot/index.html]
+
+[https://docs.spring.io/spring-boot/reference/web/spring-security.html#page-title]
+
+[https://www.npmjs.com/package/jsonwebtoken]
+
+[https://spring.io/projects/spring-data-jpa]
+:::
+
+#### ***Software Deployment Evidence for Sprint Review***
+
+##### **Landing page deployment**
+
+URL: https://temporaly.netlify.app/
+
+![Landing page: Imagen extraída del navegador](src/img/Cap4/cap4_landing_deploy_1.jpeg)
+
+![Landing page: Imagen extraída del navegador](src/img/Cap4/cap4_landing_deploy_2.jpeg)
+
+![Landing page: Imagen extraída del navegador](src/img/Cap4/cap4_landing_deploy_3.jpeg)
+
+##### **Backend deployment**
+
+URL: https://temporally-api.ryzeon.me/documentation
+
+![Landing page: Imagen extraída del navegador](src/img/Cap4/cap4_backend_deploy_1.png)
+
+![Landing page: Imagen extraída del navegador](src/img/Cap4/cap4_backend_deploy_2.png)
+
+![Landing page: Imagen extraída del navegador](src/img/Cap4/cap4_backend_deploy_3.png)
+
+![Landing page: Imagen extraída del navegador](src/img/Cap4/cap4_backend_deploy_4.png)
