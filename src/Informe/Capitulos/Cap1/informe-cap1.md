@@ -92,17 +92,13 @@ pandoc-latex-environment:
   \hline
   tb1 & 27/08/2024 & Avila Asto, Alex Ramon Alberto & Realicé el análisis de entrevistas, \textit{netfinding}, la creación de \textit{User Personas} y la tabla de \textit{User Task Matrix}. \\
   \hline
-  tb2 & 10/09/2024 & Vilchez Rios, Mateo Alejandro & Capitulo 3: \textit{Landing Page UI Design} - \textit{Architecture Overview} - \textit{Class Dictionary}\\
+  tb2 & 14/09/2024 & Vilchez Rios, Mateo Alejandro & Capitulo 3: \textit{Landing Page UI Design} - \textit{Architecture Overview} - \textit{Class Dictionary}, Capitulo 4: \textit{Sofware Configuration Management} - \textit{Testing Suite Evidence for Sprint Review}\\
   \hline
+  tb2 & 15/09/2024 &  Ramos Rios, Belen del Rocio & Capitulo 4: \textit{Style Guidelines} - \textit{Information Arhitecture} - /textit{Landing Page UI Design}, Capitulo 4: \textit{Sprint Backlog 1}\\
   \hline
-  tb2 & 14/09/2024 & Vilchez Rios, Mateo Alejandro & Capitulo 4: \textit{Sofware Configuration Management} - \textit{Testing Suite Evidence for Sprint Review}\\
+  tb2 & 15/09/2024 & Ortega Huaraca, Abel Angel & falta completar \\
   \hline
-  \hline
-  tb2 & 13/09/2024 &  Ramos Rios, Belen del Rocio & Capitulo 4: \textit{Style Guidelines} - \textit{Information Arhitecture} - /textit{Landing Page UI Design}\\
-  \hline
-  \hline
-  tb2 & 15/09/2024 &  Ramos Rios, Belen del Rocio & Capitulo 4: \textit{Sprint Backlog 1}\\
-  \hline
+  tb2 & 15/09/2024 & Avila Asto, Alex Ramon Alberto & falta completar \\
 \bottomrule
 \end{longtable}
 
@@ -121,9 +117,11 @@ En el siguiente cuadro se describe las acciones realizadas y enunciadas de concl
 \multicolumn{1}{|c|}{\textbf{Criterio Específico}} & \multicolumn{1}{c|}{\textbf{Acciones Realizadas}} & \multicolumn{1}{c|}{\textbf{Conclusiones}} \\
 \hline
 \endfirsthead
+\multirow{2}{*}{
 \parbox[t]{4cm}{
 \textit{Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.}
-} 
+}
+}
 &  
 \parbox[t]{6cm}{
 \textbf{TB1:} \\
@@ -143,10 +141,35 @@ Como grupo, nos hemos comprometido a mantenernos en constante actualización de 
 En conjunto, hemos demostrado que nuestro compromiso con el aprendizaje continuo y la aplicación de nuevas estrategias es fundamental para garantizar el éxito de nuestro proyecto. Este proceso nos ha permitido no solo crecer como profesionales, sino también asegurar que nuestras soluciones de software sean relevantes, eficientes y estén perfectamente alineadas con las necesidades reales de los usuarios. \\
 } \\ 
 
+\cline{2-3}
+
+&  
+\parbox[t]{6cm}{
+\textbf{TB2:} \\
+\textbf{Abel Angel Ortega Huaraca} \\
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. \\
+\textbf{Belen del Rocio Ramos Rios} \\
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. \\
+\textbf{Mateo Alejandro Vilchez Rios} \\
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. \\
+\textbf{Alex Avila Asto} \\
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. \\
+\\} 
+&
+\parbox[t]{5cm}{
+\textbf{TB2:} \\
+(NO EDITAR)
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. \\
+} \\ 
+
 \hline
 
+\multirow{2}{*}{
 \parbox[t]{4cm}{
 \textit{Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.}
+}
 }
 &  
 \parbox[t]{6cm}{
@@ -165,6 +188,30 @@ Identifiqué la necesidad de seguir aprendiendo para mejorar mis habilidades en 
 Como equipo, hemos reconocido la importancia del aprendizaje continuo para nuestro desarrollo profesional y la ejecución exitosa de proyectos en soluciones de software. A lo largo de nuestro trabajo, hemos identificado que la necesidad de actualizar y adquirir nuevos conocimientos es esencial para mejorar nuestras competencias y la calidad de nuestras entregas.
 En conjunto, hemos comprendido que el aprendizaje permanente no solo es un requisito para mantenernos actualizados, sino también un pilar que nos permite enfrentar desafíos con soluciones innovadoras y eficientes, garantizando así el éxito y la relevancia de nuestros proyectos. \\
 } \\
+
+\cline{2-3}
+
+&  
+\parbox[t]{6cm}{
+\textbf{TB2:} \\
+\textbf{Abel Angel Ortega Huaraca} \\
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. \\
+\textbf{Belen del Rocio Ramos Rios} \\
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. \\
+\textbf{Mateo Alejandro Vilchez Rios} \\
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. \\
+\textbf{Alex Avila Asto} \\
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. \\
+}
+&
+\parbox[t]{5cm}{
+\textbf{TB2:} \\
+(NO EDITAR)
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. \\
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. \\
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. \\
+} \\
+
 \bottomrule
 \end{longtable}
 
@@ -482,6 +529,328 @@ Alex Avila Asto \\
 &
 \parbox[t]{5cm}{
 He completado todas mis responsabilidades dentro del plazo establecido, asegurando que cada tarea se finalizara según lo previsto. La claridad en las fechas límite desde el inicio facilitó la organización efectiva de mi trabajo, permitiéndome cumplir con los objetivos a tiempo. Además, esto me permitió colaborar eficientemente con el equipo y contribuir al éxito del proyecto en el plazo acordado. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 21-08-2024 \\
+\textbf{Fecha de entrega:} 28-08-2024 \\
+} \\
+\bottomrule
+
+\end{longtable}
+
+\newpage
+
+\begin{longtable}{|>{\centering\arraybackslash}m{4cm}|>{\centering\arraybackslash}m{3cm}|>{\centering\arraybackslash}m{5cm}|>{\centering\arraybackslash}m{3cm}|}
+\hline
+\multicolumn{4}{|c|}{\textbf{TB2}} \\
+\hline
+\textbf{\textit{SMART Goals}} & \textbf{Estudiante} & \textbf{Descripción del objetivo} & \textbf{Fechas de entrega} \\
+\hline
+\endfirsthead
+
+\multirow{4}{*}{
+\parbox[t]{4cm}{
+\textbf{Específico:} \textit{¿Qué se va a lograr?} \\
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \\
+}}
+&  
+\parbox[t]{3cm}{
+Abel Ortega Huaraca \\
+}
+&
+\parbox[t]{5cm}{
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 21-08-2024 \\
+\textbf{Fecha de entrega:} 27-08-2024 \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Belen del Rocio Ramos Rios
+}
+&
+\parbox[t]{5cm}{
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 21-08-2024 \\
+\textbf{Fecha de entrega:} 28-08-2024 \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Mateo Alejandro Vilchez Rios \\
+}
+&
+\parbox[t]{5cm}{
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 21-08-2024 \\
+\textbf{Fecha de entrega:} 28-08-2024 \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Alex Avila Asto \\
+}
+&
+\parbox[t]{5cm}{
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 21-08-2024 \\
+\textbf{Fecha de entrega:} 28-08-2024 \\
+} \\
+\hline
+
+\multirow{4}{*}{
+\parbox[t]{4cm}{
+\textbf{Medible:} \textit{¿Tiene KPI o métrica clara?} \\
+El enunciado tiene una meta con indicador (KPI) o métrica clara, que determinará si el objetio se cumplió. Idealmente, describe el impacto (lo que vamos a lograr) más que el entregable (lo que vamos a hacer) \\
+}}
+&  
+\parbox[t]{3cm}{
+Abel Ortega Huaraca \\
+}
+&
+\parbox[t]{5cm}{
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 21-08-2024 \\
+\textbf{Fecha de entrega:} 27-08-2024 \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Belen del Rocio Ramos Rios
+}
+&
+\parbox[t]{5cm}{
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 21-08-2024 \\
+\textbf{Fecha de entrega:} 28-08-2024 \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Mateo Alehandro Vilchez Rios \\
+}
+&
+\parbox[t]{5cm}{
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 21-08-2024 \\
+\textbf{Fecha de entrega:} 28-08-2024 \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Alex Avila Asto \\
+}
+&
+\parbox[t]{5cm}{
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 21-08-2024 \\
+\textbf{Fecha de entrega:} 28-08-2024 \\
+} \\
+\hline
+
+\multirow{4}{*}{
+\parbox[t]{4cm}{
+\textbf{Ambicioso:} \textit{¿Es retador y va más allá de sus funciones?} \\
+El objetivo inspira y reta a pensar acciones para dar el salto que se requiere para el logro, no se lograría sin una estrategia y un foco potentes. \\
+}}
+&  
+\parbox[t]{3cm}{
+Abel Ortega Huaraca \\
+}
+&
+\parbox[t]{5cm}{
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 21-08-2024 \\
+\textbf{Fecha de entrega:} 27-08-2024 \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Belen del Rocio Ramos Rios
+}
+&
+\parbox[t]{5cm}{
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 21-08-2024 \\
+\textbf{Fecha de entrega:} 28-08-2024 \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Mateo Alejandro Vilchez Rios\\
+}
+&
+\parbox[t]{5cm}{
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 21-08-2024 \\
+\textbf{Fecha de entrega:} 28-08-2024 \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Alex Avila Asto \\
+}
+&
+\parbox[t]{5cm}{
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 21-08-2024 \\
+\textbf{Fecha de entrega:} 28-08-2024 \\
+} \\
+\hline
+
+\multirow{4}{*}{
+\parbox[t]{4cm}{
+\textbf{Relevante:} \textit{¿Está alineado a la estratégia?} \\
+Existe una explicación clara respecto a cómo el objetivo impacta sobre los objetivos estratégicos de la institución o \textit{Laurate} Perú. Brinda una noción del alcance del objetivo. \\
+}}
+&  
+\parbox[t]{3cm}{
+Abel Ortega Huaraca \\
+}
+&
+\parbox[t]{5cm}{
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 21-08-2024 \\
+\textbf{Fecha de entrega:} 27-08-2024 \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Belen del Rocio Ramos Rios
+}
+&
+\parbox[t]{5cm}{
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 21-08-2024 \\
+\textbf{Fecha de entrega:} 28-08-2024 \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Mateo Alejandro Vilchez Rios\\
+}
+&
+\parbox[t]{5cm}{
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 21-08-2024 \\
+\textbf{Fecha de entrega:} 28-08-2024 \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Alex Avila Asto \\
+}
+&
+\parbox[t]{5cm}{
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 21-08-2024 \\
+\textbf{Fecha de entrega:} 28-08-2024 \\
+} \\
+\hline
+
+\multirow{4}{*}{
+\parbox[t]{4cm}{
+\textbf{Tiempo Límite:} \textit{¿Cuándo se cumplirá?} \\
+En caso que la expectativa de fecha de cumplimiento sea previa al cierre de año, el enunciado contiene de forma explícita la fecha límite para alcanzar el objetivo. \\
+}}
+&  
+\parbox[t]{3cm}{
+Abel Ortega Huaraca \\
+}
+&
+\parbox[t]{5cm}{
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 21-08-2024 \\
+\textbf{Fecha de entrega:} 27-08-2024 \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Belen del Rocio Ramos Rios
+}
+&
+\parbox[t]{5cm}{
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 21-08-2024 \\
+\textbf{Fecha de entrega:} 27-08-2024 \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Mateo Alejandro Vilchez Rios\\
+}
+&
+\parbox[t]{5cm}{
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 21-08-2024 \\
+\textbf{Fecha de entrega:} 27-08-2024 \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Alex Avila Asto \\
+}
+&
+\parbox[t]{5cm}{
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \\
 }
 &
 \parbox[t]{3cm}{
