@@ -78,14 +78,14 @@ pandoc-latex-environment:
   importantblock: [important]
 ---
 
-# Capítulo IV: **Backend Configuration Management**
+# Capítulo IV: *Backend Configuration Management*
 
-## ***Software Configuration Management***
+## *Software Configuration Management*
 
 En esta sección se resume toda la información recopilada y se analizan que pasos se realizarán en el
 trayecto del proyecto:
 
-### ***Software Development Environment Configuration***
+### *Software Development Environment Configuration*
 
 Esta sección recopila y resume toda la información obtenida, y se analizan los próximos pasos a seguir en el desarrollo del proyecto. Se detallan las acciones clave para asegurar un avance alineado con los objetivos establecidos.
 
@@ -103,7 +103,7 @@ Esta sección recopila y resume toda la información obtenida, y se analizan los
 
 - **Android Studio/Visual Studio Code:** IDE que utilizaremos para trabajar con Kotlin/Flutter y desarrollar el frontend.
 
-### ***Source Code Management***
+### *Source Code Management*
 
 Este proyecto se desarrolló en torno a cinco ramas principales:
 
@@ -115,7 +115,7 @@ Este proyecto se desarrolló en torno a cinco ramas principales:
 Para acceder al flujo del backend, haga click a la [URL](https://github.com/CodeMinds-AppsMoviles-SW65/CodeMinds-Temporaly-Backend)
 :::
 
-### ***Source Code Style Guide & Conventions***
+### *Source Code Style Guide & Conventions*
 
 Para el desarrollo de nuestro proyecto, hemos empleado diversas nomenclaturas, referencias y lenguajes que forman parte de la solución propuesta:
 
@@ -154,7 +154,7 @@ Para la gestión de versiones, seguimos el estándar "Semantic Versioning 2.0.0"
 - **Z:** Refleja parches o correcciones de errores menores. Se integra con commits provenientes de la "rama de corrección" y se fusiona con la rama principal.
 
 
-### ***Software Deployment Configuration***
+### *Software Deployment Configuration*
 
 ::: note
 Para acceder al flujo de trabajo, haga click a la [URL](https://github.com/orgs/CodeMinds-AppsMoviles-SW65/repositories)
@@ -175,7 +175,7 @@ Abrir, descargar y ejecutar en VSCode o WebsTorm
 
 ![Mobile Landing Page - CodeMinds, imagen extraída de Github](src/img/Cap4/mobile_landing.png)
 
-## ***Software Development & Implementation***
+## *Software Development & Implementation*
 
 ### *Sprint 1*
 
@@ -241,6 +241,7 @@ Para mejorar la gestión y seguimiento de las tareas de este *sprint*, se implem
 
 
 ![Tablero Kanban del equipo, imagen extraída de Github](src/img/Cap4/Sprint_Backlog1.png)
+<<<<<<< HEAD
 
 
 
@@ -1158,3 +1159,5 @@ URL: https://temporally-api.ryzeon.me/documentation
 ![Landing page: Imagen extraída del navegador](src/img/Cap4/cap4_backend_deploy_3.png)
 
 ![Landing page: Imagen extraída del navegador](src/img/Cap4/cap4_backend_deploy_4.png)
+=======
+>>>>>>> U20201B380-Ortega

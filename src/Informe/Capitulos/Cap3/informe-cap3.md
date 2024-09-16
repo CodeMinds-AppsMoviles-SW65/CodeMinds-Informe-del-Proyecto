@@ -78,20 +78,20 @@ pandoc-latex-environment:
   importantblock: [important]
 ---
 
-# Capítulo III: **Arquitectura**
+# Capítulo III: Arquitectura
 
-## ***Product design***
+## *Product design*
 
 El diseño de producto es un aspecto fundamental que influye directamente en la percepción, usabilidad y éxito de cualquier aplicación o solución tecnológica. A través de un enfoque cuidadoso en los principios del diseño, buscamos crear un producto que no solo cumplan con las necesidades funcionales de los usuarios, sino que también brinde una experiencia visualmente atractiva y consistente. En las siguientes secciones, se detallan las pautas específicas que seguimos para garantizar la coherencia en el diseño.
 
-### **Style Guidelines**
+### *Style Guidelines*
 
 ![Artefacto creado en Figma](src/img/Cap3/Style_Guidelines.png)
 
 Las directrices de estilo juegan un rol crucial en la creación de una identidad visual sólida y coherente en el diseño de productos. Estas guías permiten establecer estándares comunes que aseguran que todos los elementos visuales sigan un patrón uniforme. A continuación, se presentan las pautas generales que seguimos para mantener una coherencia visual en nuestros productos.
 
 
-#### **General Style Guidelines**
+#### *General Style Guidelines*
 
 
 El diseño visual es uno de los aspectos fundamentales para crear una experiencia de usuario coherente, intuitiva y atractiva. Establecer pautas claras sobre la identidad de marca, la paleta de colores, la tipografía y el tono de comunicación es esencial para garantizar que cada interacción con el producto sea consistente y efectiva. 
@@ -220,7 +220,7 @@ El eslogan de Temporaly, "Create, use and forget ;)", refleja perfectamente el e
 
 \vspace{1em}
 
-### ***Information Architecture***
+### *Information Architecture*
 
 ![Artefacto creado en Canva](src/img/Cap3/info_arch.png)
 
@@ -235,7 +235,7 @@ Como describe Rosenfeld et al. (2015), una buena arquitectura de la información
 En esta sección, se exploran los principios y estrategias que hemos aplicado en Temporaly para organizar su contenido de manera lógica, coherente y accesible, garantizando que los usuarios puedan navegar por la aplicación sin dificultades y encontrar la información que buscan de manera rápida y sencilla.
 
 
-#### ***Organization Systems***
+#### *Organization Systems*
 
 Los usuarios pueden navegar por la interfaz de *Temporaly* de manera clara y efectiva, gracias a su estructura organizativa optimizada para la protección de datos temporales.
 
@@ -264,7 +264,7 @@ Los usuarios pueden navegar por la interfaz de *Temporaly* de manera clara y efe
 La estructura organizativa de *Temporaly* está diseñada para ofrecer una experiencia de usuario eficiente, centrada en la seguridad y facilidad de uso. Cada sistema ha sido implementado con el objetivo de simplificar la gestión de correos temporales y garantizar que los usuarios puedan proteger su información personal de manera efectiva. Esta organización clara permite que los usuarios interactúen con la aplicación de manera intuitiva, sin complicaciones.
 
 
-#### ***Labelling Systems***
+#### *Labelling Systems*
 
 Los sistemas de etiquetado en *Temporaly* se han diseñado para que los usuarios puedan navegar de manera eficiente a través de la aplicación con una terminología clara y coherente. Cada etiqueta, botón y sección ha sido nombrada para que los usuarios puedan comprender de inmediato su función o propósito.
 
@@ -290,7 +290,7 @@ Los sistemas de etiquetado en *Temporaly* se han diseñado para que los usuarios
 
 \vspace{1em}
 
-#### ***SEO Tags and Meta Tags***
+#### *SEO Tags and Meta Tags*
 
 En la aplicación *Temporaly*, los SEO Tags y Meta Tags juegan un rol crucial en la optimización de la visibilidad de la aplicación en motores de búsqueda y en proporcionar información esencial para su correcto funcionamiento en entornos web. Aunque *Temporaly* es principalmente una aplicación móvil, la landing page y cualquier página relacionada con el servicio puede beneficiarse enormemente del uso correcto de estas etiquetas.
 
@@ -381,7 +381,7 @@ Además de estas etiquetas clave, para la optimización específica de Temporaly
 El uso adecuado de SEO Tags y Meta Tags garantiza que la landing page de Temporaly tenga un mayor alcance y visibilidad en los motores de búsqueda, permitiendo a los usuarios encontrar rápidamente la aplicación y acceder a sus servicios. Asimismo, estas etiquetas aseguran una experiencia optimizada para los usuarios que acceden desde dispositivos móviles, facilitando la descarga y el uso de la aplicación.
 
 
-#### ***Searching Systems***
+#### *Searching Systems*
 
 El sistema de búsqueda de Temporaly está diseñado para ofrecer una experiencia de usuario eficiente y sencilla, permitiendo a los usuarios acceder rápidamente a la información que necesitan. Dado que Temporaly es una aplicación enfocada en la generación y gestión de correos electrónicos temporales, los mecanismos de búsqueda dentro de la app son clave para la organización y recuperación de la información.
 
@@ -405,7 +405,7 @@ El sistema de búsqueda de Temporaly está diseñado para ofrecer una experienci
 
 El sistema de búsqueda está optimizado para asegurar que el usuario no pierda tiempo en la gestión de sus correos temporales y pueda acceder a la información de manera inmediata.
 
-#### ***Navigation Systems***
+#### *Navigation Systems*
 
 El sistema de navegación en Temporaly está diseñado para ser intuitivo y accesible, ofreciendo a los usuarios una experiencia de uso fluida y sin complicaciones. La estructura de navegación asegura que los usuarios puedan desplazarse fácilmente entre las diferentes funcionalidades de la aplicación, optimizando la interacción y minimizando el tiempo de aprendizaje.
 
@@ -428,9 +428,9 @@ El sistema de navegación en Temporaly está diseñado para ser intuitivo y acce
 
 \vspace{1em}
 
-### ***Landing Page UI Design***
+### *Landing Page UI Design*
 
-#### ***Landing Page Wireframe***
+#### *Landing Page Wireframe*
 
 ::: note
 Para acceder al los Wireframes de trabajo, haga click a la [URL](https://www.figma.com/design/ofFIiA94N3qwhXABKh0Yie/Landing-App-movil?node-id=0-1&t=ZeaTDjPO2hi8tUPQ-1)
@@ -472,7 +472,7 @@ Para acceder al los Wireframes de trabajo, haga click a la [URL](https://www.fig
 
 ![Contact us Wireframe, Artefacto creado en Figma](src/img/Cap3/mob8.png)
 
-#### ***Landing Page Mock-up***
+#### *Landing Page Mock-up*
 
 ***Web Landing Page Mock-up***
 
@@ -514,23 +514,167 @@ Para acceder al los Wireframes de trabajo, haga click a la [URL](https://www.fig
 
 ![Mockup concepts, Artefacto creado en canva](src/img/Cap3/Mockup_concepts.png)
 
-### ***Domain-Driven Software Architecture***
+\newpage
 
-#### ***Software Architecture Context Level Diagram***
+### *Mobile Application UX/UI Design*
+
+::: warn
+Para visualizar todo el diseño de los wireframes y mockups de la aplicación, haga click en la [URL](https://www.figma.com/design/3q2f24bDIbpzV5Xfnyw3cY/Temporaly?node-id=0-1&t=ADyy9ooMf3OcFAjA-1)
+:::
+
+#### *Mobile Application Wireframes*
+
+![Artefacto creado en Figma](src/img/Cap3/wireframes/Frame246.png)
+
+![Artefacto creado en Figma](src/img/Cap3/wireframes/Frame247.png)
+
+![Artefacto creado en Figma](src/img/Cap3/wireframes/Frame248.png)
+
+![Artefacto creado en Figma](src/img/Cap3/wireframes/Frame249.png)
+
+![Artefacto creado en Figma](src/img/Cap3/wireframes/Frame250.png)
+
+![Artefacto creado en Figma](src/img/Cap3/wireframes/Frame251.png)
+
+![Artefacto creado en Figma](src/img/Cap3/wireframes/Frame252.png)
+
+![Artefacto creado en Figma](src/img/Cap3/wireframes/Frame253.png)
+
+![Artefacto creado en Figma](src/img/Cap3/wireframes/Frame254.png)
+
+![Artefacto creado en Figma](src/img/Cap3/wireframes/Frame255.png)
+
+![Artefacto creado en Figma](src/img/Cap3/wireframes/Frame256.png)
+
+![Artefacto creado en Figma](src/img/Cap3/wireframes/Frame257.png)
+
+![Artefacto creado en Figma](src/img/Cap3/wireframes/Frame258.png)
+
+![Artefacto creado en Figma](src/img/Cap3/wireframes/Frame259.png)
+
+![Artefacto creado en Figma](src/img/Cap3/wireframes/Frame260.png)
+
+![Artefacto creado en Figma](src/img/Cap3/wireframes/Frame261.png)
+
+![Artefacto creado en Figma](src/img/Cap3/wireframes/Frame262.png)
+
+\newpage
+
+#### *Mobile Applications Wireflow Diagrams*
+
+![Artefacto creado en Figma](src/img/Cap3/splashscreen.png)
+
+![Artefacto creado en Figma](src/img/Cap3/login1.png)
+
+![Artefacto creado en Figma](src/img/Cap3/login2.png)
+
+![Artefacto creado en Figma](src/img/Cap3/login3.png)
+
+![Artefacto creado en Figma](src/img/Cap3/login4.png)
+
+![Artefacto creado en Figma](src/img/Cap3/redirectHistory.png)
+
+![Artefacto creado en Figma](src/img/Cap3/redirectHome.png)
+
+![Artefacto creado en Figma](src/img/Cap3/mainscreen2.png)
+
+![Artefacto creado en Figma](src/img/Cap3/mainscreen1.png)
+
+![Artefacto creado en Figma](src/img/Cap3/settings1.png)
+
+![Artefacto creado en Figma](src/img/Cap3/settings2.png)
+
+![Artefacto creado en Figma](src/img/Cap3/settings-closeSession.png)
+
+![Artefacto creado en Figma](src/img/Cap3/settings-deleteAccount.png)
+
+#### *Mobile Applications Mock-Ups*
+
+![Artefacto creado en Figma](src/img/Cap3/mockups/Frame263.png)
+
+![Artefacto creado en Figma](src/img/Cap3/mockups/Frame264.png)
+
+![Artefacto creado en Figma](src/img/Cap3/mockups/Frame265.png)
+
+![Artefacto creado en Figma](src/img/Cap3/mockups/Frame266.png)
+
+![Artefacto creado en Figma](src/img/Cap3/mockups/Frame267.png)
+
+![Artefacto creado en Figma](src/img/Cap3/mockups/Frame268.png)
+
+![Artefacto creado en Figma](src/img/Cap3/mockups/Frame269.png)
+
+![Artefacto creado en Figma](src/img/Cap3/mockups/Frame270.png)
+
+![Artefacto creado en Figma](src/img/Cap3/mockups/Frame271.png)
+
+![Artefacto creado en Figma](src/img/Cap3/mockups/Frame272.png)
+
+![Artefacto creado en Figma](src/img/Cap3/mockups/Frame273.png)
+
+![Artefacto creado en Figma](src/img/Cap3/mockups/Frame274.png)
+
+![Artefacto creado en Figma](src/img/Cap3/mockups/Frame275.png)
+
+![Artefacto creado en Figma](src/img/Cap3/mockups/Frame276.png)
+
+![Artefacto creado en Figma](src/img/Cap3/mockups/Frame277.png)
+
+![Artefacto creado en Figma](src/img/Cap3/mockups/Frame278.png)
+
+![Artefacto creado en Figma](src/img/Cap3/mockups/Frame279.png)
+
+#### *Mobile Applications User Flow Diagrams*
+
+![Artefacto creado en Figma](src/img/Cap3/mockus-splashscreen.png)
+
+![Artefacto creado en Figma](src/img/Cap3/mockup-login1.png)
+
+![Artefacto creado en Figma](src/img/Cap3/mockup-login2.png)
+
+![Artefacto creado en Figma](src/img/Cap3/mockup-signup1.png)
+
+![Artefacto creado en Figma](src/img/Cap3/mockup-signup2.png)
+
+![Artefacto creado en Figma](src/img/Cap3/mockup-main.png)
+
+![Artefacto creado en Figma](src/img/Cap3/mockup-history.png)
+
+![Artefacto creado en Figma](src/img/Cap3/mockup-emaildetails.png)
+
+![Artefacto creado en Figma](src/img/Cap3/mockup-emaildetails2.png)
+
+![Artefacto creado en Figma](src/img/Cap3/mockup-closesession.png)
+
+![Artefacto creado en Figma](src/img/Cap3/mockup-deleteaccount.png)
+
+![Artefacto creado en Figma](src/img/Cap3/mockup-mockup-privacypolicies.png)
+
+![Artefacto creado en Figma](src/img/Cap3/mockup-profilesettings.png)
+
+#### *Mobile Applications Prototyping*
+
+::: warn
+Para visualizar el video del prototipo de la aplicación,  haga click en la [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/EaarYyGV9fFJpLWK1u04GaIBtRlSoc7_affoLtT38NNzEQ?e=krmvNP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+:::
+
+### *Domain-Driven Software Architecture*
+
+#### *Software Architecture Context Level Diagram*
 
 ![Artefacto creado en Structurizr](src/img/Cap3/Diagrama_Contexto.png)
 
-#### ***Software Architecture Container Level Diagram***
+#### *Software Architecture Container Level Diagram*
 
 ![Artefacto creado en Structurizr](src/img/Cap3/Diagrama_Contenedores.png)
 
-#### ***Software Architecture Components Diagram***
+#### *Software Architecture Components Diagram*
 
 ![Artefacto creado en Structurizr](src/img/Cap3/Diagrama_Componentes.png)
 
-### ***Software Object-Oriented Design****
+### *Software Object-Oriented Design*
 
-#### ***Class Diagrams***
+#### *Class Diagrams*
 Nuestro dominio se divide en 4 Bounded Contexts:
 
 1.- **Login Bounded Context**: Centrado en los actores/usuarios que se autentican en la solución y la gestión del proceso de login y logout.
@@ -551,9 +695,9 @@ Nuestro dominio se divide en 4 Bounded Contexts:
 
 ![Class diagram Temporaly, imagen creada en PlantUML](src/img/Cap3/email_history_bc.jpeg)
 
-#### ***Class Dictionary***
+#### *Class Dictionary*
 
-##### ***Email History Management Bounded Context***
+##### *Email History Management Bounded Context*
 
 - ***EmailHistoryManagementContext***
 
@@ -575,7 +719,7 @@ Nuestro dominio se divide en 4 Bounded Contexts:
     
   - ***`getHistory(): List<EmailHistory>`***: Devuelve una lista de los eventos de correo electrónico registrados.
 
-#####  ***Email Management Bounded Context***
+#####  *Email Management Bounded Context*
 
 - ***EmailManagementContext***
 
@@ -611,7 +755,7 @@ Nuestro dominio se divide en 4 Bounded Contexts:
     
   - ***`getExpirationDate(): Date`***: Obtiene la fecha de expiración del correo electrónico.
 
-##### ***Login Bounded Context (Identity and Access Management)***
+##### *Login Bounded Context (Identity and Access Management)*
 
 - ***User***
 
@@ -677,7 +821,7 @@ Nuestro dominio se divide en 4 Bounded Contexts:
     
   - ***`getDefaultRole(): Role`***: Devuelve el rol por defecto.
 
-##### ***Privacy Policy Bounded Context***
+##### *Privacy Policy Bounded Context*
 
 - ***PrivacyPolicyBoundedContext***
 
@@ -710,7 +854,7 @@ Nuestro dominio se divide en 4 Bounded Contexts:
   - ***`hasGivenConsent(): boolean`***: Verifica si el usuario ha dado su consentimiento.
 
 
-##### ***Profile Settings Bounded Context***
+##### *Profile Settings Bounded Context*
 
 - ***ProfileSettingsBoundedContext***
 
@@ -747,10 +891,10 @@ Nuestro dominio se divide en 4 Bounded Contexts:
   - ***`updateSettings(Map<String, String>): void`***: Actualiza la configuración del usuario.
 
 
-#### ***Database Design***
+#### *Database Design*
 
 ![Class diagram Temporaly, imagen creada en Mermaid](src/img/Cap3/database_desing.png)
 
-#### ***Database Diagram***
+#### *Database Diagram*
 
 ![Class diagram Temporaly, imagen creada en Mermaid](src/img/Cap3/database_diagram.png)
