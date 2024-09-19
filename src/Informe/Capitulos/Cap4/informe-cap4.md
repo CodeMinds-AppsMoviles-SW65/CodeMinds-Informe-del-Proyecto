@@ -82,6 +82,8 @@ pandoc-latex-environment:
 
 ## *Software Configuration Management*
 
+![Imagen extraída de Canva](src/img/Cap4/backendintro.png)
+
 En esta sección se resume toda la información recopilada y se analizan que pasos se realizarán en el
 trayecto del proyecto:
 
@@ -181,6 +183,26 @@ Abrir, descargar y ejecutar en VSCode o WebsTorm
 
 #### *Sprint Planning 1*
 
+\begin{longtable}{|p{5cm}|p{9cm}|}
+\hline
+\textbf{Sprint Planning Background} & \\ \hline
+\endfirsthead
+\hline
+\textbf{Sprint} & \textbf{Sprint 1} \\ \hline
+\endfoot
+\hline
+\textbf{Date} & 15/09/2024 \\ \hline
+\textbf{Time} & 21:00 \\ \hline
+\textbf{Location} & Discord Virtual Meeting \\ \hline
+\textbf{Prepared By} & Ortega Huaraca, Abel Angel \\ \hline
+\textbf{Attendees (to planning meeting)} & Ortega Huaraca, Abel Angel / Avila Asto, Alex Ramon / Vilchez Rios, Mateo Alejandro / Ramos Rios, Belen del Rocio \\ \hline
+\textbf{Sprint 1 Review Summary} & Implementación de los segmentos de investigación (Cap 1 y 2), Requirements Specification y primer Sprint de implementación \\ \hline
+\textbf{Sprint 1 Retrospective Summary} & El trabajo se realizó a tiempo, y cada integrante terminó lo que se le encomendó. Asimismo, se trabajó en equipo cuando la situación del proyecto lo requería. \\ \hline
+\textbf{Sprint Goal \& User Stories} & Implementar la landing page, avanzar una parte del backend de la aplicación y definir las tecnologías a emplear \\ \hline
+\textbf{Sprint 1 Velocity} & - \\ \hline
+\textbf{Sum of Story Points} & - \\ \hline
+\end{longtable}
+
 #### *Sprint Backlog 1*
 
 En este primer sprint, se estableció como prioridad el desarrollo de funcionalidades clave relacionadas con la landing page, el backend y la aplicación móvil de *Temporaly*. Estas tareas se organizaron en función de User Stories (Historias de Usuario) que representan los requisitos fundamentales para entregar una experiencia de usuario sólida y funcional.
@@ -235,32 +257,21 @@ US15 & \parbox[t]{2.5cm}{Acceso a bandeja de entrada de correos temporales \vspa
 US16 & \parbox[t]{2.5cm}{Visualización de correos recibidos \vspace{0.5cm}} & WI40 & Diseño del mockup de la interfaz de visualización de correos recibidos & 3h & Abel Ortega & Done \\ \hline
 \end{longtable}
 
-\vspace{1cm}
+\newpage
+
+**Gestión del Sprint 1 (Tablero Kanban):**
 
 Para mejorar la gestión y seguimiento de las tareas de este *sprint*, se implementó un tablero Kanban. Este tablero permite visualizar claramente los elementos clave a desarrollar, asignar responsables para cada tarea, y utilizar etiquetas *(labels)* que categorizan los Issues de forma precisa. Además, los *Milestones* fueron utilizados estratégicamente para planificar las fechas de entrega y gestionar los entregables, facilitando un control eficiente del progreso del proyecto.
 
-
 ![Tablero Kanban del equipo, imagen extraída de Github](src/img/Cap4/Sprint_Backlog1.png)
-<<<<<<< HEAD
 
+\newpage
 
-
-
-
-
-
-
-
-
-
-
-
-
-#### ***Testing Suite Evidence for Sprint Review***
+#### *Testing Suite Evidence for Sprint Review*
 
 ***Landing Page US - Gherkin***
 
-```cucumber
+```gherkin
 US38 - Descubrimiento intuitivo
 
 Feature: Descubrimiento intuitivo
@@ -292,7 +303,7 @@ Feature: Descubrimiento intuitivo
       | Tablet      | Layout adjusts, elements fit wider screen      |
 ```
 
-```cucumber
+```gherkin
 
 US39 - Contenido informativo
 
@@ -326,41 +337,7 @@ Feature: Contenido informativo
 
 ```
 
-```cucumber
-
-US39 - Contenido informativo
-
-Feature: Contenido informativo
-  As a visitor
-  I want to find clear and informative content on the landing page
-  So that I can learn more about the application's features
-
-  Scenario: Display clear content on application features
-    Given the user is on the landing page
-    When they scroll down to the information section
-    Then they should see a clear explanation of the application's main features
-    And the text should be easy to read and understand
-    
-    Examples:
-      | Section        | Content                                             |
-      | Features       | Explanation of core app functionalities             |
-      | Benefits       | Description of the advantages for users             |
-      | Testimonials   | Positive feedback from current users                |
-
-  Scenario: Ensure content is displayed correctly across devices
-    Given the user is on the landing page on a mobile device
-    When they scroll through the information section
-    Then the content should remain responsive and clear
-    And images should load correctly
-    
-    Examples:
-      | Device        | Expected result                            |
-      | Mobile        | Text adjusts, images scale down            |
-      | Desktop       | Text and images adjust to full-screen size |
-
-```
-
-```cucumber
+```gherkin
 
 US40 - Compatibilidad móvil
 
@@ -392,7 +369,7 @@ Feature: Compatibilidad móvil
 
 ```
 
-```cucumber
+```gherkin
 
 US41 - Formulario de contacto
 
@@ -424,39 +401,7 @@ Feature: Formulario de contacto
 
 ```
 
-```cucumber
-
-US41 - Formulario de contacto
-
-Feature: Formulario de contacto
-  As a visitor
-  I want to fill out the contact form on the landing page
-  So that I can get in touch with the application team
-
-  Scenario: Successful form submission
-    Given the user is on the contact form page
-    When they fill in all required fields and submit the form
-    Then the system should display a confirmation message that the form has been successfully submitted
-    And the submitted details should be sent to the application team
-
-    Examples:
-      | Name        | Email              | Message                 | Status        |
-      | John Doe    | john@example.com   | Inquiry about services  | Submitted     |
-      | Jane Smith  | jane@example.com   | Question about pricing  | Submitted     |
-
-  Scenario: Missing required fields
-    Given the user is filling out the contact form
-    When they leave required fields empty
-    Then the system should display an error message asking them to complete the missing fields
-    
-    Examples:
-      | Name        | Email              | Message                 | Error message           |
-      | John Doe    |                    | Inquiry about services  | "Email is required"     |
-      |             | jane@example.com   |                         | "Name is required"      |
-
-```
-
-```cucumber
+```gherkin
 
 US42 - Contenido multimedia
 
@@ -490,41 +435,7 @@ Feature: Contenido multimedia
 
 ```
 
-```cucumber
-
-US42 - Contenido multimedia
-
-Feature: Contenido multimedia
-  As a visitor
-  I want to find multimedia content on the landing page
-  So that I can learn about the app features in a dynamic way
-
-  Scenario: Display multimedia content successfully
-    Given the user is on the landing page
-    When they scroll through the multimedia section
-    Then they should see images, videos, and icons that explain the app's functionality
-    And the multimedia content should load quickly and properly
-
-    Examples:
-      | Media Type | Expected Behavior                              |
-      | Images     | Display correctly, optimized for loading speed |
-      | Videos     | Play smoothly, no buffering                    |
-      | Icons      | Scale appropriately without distortion         |
-
-  Scenario: Ensure multimedia content is responsive across devices
-    Given the user accesses the landing page from different devices
-    When they view the multimedia section
-    Then the multimedia content should adjust to fit the screen size and resolution without losing quality
-
-    Examples:
-      | Device       | Expected Behavior                                   |
-      | Mobile       | Images and videos scale down, responsive layout     |
-      | Tablet       | Images and videos adapt to a medium screen layout   |
-      | Desktop      | Full resolution, multimedia fills the space         |
-
-```
-
-```cucumber
+```gherkin
 
 US43 - Call-to-action claro
 
@@ -558,7 +469,7 @@ Feature: Call-to-action claro
 
 ***Backend US - Gherkin***
 
-``` cucumber
+```gherkin
 
 US32 - RESTful API Registro de usuario
 
@@ -586,7 +497,7 @@ Examples:
 
 ```
 
-``` cucumber
+```gherkin
 
 US33 - RESTful API Inicio de sesión de usuario
 
@@ -614,7 +525,7 @@ Examples:
 
 ```
 
-``` cucumber
+```gherkin
 
 US34 - Autenticación basada en token JWT
 
@@ -640,7 +551,7 @@ Examples:
 
 ```
 
-``` cucumber
+```gherkin
 
 US35 - Recuperación de contraseña
 
@@ -667,7 +578,7 @@ Examples:
 
 ```
 
-``` cucumber
+```gherkin
 
 US36 - RESTful API Creación de sesiones
 
@@ -694,7 +605,7 @@ Examples:
 
 ```
 
-``` cucumber
+```gherkin
 
 US37 - Paginación y filtrado de resultados
 
@@ -723,7 +634,7 @@ Examples:
 
 ***Frontend US - Gherking***
 
-```cucumber
+```gherkin
 
 US01 - Registro de usuario
 
@@ -750,7 +661,7 @@ Examples:
 
 ```
 
-```cucumber
+```gherkin
 
 US02 - Confirmación de creación de cuenta
 
@@ -778,7 +689,7 @@ Examples:
 
 ```
 
-```cucumber
+```gherkin
 
 US03 - Verificación de cuenta
 
@@ -805,7 +716,7 @@ Examples:
 
 ```
 
-```cucumber
+```gherkin
 
 US04 - Inicio de sesión de cuenta
 
@@ -832,7 +743,7 @@ Examples:
 
 ```
 
-```cucumber
+```gherkin
 
 US05 - Generación de correo temporal con un click
 
@@ -854,7 +765,7 @@ Examples:
 
 ```
 
-```cucumber
+```gherkin
 
 US06 - Duración específica del correo temporal
 
@@ -876,7 +787,7 @@ Feature: Especificar la duración de correos temporales
 
 ```
 
-```cucumber
+```gherkin
 
 Feature: Confirmación visual de creación de correo temporal
 
@@ -895,7 +806,7 @@ Feature: Confirmación visual de creación de correo temporal
 
 ```
 
-```cucumber
+```gherkin
 
 US08 - Personalización del dominio del correo temporal
 
@@ -917,7 +828,7 @@ Feature: Personalización del dominio del correo temporal
 
 ```
 
-```cucumber
+```gherkin
 
 US09 - Generación múltiple de correos temporales
 
@@ -938,7 +849,7 @@ Examples:
 
 ```
 
-```cucumber
+```gherkin
 
 US10 - Copiar correo temporal al portapapeles
 
@@ -960,7 +871,7 @@ Examples:
 
 ```
 
-```cucumber
+```gherkin
 
 US11 - Visualización de correos temporales activos
 
@@ -981,7 +892,7 @@ Examples:
 
 ```
 
-```cucumber
+```gherkin
 
 US12 - Sugerencias automáticas de nombres para correos
 
@@ -1002,7 +913,7 @@ Examples:
 
 ```
 
-```cucumber
+```gherkin
 
 US13 - Proceso de generación rápido y fluido
 
@@ -1023,7 +934,7 @@ Examples:
 
 ```
 
-```cucumber
+```gherkin
 
 US14 - Advertencia de expiración de correo temporal
 
@@ -1044,7 +955,7 @@ Examples:
 
 ```
 
-```cucumber
+```gherkin
 
 US15 - Acceso a bandeja de entrada de correos temporales
 
@@ -1076,7 +987,7 @@ Examples:
 
 ```
 
-```cucumber
+```gherkin
 
 US16 - Visualización de correos recibidos
 
@@ -1102,7 +1013,9 @@ Examples:
 
 ```
 
-#### ***Execution Evidence for Spring Review***
+\newpage
+
+#### *Execution Evidence for Spring Review*
 Durante este primer sprint se realizó la implementación de la landing page, incluyendo las siguientes features:
 
 * Se implementó un menú superior que permite un acceso rápido a las diferentes secciones de la página.
@@ -1112,35 +1025,43 @@ Además, se implementó el backend con gestión de usuarios a través de IAM (Id
 
 En las imágenes y videos adjuntos se podrá apreciar de mejor manera los avances mencionados.
 
-![Landing page: Imagen extraída del navegador](src/img/Cap4/cap4_landing_1.png)
+**Implementación de la Landing Page**
 
-![Landing page: Imagen extraída del navegador](src/img/Cap4/cap4_landing_2.png)
+![Landing Page: Imagen extraída del navegador](src/img/Cap4/cap4_landing_1.png)
 
-![Landing page: Imagen extraída del navegador](src/img/Cap4/cap4_landing_3.png)
+![Landing Page: Imagen extraída del navegador](src/img/Cap4/cap4_landing_2.png)
 
-![Landing page: Imagen extraída del navegador](src/img/Cap4/cap4_backend_1.png)
+![Landing Page: Imagen extraída del navegador](src/img/Cap4/cap4_landing_3.png)
 
-#### ***Services Documentation Evidence for Sprint Review***
+\newpage
 
-::: info
+**Implementación del Backend**
+
+![Landing Page: Imagen extraída del navegador](src/img/Cap4/cap4_backend_1.png)
+
+\newpage
+
+#### *Services Documentation Evidence for Sprint Review*
+
 En esta seccion, se muestra la documentacion de los servicios del back end de la aplicacion web, asi como tambien se muestra el uso de Swagger para la documentacion de los servicios.
 
-Utilizamos SpringBoot, Spring Security, Spring Mongo, Spring Oauthclient, JWToken y Spring Data
+Utilizamos *SpringBoot*, *Spring Security*, *Spring Mongo*, *Spring Oauthclient*, *JWToken* y *Spring Data*
 
-[https://docs.spring.io/spring-boot/index.html]
+* https://docs.spring.io/spring-boot/index.html
 
-[https://docs.spring.io/spring-boot/reference/web/spring-security.html#page-title]
+* https://docs.spring.io/spring-boot/reference/web/spring-security.html#page-title
 
-[https://www.npmjs.com/package/jsonwebtoken]
+* https://www.npmjs.com/package/jsonwebtoken
 
-[https://spring.io/projects/spring-data-jpa]
+* https://spring.io/projects/spring-data-jpa
+
+#### *Software Deployment Evidence for Sprint Review*
+
+***Landing Page deployment***
+
+::: warn
+Para visualizar la Landing Page, haga click en la [URL](https://temporaly.netlify.app/) o copie y pegue el link https://temporaly.netlify.app/
 :::
-
-#### ***Software Deployment Evidence for Sprint Review***
-
-##### **Landing page deployment**
-
-URL: https://temporaly.netlify.app/
 
 ![Landing page: Imagen extraída del navegador](src/img/Cap4/cap4_landing_deploy_1.jpeg)
 
@@ -1148,9 +1069,13 @@ URL: https://temporaly.netlify.app/
 
 ![Landing page: Imagen extraída del navegador](src/img/Cap4/cap4_landing_deploy_3.jpeg)
 
-##### **Backend deployment**
+\newpage
 
-URL: https://temporally-api.ryzeon.me/documentation
+***Backend deployment***
+
+::: warn
+Para visualizar el backend, haga click en la [URL](https://temporally-api.ryzeon.me/documentation) o copie y pegue el link https://temporally-api.ryzeon.me/documentation 
+:::
 
 ![Landing page: Imagen extraída del navegador](src/img/Cap4/cap4_backend_deploy_1.png)
 
@@ -1159,5 +1084,14 @@ URL: https://temporally-api.ryzeon.me/documentation
 ![Landing page: Imagen extraída del navegador](src/img/Cap4/cap4_backend_deploy_3.png)
 
 ![Landing page: Imagen extraída del navegador](src/img/Cap4/cap4_backend_deploy_4.png)
-=======
->>>>>>> U20201B380-Ortega
+
+\newpage
+
+#### *Team Collaboration Insights During Sprint*
+
+::: warn
+Para acceder a la visualización del flujo del trabajo, haba click en la [URL](https://github.com/orgs/CodeMinds-AppsMoviles-SW65/projects/1/views/2)
+:::
+
+![Imagen extraída de Github](src/img/Cap4/colaboracion.png)
+

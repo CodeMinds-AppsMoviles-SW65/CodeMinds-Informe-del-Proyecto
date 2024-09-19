@@ -96,9 +96,9 @@ pandoc-latex-environment:
   \hline
   tb2 & 15/09/2024 &  Ramos Rios, Belen del Rocio & Capitulo 3: \textit{Style Guidelines} - \textit{Information Arhitecture} - \textit{Landing Page UI Design}, Capitulo 4: \textit{Sprint Backlog 1}\\
   \hline
-  tb2 & 15/09/2024 & Ortega Huaraca, Abel Angel & falta completar \\
+  tb2 & 15/09/2024 & Ortega Huaraca, Abel Angel & Capitulo 4: Realicé el desarrollo del diseño de los wireframes de la aplicación y los prototipos \\
   \hline
-  tb2 & 15/09/2024 & Avila Asto, Alex Ramon Alberto & falta completar \\
+  tb2 & 15/09/2024 & Avila Asto, Alex Ramon Alberto & Realicé la implementación del diseño y despliegue del backend \\
 \bottomrule
 \end{longtable}
 
@@ -126,7 +126,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciadas de concl
 \parbox[t]{6cm}{
 \textbf{TB1:} \\
 \textbf{Abel Angel Ortega Huaraca} \\
-Coordiné y realicé la reunión inicial del proyecto, explicando claramente los objetivos y el plan de trabajo. Cree diferentes reuniones para clarificar los roles de cada integrante del equipo y organicé los flujos de trabajas de un tablero Kanban (Scrum). Respecto al informe, culminé en tiempo y forma las pendientes que se me asignaron. Todo esto aportando claramente en mi actualización de ciertos conceptos y metodologías necesarios para mi desarrollo profesional. \\
+Coordiné y realicé la reunión inicial del proyecto, explicando claramente los objetivos y el plan de trabajo. Cree diferentes reuniones para clarificar los roles de cada integrante del equipo y organicé los flujos de trabajas de un tablero Kanban (Scrum). Respecto al informe, culminé en tiempo y forma las pendientes que se me asignaron. \\
 \textbf{Belen del Rocio Ramos Rios} \\
 Utilicé nuevas herramientas para documentar el informe y amplié mis conocimientos en áreas clave como User Journey Mapping y análisis competitivo. \\
 \textbf{Mateo Alejandro Vilchez Rios} \\
@@ -147,22 +147,20 @@ En conjunto, hemos demostrado que nuestro compromiso con el aprendizaje continuo
 \parbox[t]{6cm}{
 \textbf{TB2:} \\
 \textbf{Abel Angel Ortega Huaraca} \\
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. \\
+Logré reforzar conocimientos clave en herramientas de prototipado y flujos de interacción, esenciales para mi desarrollo profesional en soluciones de software. \\
 \textbf{Belen del Rocio Ramos Rios} \\
-En esta entrega, me enfoqué en el diseño de la arquitectura de la landing page, trabajando en sistemas de organización, etiquetado y navegación. Apliqué nuevas herramientas de documentación y diseñé la arquitectura de información, lo que fue clave para mejorar la experiencia de usuario. Además, participé activamente en la creación de wireframes y mockups para asegurar la coherencia visual y funcional del proyecto. \\
+Implementé nuevas herramientas de documentación y desarrollé la arquitectura de información para mejorar la experiencia de usuario. También colaboré en la creación de wireframes y mockups para asegurar la coherencia visual y funcional del proyecto. \\
 \textbf{Mateo Alejandro Vilchez Rios} \\
-Para esta entrega, me enfoqué en profundizar mis conocimientos en la configuración de software y la documentación de la arquitectura. Trabajé en la creación y diseño de los diagramas de arquitectura (diagrama de contexto, de contenedor y de componentes), aplicando metodologías ágiles para organizar el flujo de trabajo. Además, implementé mejoras en la UI de la landing page mediante wireframes y mockups, siguiendo las guías de estilo establecidas. \\
+Utilicé metodologías ágiles para organizar el flujo de trabajo e implementé mejoras en la UI de la landing page mediante wireframes y mockups, siguiendo las guías de estilo. \\
 \textbf{Alex Avila Asto} \\
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. \\
-\\} 
+En esta entrega, desarrollé diagramas de base de datos, clases y despliegue, aplicando conocimientos actualizados en diseño de arquitectura de software. Este proceso me permitió reforzar habilidades clave en modelado y diseño estructural, esenciales para mi desarrollo profesional en soluciones de software. \\
+} 
 &
 \parbox[t]{5cm}{
 \textbf{TB2:} \\
-(NO EDITAR)
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. \\
-} \\ 
+En esta segunda entrega, como equipo, nos enfocamos en actualizar y aplicar conceptos clave para el desarrollo de soluciones de software, consolidando nuestros conocimientos en diversas áreas fundamentales del proyecto. Cada miembro contribuyó de manera activa en el diseño y documentación de diferentes aspectos del sistema, incluyendo wireframes, mockups, prototipos, wireflows, y diagramas de base de datos, clases y despliegue. Este proceso no solo nos permitió perfeccionar habilidades técnicas específicas, sino también fortalecer nuestra capacidad para trabajar de manera colaborativa en proyectos complejos.
+A través de la implementación de metodologías ágiles, la utilización de herramientas de diseño actualizadas y la estructuración eficaz de la arquitectura de software, hemos logrado un avance significativo en la creación de un producto coherente y alineado con los estándares de la industria. Este enfoque nos ha permitido actualizar los conocimientos necesarios para nuestro desarrollo profesional, aplicando las mejores prácticas en la creación de soluciones de software sólidas y bien documentadas. \\
+} \\
 
 \hline
 
@@ -175,7 +173,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 \parbox[t]{6cm}{
 \textbf{TB1:} \\
 \textbf{Abel Angel Ortega Huaraca} \\
-Cree repositorios para almacenar nuestro informe con un registro de versiones constante, además de comenzar un registro de los puntos que nos falta completar.Siempre monitoreando y asesorando a mi equipo acerca de sus avances. En donde, la necesidad del aprendizaje permanente nos llevó al uso de mejores herramientas para la solución del proyecto.  \\
+Cree repositorios para almacenar nuestro informe con un registro de versiones constante, además de comenzar un registro de los puntos que nos falta completar.Siempre monitoreando y asesorando a mi equipo acerca de sus avances. \\
 \textbf{Belen del Rocio Ramos Rios} \\
 Reconocí la necesidad de seguir aprendiendo para optimizar tanto las herramientas de documentación como los procesos de Needfinding para el desarrollo de un producto que se destaque y cumpla con las expectativas de los usuarios. \\
 \textbf{Mateo Alejandro Vilchez Rios} \\
@@ -186,7 +184,7 @@ Identifiqué la necesidad de seguir aprendiendo para mejorar mis habilidades en 
 \parbox[t]{5cm}{
 \textbf{TB1:} \\
 Como equipo, hemos reconocido la importancia del aprendizaje continuo para nuestro desarrollo profesional y la ejecución exitosa de proyectos en soluciones de software. A lo largo de nuestro trabajo, hemos identificado que la necesidad de actualizar y adquirir nuevos conocimientos es esencial para mejorar nuestras competencias y la calidad de nuestras entregas.
-En conjunto, hemos comprendido que el aprendizaje permanente no solo es un requisito para mantenernos actualizados, sino también un pilar que nos permite enfrentar desafíos con soluciones innovadoras y eficientes, garantizando así el éxito y la relevancia de nuestros proyectos. \\
+En conjunto, hemos comprendido que el aprendizaje permanente no solo es un requisito para mantenernos actualizados, sino también un pilar que nos permite enfrentar desafíos con soluciones innovadoras y eficientes, garantizando así el éxito y la relevancia de nuestros proyectos.
 } \\
 
 \cline{2-3}
@@ -195,21 +193,20 @@ En conjunto, hemos comprendido que el aprendizaje permanente no solo es un requi
 \parbox[t]{6cm}{
 \textbf{TB2:} \\
 \textbf{Abel Angel Ortega Huaraca} \\
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. \\
+Este enfoque me permitió actualizar mis habilidades y adaptarme a nuevas herramientas, esenciales para el desarrollo de proyectos de software y el desempeño profesional en un entorno tecnológico en constante cambio. \\
 \textbf{Belen del Rocio Ramos Rios} \\
-Reconocí la necesidad de seguir aprendiendo y optimizando las herramientas de documentación y los procesos de desarrollo, específicamente en la gestión de etiquetas SEO y sistemas de búsqueda. Este enfoque me ayudó a asegurar que la landing page esté bien organizada y sea accesible, cumpliendo con los estándares de navegación y experiencia del usuario.\\
+Reconocí la importancia de seguir aprendiendo sobre herramientas de documentación y optimización, especialmente en gestión de etiquetas SEO y sistemas de búsqueda, para garantizar una landing page organizada y accesible, cumpliendo con los estándares de navegación y experiencia del usuario. \\
 \textbf{Mateo Alejandro Vilchez Rios} \\
-Identifiqué la importancia de seguir aprendiendo sobre gestión del código fuente y configuración del entorno de desarrollo, lo que me permitió mejorar mis contribuciones al proyecto. También trabajé en la integración de buenas prácticas de gestión de código y configuración de despliegue, asegurando que el proceso de desarrollo sea más eficiente y colaborativo. \\
+Reconocí la importancia de continuar aprendiendo sobre gestión del código y configuración del entorno de desarrollo, lo que mejoró mis contribuciones al proyecto. Implementé buenas prácticas en gestión de código y despliegue, haciendo el proceso más eficiente y colaborativo. \\
 \textbf{Alex Avila Asto} \\
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. \\
+En esta entrega, creé diagramas de base de datos, clases y despliegue, destacando la importancia del aprendizaje continuo en arquitectura de software. Esto me permitió actualizar mis habilidades en modelado y diseño estructural, esenciales para el desarrollo de soluciones de software. \\
 }
 &
 \parbox[t]{5cm}{
 \textbf{TB2:} \\
-(NO EDITAR)
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. \\
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. \\
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. \\
+En esta segunda entrega, nuestro equipo ha demostrado un firme compromiso con el aprendizaje permanente, fundamental para el desarrollo profesional y la creación de soluciones de software.
+Abel se centró en el diseño de interfaces, adaptándose a nuevas herramientas y técnicas para mejorar el prototipado y la experiencia del usuario. Belén optimizó herramientas de documentación y gestión de etiquetas SEO, asegurando una landing page bien organizada y accesible. Mateo mejoró en la gestión del código fuente y la configuración del entorno de desarrollo, promoviendo la eficiencia y la colaboración en el proyecto. Alex se enfocó en el diseño de diagramas de base de datos y arquitectura, actualizando sus habilidades en modelado estructural.
+Juntos, hemos integrado estas actualizaciones y aprendizajes en nuestras contribuciones, reflejando la importancia del aprendizaje continuo para el éxito en proyectos de software y el desarrollo profesional. \\
 } \\
 
 \bottomrule
@@ -552,7 +549,7 @@ He completado todas mis responsabilidades dentro del plazo establecido, aseguran
 \multirow{4}{*}{
 \parbox[t]{4cm}{
 \textbf{Específico:} \textit{¿Qué se va a lograr?} \\
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \\
+El objetivo indica con especificidad, cuál es el proceso, servicio o producto en cuestión, para qué área es relevante, u otro detalle clave que brinde contexto. \\
 }}
 &  
 \parbox[t]{3cm}{
@@ -560,7 +557,7 @@ Abel Ortega Huaraca \\
 }
 &
 \parbox[t]{5cm}{
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \\
+El objetivo es diseñar y desarrollar wireframes, mockups, prototipos y wireflows para la aplicación, con el fin de crear una interfaz de usuario intuitiva y coherente. Este proceso es relevante para el área de diseño de experiencia de usuario (UX) y diseño de interfaces (UI), asegurando que la aplicación sea visualmente atractiva y funcional, y cumpla con los requisitos del usuario. \\
 }
 &
 \parbox[t]{3cm}{
@@ -602,7 +599,7 @@ Alex Avila Asto \\
 }
 &
 \parbox[t]{5cm}{
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \\
+El objetivo es crear diagramas detallados de base de datos, clases y despliegue para la aplicación, con el fin de estructurar y organizar eficientemente los datos y el entorno de desarrollo. Este proceso es relevante para el área de arquitectura de software y diseño de sistemas, garantizando que la solución sea robusta, escalable y bien documentada, facilitando su implementación y mantenimiento. \\
 }
 &
 \parbox[t]{3cm}{
@@ -622,7 +619,7 @@ Abel Ortega Huaraca \\
 }
 &
 \parbox[t]{5cm}{
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \\
+El éxito se medirá por la cantidad de iteraciones de wireframes, mockups y prototipos completados y aprobados por los usuarios y partes interesadas. La métrica clave será obtener al menos un 90\% de aprobación en pruebas de usabilidad realizadas con usuarios finales, lo que indicará que la interfaz es intuitiva y cumple con los requisitos de experiencia de usuario. Además, se evaluará la reducción en el número de revisiones y cambios requeridos después de las pruebas iniciales. \\
 }
 &
 \parbox[t]{3cm}{
@@ -664,7 +661,7 @@ Alex Avila Asto \\
 }
 &
 \parbox[t]{5cm}{
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \\
+El éxito se medirá por la integridad y precisión de los diagramas de base de datos, clases y despliegue en un 100% de conformidad con los requisitos del proyecto. Las métricas clave incluirán la validación de los diagramas por parte del equipo de desarrollo y la reducción de errores en la implementación del sistema en un 80%. También se evaluará el impacto en la eficiencia del desarrollo y la facilidad de mantenimiento del sistema, con un objetivo de reducir el tiempo de resolución de problemas en un 30% tras la implementación. \\
 }
 &
 \parbox[t]{3cm}{
@@ -684,7 +681,7 @@ Abel Ortega Huaraca \\
 }
 &
 \parbox[t]{5cm}{
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \\
+El objetivo es retador porque implica no solo diseñar wireframes, mockups y prototipos efectivos, sino también liderar la implementación de una metodología de diseño centrada en el usuario que podría ser adoptada como estándar para futuros proyectos. Esto requiere ir más allá de las funciones básicas, adoptando técnicas avanzadas de prototipado y herramientas innovadoras para asegurar una experiencia de usuario excepcional. La ambición está en transformar la visión del proyecto en una solución altamente interactiva y visualmente impactante, alineada con las mejores prácticas del mercado. \\
 }
 &
 \parbox[t]{3cm}{
@@ -726,7 +723,7 @@ Alex Avila Asto \\
 }
 &
 \parbox[t]{5cm}{
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \\
+El objetivo es ambicioso ya que requiere desarrollar diagramas detallados y efectivos para la base de datos, clases y despliegue, y además, establecer un proceso robusto para su integración y mantenimiento. Esto va más allá de la simple creación de diagramas; implica implementar un diseño que soporte escalabilidad, optimización del rendimiento y adaptabilidad a futuros cambios. El reto es establecer un estándar de arquitectura que no solo cumpla con los requisitos actuales, sino que también prepare al sistema para enfrentar desafíos futuros, mejorando significativamente la eficiencia y reduciendo el tiempo de desarrollo y mantenimiento. \\
 }
 &
 \parbox[t]{3cm}{
@@ -746,7 +743,7 @@ Abel Ortega Huaraca \\
 }
 &
 \parbox[t]{5cm}{
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \\
+Este objetivo está alineado con la estrategia de la institución al mejorar la calidad y eficacia del desarrollo de software mediante el diseño centrado en el usuario. Al crear wireframes, mockups y prototipos efectivos, contribuimos a asegurar que la aplicación cumpla con los estándares de usabilidad y accesibilidad, lo cual impacta positivamente en la satisfacción del usuario final. Esta alineación con los principios de diseño de la institución refuerza nuestra capacidad para entregar productos de alta calidad que cumplen con las expectativas del mercado y los requisitos estratégicos de Laurate Perú. \\
 }
 &
 \parbox[t]{3cm}{
@@ -788,7 +785,7 @@ Alex Avila Asto \\
 }
 &
 \parbox[t]{5cm}{
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \\
+Este objetivo está alineado con la estrategia institucional al garantizar una arquitectura de software sólida y bien documentada, que respalde la escalabilidad y el rendimiento del sistema. Al desarrollar diagramas detallados y efectivos para la base de datos, clases y despliegue, contribuimos a la creación de soluciones de software robustas que cumplen con los estándares de calidad y eficiencia esperados por Laurate Perú. Esta alineación asegura que el sistema esté preparado para soportar futuros desarrollos y cambios, optimizando el proceso de desarrollo y mantenimiento en línea con los objetivos estratégicos de la institución. \\
 }
 &
 \parbox[t]{3cm}{
@@ -808,7 +805,7 @@ Abel Ortega Huaraca \\
 }
 &
 \parbox[t]{5cm}{
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \\
+El objetivo se cumplirá para el 15 de septiembre del 2024. Para esta fecha, se espera haber completado el diseño de wireframes, mockups, prototipos y wireflows, y haber obtenido retroalimentación de los usuarios para garantizar que cumplan con los estándares de experiencia de usuario. \\
 }
 &
 \parbox[t]{3cm}{
@@ -850,7 +847,7 @@ Alex Avila Asto \\
 }
 &
 \parbox[t]{5cm}{
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \\
+El objetivo se cumplirá para el 15 de septiembre del 2024. Para esta fecha, se espera haber desarrollado y documentado los diagramas de base de datos, clases y despliegue, y haber implementado las mejores prácticas en el entorno de desarrollo para asegurar una integración efectiva y eficiente. \\
 }
 &
 \parbox[t]{3cm}{
@@ -869,9 +866,19 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 Para mayor información, haga click en la [URL](https://github.com/CodeMinds-AppsMoviles-SW65/CodeMinds-Informe-del-Proyecto/pulse) 
 :::
 
+**TB1:**
+
 ![Imagen extraída de Github - Codeminds](src/img/Cap1/insights-1.png)
 
 ![Imagen extraída de Github - Codeminds](src/img/Cap1/insights-2.png)
+
+\newpage
+
+**TB2:**
+
+![Imagen extraída de Github - Codeminds](src/img/Cap1/insights-3.png)
+
+![Imagen extraída de Github - Codeminds](src/img/Cap1/insights-4.png)
 
 \newpage
 
@@ -881,9 +888,17 @@ Para mayor información, haga click en la [URL](https://github.com/CodeMinds-App
 Para mayor información, haga click en la [URL](https://github.com/orgs/CodeMinds-AppsMoviles-SW65/projects/1)
 :::
 
+**TB1:**
+
 ![Imagen extraída de Github - Codeminds](src/img/Cap1/report-collaboration-1.png)
 
 ![Imagen extraída de Github - Codeminds](src/img/Cap1/report-collaboration-2.png)
+
+**TB2:**
+
+![Imagen extraída de Github - Codeminds](src/img/Cap1/report-collaboration-3.png)
+
+![Imagen extraída de Github - Codeminds](src/img/Cap1/report-collaboration-4.png)
 
 \newpage
 

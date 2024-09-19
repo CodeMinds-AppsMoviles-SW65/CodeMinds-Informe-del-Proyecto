@@ -30,6 +30,7 @@ code-block-font-size: \scriptsize
 header-includes:
 - |
   ```{=latex} 
+  \usepackage{morefloats}
   \usepackage{awesomebox}
   \usepackage{fontawesome5}
   \usepackage{tcolorbox}
@@ -234,185 +235,195 @@ Como describe Rosenfeld et al. (2015), una buena arquitectura de la información
 
 En esta sección, se exploran los principios y estrategias que hemos aplicado en Temporaly para organizar su contenido de manera lógica, coherente y accesible, garantizando que los usuarios puedan navegar por la aplicación sin dificultades y encontrar la información que buscan de manera rápida y sencilla.
 
+\newpage
 
 #### *Organization Systems*
 
 Los usuarios pueden navegar por la interfaz de *Temporaly* de manera clara y efectiva, gracias a su estructura organizativa optimizada para la protección de datos temporales.
 
-\begin{tabular}{|l|p{11cm}|}
+\begin{longtable}{|c|p{9cm}|}
 \hline
-\textbf{Tópico} & \textbf{Definición} \\
+\multicolumn{1}{|c|}{\textbf{Tópico}} & \multicolumn{1}{c|}{\textbf{Definición}} \\
 \hline
-\textbf{Email Management} & Administración de correos temporales de manera rápida, permitiendo la creación, uso y eliminación de correos electrónicos desechables. \\
+\endfirsthead
+\textbf{\textit{Email Management}} & Administración de correos temporales de manera rápida, permitiendo la creación, uso y eliminación de correos electrónicos desechables. \\
 \hline
-\textbf{User Authentication} & Implementación de métodos de autenticación como inicio de sesión con terceros (Google, Facebook) y autenticación biométrica (huella dactilar). \\
+\textbf{\textit{User Authentication}} & Implementación de métodos de autenticación como inicio de sesión con terceros (Google, Facebook) y autenticación biométrica (huella dactilar). \\
 \hline
-\textbf{Inbox Organization} & Organización de correos electrónicos en categorías como activos e inactivos para facilitar la gestión y el acceso. \\
+\textbf{\textit{Inbox Organization}} & Organización de correos electrónicos en categorías como activos e inactivos para facilitar la gestión y el acceso. \\
 \hline
-\textbf{Security Protocols} & Uso de tecnologías avanzadas para proteger los datos temporales generados por los usuarios, garantizando la privacidad. \\
+\textbf{\textit{Security Protocols}} & Uso de tecnologías avanzadas para proteger los datos temporales generados por los usuarios, garantizando la privacidad. \\
 \hline
-\textbf{User-Friendly Navigation} & Diseño de una interfaz sencilla con un menú lateral y navegación clara para mejorar la experiencia de usuario. \\
+\textbf{\textit{User-Friendly Navigation}} & Diseño de una interfaz sencilla con un menú lateral y navegación clara para mejorar la experiencia de usuario. \\
 \hline
-\textbf{Email History} & Registro completo del historial de correos electrónicos temporales generados, categorizados por estado (activo o inactivo). \\
+\textbf{\textit{Email History}} & Registro completo del historial de correos electrónicos temporales generados, categorizados por estado (activo o inactivo). \\
 \hline
-\textbf{Data Deletion} & Proceso fácil de eliminación de cuentas y datos de usuarios, asegurando que toda la información temporal sea eliminada de manera permanente. \\
+\textbf{\textit{Data Deletion}} & Proceso fácil de eliminación de cuentas y datos de usuarios, asegurando que toda la información temporal sea eliminada de manera permanente. \\
 \hline
-\end{tabular}
+\end{longtable}
 
 \vspace{1em}
 
 La estructura organizativa de *Temporaly* está diseñada para ofrecer una experiencia de usuario eficiente, centrada en la seguridad y facilidad de uso. Cada sistema ha sido implementado con el objetivo de simplificar la gestión de correos temporales y garantizar que los usuarios puedan proteger su información personal de manera efectiva. Esta organización clara permite que los usuarios interactúen con la aplicación de manera intuitiva, sin complicaciones.
 
+\newpage
 
 #### *Labelling Systems*
 
 Los sistemas de etiquetado en *Temporaly* se han diseñado para que los usuarios puedan navegar de manera eficiente a través de la aplicación con una terminología clara y coherente. Cada etiqueta, botón y sección ha sido nombrada para que los usuarios puedan comprender de inmediato su función o propósito.
 
-\begin{tabular}{|l|p{13cm}|}
+\begin{longtable}{|c|p{9cm}|}
 \hline
-\textbf{Etiqueta} & \textbf{Descripción} \\
+\multicolumn{1}{|c|}{\textbf{Tópico}} & \multicolumn{1}{c|}{\textbf{Definición}} \\
 \hline
-\textbf{Sign In} & Etiqueta utilizada para que los usuarios accedan a la aplicación con sus credenciales de inicio de sesión o cuentas externas como Google o Facebook. \\
+\endfirsthead
+\textbf{\textit{Sign In}} & Etiqueta utilizada para que los usuarios accedan a la aplicación con sus credenciales de inicio de sesión o cuentas externas como Google o Facebook. \\
 \hline
-\textbf{New Email} & Etiqueta para crear un nuevo correo temporal en la plataforma de manera rápida y sencilla. \\
+\textbf{\textit{New Email}} & Etiqueta para crear un nuevo correo temporal en la plataforma de manera rápida y sencilla. \\
 \hline
-\textbf{Delete Email} & Etiqueta que permite eliminar un correo temporal una vez que ya no se necesita. \\
+\textbf{\textit{Delete Email}} & Etiqueta que permite eliminar un correo temporal una vez que ya no se necesita. \\
 \hline
-\textbf{Email History} & Etiqueta que muestra el historial de correos electrónicos generados por el usuario, organizados por estado (activo o inactivo). \\
+\textbf{\textit{Email History}} & Etiqueta que muestra el historial de correos electrónicos generados por el usuario, organizados por estado (activo o inactivo). \\
 \hline
-\textbf{Settings} & Etiqueta que proporciona acceso a las configuraciones de la cuenta del usuario, incluyendo la eliminación de cuentas o cambios en las notificaciones. \\
+\textbf{\textit{Settings}} & Etiqueta que proporciona acceso a las configuraciones de la cuenta del usuario, incluyendo la eliminación de cuentas o cambios en las notificaciones. \\
 \hline
-\textbf{Sign Up} & Etiqueta que guía a los usuarios para crear una cuenta nueva en la aplicación. \\
+\textbf{\textit{Sign Up}} & Etiqueta que guía a los usuarios para crear una cuenta nueva en la aplicación. \\
 \hline
-\textbf{Inbox} & Etiqueta que indica la sección principal donde los correos temporales activos e inactivos son visibles. \\
+\textbf{\textit{Inbox}} & Etiqueta que indica la sección principal donde los correos temporales activos e inactivos son visibles. \\
 \hline
-\end{tabular}
+\end{longtable}
 
-\vspace{1em}
+El diseño de los sistemas de etiquetado en Temporaly facilita la navegación intuitiva y eficiente de los usuarios al emplear una terminología clara y coherente. Las etiquetas como "Sign In" y "Sign Up" guían a los usuarios en el acceso y creación de cuentas, mientras que "New Email" y "Delete Email" permiten una gestión sencilla de correos temporales. La sección "Email History" organiza los correos electrónicos generados, y "Settings" ofrece acceso a configuraciones importantes. Finalmente, "Inbox" proporciona una vista centralizada de los correos temporales activos e inactivos, asegurando una experiencia de usuario fluida y bien estructurada.
+
+\newpage
 
 #### *SEO Tags and Meta Tags*
 
 En la aplicación *Temporaly*, los SEO Tags y Meta Tags juegan un rol crucial en la optimización de la visibilidad de la aplicación en motores de búsqueda y en proporcionar información esencial para su correcto funcionamiento en entornos web. Aunque *Temporaly* es principalmente una aplicación móvil, la landing page y cualquier página relacionada con el servicio puede beneficiarse enormemente del uso correcto de estas etiquetas.
 
-**SEO Tags**
-
-Los SEO (Search Engine Optimization) Tags son utilizados para mejorar el posicionamiento de la landing page de Temporaly en motores de búsqueda como *Google*. Algunos ejemplos de *SEO Tags* utilizados incluyen:
-
-- **Title Tag:** Especifica el título de la página que aparece en los resultados de búsqueda.
-
-::: norm
-```html
-   <title>Temporaly - Protección Temporal de Datos para Estudiantes</title>
-```
+::: box
+***SEO Tags***
 :::
 
-- **Meta Description:** Proporciona un breve resumen del contenido de la página para los motores de búsqueda.
+Los *SEO (Search Engine Optimization) Tags* son utilizados para mejorar el posicionamiento de la landing page de Temporaly en motores de búsqueda como *Google*. Algunos ejemplos de *SEO Tags* utilizados incluyen:
 
-::: norm
-```html
-   <meta name="description" content="Temporaly es una aplicación que permite la creación de correos temporales para proteger tu información personal de forma rápida y segura." />
-```
+- ***Title Tag:*** Especifica el título de la página que aparece en los resultados de búsqueda.
+
+    ```html
+       <title>Temporaly - Protección Temporal de Datos para Estudiantes</title>
+    ```
+
+- ***Meta Description:*** Proporciona un breve resumen del contenido de la página para los motores de búsqueda.
+
+    ```html
+       <meta name="description" content="Temporaly es una aplicación que permite la creación de correos temporales para proteger tu información personal de forma rápida y segura." />
+    ```
+
+- ***Header Tags (H1, H2, H3):*** Estas etiquetas son utilizadas para estructurar el contenido y mejorar la jerarquía de la información en la *landing page*.
+
+    ```html
+        <h1>Protege tu Privacidad con Correos Temporales</h1>
+    ```
+
+::: box
+***Meta Tags***
 :::
-
-- **Header Tags (H1, H2, H3):** Estas etiquetas son utilizadas para estructurar el contenido y mejorar la jerarquía de la información en la *landing page*.
-
-::: norm
-```html
-   <h1>Protege tu Privacidad con Correos Temporales</h1>
-```
-:::
-
-**Meta Tags**
 
 Los *Meta Tags* son etiquetas que proporcionan información adicional sobre la página web al navegador y a los motores de búsqueda. Estas etiquetas no afectan directamente al contenido visible por los usuarios, pero son esenciales para mejorar la experiencia en la web y optimizar el posicionamiento SEO. Algunos ejemplos de Meta Tags utilizados en Temporaly son:
 
-- **Charset Meta Tag:** Define el conjunto de caracteres que la página está utilizando, esencial para evitar errores de visualización.
+- ***Charset Meta Tag:*** Define el conjunto de caracteres que la página está utilizando, esencial para evitar errores de visualización.
   
-::: code
-```html
-   <meta charset="UTF-8">
-```
-:::
+    ```html
+       <meta charset="UTF-8">
+    ```
 
-- **Viewport Meta Tag:** Asegura que la página se vea bien en dispositivos móviles.
+- ***Viewport Meta Tag:*** Asegura que la página se vea bien en dispositivos móviles.
 
-::: code
-```html  
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-```
-:::
+    ```html  
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    ```
 
-**Robots Meta Tag:** Indica a los motores de búsqueda si deben o no indexar la página.
+- ***Robots Meta Tag:*** Indica a los motores de búsqueda si deben o no indexar la página.
 
-::: code
-```html  
-   <meta name="robots" content="index, follow">
-```
-:::
+    ```html  
+       <meta name="robots" content="index, follow">
+    ```
 
-**Canonical Tag:** Evita contenido duplicado al especificar la URL principal.
+- ***Canonical Tag:*** Evita contenido duplicado al especificar la URL principal.
 
-::: code
-```html 
-    <link rel="canonical" href="https://temporaly.com">
-```
-:::
+    ```html 
+        <link rel="canonical" href="https://temporaly.com">
+    ```
 
-Además de estas etiquetas clave, para la optimización específica de Temporaly como una aplicación móvil, se pueden añadir las siguientes etiquetas, especialmente en la landing page para maximizar la visibilidad y facilitar el acceso a la descarga de la app:
+Además de estas etiquetas clave, para la optimización específica de *Temporaly* como una aplicación móvil, se pueden añadir las siguientes etiquetas, especialmente en la *landing page* para maximizar la visibilidad y facilitar el acceso a la descarga de la app:
 
-**Landing Page SEO Tags (para la aplicación móvil):**
+***Landing Page SEO Tags (para la aplicación móvil):***
 
-- **Title:** Temporaly | Protección Temporal de Datos en tu Móvil
-- **Description:** Temporaly - Crea correos temporales directamente desde tu móvil para proteger tu información personal de manera rápida y segura. Disponible para iOS y Android.
-- **Keywords:** correos temporales, app móvil, protección de datos, privacidad, seguridad, estudiantes.
-- **Author:** CodeMinds
-- **Canonical:** https://temporaly.com/
+- ***Title:*** *Temporaly* | Protección Temporal de Datos en tu Móvil
 
-**Meta Tags adicionales para la landing page:**
+- ***Description:*** *Temporaly* - Crea correos temporales directamente desde tu móvil para proteger tu información personal de manera rápida y segura. Disponible para iOS y Android.
 
-- **og(Open Graph):** Temporaly | Protección Temporal de Datos
-- **og(Open Graph):** Temporaly te permite crear correos temporales directamente desde tu dispositivo móvil, disponible en las tiendas de apps.
-- **og(Open Graph):** https://temporaly.com/assets/logo.png
-- **og(Open Graph):** https://temporaly.com/
-- **app-download-url:**
-  - Android: https://play.google.com/store/apps/details?id=com.temporaly
-  - iOS: https://apps.apple.com/app/temporaly/id123456789
+- ***Keywords:*** correos temporales, app móvil, protección de datos, privacidad, seguridad, estudiantes.
 
-El uso adecuado de SEO Tags y Meta Tags garantiza que la landing page de Temporaly tenga un mayor alcance y visibilidad en los motores de búsqueda, permitiendo a los usuarios encontrar rápidamente la aplicación y acceder a sus servicios. Asimismo, estas etiquetas aseguran una experiencia optimizada para los usuarios que acceden desde dispositivos móviles, facilitando la descarga y el uso de la aplicación.
+- ***Author:*** *CodeMinds*
 
+- ***Canonical:*** https://temporaly.com/
+
+***Meta Tags adicionales para la landing page:***
+
+- ***og(Open Graph):*** *Temporaly* | Protección Temporal de Datos
+
+- ***og(Open Graph):*** *Temporaly* te permite crear correos temporales directamente desde tu dispositivo móvil, disponible en las tiendas de apps.
+
+- ***og(Open Graph):*** https://temporaly.com/assets/logo.png
+
+- ***og(Open Graph):*** https://temporaly.com/
+
+- ***app-download-url:***
+    * Android: https://play.google.com/store/apps/details?id=com.temporaly
+    * iOS: https://apps.apple.com/app/temporaly/id123456789
+
+El uso adecuado de *SEO Tags* y *Meta Tags* garantiza que la *landing page* de *Temporaly* tenga un mayor alcance y visibilidad en los motores de búsqueda, permitiendo a los usuarios encontrar rápidamente la aplicación y acceder a sus servicios. Asimismo, estas etiquetas aseguran una experiencia optimizada para los usuarios que acceden desde dispositivos móviles, facilitando la descarga y el uso de la aplicación.
+
+\newpage
 
 #### *Searching Systems*
 
 El sistema de búsqueda de Temporaly está diseñado para ofrecer una experiencia de usuario eficiente y sencilla, permitiendo a los usuarios acceder rápidamente a la información que necesitan. Dado que Temporaly es una aplicación enfocada en la generación y gestión de correos electrónicos temporales, los mecanismos de búsqueda dentro de la app son clave para la organización y recuperación de la información.
 
-\begin{tabular}{|l|p{10cm}|}
+
+\begin{longtable}{|c|p{9cm}|}
 \hline
-\textbf{Filtro} & \textbf{Definición} \\
+\multicolumn{1}{|c|}{\textbf{Filtro}} & \multicolumn{1}{c|}{\textbf{Definición}} \\
 \hline
-\textbf{Email Address} & Filtro que permite buscar los correos electrónicos temporales generados por dirección de correo. \\
+\endfirsthead
+\textbf{\textit{Email Address}} & Filtro que permite buscar los correos electrónicos temporales generados por dirección de correo. \\
 \hline
-\textbf{Creation Date} & Filtro que permite buscar los correos según la fecha en que fueron generados en la plataforma. \\
+\textbf{\textit{Creation Date}} & Filtro que permite buscar los correos según la fecha en que fueron generados en la plataforma. \\
 \hline
-\textbf{Active/Inactive Status} & Filtro que permite visualizar los correos según su estado: activos o inactivos. \\
+\textbf{\textit{Active/Inactive Status}} & Filtro que permite visualizar los correos según su estado: activos o inactivos. \\
 \hline
-\textbf{Duration} & Filtro que permite buscar correos según el tiempo de validez seleccionado al momento de su creación (10, 30 o 60 minutos). \\
+\textbf{\textit{Duration}} & Filtro que permite buscar correos según el tiempo de validez seleccionado al momento de su creación (10, 30 o 60 minutos). \\
 \hline
-\textbf{Advanced Search} & Opciones avanzadas de búsqueda que permiten combinar múltiples criterios como correo electrónico, estado y duración para obtener resultados más precisos. \\
+\textbf{\textit{Advanced Search}} & Opciones avanzadas de búsqueda que permiten combinar múltiples criterios como correo electrónico, estado y duración para obtener resultados más precisos. \\
 \hline
-\end{tabular}
+\end{longtable}
 
 \vspace{1em}
 
-El sistema de búsqueda está optimizado para asegurar que el usuario no pierda tiempo en la gestión de sus correos temporales y pueda acceder a la información de manera inmediata.
+El sistema de búsqueda en Temporaly ha sido diseñado para optimizar la experiencia del usuario, proporcionando herramientas eficientes para la gestión y recuperación de información relacionada con correos electrónicos temporales. Los filtros como "Email Address" y "Creation Date" permiten a los usuarios localizar correos específicos por dirección o fecha de creación, mientras que el filtro de "Active/Inactive Status" facilita la clasificación según el estado de los correos. "Duration" ofrece la opción de buscar por el tiempo de validez de los correos, y la opción de "Advanced Search" permite una combinación más precisa de criterios, mejorando así la organización y la accesibilidad de la información dentro de la plataforma.
+
+\newpage
 
 #### *Navigation Systems*
 
 El sistema de navegación en Temporaly está diseñado para ser intuitivo y accesible, ofreciendo a los usuarios una experiencia de uso fluida y sin complicaciones. La estructura de navegación asegura que los usuarios puedan desplazarse fácilmente entre las diferentes funcionalidades de la aplicación, optimizando la interacción y minimizando el tiempo de aprendizaje.
 
-\begin{tabular}{|l|p{10cm}|}
+\begin{longtable}{|c|p{9cm}|}
 \hline
-\textbf{Nombre} & \textbf{Definición} \\
+\multicolumn{1}{|c|}{\textbf{Nombre}} & \multicolumn{1}{c|}{\textbf{Definición}} \\
 \hline
+\endfirsthead
 \textbf{Menú Lateral} & Despliega opciones principales de navegación como Home, Contact Us, About Us, Terms and Conditions, y Settings, permitiendo una navegación rápida entre las diferentes secciones de la aplicación. \\
 \hline
 \textbf{Barra de Navegación Inferior} & Proporciona acceso rápido a las funciones clave como Email (bandeja de entrada) y History (historial de correos generados), mejorando la accesibilidad a las características más utilizadas. \\
@@ -423,18 +434,25 @@ El sistema de navegación en Temporaly está diseñado para ser intuitivo y acce
 \hline
 \textbf{Settings} & Opciones de configuración de la cuenta del usuario, incluyendo ajustes de notificaciones, cierre de sesión y eliminación de cuenta. \\
 \hline
-\end{tabular}
+\end{longtable}
 
+El sistema de navegación en Temporaly está diseñado para ofrecer una experiencia fluida y accesible. El "Menú Lateral" facilita el acceso a secciones principales como Home, Contact Us, About Us, Terms and Conditions, y Settings, permitiendo una navegación eficiente. La "Barra de Navegación Inferior" proporciona acceso directo a funciones clave como Email y History, mejorando la accesibilidad a las características más utilizadas. La sección "Email" actúa como la vista principal para gestionar correos temporales, mientras que "History" organiza el historial de correos según su estado. Finalmente, "Settings" permite ajustar configuraciones de la cuenta, como notificaciones y opciones de cierre de sesión.
 
-\vspace{1em}
+\newpage
 
 ### *Landing Page UI Design*
 
+![Imagen extraída de Canva](src/img/Cap3/landingpageui.png)
+
+En esta sección, abordaremos los aspectos clave del diseño de interfaces para landing pages. Nos centraremos en técnicas efectivas para estructurar contenido, optimizar elementos visuales y mejorar la experiencia del usuario con el objetivo de maximizar la conversión. Analizaremos enfoques prácticos y estrategias para crear landing pages impactantes y funcionales.
+
 #### *Landing Page Wireframe*
 
-::: note
+::: warn
 Para acceder al los Wireframes de trabajo, haga click a la [URL](https://www.figma.com/design/ofFIiA94N3qwhXABKh0Yie/Landing-App-movil?node-id=0-1&t=ZeaTDjPO2hi8tUPQ-1)
 :::
+
+\newpage
 
 ***Web Landing Page Wireframe***
 
@@ -454,9 +472,16 @@ Para acceder al los Wireframes de trabajo, haga click a la [URL](https://www.fig
 
 ![Contact us Wireframe, Artefacto creado en Figma](src/img/Cap3/landing8.png)
 
+\newpage
+
 ***Mobile Landing Page Wireframe***
 
-![Hero Wireframe, Artefacto creado en Figma](src/img/Cap3/mob1.png)
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=1.0\textwidth, height=0.9\textheight]{src/img/Cap3/mob1.png}
+    \caption{Hero Wireframe, Artefacto creado en Figma}
+    \label{fig:hwacf1}
+\end{figure}
 
 ![Features Wireframe, Artefacto creado en Figma](src/img/Cap3/mob2.png)
 
@@ -472,43 +497,54 @@ Para acceder al los Wireframes de trabajo, haga click a la [URL](https://www.fig
 
 ![Contact us Wireframe, Artefacto creado en Figma](src/img/Cap3/mob8.png)
 
+\newpage
+
 #### *Landing Page Mock-up*
 
 ***Web Landing Page Mock-up***
 
-![Hero Wireframe, Artefacto creado en Figma](src/img/Cap3/lan1.png)
+![Hero Mockup, Artefacto creado en Figma](src/img/Cap3/lan1.png)
 
-![Features Wireframe, Artefacto creado en Figma](src/img/Cap3/lan2.png)
+![Features Mockup, Artefacto creado en Figma](src/img/Cap3/lan2.png)
 
-![Features Wireframe, Artefacto creado en Figma](src/img/Cap3/lan3.png)
+![Features Mockup, Artefacto creado en Figma](src/img/Cap3/lan3.png)
 
-![App Wireframes, Artefacto creado en Figma](src/img/Cap3/lan4.png)
+![App Mockup, Artefacto creado en Figma](src/img/Cap3/lan4.png)
 
-![Testimonials Wireframe, Artefacto creado en Figma](src/img/Cap3/lan5.png)
+![Testimonials Mockup, Artefacto creado en Figma](src/img/Cap3/lan5.png)
 
-![Pricing Wireframe, Artefacto creado en Figma](src/img/Cap3/lan6.png)
+![Pricing Mockup, Artefacto creado en Figma](src/img/Cap3/lan6.png)
 
-![Contact us Wireframe, Artefacto creado en Figma](src/img/Cap3/lan7.png)
+![Contact Us Mockup, Artefacto creado en Figma](src/img/Cap3/lan7.png)
 
-![Contact us Wireframe, Artefacto creado en Figma](src/img/Cap3/lan8.png)
+![Contact Us Mockup, Artefacto creado en Figma](src/img/Cap3/lan8.png)
+
+\newpage
 
 ***Mobile Landing Page Mock-up***
 
-![Hero Wireframe, Artefacto creado en Figma](src/img/Cap3/mobc1.png)
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=1.0\textwidth, height=0.9\textheight]{src/img/Cap3/mobc1.png}
+    \caption{Hero Mockup, Artefacto creado en Figma}
+    \label{fig:hmacf1}
+\end{figure}
 
-![Features Wireframe, Artefacto creado en Figma](src/img/Cap3/mobc2.png)
+![Features Mockup, Artefacto creado en Figma](src/img/Cap3/mobc2.png)
 
-![Features Wireframe, Artefacto creado en Figma](src/img/Cap3/mobc3.png)
+![Features Mockup, Artefacto creado en Figma](src/img/Cap3/mobc3.png)
 
-![App Wireframes, Artefacto creado en Figma](src/img/Cap3/mobc4.png)
+![App Mockup, Artefacto creado en Figma](src/img/Cap3/mobc4.png)
 
-![Testimonials Wireframe, Artefacto creado en Figma](src/img/Cap3/mobc5.png)
+![Testimonials Mockup, Artefacto creado en Figma](src/img/Cap3/mobc5.png)
 
-![Pricing Wireframe, Artefacto creado en Figma](src/img/Cap3/mobc6.png)
+![Pricing Mockup, Artefacto creado en Figma](src/img/Cap3/mobc6.png)
 
-![Contact us Wireframe, Artefacto creado en Figma](src/img/Cap3/mobc7.png)
+![Contact Us Mockup, Artefacto creado en Figma](src/img/Cap3/mobc7.png)
 
-![Contact us Wireframe, Artefacto creado en Figma](src/img/Cap3/mobc8.png)
+![Contact Us Mockup, Artefacto creado en Figma](src/img/Cap3/mobc8.png)
+
+\newpage
 
 ***Mockup concepts:***
 
@@ -518,139 +554,175 @@ Para acceder al los Wireframes de trabajo, haga click a la [URL](https://www.fig
 
 ### *Mobile Application UX/UI Design*
 
+![Recurso estraído de Canva](src/img/Cap3/mobiledesign.png)
+
+En esta sección, exploraremos los aspectos clave del diseño de interfaces para aplicaciones móviles. Nos enfocaremos en técnicas efectivas para estructurar el contenido, optimizar los elementos visuales y mejorar la experiencia del usuario con el objetivo de maximizar la usabilidad. Analizaremos enfoques prácticos y estrategias para crear interfaces móviles atractivas y funcionales, adaptadas a las necesidades y comportamientos de los usuarios en dispositivos móviles.
+
 ::: warn
 Para visualizar todo el diseño de los wireframes y mockups de la aplicación, haga click en la [URL](https://www.figma.com/design/3q2f24bDIbpzV5Xfnyw3cY/Temporaly?node-id=0-1&t=ADyy9ooMf3OcFAjA-1)
 :::
 
+\newpage
+
 #### *Mobile Application Wireframes*
 
-![Artefacto creado en Figma](src/img/Cap3/wireframes/Frame246.png)
+\begin{figure}[h!]
+    \centering
+    \includegraphics[height=0.4\textheight]{src/img/Cap3/wireframes/Frame246.png}
+    \caption{SplashScreen Wireframe - Artefacto creado en Figma}
+    \label{fig:maw1}
+\end{figure}
 
-![Artefacto creado en Figma](src/img/Cap3/wireframes/Frame247.png)
+\begin{figure}[h!]
+    \centering
+    \includegraphics[height=0.4\textheight]{src/img/Cap3/wireframes/Frame247.png}
+    \caption{Biometric Access Wireframe - Artefacto creado en Figma}
+    \label{fig:maw2}
+\end{figure}
 
-![Artefacto creado en Figma](src/img/Cap3/wireframes/Frame248.png)
+![Access via Google account Wireframe - Artefacto creado en Figma](src/img/Cap3/wireframes/Frame260.png)
 
-![Artefacto creado en Figma](src/img/Cap3/wireframes/Frame249.png)
+![Sign Up Wireframe - Artefacto creado en Figma](src/img/Cap3/wireframes/Frame261.png)
 
-![Artefacto creado en Figma](src/img/Cap3/wireframes/Frame250.png)
+![Sign Up Verification Code Wireframe - Artefacto creado en Figma](src/img/Cap3/wireframes/Frame262.png)
 
-![Artefacto creado en Figma](src/img/Cap3/wireframes/Frame251.png)
+![Main Screen Wireframe - Artefacto creado en Figma](src/img/Cap3/wireframes/Frame248.png)
 
-![Artefacto creado en Figma](src/img/Cap3/wireframes/Frame252.png)
+![Toolbar of Main Screen Wireframe - Artefacto creado en Figma](src/img/Cap3/wireframes/Frame252.png)
 
-![Artefacto creado en Figma](src/img/Cap3/wireframes/Frame253.png)
+![Privacy and Policies Button Wireframe - Artefacto creado en Figma](src/img/Cap3/wireframes/Frame253.png)
 
-![Artefacto creado en Figma](src/img/Cap3/wireframes/Frame254.png)
+![About Us redirection to Landing page Wireframe - Artefacto creado en Figma](src/img/Cap3/wireframes/Frame254.png)
 
-![Artefacto creado en Figma](src/img/Cap3/wireframes/Frame255.png)
+![Privacy and Policies Screen Wireframe - Artefacto creado en Figma](src/img/Cap3/wireframes/Frame255.png)
 
-![Artefacto creado en Figma](src/img/Cap3/wireframes/Frame256.png)
+![Settings Screen Wireframe - Artefacto creado en Figma](src/img/Cap3/wireframes/Frame256.png)
 
-![Artefacto creado en Figma](src/img/Cap3/wireframes/Frame257.png)
+![Profile Settings Wireframe - Artefacto creado en Figma](src/img/Cap3/wireframes/Frame257.png)
 
-![Artefacto creado en Figma](src/img/Cap3/wireframes/Frame258.png)
+![Close Account Wireframe - Artefacto creado en Figma](src/img/Cap3/wireframes/Frame258.png)
 
-![Artefacto creado en Figma](src/img/Cap3/wireframes/Frame259.png)
+![Delete Account Wireframe - Artefacto creado en Figma](src/img/Cap3/wireframes/Frame259.png)
 
-![Artefacto creado en Figma](src/img/Cap3/wireframes/Frame260.png)
+![History Temporary Email Screen Wireframe - Artefacto creado en Figma](src/img/Cap3/wireframes/Frame249.png)
 
-![Artefacto creado en Figma](src/img/Cap3/wireframes/Frame261.png)
+![Temporary Email Inbox History Wireframe - Artefacto creado en Figma](src/img/Cap3/wireframes/Frame250.png)
 
-![Artefacto creado en Figma](src/img/Cap3/wireframes/Frame262.png)
+![Email Details Wireframe - Artefacto creado en Figma](src/img/Cap3/wireframes/Frame251.png)
 
 \newpage
 
 #### *Mobile Applications Wireflow Diagrams*
 
-![Artefacto creado en Figma](src/img/Cap3/splashscreen.png)
+![SplashScreen Wireflow - Artefacto creado en Figma](src/img/Cap3/wireflows-wireframes/Frame212.png)
 
-![Artefacto creado en Figma](src/img/Cap3/login1.png)
+![Biometric Access Wireflow - Artefacto creado en Figma](src/img/Cap3/wireflows-wireframes/Frame213.png)
 
-![Artefacto creado en Figma](src/img/Cap3/login2.png)
+![Access via Google account Wireflow - Artefacto creado en Figma](src/img/Cap3/wireflows-wireframes/Frame214.png)
 
-![Artefacto creado en Figma](src/img/Cap3/login3.png)
+![Sign Up Wireflow - Artefacto creado en Figma](src/img/Cap3/wireflows-wireframes/Frame215.png)
 
-![Artefacto creado en Figma](src/img/Cap3/login4.png)
+![Sign Up Verification Code Wireflow - Artefacto creado en Figma](src/img/Cap3/wireflows-wireframes/Frame216.png)
 
-![Artefacto creado en Figma](src/img/Cap3/redirectHistory.png)
+![Main Screen Wireflow - Artefacto creado en Figma](src/img/Cap3/wireflows-wireframes/Frame217.png)
 
-![Artefacto creado en Figma](src/img/Cap3/redirectHome.png)
+![Toolbar of Main Screen Wireflow - Artefacto creado en Figma](src/img/Cap3/wireflows-wireframes/Frame218.png)
 
-![Artefacto creado en Figma](src/img/Cap3/mainscreen2.png)
+![Privacy and Policies Button Wireflow - Artefacto creado en Figma](src/img/Cap3/wireflows-wireframes/Frame219.png)
 
-![Artefacto creado en Figma](src/img/Cap3/mainscreen1.png)
+![About Us redirection to Landing page Wireflow - Artefacto creado en Figma](src/img/Cap3/wireflows-wireframes/Frame220.png)
 
-![Artefacto creado en Figma](src/img/Cap3/settings1.png)
+![Privacy and Policies Screen Wireflow - Artefacto creado en Figma](src/img/Cap3/wireflows-wireframes/Frame221.png)
 
-![Artefacto creado en Figma](src/img/Cap3/settings2.png)
+![Settings Screen Wireflow - Artefacto creado en Figma](src/img/Cap3/wireflows-wireframes/Frame222.png)
 
-![Artefacto creado en Figma](src/img/Cap3/settings-closeSession.png)
+![Profile Settings Wireflow - Artefacto creado en Figma](src/img/Cap3/wireflows-wireframes/Frame223.png)
 
-![Artefacto creado en Figma](src/img/Cap3/settings-deleteAccount.png)
+![Close Account Wireflow - Artefacto creado en Figma](src/img/Cap3/wireflows-wireframes/Frame224.png)
+
+![Delete Account Wireflow - Artefacto creado en Figma](src/img/Cap3/wireflows-wireframes/Frame225.png)
+
+![History Temporary Email Screen Wireflow - Artefacto creado en Figma](src/img/Cap3/wireflows-wireframes/Frame226.png)
+
+![Temporary Email Inbox History Wireflow - Artefacto creado en Figma](src/img/Cap3/wireflows-wireframes/Frame227.png)
+
+![Email Details Wireflow - Artefacto creado en Figma](src/img/Cap3/wireflows-wireframes/Frame228.png)
+
+\newpage
 
 #### *Mobile Applications Mock-Ups*
 
-![Artefacto creado en Figma](src/img/Cap3/mockups/Frame263.png)
+![SplashScreen Mockup - Artefacto creado en Figma](src/img/Cap3/mockups/Frame263.png)
 
-![Artefacto creado en Figma](src/img/Cap3/mockups/Frame264.png)
+![Biometric Access Mockup - Artefacto creado en Figma](src/img/Cap3/mockups/Frame264.png)
 
-![Artefacto creado en Figma](src/img/Cap3/mockups/Frame265.png)
+![Access via Google account Mockup - Artefacto creado en Figma](src/img/Cap3/mockups/Frame277.png)
 
-![Artefacto creado en Figma](src/img/Cap3/mockups/Frame266.png)
+![Sign Up Mockup - Artefacto creado en Figma](src/img/Cap3/mockups/Frame278.png)
 
-![Artefacto creado en Figma](src/img/Cap3/mockups/Frame267.png)
+![Sign Up Verification Code Mockup - Artefacto creado en Figma](src/img/Cap3/mockups/Frame279.png)
 
-![Artefacto creado en Figma](src/img/Cap3/mockups/Frame268.png)
+![Main Screen Mockup - Artefacto creado en Figma](src/img/Cap3/mockups/Frame265.png)
 
-![Artefacto creado en Figma](src/img/Cap3/mockups/Frame269.png)
+![Toolbar of Main Screen Mockup - Artefacto creado en Figma](src/img/Cap3/mockups/Frame269.png)
 
-![Artefacto creado en Figma](src/img/Cap3/mockups/Frame270.png)
+![Privacy and Policies Button Mockup - Artefacto creado en Figma](src/img/Cap3/mockups/Frame270.png)
 
-![Artefacto creado en Figma](src/img/Cap3/mockups/Frame271.png)
+![About Us redirection to Landing page Mockup - Artefacto creado en Figma](src/img/Cap3/mockups/Frame271.png)
 
-![Artefacto creado en Figma](src/img/Cap3/mockups/Frame272.png)
+![Privacy and Policies Screen Mockup - Artefacto creado en Figma](src/img/Cap3/mockups/Frame272.png)
 
-![Artefacto creado en Figma](src/img/Cap3/mockups/Frame273.png)
+![Settings Screen Mockup - Artefacto creado en Figma](src/img/Cap3/mockups/Frame273.png)
 
-![Artefacto creado en Figma](src/img/Cap3/mockups/Frame274.png)
+![Profile Settings Mockup - Artefacto creado en Figma](src/img/Cap3/mockups/Frame274.png)
 
-![Artefacto creado en Figma](src/img/Cap3/mockups/Frame275.png)
+![Close Account Mockup - Artefacto creado en Figma](src/img/Cap3/mockups/Frame275.png)
 
-![Artefacto creado en Figma](src/img/Cap3/mockups/Frame276.png)
+![Delete Account Mockup - Artefacto creado en Figma](src/img/Cap3/mockups/Frame276.png)
 
-![Artefacto creado en Figma](src/img/Cap3/mockups/Frame277.png)
+![History Temporary Email Screen Mockup - Artefacto creado en Figma](src/img/Cap3/mockups/Frame266.png)
 
-![Artefacto creado en Figma](src/img/Cap3/mockups/Frame278.png)
+![Temporary Email Inbox History Mockup - Artefacto creado en Figma](src/img/Cap3/mockups/Frame267.png)
 
-![Artefacto creado en Figma](src/img/Cap3/mockups/Frame279.png)
+![Email Details Mockup - Artefacto creado en Figma](src/img/Cap3/mockups/Frame268.png)
+
+\newpage
 
 #### *Mobile Applications User Flow Diagrams*
 
-![Artefacto creado en Figma](src/img/Cap3/mockus-splashscreen.png)
+![SplashScreen Wireflow - Artefacto creado en Figma](src/img/Cap3/wireflows-mockups/Frame229.png)
 
-![Artefacto creado en Figma](src/img/Cap3/mockup-login1.png)
+![Biometric Access Wireflow - Artefacto creado en Figma](src/img/Cap3/wireflows-mockups/Frame230.png)
 
-![Artefacto creado en Figma](src/img/Cap3/mockup-login2.png)
+![Access via Google account Wireflow - Artefacto creado en Figma](src/img/Cap3/wireflows-mockups/Frame243.png)
 
-![Artefacto creado en Figma](src/img/Cap3/mockup-signup1.png)
+![Sign Up Wireflow - Artefacto creado en Figma](src/img/Cap3/wireflows-mockups/Frame244.png)
 
-![Artefacto creado en Figma](src/img/Cap3/mockup-signup2.png)
+![Sign Up Verification Code Wireflow - Artefacto creado en Figma](src/img/Cap3/wireflows-mockups/Frame245.png)
 
-![Artefacto creado en Figma](src/img/Cap3/mockup-main.png)
+![Main Screen Wireflow - Artefacto creado en Figma](src/img/Cap3/wireflows-mockups/Frame231.png)
 
-![Artefacto creado en Figma](src/img/Cap3/mockup-history.png)
+![Toolbar of Main Screen Wireflow - Artefacto creado en Figma](src/img/Cap3/wireflows-mockups/Frame235.png)
 
-![Artefacto creado en Figma](src/img/Cap3/mockup-emaildetails.png)
+![Privacy and Policies Button Wireflow - Artefacto creado en Figma](src/img/Cap3/wireflows-mockups/Frame236.png)
 
-![Artefacto creado en Figma](src/img/Cap3/mockup-emaildetails2.png)
+![About Us redirection to Landing page Wireflow - Artefacto creado en Figma](src/img/Cap3/wireflows-mockups/Frame237.png)
 
-![Artefacto creado en Figma](src/img/Cap3/mockup-closesession.png)
+![Privacy and Policies Screen Wireflow - Artefacto creado en Figma](src/img/Cap3/wireflows-mockups/Frame238.png)
 
-![Artefacto creado en Figma](src/img/Cap3/mockup-deleteaccount.png)
+![Settings Screen Wireflow - Artefacto creado en Figma](src/img/Cap3/wireflows-mockups/Frame239.png)
 
-![Artefacto creado en Figma](src/img/Cap3/mockup-mockup-privacypolicies.png)
+![Profile Settings Wireflow - Artefacto creado en Figma](src/img/Cap3/wireflows-mockups/Frame240.png)
 
-![Artefacto creado en Figma](src/img/Cap3/mockup-profilesettings.png)
+![Close Account Wireflow - Artefacto creado en Figma](src/img/Cap3/wireflows-mockups/Frame241.png)
+
+![Delete Account Wireflow - Artefacto creado en Figma](src/img/Cap3/wireflows-mockups/Frame242.png)
+
+![History Temporary Email Screen Wireflow - Artefacto creado en Figma](src/img/Cap3/wireflows-mockups/Frame232.png)
+
+![Temporary Email Inbox History Wireflow - Artefacto creado en Figma](src/img/Cap3/wireflows-mockups/Frame233.png)
+
+![Email Details Wireflow - Artefacto creado en Figma](src/img/Cap3/wireflows-mockups/Frame234.png)
 
 #### *Mobile Applications Prototyping*
 
@@ -658,7 +730,22 @@ Para visualizar todo el diseño de los wireframes y mockups de la aplicación, h
 Para visualizar el video del prototipo de la aplicación,  haga click en la [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/EaarYyGV9fFJpLWK1u04GaIBtRlSoc7_affoLtT38NNzEQ?e=krmvNP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 :::
 
+\newpage
+
 ### *Domain-Driven Software Architecture*
+
+![Imagen extraída de Canva](src/img/Cap3/dddimage.png)
+
+En el desarrollo de *software*, la arquitectura impulsada por el dominio (*Domain-Driven Software Architecture*) se ha convertido en un enfoque esencial para crear soluciones robustas, escalables y alineadas con los objetivos del negocio. 
+
+\begin{quote}
+Este enfoque, popularizado por Eric Evans en su libro "*Domain-Driven Design*", se centra en modelar el *software* en torno a los conceptos y procesos que son fundamentales para el dominio del negocio.
+\end{quote}
+
+El corazón de la arquitectura impulsada por el dominio reside en su capacidad para reflejar de manera fiel las complejidades y las reglas del negocio en la estructura del sistema. En lugar de desarrollar soluciones tecnológicas genéricas, esta metodología fomenta una colaboración estrecha entre los expertos del dominio (aquellos con profundo conocimiento de los problemas del negocio) y los equipos de desarrollo, asegurando que el diseño del *software* esté íntimamente alineado con las necesidades reales de la organización.
+Al adoptar un enfoque centrado en el dominio, se mejora la mantenibilidad del sistema, permitiendo a los equipos de desarrollo reaccionar rápidamente ante los cambios en los requerimientos de negocio, y favoreciendo una evolución constante del *software* sin comprometer la calidad. A medida que las organizaciones se enfrentan a entornos cambiantes y crecientes demandas de escalabilidad, la arquitectura impulsada por el dominio se presenta como una estrategia clave para el éxito a largo plazo de las soluciones tecnológicas.
+
+\newpage
 
 #### *Software Architecture Context Level Diagram*
 
@@ -674,16 +761,20 @@ Para visualizar el video del prototipo de la aplicación,  haga click en la [URL
 
 ### *Software Object-Oriented Design*
 
+![Imagen extraída de Canva](src/img/Cap3/soodesign.png)
+
+El diseño orientado a objetos (OOD) es un enfoque clave en la ingeniería de software que se basa en la creación de sistemas mediante la conceptualización del mundo real a través de "objetos". Estos objetos son entidades que encapsulan tanto datos como comportamiento, facilitando la creación de software más modular, mantenible y escalable. A través de principios fundamentales como la encapsulación, la herencia y el polimorfismo, el diseño orientado a objetos permite la construcción de soluciones más flexibles y reutilizables. Este enfoque ha demostrado ser efectivo en la gestión de la complejidad en sistemas grandes y distribuidos, promoviendo un desarrollo más eficiente y alineado con las necesidades del negocio.
+
 #### *Class Diagrams*
 Nuestro dominio se divide en 4 Bounded Contexts:
 
-1.- **Login Bounded Context**: Centrado en los actores/usuarios que se autentican en la solución y la gestión del proceso de login y logout.
+1.- ***Login Bounded Context***: Centrado en los actores/usuarios que se autentican en la solución y la gestión del proceso de login y logout.
 
-2.- **Profile Settings Bounded Context**: Centrado en los cambios de configuración del perfil de los usuarios, incluyendo preferencias, ajustes y personalización.
+2.- ***Profile Settings Bounded Context***: Centrado en los cambios de configuración del perfil de los usuarios, incluyendo preferencias, ajustes y personalización.
 
-3.- **Privacy Policy Bounded Context**: Centrado en la gestión de las políticas de privacidad y la obtención o revocación de consentimiento por parte de los usuarios.
+3.- ***Privacy Policy Bounded Context***: Centrado en la gestión de las políticas de privacidad y la obtención o revocación de consentimiento por parte de los usuarios.
 
-4.- **Email History Management Bounded Context**: Centrado en el registro y seguimiento del historial de acciones de correo electrónico realizadas por el sistema y los usuarios.
+4.- ***Email History Management Bounded Context***: Centrado en el registro y seguimiento del historial de acciones de correo electrónico realizadas por el sistema y los usuarios.
 
 ![Class diagram Temporaly, imagen creada en PlantUML](src/img/Cap3/iam_bc.jpeg)
 
@@ -694,6 +785,8 @@ Nuestro dominio se divide en 4 Bounded Contexts:
 ![Class diagram Temporaly, imagen creada en PlantUML](src/img/Cap3/privacy_policy_bc.jpeg)
 
 ![Class diagram Temporaly, imagen creada en PlantUML](src/img/Cap3/email_history_bc.jpeg)
+
+\newpage
 
 #### *Class Dictionary*
 
@@ -898,3 +991,5 @@ Nuestro dominio se divide en 4 Bounded Contexts:
 #### *Database Diagram*
 
 ![Class diagram Temporaly, imagen creada en Mermaid](src/img/Cap3/database_diagram.png)
+
+\newpage
