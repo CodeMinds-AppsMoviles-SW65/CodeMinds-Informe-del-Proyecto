@@ -173,3 +173,81 @@ A continuación, se presentan las Historias de Usuario organizadas según su fun
 
 \end{longtable}
 
+
+
+## *Validation Interviews*
+
+Las entrevistas de validación son una herramienta clave en el proceso de diseño centrado en el usuario. A través de estas entrevistas, se busca obtener información directa de los usuarios sobre cómo interactúan con el producto, lo que permite validar su usabilidad y funcionalidad. Este método es esencial para identificar problemas, detectar oportunidades de mejora y asegurar que el producto final cumpla con las expectativas del público objetivo. Las entrevistas de validación no solo ayudan a mejorar la experiencia del usuario, sino que también garantizan que las decisiones de diseño estén basadas en datos reales y no en suposiciones.
+
+A continuación, exploraremos cómo se diseñaron las entrevistas, cómo se llevó a cabo el registro de las mismas y las evaluaciones realizadas basadas en principios heurísticos.
+
+### Diseño de entrevistas
+
+::: box 
+**Segmento Objetivo 1:** Estudiantes de nivel escolar 
+:::
+
+
+**Evaluar la claridad del mensaje y propósito de la app:**
+
+1) ¿Qué te transmite el mensaje "Crea, Usa y Olvida ;)"?
+   
+2) ¿Comprendes lo que significa proteger tu privacidad en línea con Temporaly? ¿Qué crees que hace la app al ver la primera sección?
+   
+3) Si tuvieras que explicar esta app a un amigo, ¿cómo lo harías?
+   
+4) ¿Cómo usarías Temporaly en tu vida diaria?
+
+**Encontrar fácilmente las funcionalidades clave:**
+
+1) ¿Sabes cómo crear un correo temporal rápidamente? ¿Te resulta claro cómo funciona?
+   
+2) ¿Te parece fácil entender los diferentes planes que ofrece la app (Básico, Pro, Master)?
+   
+3) Confianza en la seguridad que ofrece la app:
+   
+4) Después de ver la página, ¿sientes que tus datos estarían seguros si usas esta app? ¿Qué parte te hace sentir más seguro o inseguro?
+
+**Sugerencias para mejorar el diseño o la usabilidad:**
+
+1) ¿El diseño de la página es claro y fácil de navegar?
+   
+2) ¿Qué cambiarías para hacer la página más comprensible o atractiva para ti?
+
+::: box 
+**Segmento Objetivo 2:** Estudiantes de nivel universitario y superior (pregrado - postgrado) 
+:::
+
+**Evaluar la claridad del mensaje y propósito de la app:**
+
+1) ¿El mensaje "Protege tu Privacidad en Línea con Temporaly" te da una idea clara de lo que hace la app? ¿Por qué sí o por qué no?
+   
+2) ¿Cómo relacionarías esta funcionalidad con situaciones como registrar correos en plataformas académicas o eventos?
+   
+3) ¿Qué tipo de problemas crees que resuelve Temporaly? ¿Es claro para ti cómo usarla?
+   
+4) ¿Cómo te imaginas utilizando Temporaly para proteger tu información personal en situaciones reales (registro de eventos, estudios, etc.)?
+
+**Encontrar fácilmente las funcionalidades clave:**
+
+1) ¿Es fácil para ti entender cómo crear un correo temporal y gestionar tu historial? ¿Consideras útil la barra lateral que menciona el historial de correos usados?
+   
+2) ¿Te parece clara la diferencia entre los planes de pago y el plan gratuito?
+
+**Confianza en la seguridad que ofrece la app:**
+
+1) Después de navegar por la página, ¿qué tan seguro te sientes respecto a la protección de tu información personal?
+   
+2) ¿Consideras que hay elementos adicionales que podrían incrementar tu confianza en la seguridad de la app?
+
+**Sugerencias para mejorar el diseño o la usabilidad:**
+
+1) ¿Cómo valorarías el diseño en cuanto a facilidad de uso y navegación?
+   
+2) ¿Agregarías o cambiarías algo en la estructura o la interfaz para hacerla más efectiva?
+
+
+### Registro de entrevistas
+
+### Evualuaciones segun heuristicas
+
