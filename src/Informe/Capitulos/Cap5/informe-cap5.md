@@ -1003,5 +1003,64 @@ A continuación, exploraremos cómo se diseñaron las entrevistas, cómo se llev
 
 ### Registro de entrevistas
 
+::: box
+**Segmento Objetivo 1:** Estudiantes de nivel escolar
+:::
+
+**Entrevista #1**
+
+\begin{table}[H]
+\begin{center}  % Centrar la tabla
+\begin{tabular}{|p{5cm}|p{6cm}|}  % Ajusta los anchos de las columnas
+\hline
+\textbf{Nombre y Apellido}    & Pol Adriano Ramos Rios \\ \hline
+\textbf{Edad}                 & 14 años                \\ \hline
+\textbf{Ubicación geográfica} & Trujillo, Perú         \\ \hline
+\textbf{Grado}                & Secundaria             \\ \hline
+\textbf{Tiempo de entrevista} & inicio - fin           \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+**Resumen de la entrevista**
+
+En la entrevista con Adriano Ramos Ríos sobre la aplicación *Temporaly*, se le pidió que evaluara distintos aspectos clave de la landing page, centrada en la creación de correos electrónicos temporales para proteger la privacidad en línea. Durante la entrevista, Adriano expresó que el eslogan principal de la aplicación, *"Crea, Usa y Olvida"*, le transmitía la idea de generar correos temporales para usarlos en situaciones donde no se desea emplear el correo personal, lo que le resultaba útil para evitar el riesgo de utilizar su correo personal en sitios web de dudosa confianza. En su opinión, la idea de usar correos momentáneos para verificar cuentas era clara y directa.
+
+Adriano manifestó que entendía bien el propósito de la aplicación y que estaba diseñada para proteger la privacidad en línea, algo que considera que la landing page comunica de manera efectiva. Sin embargo, sugirió que sería útil agregar una descripción más detallada para los usuarios que no estén familiarizados con conceptos relacionados a la privacidad digital, de manera que el mensaje sea aún más claro para todos los públicos. Al preguntársele cómo explicaría la aplicación a un amigo, mencionó que la describiría como una herramienta útil para acceder a sitios web sin comprometer la información personal. Específicamente, explicó que *Temporaly* permite la creación de correos momentáneos que ayudan a verificar cuentas sin necesidad de exponer el correo principal, algo que él mismo usaría para obtener descuentos o probar aplicaciones sin tener que proporcionar información personal.
+
+En cuanto a la usabilidad, Adriano indicó que le resultaría muy fácil usar la aplicación para crear correos temporales, pues ya tiene experiencia previa en el uso de servicios similares. No tuvo dificultades para comprender esta funcionalidad, lo que sugiere que el diseño es lo suficientemente intuitivo para usuarios con conocimientos básicos. Respecto a los planes de pago (Básico, Pro y Máster), destacó que entendía bien las diferencias entre ellos, comentando que el plan Básico tiene un tiempo limitado de uso, mientras que los planes Pro y Máster ofrecen mayores ventajas como tiempos más largos y la posibilidad de crear un número ilimitado de correos. Esto le pareció claro y considera que la elección del plan depende de las necesidades particulares de cada usuario.
+
+Cuando se abordó el tema de la seguridad, Adriano manifestó que, tras revisar la página, sentía un alto nivel de confianza en la aplicación, especialmente al ver que está asociada con entidades reconocidas como *Gmail*, *LinkedIn* y la Universidad Privada de Ciencias Aplicadas (UPC). Estas asociaciones le transmitieron una sensación de seguridad, ya que para él son indicativos de que *Temporaly* es una aplicación seria y confiable. A pesar de esta confianza inicial, comentó que preferiría probar la aplicación antes de confiar completamente en ella. En cuanto a los elementos que más le transmitieron seguridad, destacó la sección donde se mencionan las asociaciones con empresas y universidades, lo cual le generó una impresión positiva. No identificó ninguna parte de la página que le hiciera sentir inseguro.
+
+Finalmente, en relación al diseño de la página, Adriano opinó que es claro y fácil de navegar, tanto en su versión para escritorio como en dispositivos móviles. Afirmó que no tuvo dificultades para encontrar las secciones clave, como los testimonios, los precios y el apartado de contacto. Sin embargo, sugirió incluir un video explicativo que guíe a los usuarios a través de las funcionalidades de la app, especialmente a aquellos que no son tan tecnológicos, ya que un recurso visual podría facilitar la comprensión de cómo utilizar Temporaly y sacarle el máximo provecho. 
+
+En resumen, Adriano considera que la aplicación tiene un buen nivel de claridad en cuanto a su mensaje y propósito, además de ser fácil de usar para aquellos con algo de experiencia. La confianza que genera la app es alta, aunque recomendó probarla para asegurarse de su eficacia. Su única sugerencia significativa fue agregar un video tutorial para mejorar la accesibilidad y la comprensión de la herramienta para todo tipo de usuarios.
+
+![Imagen extraída del video de entrevistas](src/img/Cap5/AdrianoRamos_LandingPage.png)
+
+
+
+::: box
+**Segmento Objetivo 2:** Estudiantes de Pregrado/Postgrado
+:::
+
+**Entrevista #1**
+
+\begin{table}[H]
+\begin{center}  % Centrar la tabla
+\begin{tabular}{|p{5cm}|p{6cm}|}  % Ajusta los anchos de las columnas
+\hline
+\textbf{Nombre y Apellido}    & Daniel Mateo del Castillo \\ \hline
+\textbf{Edad}                 & 19 años                \\ \hline
+\textbf{Ubicación geográfica} & Lima, Perú         \\ \hline
+\textbf{Grado}                & Pregrado             \\ \hline
+\textbf{Tiempo de entrevista} & inicio - fin           \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
+
 ### Evualuaciones segun heuristicas
+
 
