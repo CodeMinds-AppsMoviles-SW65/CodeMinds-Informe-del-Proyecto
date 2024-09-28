@@ -922,6 +922,33 @@ Feature: Personalización del dominio de correos temporales
 
 #### *Execution Suite for Sprint Review*
 
+Durante este primer sprint se realizó la implementación de las screen y la conexion con el backend desde la aplicacion movil.
+features:
+• Se implementó un sistema de inicio y registro de usuarios.
+página.
+• Se implemento el sistema de generacion de correos falsos
+• Se implemento la vista de correos falsos y los mensajes de inbox.
+
+En las imágenes y videos adjuntos se podrá apreciar de mejor manera los avances mencionados.
+
+**Implementación del sistema de correos falso**
+
+![Backend: Imagen extraída del navegador](src/img/Cap5/cap5_backend_1.png)
+
+**Implementacion de las pantallas**
+
+![App movil: Imagen extraída de android studio.](src/img/Cap5/cap5_app_1.jpeg)
+
+![App movil: Imagen extraída de android studio.](src/img/Cap5/cap5_app_2.jpeg)
+
+![App movil: Imagen extraída de android studio.](src/img/Cap5/cap5_app_3.jpeg)
+
+![App movil: Imagen extraída de android studio.](src/img/Cap5/cap5_app_4.jpeg)
+
+![App movil: Imagen extraída de android studio.](src/img/Cap5/cap5_app_5.jpeg)
+
+\newpage
+
 #### *Services Documentation Evidence for Sprint Review*
 
 #### *Software Deployment Evidence for Sprint Review*
