@@ -173,7 +173,17 @@ A continuación, se presentan las Historias de Usuario organizadas según su fun
 
 \end{longtable}
 
+#### *Development Evidence for Sprint Review*
 
+#### *Testing Suite Evidence for Sprint Review*
+
+#### *Execution Suite for Sprint Review*
+
+#### *Services Documentation Evidence for Sprint Review*
+
+#### *Software Deployment Evidence for Sprint Review*
+
+#### *Team Collaboration Insights during Sprint*
 
 ## *Validation Interviews*
 
