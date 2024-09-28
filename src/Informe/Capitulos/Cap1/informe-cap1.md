@@ -99,6 +99,14 @@ pandoc-latex-environment:
   tb2 & 15/09/2024 & Ortega Huaraca, Abel Angel & Capitulo 4: Realicé el desarrollo del diseño de los wireframes de la aplicación y los prototipos \\
   \hline
   tb2 & 15/09/2024 & Avila Asto, Alex Ramon Alberto & Realicé la implementación del diseño y despliegue del backend \\
+\hline
+  tp & 28/09/2024 & Vilchez Rios, Mateo Alejandro & Capitulo 5: \textit{Landing Page UI Implementation} - \textit{Architecture Overview} - \textit{Class Dictionary}, Capitulo 5: Realicé la implementación del bounded context \textit{Privacy Policy}. \\
+  \hline
+  tp & 28/09/2024 &  Ramos Rios, Belen del Rocio & Capitulo 5: \textit{Style Guidelines} - \textit{Information Arhitecture} - \textit{Landing Page UI Implementation}, Capitulo 5: \textit{Sprint Backlog 1}\\
+  \hline
+  tp & 28/09/2024 & Ortega Huaraca, Abel Angel & Capitulo 5: Realicé el diseño y desarrollo del bounded context \textit{Temporary Email Management}  \\
+  \hline
+  tp & 28/09/2024 & Avila Asto, Alex Ramon Alberto & Capitulo 5: Realicé la implementación del diseño y despliegue del backend de autenticación. Asimismo realicé la implementación del bounded context \textit{Login}. \\
 \bottomrule
 \end{longtable}
 
@@ -168,6 +176,7 @@ A través de la implementación de metodologías ágiles, la utilización de her
 \parbox[t]{6cm}{
 \textbf{TP:} \\
 \textbf{Abel Angel Ortega Huaraca} \\
+<<<<<<< HEAD
 uwu. \\
 \textbf{Belen del Rocio Ramos Rios} \\
 Participé en el diseño del frontend de la aplicación móvil usando Kotlin y enfoqué mi aprendizaje en contextos estáticos. Me actualicé en Jetpack Compose y mejores prácticas de diseño, mejorando la organización del código y desarrollando interfaces modernas que fortalecen mis habilidades en soluciones de software. \\
@@ -175,11 +184,25 @@ Participé en el diseño del frontend de la aplicación móvil usando Kotlin y e
 Me dediqué al diseño del frontend móvil en Kotlin, trabajando específicamente en un contexto estático. Aprendí a utilizar Jetpack Compose y conceptos actualizados de diseño móvil. Esta experiencia me permitió mejorar la estructura del proyecto y aplicar nuevas habilidades en desarrollo de software eficiente. \\
 \textbf{Alex Avila Asto} \\
 uwu. \\
+=======
+En esta tercera entrega, participé activamente en el desarrollo del backend, implementando servicios RESTful y asegurando la correcta integración con la aplicación móvil. \\
+\textbf{Belen del Rocio Ramos Rios} \\
+Colaboré en la optimización de la experiencia del usuario en la app, asegurando una navegación intuitiva y fluida, y contribuyendo a la integración del frontend con el backend de manera efectiva. \\
+\textbf{Mateo Alejandro Vilchez Rios} \\
+Implementé funciones clave que permitieron la interacción con los servicios de backend y me aseguré de que las API fueran correctamente consumidas por la aplicación, siguiendo las mejores prácticas de diseño y estructura. \\
+\textbf{Alex Avila Asto} \\
+Participé en la conexión y despliegue de la aplicación móvil, garantizando la integración y comunicación efectiva entre ambas partes de la solución de software. Este proceso reforzó mis habilidades en arquitectura de sistemas y desarrollo full-stack. \\
+>>>>>>> U20201B380-Ortega
 } 
 &
 \parbox[t]{5cm}{
 \textbf{TP:} \\
+<<<<<<< HEAD
 uwu. \\
+=======
+En esta tercera entrega, el equipo se centró en el desarrollo del backend y la aplicación móvil, integrando funcionalidades clave que permitieron un flujo de datos eficiente y una experiencia de usuario mejorada. Cada miembro asumió roles específicos en la implementación de servicios, controladores y la integración entre las capas del sistema, aplicando los conocimientos adquiridos en tecnologías backend y desarrollo móvil. \\
+Mediante el uso de metodologías ágiles y la colaboración activa, logramos una implementación exitosa que permitió la correcta comunicación entre el backend y la aplicación móvil, cumpliendo con los estándares de la industria. Este enfoque contribuyó al fortalecimiento de nuestras habilidades en desarrollo de software y la entrega de una solución sólida, escalable y bien documentada, alineada con los objetivos del proyecto. \\
+>>>>>>> U20201B380-Ortega
 } \\
 
 \hline
@@ -235,6 +258,7 @@ Juntos, hemos integrado estas actualizaciones y aprendizajes en nuestras contrib
 \parbox[t]{6cm}{
 \textbf{TP:} \\
 \textbf{Abel Angel Ortega Huaraca} \\
+<<<<<<< HEAD
 uwu. \\
 \textbf{Belen del Rocio Ramos Rios} \\
 Reconocí la importancia del aprendizaje continuo para mejorar en el desarrollo de software. Mi investigación constante en Kotlin y diseño móvil contribuyó significativamente a la calidad del frontend. \\
@@ -242,11 +266,25 @@ Reconocí la importancia del aprendizaje continuo para mejorar en el desarrollo 
 Enfoqué mi aprendizaje permanente en mejorar el proyecto. La continua investigación en desarrollo móvil con Kotlin permitió implementar soluciones eficientes y actualizadas. \\
 \textbf{Alex Avila Asto} \\
 uwu. \\
+=======
+En esta tercera entrega, me enfoqué en el desarrollo del backend, aprendiendo nuevas tecnologías y herramientas para la creación de servicios RESTful y la integración con la aplicación móvil. \\
+\textbf{Belen del Rocio Ramos Rios} \\
+Me dediqué a la implementación y optimización de la aplicación móvil, centrándome en mejorar la experiencia de usuario y la integración con el backend. A través de este trabajo, reforcé mis conocimientos en la comunicación entre la aplicación móvil y los servicios. \\
+\textbf{Mateo Alejandro Vilchez Rios} \\
+Mi aporte en esta entrega se centró en la configuración del entorno de desarrollo para el backend y la aplicación móvil, asegurando una implementación fluida de las funciones y servicios. Esto me permitió mejorar mis habilidades en la gestión de entornos y despliegues, así como en la integración de APIs en un proyecto completo y colaborativo. \\
+\textbf{Alex Avila Asto} \\
+En esta entrega, participé activamente en la implementación de la arquitectura de backend y la integración con la aplicación móvil, creando servicios y controladores que permitieron la correcta funcionalidad del sistema. \\
+>>>>>>> U20201B380-Ortega
 } 
 &
 \parbox[t]{5cm}{
 \textbf{TP:} \\
+<<<<<<< HEAD
 uwu. \\
+=======
+En esta tercera entrega, nuestro equipo se dedicó al desarrollo del backend y la aplicación móvil, integrando conocimientos actualizados en la creación de servicios y en la implementación de una aplicación funcional y bien documentada. \\
+Abel se enfocó en el desarrollo de servicios RESTful, adaptándose a nuevas herramientas y tecnologías para asegurar la correcta integración entre las capas del sistema. Belén se centró en el desarrollo y optimización de la aplicación móvil, asegurando una experiencia de usuario mejorada y una comunicación eficiente con el backend. Mateo se dedicó a la gestión y configuración del entorno de desarrollo, facilitando el despliegue y la implementación de las funciones del proyecto. Alex desarrolló la arquitectura del backend y se encargó de la integración con la aplicación móvil, aplicando buenas prácticas de desarrollo full-stack. \\
+>>>>>>> U20201B380-Ortega
 } \\
 
 \bottomrule
@@ -900,6 +938,328 @@ El objetivo se cumplirá para el 15 de septiembre del 2024. Para esta fecha, se 
 
 \newpage
 
+\begin{longtable}{|>{\centering\arraybackslash}m{4cm}|>{\centering\arraybackslash}m{3cm}|>{\centering\arraybackslash}m{5cm}|>{\centering\arraybackslash}m{3cm}|}
+\hline
+\multicolumn{4}{|c|}{\textbf{TP}} \\
+\hline
+\textbf{\textit{SMART Goals}} & \textbf{Estudiante} & \textbf{Descripción del objetivo} & \textbf{Fechas de entrega} \\
+\hline
+\endfirsthead
+
+\multirow{4}{*}{
+\parbox[t]{4cm}{
+\textbf{Específico:} \textit{¿Qué se va a lograr?} \\
+El objetivo indica con especificidad, cuál es el proceso, servicio o producto en cuestión, para qué área es relevante, u otro detalle clave que brinde contexto. \\
+}}
+&  
+\parbox[t]{3cm}{
+Abel Ortega Huaraca \\
+}
+&
+\parbox[t]{5cm}{
+El objetivo es diseñar y desarrollar wireframes, mockups, prototipos y wireflows para la aplicación, con el fin de crear una interfaz de usuario intuitiva y coherente. Este proceso es relevante para el área de diseño de experiencia de usuario (UX) y diseño de interfaces (UI), asegurando que la aplicación sea visualmente atractiva y funcional, y cumpla con los requisitos del usuario. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 20-09-2024 \\
+\textbf{Fecha de entrega:} 28-09-2024 \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Belen del Rocio Ramos Rios
+}
+&
+\parbox[t]{5cm}{
+Mi objetivo en esta entrega es mejorar la arquitectura de la landing page, centrándome en la optimización del etiquetado SEO y la navegabilidad del sitio. Esto no solo es importante para el proyecto, sino que también me ayudará a adquirir habilidades necesarias para destacarme en el desarrollo web y optimización de motores de búsqueda (SEO), áreas en crecimiento profesional. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 20-09-2024 \\
+\textbf{Fecha de entrega:} 28-09-2024 \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Mateo Alejandro Vilchez Rios \\
+}
+&
+\parbox[t]{5cm}{
+En esta entrega, continuaré perfeccionando la documentación del proyecto y mejoré mis habilidades en configuración de software y diagramado arquitectónico. Estos conocimientos son esenciales para mi desarrollo en roles técnicos como ingeniero de software, permitiéndole tener una base sólida para la gestión de proyectos a gran escala. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 20-09-2024 \\
+\textbf{Fecha de entrega:} 28-09-2024 \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Alex Avila Asto \\
+}
+&
+\parbox[t]{5cm}{
+El objetivo es crear diagramas detallados de base de datos, clases y despliegue para la aplicación, con el fin de estructurar y organizar eficientemente los datos y el entorno de desarrollo. Este proceso es relevante para el área de arquitectura de software y diseño de sistemas, garantizando que la solución sea robusta, escalable y bien documentada, facilitando su implementación y mantenimiento. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 20-09-2024 \\
+\textbf{Fecha de entrega:} 28-09-2024 \\
+} \\
+\hline
+
+\multirow{4}{*}{
+\parbox[t]{4cm}{
+\textbf{Medible:} \textit{¿Tiene KPI o métrica clara?} \\
+El enunciado tiene una meta con indicador (KPI) o métrica clara, que determinará si el objetio se cumplió. Idealmente, describe el impacto (lo que vamos a lograr) más que el entregable (lo que vamos a hacer) \\
+}}
+&  
+\parbox[t]{3cm}{
+Abel Ortega Huaraca \\
+}
+&
+\parbox[t]{5cm}{
+El éxito se medirá por la cantidad de iteraciones de wireframes, mockups y prototipos completados y aprobados por los usuarios y partes interesadas. La métrica clave será obtener al menos un 90\% de aprobación en pruebas de usabilidad realizadas con usuarios finales, lo que indicará que la interfaz es intuitiva y cumple con los requisitos de experiencia de usuario. Además, se evaluará la reducción en el número de revisiones y cambios requeridos después de las pruebas iniciales. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 20-09-2024 \\
+\textbf{Fecha de entrega:} 28-09-2024 \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Belen del Rocio Ramos Rios
+}
+&
+\parbox[t]{5cm}{
+El éxito se medirá por la efectividad de los sistemas de etiquetado SEO y la navegación de la página, asegurando que el trabajo esté alineado con los estándares del proyecto y con las expectativas de usuarios y clientes, reforzando mis competencias en desarrollo web. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 20-09-2024 \\
+\textbf{Fecha de entrega:} 28-09-2024 \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Mateo Alehandro Vilchez Rios \\
+}
+&
+\parbox[t]{5cm}{
+El éxito se medirá por la calidad de los diagramas arquitectónicos y la correcta configuración del software, elementos clave que no solo cumplirán con los objetivos del proyecto, sino que contribuirán a mi crecimiento como profesional en desarrollo de software. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 20-09-2024 \\
+\textbf{Fecha de entrega:} 28-09-2024 \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Alex Avila Asto \\
+}
+&
+\parbox[t]{5cm}{
+El éxito se medirá por la integridad y precisión de los diagramas de base de datos, clases y despliegue en un 100% de conformidad con los requisitos del proyecto. Las métricas clave incluirán la validación de los diagramas por parte del equipo de desarrollo y la reducción de errores en la implementación del sistema en un 80%. También se evaluará el impacto en la eficiencia del desarrollo y la facilidad de mantenimiento del sistema, con un objetivo de reducir el tiempo de resolución de problemas en un 30% tras la implementación. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 20-09-2024 \\
+\textbf{Fecha de entrega:} 28-09-2024 \\
+} \\
+\hline
+
+\multirow{4}{*}{
+\parbox[t]{4cm}{
+\textbf{Ambicioso:} \textit{¿Es retador y va más allá de sus funciones?} \\
+El objetivo inspira y reta a pensar acciones para dar el salto que se requiere para el logro, no se lograría sin una estrategia y un foco potentes. \\
+}}
+&  
+\parbox[t]{3cm}{
+Abel Ortega Huaraca \\
+}
+&
+\parbox[t]{5cm}{
+El objetivo es retador porque implica no solo diseñar wireframes, mockups y prototipos efectivos, sino también liderar la implementación de una metodología de diseño centrada en el usuario que podría ser adoptada como estándar para futuros proyectos. Esto requiere ir más allá de las funciones básicas, adoptando técnicas avanzadas de prototipado y herramientas innovadoras para asegurar una experiencia de usuario excepcional. La ambición está en transformar la visión del proyecto en una solución altamente interactiva y visualmente impactante, alineada con las mejores prácticas del mercado. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 20-09-2024 \\
+\textbf{Fecha de entrega:} 28-09-2024 \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Belen del Rocio Ramos Rios
+}
+&
+\parbox[t]{5cm}{
+Este objetivo es ambicioso ya que me reta a mejorar mis conocimientos en SEO, una herramienta clave para la creación de productos digitales competitivos, lo cual es fundamental para mi desarrollo a largo plazo. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 20-09-2024 \\
+\textbf{Fecha de entrega:} 28-09-2024 \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Mateo Alejandro Vilchez Rios\\
+}
+&
+\parbox[t]{5cm}{
+Este objetivo es retador, ya que me exige dominar nuevas herramientas de configuración y mejorar mi comprensión de la arquitectura de software, áreas cruciales para mi avance en roles técnicos de mayor responsabilidad en mi carrera.\\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 20-09-2024 \\
+\textbf{Fecha de entrega:} 28-09-2024 \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Alex Avila Asto \\
+}
+&
+\parbox[t]{5cm}{
+El objetivo es ambicioso ya que requiere desarrollar diagramas detallados y efectivos para la base de datos, clases y despliegue, y además, establecer un proceso robusto para su integración y mantenimiento. Esto va más allá de la simple creación de diagramas; implica implementar un diseño que soporte escalabilidad, optimización del rendimiento y adaptabilidad a futuros cambios. El reto es establecer un estándar de arquitectura que no solo cumpla con los requisitos actuales, sino que también prepare al sistema para enfrentar desafíos futuros, mejorando significativamente la eficiencia y reduciendo el tiempo de desarrollo y mantenimiento. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 20-09-2024 \\
+\textbf{Fecha de entrega:} 28-09-2024 \\
+} \\
+\hline
+
+\multirow{4}{*}{
+\parbox[t]{4cm}{
+\textbf{Relevante:} \textit{¿Está alineado a la estratégia?} \\
+Existe una explicación clara respecto a cómo el objetivo impacta sobre los objetivos estratégicos de la institución o \textit{Laurate} Perú. Brinda una noción del alcance del objetivo. \\
+}}
+&  
+\parbox[t]{3cm}{
+Abel Ortega Huaraca \\
+}
+&
+\parbox[t]{5cm}{
+Este objetivo está alineado con la estrategia de la institución al mejorar la calidad y eficacia del desarrollo de software mediante el diseño centrado en el usuario. Al crear wireframes, mockups y prototipos efectivos, contribuimos a asegurar que la aplicación cumpla con los estándares de usabilidad y accesibilidad, lo cual impacta positivamente en la satisfacción del usuario final. Esta alineación con los principios de diseño de la institución refuerza nuestra capacidad para entregar productos de alta calidad que cumplen con las expectativas del mercado y los requisitos estratégicos de Laurate Perú. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 20-09-2024 \\
+\textbf{Fecha de entrega:} 28-09-2024 \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Belen del Rocio Ramos Rios
+}
+&
+\parbox[t]{5cm}{
+Optimizar la arquitectura de la landing page y asegurar una navegación eficiente es vital no solo para este proyecto, sino para mi carrera, ya que estas son competencias esenciales en el ámbito del desarrollo web y diseño de productos. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 20-09-2024 \\
+\textbf{Fecha de entrega:} 28-09-2024 \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Mateo Alejandro Vilchez Rios\\
+}
+&
+\parbox[t]{5cm}{
+La correcta implementación de diagramas de arquitectura y configuraciones de software es vital para mi crecimiento en la industria de la tecnología, preparándome para enfrentar retos más grandes en el futuro. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 20-09-2024 \\
+\textbf{Fecha de entrega:} 28-09-2024 \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Alex Avila Asto \\
+}
+&
+\parbox[t]{5cm}{
+Este objetivo está alineado con la estrategia institucional al garantizar una arquitectura de software sólida y bien documentada, que respalde la escalabilidad y el rendimiento del sistema. Al desarrollar diagramas detallados y efectivos para la base de datos, clases y despliegue, contribuimos a la creación de soluciones de software robustas que cumplen con los estándares de calidad y eficiencia esperados por Laurate Perú. Esta alineación asegura que el sistema esté preparado para soportar futuros desarrollos y cambios, optimizando el proceso de desarrollo y mantenimiento en línea con los objetivos estratégicos de la institución. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 20-09-2024 \\
+\textbf{Fecha de entrega:} 28-09-2024 \\
+} \\
+\hline
+
+\multirow{4}{*}{
+\parbox[t]{4cm}{
+\textbf{Tiempo Límite:} \textit{¿Cuándo se cumplirá?} \\
+En caso que la expectativa de fecha de cumplimiento sea previa al cierre de año, el enunciado contiene de forma explícita la fecha límite para alcanzar el objetivo. \\
+}}
+&  
+\parbox[t]{3cm}{
+Abel Ortega Huaraca \\
+}
+&
+\parbox[t]{5cm}{
+El objetivo se cumplirá para el 15 de septiembre del 2024. Para esta fecha, se espera haber completado el diseño de wireframes, mockups, prototipos y wireflows, y haber obtenido retroalimentación de los usuarios para garantizar que cumplan con los estándares de experiencia de usuario. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 20-09-2024 \\
+\textbf{Fecha de entrega:} 28-09-2024 \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Belen del Rocio Ramos Rios
+}
+&
+\parbox[t]{5cm}{
+El objetivo será cumplido para el 15 de septiembre de 2024, asegurando que la planificación del sprint backlog también esté lista para la próxima iteración del proyecto. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 20-09-2024 \\
+\textbf{Fecha de entrega:} 28-09-2024 \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Mateo Alejandro Vilchez Rios\\
+}
+&
+\parbox[t]{5cm}{
+El objetivo se cumplirá para el 15 de septiembre de 2024, asegurando que las contribuciones estén completas a tiempo para las próximas fases del proyecto, lo que refuerza mi habilidad para trabajar bajo plazos estrictos. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 20-09-2024 \\
+\textbf{Fecha de entrega:} 28-09-2024 \\
+} \\
+\cline{2-4}
+&
+\parbox[t]{3cm}{
+Alex Avila Asto \\
+}
+&
+\parbox[t]{5cm}{
+El objetivo se cumplirá para el 15 de septiembre del 2024. Para esta fecha, se espera haber desarrollado y documentado los diagramas de base de datos, clases y despliegue, y haber implementado las mejores prácticas en el entorno de desarrollo para asegurar una integración efectiva y eficiente. \\
+}
+&
+\parbox[t]{3cm}{
+\textbf{Fecha de inicio:} 20-09-2024 \\
+\textbf{Fecha de entrega:} 28-09-2024 \\
+} \\
+\bottomrule
+
+\end{longtable}
+
+\newpage
+
 ***Project Report Collaboration Insights***
 
 ::: warn
@@ -922,6 +1282,15 @@ Para mayor información, haga click en la [URL](https://github.com/CodeMinds-App
 
 \newpage
 
+**TP:**
+
+![Imagen extraída de Github - Codeminds](src/img/Cap5/insights.png)
+
+![Imagen extraída de Github - Codeminds](src/img/Cap5/colaboration-insights-2.png)
+
+\newpage
+
+
 *Actividades Colaborativas* ***(Github Kanban)***
 
 ::: warn
@@ -934,11 +1303,21 @@ Para mayor información, haga click en la [URL](https://github.com/orgs/CodeMind
 
 ![Imagen extraída de Github - Codeminds](src/img/Cap1/report-collaboration-2.png)
 
+\newpage
+
 **TB2:**
 
 ![Imagen extraída de Github - Codeminds](src/img/Cap1/report-collaboration-3.png)
 
 ![Imagen extraída de Github - Codeminds](src/img/Cap1/report-collaboration-4.png)
+
+\newpage
+
+**TP:**
+
+![Imagen extraída de Github - Codeminds](src/img/Cap5/development-evidence.png)
+
+![Imagen extraída de Github - Codeminds](src/img/Cap5/colaboration-insights-1.png)
 
 \newpage
 
