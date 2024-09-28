@@ -176,33 +176,19 @@ A través de la implementación de metodologías ágiles, la utilización de her
 \parbox[t]{6cm}{
 \textbf{TP:} \\
 \textbf{Abel Angel Ortega Huaraca} \\
-<<<<<<< HEAD
-uwu. \\
-\textbf{Belen del Rocio Ramos Rios} \\
-Participé en el diseño del frontend de la aplicación móvil usando Kotlin y enfoqué mi aprendizaje en contextos estáticos. Me actualicé en Jetpack Compose y mejores prácticas de diseño, mejorando la organización del código y desarrollando interfaces modernas que fortalecen mis habilidades en soluciones de software. \\
-\textbf{Mateo Alejandro Vilchez Rios} \\
-Me dediqué al diseño del frontend móvil en Kotlin, trabajando específicamente en un contexto estático. Aprendí a utilizar Jetpack Compose y conceptos actualizados de diseño móvil. Esta experiencia me permitió mejorar la estructura del proyecto y aplicar nuevas habilidades en desarrollo de software eficiente. \\
-\textbf{Alex Avila Asto} \\
-uwu. \\
-=======
 En esta tercera entrega, participé activamente en el desarrollo del backend, implementando servicios RESTful y asegurando la correcta integración con la aplicación móvil. \\
 \textbf{Belen del Rocio Ramos Rios} \\
 Colaboré en la optimización de la experiencia del usuario en la app, asegurando una navegación intuitiva y fluida, y contribuyendo a la integración del frontend con el backend de manera efectiva. \\
 \textbf{Mateo Alejandro Vilchez Rios} \\
-Implementé funciones clave que permitieron la interacción con los servicios de backend y me aseguré de que las API fueran correctamente consumidas por la aplicación, siguiendo las mejores prácticas de diseño y estructura. \\
+Apliqué metodologías ágiles para gestionar las tareas relacionadas con el desarrollo del backend y la aplicación móvil. Implementé funciones clave que permitieron la interacción con los servicios de backend y me aseguré de que las API fueran correctamente consumidas por la aplicación. \\
 \textbf{Alex Avila Asto} \\
 Participé en la conexión y despliegue de la aplicación móvil, garantizando la integración y comunicación efectiva entre ambas partes de la solución de software. Este proceso reforzó mis habilidades en arquitectura de sistemas y desarrollo full-stack. \\
->>>>>>> U20201B380-Ortega
 } 
 &
 \parbox[t]{5cm}{
 \textbf{TP:} \\
-<<<<<<< HEAD
-uwu. \\
-=======
 En esta tercera entrega, el equipo se centró en el desarrollo del backend y la aplicación móvil, integrando funcionalidades clave que permitieron un flujo de datos eficiente y una experiencia de usuario mejorada. Cada miembro asumió roles específicos en la implementación de servicios, controladores y la integración entre las capas del sistema, aplicando los conocimientos adquiridos en tecnologías backend y desarrollo móvil. \\
 Mediante el uso de metodologías ágiles y la colaboración activa, logramos una implementación exitosa que permitió la correcta comunicación entre el backend y la aplicación móvil, cumpliendo con los estándares de la industria. Este enfoque contribuyó al fortalecimiento de nuestras habilidades en desarrollo de software y la entrega de una solución sólida, escalable y bien documentada, alineada con los objetivos del proyecto. \\
->>>>>>> U20201B380-Ortega
 } \\
 
 \hline
@@ -255,36 +241,23 @@ Juntos, hemos integrado estas actualizaciones y aprendizajes en nuestras contrib
 \cline{2-3}
 
 &  
+
 \parbox[t]{6cm}{
 \textbf{TP:} \\
 \textbf{Abel Angel Ortega Huaraca} \\
-<<<<<<< HEAD
-uwu. \\
+En esta tercera entrega, me enfoqué en el desarrollo del backend, aprendiendo nuevas tecnologías y herramientas para la creación de servicios RESTful y la integración con la aplicación móvil. Este proceso me permitió adquirir habilidades clave en la gestión de APIs y en el manejo de bases de datos, esenciales para mi crecimiento en el desarrollo de soluciones de software. \\
 \textbf{Belen del Rocio Ramos Rios} \\
-Reconocí la importancia del aprendizaje continuo para mejorar en el desarrollo de software. Mi investigación constante en Kotlin y diseño móvil contribuyó significativamente a la calidad del frontend. \\
+A través de este trabajo, reforcé mis conocimientos en la comunicación entre la aplicación móvil y los servicios, aplicando mejores prácticas para garantizar un flujo de datos eficiente y una interfaz atractiva y funcional. \\
 \textbf{Mateo Alejandro Vilchez Rios} \\
-Enfoqué mi aprendizaje permanente en mejorar el proyecto. La continua investigación en desarrollo móvil con Kotlin permitió implementar soluciones eficientes y actualizadas. \\
-\textbf{Alex Avila Asto} \\
-uwu. \\
-=======
-En esta tercera entrega, me enfoqué en el desarrollo del backend, aprendiendo nuevas tecnologías y herramientas para la creación de servicios RESTful y la integración con la aplicación móvil. \\
-\textbf{Belen del Rocio Ramos Rios} \\
-Me dediqué a la implementación y optimización de la aplicación móvil, centrándome en mejorar la experiencia de usuario y la integración con el backend. A través de este trabajo, reforcé mis conocimientos en la comunicación entre la aplicación móvil y los servicios. \\
-\textbf{Mateo Alejandro Vilchez Rios} \\
-Mi aporte en esta entrega se centró en la configuración del entorno de desarrollo para el backend y la aplicación móvil, asegurando una implementación fluida de las funciones y servicios. Esto me permitió mejorar mis habilidades en la gestión de entornos y despliegues, así como en la integración de APIs en un proyecto completo y colaborativo. \\
+Mi aporte en esta entrega se centró en la configuración del entorno de desarrollo para el backend y la aplicación móvil, asegurando una implementación fluida de las funciones y servicios. \\
 \textbf{Alex Avila Asto} \\
 En esta entrega, participé activamente en la implementación de la arquitectura de backend y la integración con la aplicación móvil, creando servicios y controladores que permitieron la correcta funcionalidad del sistema. \\
->>>>>>> U20201B380-Ortega
 } 
 &
 \parbox[t]{5cm}{
 \textbf{TP:} \\
-<<<<<<< HEAD
-uwu. \\
-=======
 En esta tercera entrega, nuestro equipo se dedicó al desarrollo del backend y la aplicación móvil, integrando conocimientos actualizados en la creación de servicios y en la implementación de una aplicación funcional y bien documentada. \\
 Abel se enfocó en el desarrollo de servicios RESTful, adaptándose a nuevas herramientas y tecnologías para asegurar la correcta integración entre las capas del sistema. Belén se centró en el desarrollo y optimización de la aplicación móvil, asegurando una experiencia de usuario mejorada y una comunicación eficiente con el backend. Mateo se dedicó a la gestión y configuración del entorno de desarrollo, facilitando el despliegue y la implementación de las funciones del proyecto. Alex desarrolló la arquitectura del backend y se encargó de la integración con la aplicación móvil, aplicando buenas prácticas de desarrollo full-stack. \\
->>>>>>> U20201B380-Ortega
 } \\
 
 \bottomrule

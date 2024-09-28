@@ -224,17 +224,19 @@ Para acceder al flujo de trabajo, haga click a la [URL](https://github.com/orgs/
 
 1. Seleccionar el repositorio *CodeMinds-LandingPage*
 
-    ![Organización CodeMinds, imagen extraída de Github](src/img/Cap4/git_repo.png)
+![Organización CodeMinds, imagen extraída de Github](src/img/Cap4/git_repo.png)
+
+\newpage
 
 2. Abrir, descargar y ejecutar en *VSCode* o *WebsTorm* el archivo index.html
 
-    ![Repositorio de la Landing Page, imagen extraída de Github](src/img/Cap4/git_repo_landing.png)
+![Repositorio de la Landing Page, imagen extraída de Github](src/img/Cap4/git_repo_landing.png)
 
 3. Visualización de la *Landing Page*
 
-    ![Web Landing Page - CodeMinds, imagen extraída de Github](src/img/Cap4/desk_landing.png)
+![Web Landing Page - CodeMinds, imagen extraída de Github](src/img/Cap4/desk_landing.png)
 
-    ![Mobile Landing Page - CodeMinds, imagen extraída de Github](src/img/Cap4/mobile_landing.png)
+![Mobile Landing Page - CodeMinds, imagen extraída de Github](src/img/Cap4/mobile_landing.png)
 
 \newpage
 
@@ -242,15 +244,15 @@ Para acceder al flujo de trabajo, haga click a la [URL](https://github.com/orgs/
 
 1. Seleccionar el repositorio *CodeMinds-Temporaly-Backend*
 
-    ![Organización CodeMinds, imagen extraída de Github](src/img/Cap4/git_repo.png)
+![Organización CodeMinds, imagen extraída de Github](src/img/Cap4/git_repo.png)
 
 2. Abrir, descargar y ejecutar en *Intellij Idea*
 
-    ![Repositorio del backend, imagen extraída de Github](src/img/Cap5/auth-backend-configuration.png)
+![Repositorio del backend, imagen extraída de Github](src/img/Cap5/auth-backend-configuration.png)
 
 3. Visualización de la documentación *Swagger*
 
-    ![Swagger, imagen extraída de Github](src/img/Cap5/auth-backend-swagger.png)
+![Swagger, imagen extraída de Github](src/img/Cap5/auth-backend-swagger.png)
 
 \newpage
 
@@ -258,15 +260,17 @@ Para acceder al flujo de trabajo, haga click a la [URL](https://github.com/orgs/
 
 1. Seleccionar el repositorio *CodeMinds-Temporaly-Backend-GenerateMails-Python*
 
-    ![Organización CodeMinds, imagen extraída de Github](src/img/Cap4/git_repo.png)
+![Organización CodeMinds, imagen extraída de Github](src/img/Cap4/git_repo.png)
+
+\newpage
 
 2. Abrir, descargar y ejecutar en *VSCode*, *Vim* o su editor de preferencia
 
-    ![Repositorio del backend, imagen extraída de Github](src/img/Cap5/generate-email-backend-configuration.png)
+![Repositorio del backend, imagen extraída de Github](src/img/Cap5/generate-email-backend-configuration.png)
 
 3. Visualización de la documentación *Flasgger*
 
-    ![Flasgger, imagen extraída de Github](src/img/Cap5/generate-email-backend-flasgger.png)
+![Flasgger, imagen extraída de Github](src/img/Cap5/generate-email-backend-flasgger.png)
 
 \newpage
 
@@ -274,15 +278,19 @@ Para acceder al flujo de trabajo, haga click a la [URL](https://github.com/orgs/
 
 1. Seleccionar el repositorio *CodeMinds-Temporaly-MobileApp*
 
-    ![Organización CodeMinds, imagen extraída de Github](src/img/Cap4/git_repo.png)
+![Organización CodeMinds, imagen extraída de Github](src/img/Cap4/git_repo.png)
+
+\newpage
 
 2. Abrir, descargar y ejecutar en Android Studio 
 
-    ::: important
-        Asegurese de tener la version Android Studio Koala - 2024 - Patch 1 o 2
-    :::
+::: important
+ Asegurese de tener la version Android Studio Koala - 2024 - Patch 1 o 2
+:::
 
-    ![Repositorio del Mobile App, imagen extraída de Github](src/img/Cap5/mobile-app-configuration.png)
+![Repositorio del Mobile App, imagen extraída de Github](src/img/Cap5/mobile-app-configuration.png)
+
+\newpage
 
 3. Visualización de la aplicación *Temporaly*
 
@@ -440,8 +448,21 @@ US08 & \parbox[t]{2.5cm}{Personalización del dominio del correo temporal} & WI2
 
 \end{longtable}
 
-<<<<<<< HEAD
+**Gestión del Sprint 2 (Tablero Kanban):**
+
+Para mejorar la gestión y seguimiento de las tareas de este *sprint*, se implementó un tablero Kanban. Este tablero permite visualizar claramente los elementos clave a desarrollar, asignar responsables para cada tarea, y utilizar etiquetas *(labels)* que categorizan los Issues de forma precisa. Además, los *Milestones* fueron utilizados estratégicamente para planificar las fechas de entrega y gestionar los entregables, facilitando un control eficiente del progreso del proyecto.
+
+![Tablero Kanban del equipo, imagen extraída de Github](src/img/Cap4/Sprint_Backlog1.png)
+
+\newpage
+
 #### *Development Evidence for Sprint Review*
+
+Evidencia de colaboración en Equipo:
+
+![Imagen extraída de Github](src/img/cap5/development-evidence.png)
+
+\newpage
 
 #### *Testing Suite Evidence for Sprint Review*
 
@@ -1159,6 +1180,8 @@ Feature: Personalización del dominio de correos temporales
 
 ```
 
+\newpage
+
 #### *Execution Suite for Sprint Review*
 
 Durante este primer sprint se realizó la implementación de las screen y la conexion con el backend desde la aplicacion movil.
@@ -1174,46 +1197,26 @@ En las imágenes y videos adjuntos se podrá apreciar de mejor manera los avance
 
 ![Backend: Imagen extraída del navegador](src/img/Cap5/cap5_backend_1.png)
 
+\newpage
+
 **Implementacion de las pantallas**
 
-![App movil: Imagen extraída de android studio.](src/img/Cap5/cap5_app_1.jpeg)
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=1.0\textwidth, height=0.9\textheight]{src/img/Cap5/cap5_app_1.jpeg}
+    \caption{App movil: Imagen extraída de Android Studio}
+    \label{fig:fimag}
+\end{figure}
 
-![App movil: Imagen extraída de android studio.](src/img/Cap5/cap5_app_2.jpeg)
+![App movil: Imagen extraída de Android Studio.](src/img/Cap5/cap5_app_2.jpeg)
 
-![App movil: Imagen extraída de android studio.](src/img/Cap5/cap5_app_3.jpeg)
+![App movil: Imagen extraída de Android Studio.](src/img/Cap5/cap5_app_3.jpeg)
 
-![App movil: Imagen extraída de android studio.](src/img/Cap5/cap5_app_4.jpeg)
+![App movil: Imagen extraída de Android Studio.](src/img/Cap5/cap5_app_4.jpeg)
 
-![App movil: Imagen extraída de android studio.](src/img/Cap5/cap5_app_5.jpeg)
-
-\newpage
-
-#### *Services Documentation Evidence for Sprint Review*
-
-#### *Software Deployment Evidence for Sprint Review*
-
-#### *Team Collaboration Insights during Sprint*
-=======
-**Gestión del Sprint 2 (Tablero Kanban):**
->>>>>>> U20201B380-Ortega
-
-Para mejorar la gestión y seguimiento de las tareas de este *sprint*, se implementó un tablero Kanban. Este tablero permite visualizar claramente los elementos clave a desarrollar, asignar responsables para cada tarea, y utilizar etiquetas *(labels)* que categorizan los Issues de forma precisa. Además, los *Milestones* fueron utilizados estratégicamente para planificar las fechas de entrega y gestionar los entregables, facilitando un control eficiente del progreso del proyecto.
-
-![Tablero Kanban del equipo, imagen extraída de Github](src/img/Cap4/Sprint_Backlog1.png)
+![App movil: Imagen extraída de Android Studio.](src/img/Cap5/cap5_app_5.jpeg)
 
 \newpage
-
-#### *Development Evidence for Sprint Review*
-
-Evidencia de colaboración en Equipo:
-
-![Imagen extraída de Github](src/img/Cap5/development-evidence.png)
-
-\newpage
-
-#### *Testing Suite Evidence For Sprint Review*
-
-#### *Execution Evidence for Sprint Review*
 
 #### *Services Documentation Evidence for Sprint Review*
 
@@ -1288,6 +1291,8 @@ A continuación, exploraremos cómo se diseñaron las entrevistas, cómo se llev
    
 2) ¿Qué cambiarías para hacer la página más comprensible o atractiva para ti?
 
+\newpage
+
 ::: box 
 **Segmento Objetivo 2:** Estudiantes de nivel universitario y superior (pregrado - postgrado) 
 :::
@@ -1320,6 +1325,7 @@ A continuación, exploraremos cómo se diseñaron las entrevistas, cómo se llev
    
 2) ¿Agregarías o cambiarías algo en la estructura o la interfaz para hacerla más efectiva?
 
+\newpage
 
 ### Registro de entrevistas
 
@@ -1358,7 +1364,7 @@ En resumen, Adriano considera que la aplicación tiene un buen nivel de claridad
 
 ![Imagen extraída del video de entrevistas](src/img/Cap5/AdrianoRamos_LandingPage.png)
 
-
+\newpage
 
 ::: box
 **Segmento Objetivo 2:** Estudiantes de Pregrado/Postgrado
@@ -1380,6 +1386,10 @@ En resumen, Adriano considera que la aplicación tiene un buen nivel de claridad
 \end{table}
 
 
+
+
+
+\newpage
 
 ### Evualuaciones segun heuristicas
 
@@ -1403,7 +1413,6 @@ En resumen, Adriano considera que la aplicación tiene un buen nivel de claridad
 
 \vspace{10pt}
 
-
 **SITE o APP A EVALUAR:** *Temporaly*
 
 \vspace{10pt}
@@ -1419,7 +1428,7 @@ El alcance de esta evaluación incluye la revisión de la usabilidad de la \text
     \item \textbf{Diseño visual y navegación}: Facilidad para encontrar secciones clave.
 \end{enumerate}
 
-\vspace{2cm}
+\newpage
 
 **ESCALA DE SEVERIDAD**
 
@@ -1457,6 +1466,7 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 \end{center}
 \end{table}
 
+\newpage
 
 **DESCRIPCIÓN DE PROBLEMAS**
 
