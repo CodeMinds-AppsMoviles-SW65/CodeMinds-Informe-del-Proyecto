@@ -1329,6 +1329,12 @@ A continuación, exploraremos cómo se diseñaron las entrevistas, cómo se llev
 
 ### Registro de entrevistas
 
+::: note
+Para acceder al video de las entrevistas, haga click en la [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a322_upc_edu_pe/ETJe4kTakANPuvEWBeV6fsoBgYJa7YDI8yt0Mp90Wf_fNg?e=rEvT4q&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+:::
+
+\vspace{0.4cm}
+
 ::: box
 **Segmento Objetivo 1:** Estudiantes de nivel escolar
 :::
