@@ -162,6 +162,26 @@ En esta segunda entrega, como equipo, nos enfocamos en actualizar y aplicar conc
 A través de la implementación de metodologías ágiles, la utilización de herramientas de diseño actualizadas y la estructuración eficaz de la arquitectura de software, hemos logrado un avance significativo en la creación de un producto coherente y alineado con los estándares de la industria. Este enfoque nos ha permitido actualizar los conocimientos necesarios para nuestro desarrollo profesional, aplicando las mejores prácticas en la creación de soluciones de software sólidas y bien documentadas. \\
 } \\
 
+\cline{2-3}
+
+&  
+\parbox[t]{6cm}{
+\textbf{TP:} \\
+\textbf{Abel Angel Ortega Huaraca} \\
+uwu. \\
+\textbf{Belen del Rocio Ramos Rios} \\
+Participé en el diseño del frontend de la aplicación móvil usando Kotlin y enfoqué mi aprendizaje en contextos estáticos. Me actualicé en Jetpack Compose y mejores prácticas de diseño, mejorando la organización del código y desarrollando interfaces modernas que fortalecen mis habilidades en soluciones de software. \\
+\textbf{Mateo Alejandro Vilchez Rios} \\
+Me dediqué al diseño del frontend móvil en Kotlin, trabajando específicamente en un contexto estático. Aprendí a utilizar Jetpack Compose y conceptos actualizados de diseño móvil. Esta experiencia me permitió mejorar la estructura del proyecto y aplicar nuevas habilidades en desarrollo de software eficiente. \\
+\textbf{Alex Avila Asto} \\
+uwu. \\
+} 
+&
+\parbox[t]{5cm}{
+\textbf{TP:} \\
+uwu. \\
+} \\
+
 \hline
 
 \multirow{2}{*}{
@@ -207,6 +227,26 @@ En esta entrega, creé diagramas de base de datos, clases y despliegue, destacan
 En esta segunda entrega, nuestro equipo ha demostrado un firme compromiso con el aprendizaje permanente, fundamental para el desarrollo profesional y la creación de soluciones de software.
 Abel se centró en el diseño de interfaces, adaptándose a nuevas herramientas y técnicas para mejorar el prototipado y la experiencia del usuario. Belén optimizó herramientas de documentación y gestión de etiquetas SEO, asegurando una landing page bien organizada y accesible. Mateo mejoró en la gestión del código fuente y la configuración del entorno de desarrollo, promoviendo la eficiencia y la colaboración en el proyecto. Alex se enfocó en el diseño de diagramas de base de datos y arquitectura, actualizando sus habilidades en modelado estructural.
 Juntos, hemos integrado estas actualizaciones y aprendizajes en nuestras contribuciones, reflejando la importancia del aprendizaje continuo para el éxito en proyectos de software y el desarrollo profesional. \\
+} \\
+
+\cline{2-3}
+
+&  
+\parbox[t]{6cm}{
+\textbf{TP:} \\
+\textbf{Abel Angel Ortega Huaraca} \\
+uwu. \\
+\textbf{Belen del Rocio Ramos Rios} \\
+Reconocí la importancia del aprendizaje continuo para mejorar en el desarrollo de software. Mi investigación constante en Kotlin y diseño móvil contribuyó significativamente a la calidad del frontend. \\
+\textbf{Mateo Alejandro Vilchez Rios} \\
+Enfoqué mi aprendizaje permanente en mejorar el proyecto. La continua investigación en desarrollo móvil con Kotlin permitió implementar soluciones eficientes y actualizadas. \\
+\textbf{Alex Avila Asto} \\
+uwu. \\
+} 
+&
+\parbox[t]{5cm}{
+\textbf{TP:} \\
+uwu. \\
 } \\
 
 \bottomrule

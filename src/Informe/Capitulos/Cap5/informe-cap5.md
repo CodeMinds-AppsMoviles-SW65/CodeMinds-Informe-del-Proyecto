@@ -202,7 +202,17 @@ US08 & \parbox[t]{2.5cm}{Personalización del dominio del correo temporal} & WI2
 
 \end{longtable}
 
+#### *Development Evidence for Sprint Review*
 
+#### *Testing Suite Evidence for Sprint Review*
+
+#### *Execution Suite for Sprint Review*
+
+#### *Services Documentation Evidence for Sprint Review*
+
+#### *Software Deployment Evidence for Sprint Review*
+
+#### *Team Collaboration Insights during Sprint*
 
 
 ## *Validation Interviews*
