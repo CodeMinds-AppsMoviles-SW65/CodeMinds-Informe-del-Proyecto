@@ -87,91 +87,121 @@ pandoc-latex-environment:
 
 #### Sprint Backlog 2
 
-En este segundo sprint, se priorizó el desarrollo de funcionalidades esenciales relacionadas con la generación y gestión de correos temporales en la aplicación Temporaly. Estas funcionalidades están alineadas con los objetivos clave de la app, que incluyen la creación, personalización y manejo eficiente de correos temporales, brindando a los usuarios una experiencia fluida y segura.
+En este segundo sprint, el foco ha sido completar e integrar funcionalidades críticas dentro de la aplicación móvil de Temporaly, así como afianzar la conexión con el backend. Las historias de usuario incluidas en este sprint cubren tareas relacionadas con la creación y gestión de correos temporales, personalización de dominios, y optimización del proceso de generación y visualización de correos, asegurando que la experiencia de usuario sea intuitiva y eficiente.
 
-A continuación, se presentan las Historias de Usuario organizadas según su funcionalidad dentro de la aplicación.
+Ademas, se ha priorizado garantizar una interacción fluida entre las interfaces móviles desarrolladas en Kotlin y las APIs del backend, permitiendo a los usuarios gestionar correos temporales de manera más personalizada. Además, se incluyeron optimizaciones en la API y el manejo de estado en la aplicación móvil.
+
+A continuación, se detallan las Historias de Usuario, los Work Items (WI) asignados, las horas estimadas, los responsables y el estado de cada tarea.
+
 
 \begin{longtable}{|c|p{2.5cm}|p{1cm}|p{4cm}|p{2cm}|p{2cm}|p{1cm}|}
 \hline
 \textbf{ID} & \textbf{User Story} & \textbf{Work Item (WI)} & \textbf{Description} & \textbf{Estimation (Hours)} & \textbf{Assigned To} & \textbf{Status} \\ \hline
 
-\multirow{4}{*}{US01} & \multirow{4}{*}{\parbox[t]{2.5cm}{Registro de usuario}} & WI01 & Diseño de la pantalla de registro utilizando Jetpack Compose & 6h & Alex Avila & Done \\ \cline{3-7}
- &  & WI02 & Conectar la pantalla de registro con la API & 5h & Alex Avila & Done \\ \cline{3-7}
- &  & WI03 & Implementar validación de campos en la pantalla de registro & 4h & Alex Avila & Done \\ \cline{3-7}
- &  & WI04 & Pruebas de usabilidad para el registro de usuario & 3h & Alex Avila & Done \\ \hline
+\multirow{3}{*}{US38} & \multirow{3}{*}{\parbox[t]{2.5cm}{Descubrimiento intuitivo}} & WI01 & Diseño de la estructura HTML y navegación principal para facilitar el descubrimiento intuitivo en la landing page & 6 & Belén Ramos & Done \\ \cline{3-7}
+ &  & WI02 & Implementación de los elementos de navegación y estructura responsive & 4 & Belén Ramos & Done \\ \cline{3-7}
+ &  & WI03 & Pruebas de usabilidad para navegación y descubrimiento & 2 & Mateo Vílchez & Done \\ \hline
 
-\multirow{3}{*}{US02} & \multirow{3}{*}{\parbox[t]{2.5cm}{Confirmación de creación de cuenta}} & WI05 & Implementar la funcionalidad de confirmación de cuenta con la API & 5h & Alex Avila & Done \\ \cline{3-7}
- &  & WI06 & Diseño de la pantalla de confirmación de cuenta en Compose & 4h & Alex Avila & Done \\ \cline{3-7}
- &  & WI07 & Pruebas para la confirmación de cuenta & 2h & Alex Avila & Done \\ \hline
+\multirow{2}{*}{US39} & \multirow{2}{*}{\parbox[t]{2.5cm}{Contenido informativo}} & WI04 & Redacción de todo el contenido informativo para la landing page & 3 & Belén Ramos & Done \\ \cline{3-7}
+ &  & WI05 & Implementación del contenido en la landing page & 2 & Belén Ramos & Done \\ \hline
 
-\multirow{2}{*}{US03} & \multirow{2}{*}{\parbox[t]{2.5cm}{Verificación de cuenta}} & WI08 & Conectar la verificación de cuenta con la API & 4h & Alex Avila & Done \\ \cline{3-7}
- &  & WI09 & Implementar la pantalla de verificación de cuenta & 3h & Alex Avila & Done \\ \hline
+\multirow{2}{*}{US40} & \multirow{2}{*}{\parbox[t]{2.5cm}{Compatibilidad móvil}} & WI06 & Desarrollo del diseño responsive para dispositivos móviles & 4 & Belén Ramos & Done \\ \cline{3-7}
+ &  & WI07 & Pruebas de responsividad en diferentes resoluciones & 3 & Belén Ramos & Done \\ \hline
 
-\multirow{2}{*}{US04} & \multirow{2}{*}{\parbox[t]{2.5cm}{Inicio de sesión de cuenta}} & WI10 & Crear la pantalla de inicio de sesión en Compose & 5h & Alex Avila & Done \\ \cline{3-7}
- &  & WI11 & Conectar la pantalla de inicio de sesión con la API & 5h & Alex Avila & Done \\ \hline
+\multirow{2}{*}{US41} & \multirow{2}{*}{\parbox[t]{2.5cm}{Formulario de contacto}} & WI08 & Diseño e implementación del formulario de contacto & 5 & Belén Ramos & Done \\ \cline{3-7}
+ &  & WI09 & Validación de formulario de contacto & 2 & Mateo Vílchez & Done \\ \hline
 
-\multirow{3}{*}{US05} & \multirow{3}{*}{\parbox[t]{2.5cm}{Generación de correo temporal con un clic}} & WI12 & Diseño de la pantalla de generación de correos temporales & 4h & Abel Ortega & Done \\ \cline{3-7}
- &  & WI13 & Implementar la funcionalidad de generación de correos con un clic & 5h & Abel Ortega & Done \\ \cline{3-7}
- &  & WI14 & Pruebas de generación de correos temporales & 2h & Abel Ortega & Done \\ \hline
+\multirow{2}{*}{US42} & \multirow{2}{*}{\parbox[t]{2.5cm}{Contenido multimedia}} & WI10 & Integración de imágenes, íconos y secciones visuales multimedia & 3 & Belén Ramos & Done \\ \cline{3-7}
+ &  & WI11 & Optimización de recursos multimedia para tiempos de carga más rápidos & 2 & Mateo Vílchez & Done \\ \hline
 
-\multirow{2}{*}{US06} & \multirow{2}{*}{\parbox[t]{2.5cm}{Duración específica del correo temporal}} & WI15 & Implementar opción para seleccionar duración del correo & 4h & Abel Ortega & Done \\ \cline{3-7}
- &  & WI16 & Conectar la opción de duración con la API & 4h & Abel Ortega & Done \\ \hline
+US43 & \parbox[t]{2.5cm}{Call-to-action claro} & WI12 & Diseño y optimización de los botones de call-to-action (CTA) en la landing page & 3 & Mateo Vílchez & Done \\ \hline
 
-\multirow{2}{*}{US07} & \multirow{2}{*}{\parbox[t]{2.5cm}{Confirmación visual de creación de correo}} & WI17 & Añadir confirmación visual en la pantalla de generación de correos & 3h & Abel Ortega & Done \\ \cline{3-7}
- &  & WI18 & Pruebas de confirmación visual & 2h & Abel Ortega & Done \\ \hline
+\multirow{3}{*}{US32} & \multirow{3}{*}{\parbox[t]{2.5cm}{RESTful API Registro de usuario}} & WI13 & Implementación de la API para el registro de usuario & 6 & Alex Avila & Done \\ \cline{3-7}
+ &  & WI14 & Añadir index para role seed en persistencia & 3 & Alex Avila & Done \\ \cline{3-7}
+ &  & WI15 & Middleware para manejo de excepciones & 4 & Alex Avila & Done \\ \hline
 
-\multirow{2}{*}{US08} & \multirow{2}{*}{\parbox[t]{2.5cm}{Personalización del dominio del correo temporal}} & WI19 & Implementar la opción para personalizar el dominio del correo temporal & 5h & Abel Ortega & Done \\ \cline{3-7}
- &  & WI20 & Conectar la opción de personalización de dominio con la API & 4h & Abel Ortega & Done \\ \hline
+\newpage
 
-\multirow{2}{*}{US09} & \multirow{2}{*}{\parbox[t]{2.5cm}{Generación Múltiple de correos temporales}} & WI21 & Implementar la opción para generar múltiples correos & 4h & Abel Ortega & Done \\ \cline{3-7}
- &  & WI22 & Pruebas para la generación de múltiples correos & 3h & Abel Ortega & Done \\ \hline
+\multirow{2}{*}{US33} & \multirow{2}{*}{\parbox[t]{2.5cm}{RESTful API Inicio de sesión de usuario}} & WI16 & Implementación de la API para inicio de sesión & 5 & Alex Avila & Done \\ \cline{3-7}
+ &  & WI17 & Implementación de pipeline de seguridad & 5 & Alex Avila & Done \\ \hline
 
-\multirow{2}{*}{US10} & \multirow{2}{*}{\parbox[t]{2.5cm}{Copiar correo temporal al portapapeles}} & WI23 & Implementar botón de copiar al portapapeles en la pantalla de correos temporales & 3h & Abel Ortega & Done \\ \cline{3-7}
- &  & WI24 & Pruebas de funcionalidad de copiado al portapapeles & 2h & Abel Ortega & Done \\ \hline
+\multirow{2}{*}{US34} & \multirow{2}{*}{\parbox[t]{2.5cm}{Autenticación basada en token JWT}} & WI18 & Implementación de autenticación JWT en backend & 6 & Alex Avila & Done \\ \cline{3-7}
+ &  & WI19 & Configuración inicial de OpenAPI & 5 & Alex Avila & Done \\ \hline
 
-\multirow{2}{*}{US11} & \multirow{2}{*}{\parbox[t]{2.5cm}{Visualización de correos temporales activos}} & WI25 & Crear la pantalla de visualización de correos temporales activos & 4h & Abel Ortega & Done \\ \cline{3-7}
- &  & WI26 & Conectar la pantalla con la API & 4h & Abel Ortega & Done \\ \hline
+US35 & \parbox[t]{2.5cm}{Recuperación de contraseña} & WI20 & Implementación de perfiles en Spring Boot & 4 & Alex Avila & Done \\ \hline
 
-\multirow{2}{*}{US12} & \multirow{2}{*}{\parbox[t]{2.5cm}{Sugerencias automáticas de nombres para correos}} & WI27 & Implementar sugerencias automáticas de nombres en la pantalla de generación de correos & 3h & Abel Ortega & Done \\ \cline{3-7}
- &  & WI28 & Pruebas de la funcionalidad de sugerencias de nombres & 2h & Abel Ortega & Done \\ \hline
+\multirow{3}{*}{US36} & \multirow{3}{*}{\parbox[t]{2.5cm}{RESTful API Creación de sesiones}} & WI21 & Implementación de la API para la creación de sesiones & 4 & Alex Avila & Done \\ \cline{3-7}
+ &  & WI22 & Creación de Dockerfile para build y compose & 5 & Alex Avila & Done \\ \cline{3-7}
+ &  & WI23 & Creación de Dockerfile para entorno de desarrollo & 4 & Alex Avila & Done \\ \hline
 
-\multirow{2}{*}{US13} & \multirow{2}{*}{\parbox[t]{2.5cm}{Proceso de generación rápido y fluido}} & WI29 & Optimización del proceso de generación de correos para mejorar el rendimiento & 4h & Abel Ortega & Done \\ \cline{3-7}
- &  & WI30 & Pruebas de optimización del rendimiento & 3h & Abel Ortega & Done \\ \hline
+US37 & \parbox[t]{2.5cm}{Paginación y filtrado de resultados} & WI24 & Implementación de la paginación y filtrado & 5 & Alex Avila & In Process \\ \hline
 
-\multirow{2}{*}{US14} & \multirow{2}{*}{\parbox[t]{2.5cm}{Advertencia de expiración de correo temporal}} & WI31 & Implementar una advertencia visual cuando un correo temporal esté por expirar & 3h & Abel Ortega & Done \\ \cline{3-7}
- &  & WI32 & Conectar la advertencia con la API & 3h & Abel Ortega & Done \\ \hline
+\multirow{2}{*}{US05} & \multirow{2}{*}{\parbox[t]{2.5cm}{Generación de correo temporal con un clic}} & WI25 & Implementación del recurso POST para generar un correo temporal & 5 & Abel Ortega & Done \\ \cline{3-7}
+ &  & WI26 & Implementación del recurso GET para obtener la lista de correos temporales generados & 4 & Abel Ortega & Done \\ \hline
 
-\multirow{2}{*}{US15} & \multirow{2}{*}{\parbox[t]{2.5cm}{Acceso a bandeja de entrada de correos temporales}} & WI33 & Implementar la pantalla de la bandeja de entrada & 5h & Mateo Vilchez & Done \\ \cline{3-7}
- &  & WI34 & Conectar la bandeja de entrada con la API & 4h & Mateo Vilchez & Done \\ \hline
+US06 & \parbox[t]{2.5cm}{Duración específica del correo temporal} & WI27 & Implementación del recurso PUT para actualizar la duración específica del correo temporal & 4 & Abel Ortega & Done \\ \hline
 
-\multirow{2}{*}{US16} & \multirow{2}{*}{\parbox[t]{2.5cm}{Visualización de correos recibidos}} & WI35 & Implementar la pantalla de visualización de correos recibidos & 4h & Mateo Vilchez & Done \\ \cline{3-7}
- &  & WI36 & Conectar la visualización de correos con la API & 3h & Mateo Vilchez & Done \\ \hline
+US07 & \parbox[t]{2.5cm}{Confirmación visual de creación de correo} & WI28 & Implementación del recurso GET para confirmar la creación visual del correo temporal & 3 & Abel Ortega & Done \\ \hline
 
-\multirow{2}{*}{US17} & \multirow{2}{*}{\parbox[t]{2.5cm}{Notificación de nuevos correos en la bandeja de entrada}} & WI37 & Implementar notificaciones push para la llegada de nuevos correos temporales & 4h & Mateo Vilchez & Done \\ \cline{3-7}
- &  & WI38 & Pruebas de funcionalidad de notificaciones push & 3h & Mateo Vilchez & Done \\ \hline
+US08 & \parbox[t]{2.5cm}{Personalización del dominio del correo temporal} & WI29 & Implementación del recurso PUT para personalizar el dominio del correo temporal & 5 & Abel Ortega & Done \\ \hline
 
-\multirow{2}{*}{US18} & \multirow{2}{*}{\parbox[t]{2.5cm}{Leer y responder correos temporales}} & WI39 & Implementar la funcionalidad de lectura y respuesta en la pantalla de correos temporales & 5h & Mateo Vilchez & Done \\ \cline{3-7} 
- &  & WI40 & Conectar la funcionalidad de respuesta con la API & 4h & Mateo Vilchez & Done \\ \hline
+\multirow{4}{*}{US01} & \multirow{4}{*}{\parbox[t]{2.5cm}{Registro de usuario}} & WI30 & Diseño de la pantalla de registro utilizando Jetpack Compose & 6 & Alex Avila & Done \\ \cline{3-7}
+ &  & WI02 & Conectar la pantalla de registro con la API & 5 & Alex Avila & Done \\ \cline{3-7}
+ &  & WI03 & Implementar validación de campos en la pantalla de registro & 4 & Alex Avila & Done \\ \cline{3-7}
+ &  & WI04 & Pruebas de usabilidad para el registro de usuario & 3 & Alex Avila & Done \\ \hline
 
-\multirow{2}{*}{US19} & \multirow{2}{*}{\parbox[t]{2.5cm}{Buscar correos en la bandeja de entrada}} & WI41 & Implementar barra de búsqueda en la bandeja de entrada & 3h & Mateo Vilchez & Done \\ \cline{3-7}
- &  & WI42 & Pruebas de la funcionalidad de búsqueda & 2h & Mateo Vilchez & Done \\ \hline
+\multirow{3}{*}{US02} & \multirow{3}{*}{\parbox[t]{2.5cm}{Confirmación de creación de cuenta}} & WI05 & Implementar la funcionalidad de confirmación de cuenta con la API & 5 & Alex Avila & Done \\ \cline{3-7}
+ &  & WI31 & Diseño de la pantalla de confirmación de cuenta en Compose & 4 & Alex Avila & Done \\ \cline{3-7}
+ &  & WI32 & Pruebas para la confirmación de cuenta & 2 & Alex Avila & Done \\ \hline
 
-\multirow{2}{*}{US20} & \multirow{2}{*}{\parbox[t]{2.5cm}{Eliminar correos temporales}} & WI43 & Implementar opción para eliminar correos temporales desde la bandeja de entrada & 3h & Belen Ramos & Done \\ \cline{3-7}
- &  & WI44 & Pruebas de la funcionalidad de eliminación de correos & 2h & Belen Ramos & Done \\ \hline
+\multirow{2}{*}{US03} & \multirow{2}{*}{\parbox[t]{2.5cm}{Verificación de cuenta}} & WI33 & Conectar la verificación de cuenta con la API & 4 & Alex Avila & Done \\ \cline{3-7}
+ &  & WI34 & Implementar la pantalla de verificación de cuenta & 3 & Alex Avila & Done \\ \hline
 
-\multirow{2}{*}{US21} & \multirow{2}{*}{\parbox[t]{2.5cm}{Marcar correos como importantes}} & WI45 & Implementar opción para marcar correos como importantes & 3h & Belen Ramos & Done \\ \cline{3-7}
- &  & WI46 & Conectar la funcionalidad de marcar como importantes con la API & 3h & Belen Ramos & Done \\ \hline
+\multirow{2}{*}{US04} & \multirow{2}{*}{\parbox[t]{2.5cm}{Inicio de sesión de cuenta}} & WI35 & Crear la pantalla de inicio de sesión en Compose & 5 & Alex Avila & Done \\ \cline{3-7}
+ &  & WI36 & Conectar la pantalla de inicio de sesión con la API & 5 & Alex Avila & Done \\ \hline
 
-\multirow{2}{*}{US22} & \multirow{2}{*}{\parbox[t]{2.5cm}{Filtrar correos por fecha o remitente}} & WI47 & Implementar filtros por fecha o remitente en la bandeja de entrada & 4h & Belen Ramos & Done \\ \cline{3-7}
- &  & WI48 & Pruebas de la funcionalidad de filtrado & 3h & Belen Ramos & Done \\ \hline
+\multirow{3}{*}{US05} & \multirow{3}{*}{\parbox[t]{2.5cm}{Generación de correo temporal con un clic}} & WI37 & Diseño de la pantalla de generación de correos temporales & 4 & Abel Ortega & Done \\ \cline{3-7}
+ &  & WI38 & Implementar la funcionalidad de generación de correos con un clic & 5 & Abel Ortega & Done \\ \cline{3-7}
+ &  & WI39 & Pruebas de generación de correos temporales & 2 & Abel Ortega & Done \\ \hline
 
-\multirow{2}{*}{US23} & \multirow{2}{*}{\parbox[t]{2.5cm}{Verificar correos temporales usados recientemente}} & WI49 & Implementar una sección de correos temporales usados recientemente & 3h & Belen Ramos & Done \\ \cline{3-7}
- &  & WI50 & Pruebas de la funcionalidad de correos usados recientemente & 2h & Belen Ramos & Done \\ \hline
+\multirow{2}{*}{US06} & \multirow{2}{*}{\parbox[t]{2.5cm}{Duración específica del correo temporal}} & WI40 & Implementar opción para seleccionar duración del correo & 4 & Abel Ortega & Done \\ \cline{3-7}
+ &  & WI41 & Conectar la opción de duración con la API & 4 & Abel Ortega & Done \\ \hline
 
-\multirow{2}{*}{US24} & \multirow{2}{*}{\parbox[t]{2.5cm}{Adjuntar archivos en respuestas}} & WI51 & Implementar la opción de adjuntar archivos en respuestas de correos temporales & 5h & Belen Ramos & Done \\ \cline{3-7}
- &  & WI52 & Pruebas de la funcionalidad de adjuntar archivos & 3h & Belen Ramos& Done \\ \hline
+\multirow{2}{*}{US07} & \multirow{2}{*}{\parbox[t]{2.5cm}{Confirmación visual de creación de correo}} & WI42 & Añadir confirmación visual en la pantalla de generación de correos & 3 & Abel Ortega & Done \\ \cline{3-7}
+ &  & WI43 & Pruebas de confirmación visual & 2 & Abel Ortega & Done \\ \hline
+
+\multirow{2}{*}{US09} & \multirow{2}{*}{\parbox[t]{2.5cm}{Generación múltiple de correos temporales}} & WI44 & Implementar la opción para generar múltiples correos & 4 & Abel Ortega & Done \\ \cline{3-7}
+ &  & WI45 & Pruebas para la generación de múltiples correos & 3 & Abel Ortega & Done \\ \hline
+
+\multirow{2}{*}{US10} & \multirow{2}{*}{\parbox[t]{2.5cm}{Copiar correo temporal al portapapeles}} & WI46 & Implementar la funcionalidad para copiar correos al portapapeles & 4 & Abel Ortega & Done \\ \cline{3-7}
+ &  & WI47 & Pruebas para la funcionalidad de copiar al portapapeles & 2 & Abel Ortega & Done \\ \hline
+
+\multirow{3}{*}{US11} & \multirow{3}{*}{\parbox[t]{2.5cm}{Visualización de correos temporales activos}} & WI48 & Diseño de la interfaz de visualización de correos activos & 5 & Abel Ortega & Done \\ \cline{3-7}
+ &  & WI49 & Implementación de la funcionalidad de visualización de correos activos & 6 & Abel Ortega & Done \\ \cline{3-7}
+ &  & WI50 & Pruebas para la visualización de correos activos & 2 & Abel Ortega & Done \\ \hline
+
+\multirow{2}{*}{US13} & \multirow{2}{*}{\parbox[t]{2.5cm}{Proceso de generación rápido y fluido}} & WI51 & Implementar un proceso rápido de generación de correos temporales & 4 & Abel Ortega & Done \\ \cline{3-7}
+ &  & WI52 & Pruebas del proceso rápido de generación & 2 & Abel Ortega & Done \\ \hline
+
+
+\multirow{2}{*}{US15} & \multirow{2}{*}{\parbox[t]{2.5cm}{Acceso a bandeja de entrada de correos temporales}} & WI53 & Implementar la funcionalidad de acceso a la bandeja de entrada & 5 & Abel Ortega & Done \\ \cline{3-7}
+ &  & WI54 & Pruebas para el acceso a la bandeja de entrada & 2 & Abel Ortega & Done \\ \hline
+
+\multirow{2}{*}{US16} & \multirow{2}{*}{\parbox[t]{2.5cm}{Visualización de correos recibidos}} & WI55 & Implementar la funcionalidad de visualización de correos recibidos & 5 & Abel Ortega & Done \\ \cline{3-7}
+ &  & WI56 & Pruebas para la visualización de correos recibidos & 2 & Abel Ortega & Done \\ \hline
+
+\multirow{9}{*}{US32} & \multirow{9}{*}{\parbox[t]{2.5cm}{Manejo de consentimiento de usuario}} & WI57 & Implementación del manejo de estado del consentimiento de usuario en la app móvil & 3h & Belen Ramos & Done \\ \cline{3-7}
+ &  & WI58 & Implementación de la lógica para mostrar/ocultar mensajes según aceptación del consentimiento & 3h & Belen Ramos & Done \\ \cline{3-7}
+ &  & WI59 & Integración de la funcionalidad de "I Agree" con el flujo de consentimiento y su persistencia & 3h & Belen Ramos & Done \\ \cline{3-7}
+ &  & WI60 & Implementación de la navegación entre la pantalla de consentimiento y la pantalla principal & 2h & Mateo Vilchez & In Process \\ \cline{3-7}
+ &  & WI70 & Implementación del click handler para navegar a la sección completa de "Privacy Policy" & 2h & Belen Ramos & Done \\ \cline{3-7}
+ &  & WI71 & Pruebas unitarias para el componente de consentimiento y verificación de aceptación & 3h & Mateo Vilchez & To Do \\ \cline{3-7}
+ &  & WI72 & Manejo de estados para permitir o deshabilitar interacciones con botones según el consentimiento & 2h & Mateo Vilchez & Done \\ \cline{3-7}
+ &  & WI73 & Pruebas de usabilidad para asegurar el flujo correcto en la sección de "Privacy Policy" & 2h & Mateo Vilchez & In Process \\ \cline{3-7}
+ &  & WI74 & Validación de errores y feedback visual al usuario en caso de fallos en el consentimiento & 3h & Belen Ramos & Done \\ \hline
 
 \end{longtable}
+
 
 
 
