@@ -1063,4 +1063,127 @@ En resumen, Adriano considera que la aplicación tiene un buen nivel de claridad
 
 ### Evualuaciones segun heuristicas
 
+\begin{center}
+\textbf{UX Heuristics \& Principles Evaluation} \\
+\textbf{Usability – Inclusive Design – Information Architecture}
+\end{center}
+
+\vspace{10pt}
+
+\begin{tabbing}
+\hspace{5cm} \= \kill
+\textbf{CARRERA:} \> Ingeniería de Software \\
+\textbf{CURSO:} \> Aplicaciones para Dispositivos Móviles \\
+\textbf{SECCIÓN:} \>  SW65 \\
+\textbf{PROFESORES:} \> Jorge Luis Mayta Guillermo \\
+\textbf{AUDITOR:} \> CodeMinds \\
+\textbf{CLIENTE(S):} \> Estudiantes de nivel escolar y estudiantes de Pregrado/Postgrado \\
+\end{tabbing}
+\hrule
+
+\vspace{10pt}
+
+
+**SITE o APP A EVALUAR:** *Temporaly*
+
+\vspace{10pt}
+
+\textbf{TAREAS A EVALUAR:}  
+El alcance de esta evaluación incluye la revisión de la usabilidad de la \textbf{landing page} de Temporaly, con foco en los siguientes elementos:
+
+\begin{enumerate}
+    \item \textbf{Comunicación del propósito de la app}: Claridad del mensaje en cuanto a la creación de correos temporales.
+    \item \textbf{Acceso a planes de pago}: Evaluación de la presentación y diferencias entre los planes (Básico, Pro y Máster).
+    \item \textbf{Confianza y seguridad}: Percepción de seguridad en la landing page.
+    \item \textbf{Accesibilidad para usuarios nuevos}: Comprensión de la información por parte de usuarios no técnicos.
+    \item \textbf{Diseño visual y navegación}: Facilidad para encontrar secciones clave.
+\end{enumerate}
+
+\vspace{2cm}
+
+**ESCALA DE SEVERIDAD**
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{|c|p{12cm}|}
+\hline
+\textbf{Nivel} & \textbf{Descripción} \\ \hline
+1 & Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. \\ \hline
+2 & Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se debería asignar una prioridad baja resolverlo de cara al siguiente release. \\ \hline
+3 & Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlo. Es importante que sean corregidos y se les debe asignar una prioridad alta. \\ \hline
+4 & Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\vspace{10pt}
+
+
+**TABLA RESUMEN**
+
+
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{|c|p{5cm}|c|p{6cm}|}
+\hline
+\textbf{\#} & \textbf{Problema} & \textbf{Escala de severidad} & \textbf{Heurística/Principio violado} \\ \hline
+1 & Falta de descripción detallada sobre privacidad & 2 & Usabilidad: Concordancia entre el sistema y el mundo real \\ \hline
+2 & Dificultad para entender los planes de pago & 3 & Usabilidad: Simplicidad y naturalidad de uso \\ \hline
+3 & Ausencia de video tutorial en la landing page & 2 & Usabilidad: Ayuda y documentación \\ \hline
+4 & Falta de elementos de confianza visual & 3 & Usabilidad: Confianza y seguridad \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
+**DESCRIPCIÓN DE PROBLEMAS**
+
+- **PROBLEMA \#1: Falta de descripción detallada sobre privacidad**
+  
+  **Severidad:** 2 
+  
+  **Heurística violada:** Usabilidad – Concordancia entre el sistema y el mundo real 
+
+  **Problema:** Aunque el mensaje principal es claro, falta una explicación más detallada sobre cómo la app protege la privacidad de los usuarios, lo que puede generar dudas en personas menos familiarizadas con estos temas. 
+
+  **Recomendación:** Añadir una sección que explique en detalle la importancia de la privacidad y cómo Temporaly la garantiza.
+
+\vspace{1cm}
+
+- **PROBLEMA \#2: Dificultad para entender los planes de pago**
+  
+  **Severidad:** 3 
+
+  **Heurística violada:** Usabilidad – Simplicidad y naturalidad de uso 
+
+  **Problema:** Las diferencias entre los planes de pago no son suficientemente claras para los usuarios nuevos, lo que puede llevar a confusión al elegir entre el plan Básico, Pro y Máster. 
+  **Recomendación:** Clarificar las ventajas de cada plan mediante comparaciones visuales, destacando las diferencias clave de forma más evidente.
+
+\vspace{1cm}
+
+- **PROBLEMA \#3: Ausencia de video tutorial en la landing page**
+  
+  **Severidad:** 2 
+
+  **Heurística violada:** Usabilidad – Ayuda y documentación 
+
+  **Problema:** Adriano sugirió que un video tutorial ayudaría a usuarios menos experimentados a entender mejor cómo funciona Temporaly, especialmente para aquellos que no están familiarizados con la creación de correos temporales. 
+
+  **Recomendación:** Incluir un breve video explicativo en la landing page que muestre cómo usar la app paso a paso.
+
+\vspace{1cm}
+
+
+- **PROBLEMA \#4: Falta de elementos de confianza visual**
+  **Severidad:** 3 
+
+  **Heurística violada:** Usabilidad – Confianza y seguridad 
+
+  **Problema:** Aunque se mencionan asociaciones con entidades como Gmail, LinkedIn y la UPC, falta un uso más prominente de estos elementos en la landing page para transmitir mayor confianza a usuarios nuevos. 
+
+  **Recomendación:** Mostrar de manera más destacada los logos y asociaciones de seguridad con terceros en la landing page, asegurando que estos elementos visuales refuercen la confianza del usuario.
+
+\vspace{1cm}
 
