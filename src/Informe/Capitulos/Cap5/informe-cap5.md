@@ -1354,7 +1354,7 @@ A continuación, exploraremos cómo se diseñaron las entrevistas, cómo se llev
 ### Registro de entrevistas
 
 ::: note
-Para acceder al video de las entrevistas, haga click en la [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a322_upc_edu_pe/ETJe4kTakANPuvEWBeV6fsoBgYJa7YDI8yt0Mp90Wf_fNg?e=rEvT4q&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+Para acceder al video de las entrevistas, haga click en la [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/ER-HaJJcUCxGhHOERY7D_r8B_lIO8pODYqcrZlTF8wnYoQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=VWGIGs)
 :::
 
 \vspace{0.4cm}
@@ -1406,8 +1406,8 @@ En resumen, Adriano considera que la aplicación tiene un buen nivel de claridad
 \begin{center}  % Centrar la tabla
 \begin{tabular}{|p{5cm}|p{6cm}|}  % Ajusta los anchos de las columnas
 \hline
-\textbf{Nombre y Apellido}    & Daniel Mateo del Castillo \\ \hline
-\textbf{Edad}                 & 19 años                \\ \hline
+\textbf{Nombre y Apellido}    & Kiomara Gil Olivera \\ \hline
+\textbf{Edad}                 & 21 años                \\ \hline
 \textbf{Ubicación geográfica} & Lima, Perú         \\ \hline
 \textbf{Grado}                & Pregrado             \\ \hline
 \textbf{Tiempo de entrevista} & inicio - fin           \\ \hline
@@ -1415,8 +1415,20 @@ En resumen, Adriano considera que la aplicación tiene un buen nivel de claridad
 \end{center}
 \end{table}
 
+En la entrevista con Kiomara Gil Olivera, se evaluó la landing page y funcionalidades de la aplicación Temporaly, enfocada en la creación de correos temporales para proteger la privacidad en línea. Kiomara comentó que el mensaje principal de la aplicación, "protege tu privacidad en línea", le daba una idea básica de lo que hace la aplicación, y que el tamaño de las letras era adecuado para captar la atención del usuario.
+
+Cuando se le preguntó cómo relacionaría la funcionalidad de la aplicación con situaciones cotidianas, como el registro en plataformas académicas o eventos, expresó que Temporaly sería una forma confiable de proteger su información mientras está en línea. Además, mencionó que, dada la facilidad con la que los estudiantes pueden acceder a diversas páginas, Temporaly ayudaría a evitar que su información personal sea mal utilizada.
+
+En cuanto a la usabilidad, Kiomara señaló que, tras leer toda la información de la aplicación, le sería fácil crear y gestionar correos temporales. Considera útil la barra lateral que muestra el historial de correos usados, y cree que la diferencia entre los planes de pago y el plan gratuito es clara, ya que cada uno menciona los beneficios específicos que ofrecen.
+
+Respecto a la seguridad, Kiomara expresó que la aplicación le da confianza, especialmente porque cuenta con una oficina física y un número telefónico, lo que le permite sentir que no todo es virtual. Además, los comentarios de otros usuarios contribuyen a reforzar su confianza en Temporaly. No cree que sea necesario agregar más elementos para mejorar la seguridad de la aplicación.
+
+Sobre el diseño, Kiomara considera que es atractivo y fácil de navegar. Los colores utilizados son llamativos sin ser molestos a la vista, y cada sección está bien organizada y es comprensible. Como sugerencia de mejora, mencionó que sería útil agregar una sección con inteligencia artificial para resolver preguntas frecuentes, lo que mejoraría la experiencia del usuario al proporcionar respuestas inmediatas sobre el funcionamiento de la aplicación.
+
+En resumen, Kiomara valoró positivamente la aplicación y expresó que le daría una oportunidad debido a la confianza que le genera, tanto por sus funcionalidades como por la seguridad que transmite.
 
 
+![Imagen extraída del video de entrevistas](src/img/Cap5/KiomaraOlivera_LandingPage.png)
 
 
 \newpage
