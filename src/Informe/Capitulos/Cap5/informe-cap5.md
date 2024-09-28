@@ -206,6 +206,720 @@ US08 & \parbox[t]{2.5cm}{Personalización del dominio del correo temporal} & WI2
 
 #### *Testing Suite Evidence for Sprint Review*
 
+***Landing US - Gherking***
+
+```gherkin
+
+US38 - Descubrimiento intuitivo
+
+Feature: Descubrimiento intuitivo de la landing page
+
+  As a user
+  I want to navigate the landing page easily
+  So that I can discover the content intuitively
+
+  Scenario: User navigates the landing page smoothly
+    Given the user is on the landing page
+    When the user scrolls and clicks on navigation links
+    Then the user should be able to access all sections of the page smoothly
+
+  Examples:
+    | section             |
+    | Home                |
+    | Features            |
+    | Contact Information |
+
+```
+
+
+```gherkin
+
+US39 - Contenido informativo
+
+Feature: Contenido informativo en la landing page
+
+  As a user
+  I want to find clear and concise information
+  So that I understand the purpose of the application
+
+  Scenario: User reads about features and benefits
+    Given the user is on the "Features" section of the landing page
+    When the user reads through the content provided
+    Then the user should understand the main features and benefits of the application
+
+  Examples:
+    | content_section   |
+    | Application Uses  |
+    | User Testimonials |
+    | Pricing Options   |
+
+```
+
+
+```gherkin
+
+US40 - Compatibilidad móvil
+
+Feature: Compatibilidad móvil para la landing page
+
+  As a mobile user
+  I want to view the landing page responsively
+  So that I can easily navigate on any device
+
+  Scenario: User accesses the landing page on a mobile device
+    Given the user opens the landing page on a smartphone
+    When the page loads
+    Then the content should adjust to fit the screen size without losing functionality
+
+  Examples:
+    | device         |
+    | Smartphone     |
+    | Tablet         |
+    | Small Laptop   |
+
+```
+
+
+```gherkin
+
+US41 - Formulario de contacto
+
+Feature: Formulario de contacto en la landing page
+
+  As a user
+  I want to fill out a contact form
+  So that I can get in touch with the team
+
+  Scenario: User submits the contact form
+    Given the user is on the "Contact" section of the landing page
+    When the user fills out all required fields and clicks "Submit"
+    Then the form should be successfully sent, and a confirmation message should appear
+
+  Examples:
+    | name       | email                  | message         |
+    | John Doe   | john@example.com       | Hello!          |
+    | Jane Smith | jane_smith@example.com | Need more info  |
+
+```
+
+
+```gherkin
+
+US42 - Contenido multimedia
+
+Feature: Contenido multimedia en la landing page
+
+  As a user
+  I want to see multimedia content like images and videos
+  So that I can understand the information visually
+
+  Scenario: User views images and videos on the landing page
+    Given the user is navigating through different sections
+    When multimedia content (images, videos) is present
+    Then the user should be able to view the content clearly and it should load quickly
+
+  Examples:
+    | content_type |
+    | Images       |
+    | Videos       |
+    | GIFs         |
+
+```
+
+
+```gherkin
+
+US43 - Call-to-action claro
+
+Feature: Call-to-action (CTA) en la landing page
+
+  As a user
+  I want to find clear CTA buttons
+  So that I can take actions like sign-up or contact easily
+
+  Scenario: User clicks on CTA buttons
+    Given the user is on the landing page
+    When the user sees a CTA button like "Sign Up Now"
+    Then the button should be prominently displayed and redirect to the correct action page
+
+  Examples:
+    | button_text | action           |
+    | Sign Up Now | Registration     |
+    | Contact Us  | Contact Form     |
+    | Learn More  | Features Section |
+
+```
+
+***Frontend US - Gherking***
+
+```gherkin
+
+US01 - Registro de usuario
+
+Feature: Registro de un nuevo usuario
+  As a user
+  I want to register an account in the app
+  So that I can access all its features
+
+  Scenario: Registro exitoso
+    Given the user is on the registration page
+    When they fill out all required fields with valid information
+    And click "Register"
+    Then the system should create a new user account
+    And display a success message
+
+  Examples:
+    | username     | email                | password |
+    | user_one     | user1@example.com    | pass123  |
+    | user_two     | user2@example.com    | pass456  |
+
+```
+
+```gherkin
+
+US02 - Confirmación de creación de cuenta
+
+Feature: Confirmación del registro de cuenta
+  As a user
+  I want to receive a confirmation email
+  So that I can verify my account
+
+  Scenario: Recepción de correo de confirmación
+    Given a user registers successfully
+    When the system creates the account
+    Then a confirmation email should be sent to the user's email address
+
+  Examples:
+    | email                |
+    | user1@example.com    |
+    | user2@example.com    |
+
+```
+
+
+```gherkin
+
+US03 - Verificación de cuenta
+
+Feature: Verificación de cuenta por correo
+  As a user
+  I want to verify my account through email
+  So that I can activate my access
+
+  Scenario: Verificar cuenta exitosamente
+    Given a user receives a confirmation email
+    When they click on the verification link in the email
+    Then the system should verify their account and display a success message
+
+  Examples:
+    | email                |
+    | user1@example.com    |
+    | user2@example.com    |
+
+```
+
+```gherkin
+
+US04 - Inicio de sesión de cuenta
+
+Feature: Iniciar sesión en la app
+  As a user
+  I want to log in to my account
+  So that I can access personalized features
+
+  Scenario: Inicio de sesión exitoso
+    Given the user is on the login page
+    When they provide valid credentials
+    Then the system should log the user in and redirect to the dashboard
+
+  Examples:
+    | email                | password |
+    | user1@example.com    | pass123  |
+    | user2@example.com    | pass456  |
+
+```
+
+```gherkin
+
+US05 - Generación de correo temporal con un clic
+
+Feature: Generar correo temporal
+  As a user
+  I want to create a temporary email with one click
+  So that I can use it quickly without hassle
+
+  Scenario: Crear correo temporal
+    Given the user is on the email generation page
+    When they click the "Generate Email" button
+    Then a new temporary email should be generated immediately
+
+  Examples:
+    | action        |
+    | Generate Email |
+
+```
+
+```gherkin
+
+US06 - Duración específica del correo temporal
+
+Feature: Especificar duración del correo temporal
+  As a user
+  I want to set how long my temporary email will last
+  So that I can control its expiration
+
+  Scenario: Seleccionar duración del correo
+    Given the user is creating a temporary email
+    When they select a specific duration
+    Then the system should set the expiration based on the chosen duration
+
+  Examples:
+    | duration  |
+    | 10 minutes |
+    | 30 minutes |
+
+```
+
+```gherkin
+
+US07 - Confirmación visual de creación de correo
+
+Feature: Confirmación visual de correo temporal
+  As a user
+  I want to receive visual feedback when my temporary email is created
+  So that I can be sure of its creation
+
+  Scenario: Mostrar confirmación
+    Given a user generates a temporary email
+    When the email is created successfully
+    Then the system should display a confirmation message on the screen
+
+  Examples:
+    | status    |
+    | created   |
+    | failed    |
+
+```
+
+```gherkin
+
+US08 - Personalización del dominio del correo temporal
+
+Feature: Cambiar dominio del correo temporal
+  As a user
+  I want to choose a domain for my temporary email
+  So that I can customize its address
+
+  Scenario: Seleccionar dominio personalizado
+    Given the user is on the email creation page
+    When they choose a domain from the available options
+    Then the temporary email should be created with the selected domain
+
+  Examples:
+    | domain        |
+    | tempmail.com  |
+    | example.net   |
+
+```
+
+```gherkin
+
+US09 - Generación múltiple de correos temporales
+
+Feature: Generar varios correos temporales
+  As a user
+  I want to create multiple temporary emails
+  So that I can use different addresses for various purposes
+
+  Scenario: Crear múltiples correos
+    Given the user is on the email generation page
+    When they click the "Generate Multiple Emails" button
+    Then multiple temporary emails should be created
+
+  Examples:
+    | action          |
+    | Generate Multiple |
+
+```
+
+```gherkin
+
+US10 - Copiar correo temporal al portapapeles
+
+Feature: Copiar correo al portapapeles
+  As a user
+  I want to copy my temporary email address to the clipboard
+  So that I can paste it quickly where needed
+
+  Scenario: Copiar correo al portapapeles
+    Given a temporary email is displayed
+    When the user clicks "Copy to Clipboard"
+    Then the email address should be copied to the clipboard
+
+  Examples:
+    | button_text     |
+    | Copy to Clipboard |
+
+```
+
+```gherkin
+
+US11 - Visualización de correos temporales activos
+
+Feature: Ver correos temporales activos
+  As a user
+  I want to see a list of my active temporary emails
+  So that I can manage them effectively
+
+  Scenario: Mostrar lista de correos activos
+    Given the user has active temporary emails
+    When they navigate to the "My Emails" section
+    Then the system should display a list of all active temporary emails
+
+  Examples:
+    | section_name |
+    | My Emails    |
+
+```
+
+```gherkin
+
+US12 - Sugerencias automáticas de nombres
+
+Feature: Sugerencias de nombres para correos temporales
+  As a user
+  I want the system to suggest names for my temporary emails
+  So that I can choose a name quickly
+
+  Scenario: Mostrar sugerencias de nombres
+    Given a user is creating a temporary email
+    When the system generates name suggestions
+    Then the user should be able to select one of the suggested names
+
+  Examples:
+    | suggestion   |
+    | random_name1 |
+    | random_name2 |
+
+```
+
+```gherkin
+
+US13 - Proceso de generación rápido y fluido
+
+Feature: Rápida generación de correos
+  As a user
+  I want to create temporary emails quickly and smoothly
+  So that I can avoid delays
+
+  Scenario: Generar correo rápidamente
+    Given a user wants to create a temporary email
+    When they start the creation process
+    Then the system should complete the email generation quickly
+
+  Examples:
+    | action       |
+    | Generate Now |
+
+```
+
+```gherkin
+
+US14 - Advertencia de expiración de correo temporal
+
+Feature: Advertencia de expiración
+  As a user
+  I want to receive a warning before my temporary email expires
+  So that I can take action if needed
+
+  Scenario: Mostrar advertencia de expiración
+    Given a temporary email is about to expire
+    When the expiration time is near
+    Then the system should display a warning message to the user
+
+  Examples:
+    | time_remaining |
+    | 5 minutes      |
+    | 1 minute       |
+
+```
+
+```gherkin
+
+US15 - Acceso a bandeja de entrada de correos temporales
+
+Feature: Ver bandeja de entrada de correos temporales
+  As a user
+  I want to access the inbox of my temporary email
+  So that I can read incoming messages
+
+  Scenario: Mostrar bandeja de entrada
+    Given the user has an active temporary email
+    When they click on the inbox icon
+    Then the system should open the inbox view for that email
+
+  Examples:
+    | action         |
+    | Open Inbox     |
+
+```
+
+```gherkin
+
+US16 - Visualización de correos recibidos
+
+Feature: Ver correos recibidos
+  As a user
+  I want to see all emails received in my temporary inbox
+  So that I can manage my messages
+
+  Scenario: Mostrar correos recibidos
+    Given the user is in the inbox view
+    When new emails are received
+
+```
+
+```gherkin
+
+US32 - Manejo de consentimiento de usuario
+
+Feature: Consent management for users
+  As a user
+  I want to give my consent to the platform
+  So that I can use the service while agreeing to its policies
+
+  Scenario: Accept user consent
+    Given the user is presented with a consent form
+    When they click on "I Agree"
+    Then the user's consent should be recorded in the system
+    And the user should be redirected to the main app page
+
+  Examples:
+    | consent_action |
+    | I Agree        |
+    | Accept Terms   |
+
+```
+
+***Backend US - Gherking***
+
+```gherkin
+
+US32 - RESTful API Registro de usuario
+
+Feature: API de registro de usuario
+  As a user
+  I want to register to the system via the API
+  So that I can have an account
+
+  Scenario: Registro exitoso de un nuevo usuario
+    Given a user provides valid registration details
+    When the user submits their information to the "/register" endpoint
+    Then a new user account should be created
+    And the system should respond with status 201
+
+  Examples:
+    | email                | password |
+    | user1@example.com    | pass123  |
+    | user2@example.com    | pass456  |
+
+```
+
+```gherkin
+
+US33 - RESTful API Inicio de sesión de usuario
+
+Feature: API de inicio de sesión
+  As a user
+  I want to log into the system via the API
+  So that I can access my account
+
+  Scenario: Inicio de sesión exitoso
+    Given a registered user provides valid credentials
+    When the user submits their credentials to the "/login" endpoint
+    Then the system should authenticate the user
+    And respond with a JWT token and status 200
+
+  Examples:
+    | email                | password |
+    | user1@example.com    | pass123  |
+    | user2@example.com    | pass456  |
+
+```
+
+```gherkin
+
+US34 - Autenticación basada en token JWT
+
+Feature: Token JWT para autenticación
+  As a developer
+  I want to use JWT tokens
+  So that the authentication is secure
+
+  Scenario: Autenticación de usuario con JWT
+    Given a user has logged in successfully
+    When they access a protected resource
+    Then the system should verify the JWT token
+    And allow access to the resource if valid
+
+  Examples:
+    | token_status |
+    | valid        |
+    | expired      |
+
+```
+
+```gherkin
+
+US35 - Recuperación de contraseña
+
+Feature: Recuperación de contraseña de usuario
+  As a user
+  I want to recover my password
+  So that I can regain access to my account
+
+  Scenario: Solicitud de recuperación de contraseña
+    Given a user has forgotten their password
+    When they request a password reset via "/forgot-password"
+    Then the system should send a password reset email
+
+  Examples:
+    | email                |
+    | user1@example.com    |
+    | user2@example.com    |
+
+```
+
+```gherkin
+
+US36 - RESTful API Creación de sesiones
+
+Feature: Creación de sesiones en el sistema
+  As a user
+  I want to create sessions via API
+  So that I can interact with the system in a stateful way
+
+  Scenario: Creación de sesión exitosa
+    Given a user provides valid session data
+    When they submit a request to "/create-session"
+    Then the system should create a new session and return status 201
+
+  Examples:
+    | session_data     |
+    | valid_session    |
+    | invalid_session  |
+
+```
+
+```gherkin
+
+US37 - Paginación y filtrado de resultados
+
+Feature: Paginación y filtrado de resultados en API
+  As a developer
+  I want to paginate and filter results
+  So that users can retrieve data efficiently
+
+  Scenario: Paginación de resultados
+    Given there are multiple users in the system
+    When the user requests page 2 with 10 results per page
+    Then the system should return the correct set of results
+
+  Scenario: Filtrado de resultados por rol
+    Given users with different roles exist
+    When the user filters by role "admin"
+    Then only users with the "admin" role should be returned
+
+  Examples:
+    | page | results_per_page | role   |
+    | 1    | 10               | admin  |
+    | 2    | 5                | user   |
+
+```
+
+```gherkin
+
+US05 - Generación de correo temporal con un clic
+
+Feature: Generación de correos temporales
+  As a user
+  I want to generate a temporary email address with one click
+  So that I can use it for short-term purposes
+
+  Scenario: Generar correo temporal
+    Given a user is on the email generation page
+    When they click on "Generate"
+    Then a new temporary email should be created instantly
+
+  Examples:
+    | action   |
+    | Generate |
+
+```
+
+```gherkin
+
+US06 - Duración específica del correo temporal
+
+Feature: Especificar la duración de correos temporales
+  As a user
+  I want to specify the duration of my temporary email
+  So that the email expires after a set period
+
+  Scenario: Seleccionar duración de expiración personalizada
+    Given a user is creating a temporary email
+    When they select a duration of 30 minutes
+    Then the system should set the email expiration time to 30 minutes
+
+  Examples:
+    | duration |
+    | 10 min   |
+    | 30 min   |
+
+```
+
+```gherkin
+
+US07 - Confirmación visual de creación de correo
+
+Feature: Confirmación visual de correos temporales
+  As a user
+  I want to see a visual confirmation when my temporary email is created
+  So that I know the process was successful
+
+  Scenario: Mostrar confirmación visual
+    Given a user generates a temporary email
+    When the email is created
+    Then the system should display a visual confirmation message
+
+  Examples:
+    | status    |
+    | created   |
+    | failed    |
+
+```
+
+```gherkin
+
+US08 - Personalización del dominio del correo temporal
+
+Feature: Personalización del dominio de correos temporales
+  As a user
+  I want to personalize the domain of my temporary email
+  So that I can use a domain of my choice
+
+  Scenario: Cambiar el dominio del correo
+    Given a user is creating a temporary email
+    When they select a different domain from a list
+    Then the email should be created with the chosen domain
+
+  Examples:
+    | domain        |
+    | example.com   |
+    | tempmail.net  |
+
+```
+
 #### *Execution Suite for Sprint Review*
 
 #### *Services Documentation Evidence for Sprint Review*
