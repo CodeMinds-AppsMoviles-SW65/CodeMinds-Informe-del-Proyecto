@@ -1182,7 +1182,7 @@ Feature: Personalización del dominio de correos temporales
 
 \newpage
 
-#### *Execution Suite for Sprint Review*
+#### *Execution Evidence for Sprint Review*
 
 Durante este primer sprint se realizó la implementación de las screen y la conexion con el backend desde la aplicacion movil.
 features:
@@ -1238,6 +1238,10 @@ Utilizamos *SpringBoot*, *Spring Security*, *Spring Mongo*, *Spring Oauthclient*
 
 **Desplegar** ***Email Generate - Backend***
 
+::: note
+Para acceder al despligue del Backend mediante *Flasgger*, haga click en la [URL](https://deploy-generate-email-temporaly-ldav.vercel.app/apidocs/)
+:::
+
 1. Seleccionar el repositorio *CodeMinds-Temporaly-Backend-GenerateMails-Python*
 
 ![Organización CodeMinds, imagen extraída de Github](src/img/Cap4/git_repo.png)
@@ -1255,6 +1259,10 @@ Utilizamos *SpringBoot*, *Spring Security*, *Spring Mongo*, *Spring Oauthclient*
 \newpage
 
 **Desplegar** ***Mobile App - Temporaly***
+
+::: note
+Para acceder al repositorio del FrontEnd, haga click en la [URL](https://github.com/CodeMinds-AppsMoviles-SW65/CodeMinds-Temporaly-MobileApp)
+:::
 
 1. Seleccionar el repositorio *CodeMinds-Temporaly-MobileApp*
 
