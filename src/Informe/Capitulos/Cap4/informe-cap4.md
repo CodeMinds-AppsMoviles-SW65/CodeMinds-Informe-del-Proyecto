@@ -1087,13 +1087,13 @@ Para visualizar la Landing Page, haga click en la [URL](https://temporaly.netlif
 Para visualizar el backend, haga click en la [URL](https://temporally-api.ryzeon.me/documentation) o copie y pegue el link https://temporally-api.ryzeon.me/documentation 
 :::
 
-![Landing page: Imagen extraída del navegador](src/img/Cap4/cap4_backend_deploy_1.png)
+![Backend: Imagen extraída del IDEA](src/img/Cap4/cap4_backend_deploy_1.png)
 
-![Landing page: Imagen extraída del navegador](src/img/Cap4/cap4_backend_deploy_2.png)
+![Backend: Imagen extraída del IDEA](src/img/Cap4/cap4_backend_deploy_2.png)
 
-![Landing page: Imagen extraída del navegador](src/img/Cap4/cap4_backend_deploy_3.png)
+![Backend: Imagen extraída del IDEA](src/img/Cap4/cap4_backend_deploy_3.png)
 
-![Landing page: Imagen extraída del navegador](src/img/Cap4/cap4_backend_deploy_4.png)
+![Backend: Imagen extraída del navegador](src/img/Cap4/cap4_backend_deploy_4.png)
 
 \newpage
 

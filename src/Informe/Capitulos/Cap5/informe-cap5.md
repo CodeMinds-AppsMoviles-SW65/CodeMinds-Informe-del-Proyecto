@@ -1236,6 +1236,30 @@ Utilizamos *SpringBoot*, *Spring Security*, *Spring Mongo*, *Spring Oauthclient*
 
 #### *Software Deployment Evidence for Sprint Review*
 
+**Desplegar** ***Email Generate - Backend***
+
+1. Seleccionar el repositorio *CodeMinds-Temporaly-Backend-GenerateMails-Python*
+
+![Organización CodeMinds, imagen extraída de Github](src/img/Cap4/git_repo.png)
+
+\newpage
+
+2. Abrir, descargar y ejecutar en *VSCode*, *Vim* o su editor de preferencia
+
+![Repositorio del backend, imagen extraída de Github](src/img/Cap5/generate-email-backend-configuration.png)
+
+3. Visualización de la documentación *Flasgger*
+
+![Flasgger, imagen extraída de Github](src/img/Cap5/generate-email-backend-flasgger.png)
+
+\newpage
+
+**Desplegar** ***Mobile App - Temporaly***
+
+1. Seleccionar el repositorio *CodeMinds-Temporaly-MobileApp*
+
+![Organización CodeMinds, imagen extraída de Github](src/img/Cap4/git_repo.png)
+
 \newpage
 
 #### *Team Collaboration Insights during Sprint*
