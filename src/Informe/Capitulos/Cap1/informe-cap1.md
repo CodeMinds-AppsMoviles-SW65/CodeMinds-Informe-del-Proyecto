@@ -102,7 +102,7 @@ pandoc-latex-environment:
 \hline
   tp & 28/09/2024 & Vilchez Rios, Mateo Alejandro & Capitulo 5: \textit{Landing Page UI Implementation} - \textit{Architecture Overview} - \textit{Class Dictionary}, Capitulo 5: Realicé la implementación del bounded context \textit{Privacy Policy}. \\
   \hline
-  tp & 28/09/2024 &  Ramos Rios, Belen del Rocio & Capitulo 5: \textit{Style Guidelines} - \textit{Information Arhitecture} - \textit{Landing Page UI Implementation}, Capitulo 5: \textit{Sprint Backlog 1}\\
+  tp & 28/09/2024 &  Ramos Rios, Belen del Rocio &  Capitulo 5: \textit{Sprint Backlog 2} - \textit{Validation Interviews} - Realicé la implementación del bounded context \textit{Privacy Policy}.\\
   \hline
   tp & 28/09/2024 & Ortega Huaraca, Abel Angel & Capitulo 5: Realicé el diseño y desarrollo del bounded context \textit{Temporary Email Management}  \\
   \hline
