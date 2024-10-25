@@ -1425,6 +1425,123 @@ Evidencia de colaboración en Equipo:
 
 #### *Testing Suite Evidence for Sprint Review*
 
+***FrontEnd and Backend US - Gherking***
+
+```gherkin
+
+US01 - Registro de usuario
+
+Feature: User Registration
+
+  As a user
+  I want to register on the app
+  So that I can create an account and access the services
+
+  Scenario: Successful registration
+    Given the user is on the registration screen
+    When the user enters valid credentials (username, password, email)
+    Then the user should be registered successfully and redirected to the login page
+
+  Examples:
+    | username   | email               | password   |
+    | test_user1 | test1@example.com    | password1  |
+    | test_user2 | test2@example.com    | password2  |
+
+
+```
+
+```gherkin
+
+US02 - Confirmación de creación de cuenta
+
+Feature: Account Creation Confirmation
+
+  As a user
+  I want to confirm my account creation
+  So that I can verify my email and activate my account
+
+  Scenario: Successful account confirmation
+    Given the user has registered an account
+    When the user clicks the confirmation link sent to their email
+    Then the account should be confirmed successfully and they can log in
+
+  Examples:
+    | email               | confirmation_code |
+    | test1@example.com    | 123456            |
+    | test2@example.com    | 789101            |
+
+
+```
+
+```gherkin
+
+US05 - Generación de correo temporal con un clic
+
+Feature: Temporary Email Generation
+
+  As a user
+  I want to generate a temporary email with a single click
+  So that I can use it for temporary purposes
+
+  Scenario: User generates a temporary email
+    Given the user is logged into the app
+    When the user clicks on "Generate Email"
+    Then a temporary email address should be generated and displayed
+
+  Examples:
+    | email_domain         |
+    | @temp1.com           |
+    | @temp2.com           |
+
+
+```
+
+```gherkin
+
+US06 - Duración específica del correo temporal
+
+Feature: Specific Duration for Temporary Emails
+
+  As a user
+  I want to specify the duration of my temporary email
+  So that the email expires after a set period
+
+  Scenario: Set a custom expiration time
+    Given the user is generating a temporary email
+    When the user selects a duration of 30 minutes
+    Then the system should set the expiration time to 30 minutes
+
+  Examples:
+    | duration  |
+    | 10 min    |
+    | 30 min    |
+
+
+```
+
+```gherkin
+US32 - Manejo de consentimiento de usuario
+
+Feature: User Consent Management
+
+  As a user
+  I want to manage my consent for data processing
+  So that I can agree or deny specific consent options
+
+  Scenario: User agrees to data consent
+    Given the user is on the consent screen
+    When the user clicks "I Agree"
+    Then the system should record their consent and continue to the main application
+
+  Examples:
+    | consent      |
+    | Agreed       |
+    | Denied       |
+
+
+```
+
+
 #### *Execution Evidence for Sprint Review*
 
 
