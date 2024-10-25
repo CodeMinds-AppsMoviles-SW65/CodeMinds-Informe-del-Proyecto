@@ -113,8 +113,8 @@ Este proyecto se desarrolló en torno a cinco ramas principales:
 
 - **Ramas de integrantes del equipo:** Compuesto por un equipo de 4 miembros, cada integrante de CodeMinds trabajó de manera independiente en sus respectivas asignaciones. Además, se colaboró en conjunto para abordar los puntos que lo requerían.
 
-::: note
-Para acceder al flujo del backend, haga click a la [URL](https://github.com/CodeMinds-AppsMoviles-SW65/CodeMinds-Temporaly-Backend)
+::: warn
+Para acceder al flujo del *backend*, haga click a la [URL](https://github.com/CodeMinds-AppsMoviles-SW65/CodeMinds-Temporaly-Backend)
 :::
 
 ### *Source Code Style Guide & Conventions*
@@ -158,7 +158,7 @@ Para la gestión de versiones, seguimos el estándar "Semantic Versioning 2.0.0"
 
 ### *Software Deployment Configuration*
 
-::: note
+::: warn
 Para acceder al flujo de trabajo, haga click a la [URL](https://github.com/orgs/CodeMinds-AppsMoviles-SW65/repositories)
 :::
 
@@ -199,9 +199,11 @@ Abrir, descargar y ejecutar en VSCode o WebsTorm
 \textbf{Sprint 1 Review Summary} & Implementación de los segmentos de investigación (Cap 1 y 2), Requirements Specification y primer Sprint de implementación \\ \hline
 \textbf{Sprint 1 Retrospective Summary} & El trabajo se realizó a tiempo, y cada integrante terminó lo que se le encomendó. Asimismo, se trabajó en equipo cuando la situación del proyecto lo requería. \\ \hline
 \textbf{Sprint Goal \& User Stories} & Implementar la landing page, avanzar una parte del backend de la aplicación y definir las tecnologías a emplear \\ \hline
-\textbf{Sprint 1 Velocity} & - \\ \hline
-\textbf{Sum of Story Points} & - \\ \hline
+\textbf{Sprint 1 Velocity} & 1 Sprint cada 2 semanas \\ \hline
+\textbf{Sum of Story Points} & 93 \\ \hline
 \end{longtable}
+
+\newpage
 
 #### *Sprint Backlog 1*
 
@@ -264,6 +266,14 @@ US16 & \parbox[t]{2.5cm}{Visualización de correos recibidos \vspace{0.5cm}} & W
 Para mejorar la gestión y seguimiento de las tareas de este *sprint*, se implementó un tablero Kanban. Este tablero permite visualizar claramente los elementos clave a desarrollar, asignar responsables para cada tarea, y utilizar etiquetas *(labels)* que categorizan los Issues de forma precisa. Además, los *Milestones* fueron utilizados estratégicamente para planificar las fechas de entrega y gestionar los entregables, facilitando un control eficiente del progreso del proyecto.
 
 ![Tablero Kanban del equipo, imagen extraída de Github](src/img/Cap4/Sprint_Backlog1.png)
+
+\newpage
+
+#### *Development Evidence for Sprint Review*
+
+Evidencia de colaboración en Equipo:
+
+![Imagen extraída de Github](src/img/cap5/development-evidence.png)
 
 \newpage
 
@@ -1043,7 +1053,7 @@ En las imágenes y videos adjuntos se podrá apreciar de mejor manera los avance
 
 #### *Services Documentation Evidence for Sprint Review*
 
-En esta seccion, se muestra la documentacion de los servicios del back end de la aplicacion web, asi como tambien se muestra el uso de Swagger para la documentacion de los servicios.
+En esta seccion, se muestra la documentacion de los servicios del back end de la aplicación móvil, asi como tambien se muestra el uso de Swagger para la documentacion de los servicios.
 
 Utilizamos *SpringBoot*, *Spring Security*, *Spring Mongo*, *Spring Oauthclient*, *JWToken* y *Spring Data*
 
@@ -1077,13 +1087,13 @@ Para visualizar la Landing Page, haga click en la [URL](https://temporaly.netlif
 Para visualizar el backend, haga click en la [URL](https://temporally-api.ryzeon.me/documentation) o copie y pegue el link https://temporally-api.ryzeon.me/documentation 
 :::
 
-![Landing page: Imagen extraída del navegador](src/img/Cap4/cap4_backend_deploy_1.png)
+![Backend: Imagen extraída del IDEA](src/img/Cap4/cap4_backend_deploy_1.png)
 
-![Landing page: Imagen extraída del navegador](src/img/Cap4/cap4_backend_deploy_2.png)
+![Backend: Imagen extraída del IDEA](src/img/Cap4/cap4_backend_deploy_2.png)
 
-![Landing page: Imagen extraída del navegador](src/img/Cap4/cap4_backend_deploy_3.png)
+![Backend: Imagen extraída del IDEA](src/img/Cap4/cap4_backend_deploy_3.png)
 
-![Landing page: Imagen extraída del navegador](src/img/Cap4/cap4_backend_deploy_4.png)
+![Backend: Imagen extraída del navegador](src/img/Cap4/cap4_backend_deploy_4.png)
 
 \newpage
 

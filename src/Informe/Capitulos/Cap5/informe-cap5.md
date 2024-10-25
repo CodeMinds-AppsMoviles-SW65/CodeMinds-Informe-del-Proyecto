@@ -81,11 +81,257 @@ pandoc-latex-environment:
 
 # Capítulo V: Product Implementation & Validation
 
-### Sprint 2
+## *Software Configuration Management*
 
-#### Sprint Planning 2
+![Imagen extraída de Canva](src/img/Cap5/capitulo5.png)
 
-#### Sprint Backlog 2
+En esta sección se resume toda la información recopilada y se analizan que pasos se realizarán en el
+trayecto del proyecto:
+
+### *Software Development Environment Configuration*
+
+Esta sección recopila y resume toda la información obtenida, y se analizan los próximos pasos a seguir en el desarrollo del proyecto. Se detallan las acciones clave para asegurar un avance alineado con los objetivos establecidos.
+
+- ***UXPressia:*** Plataforma  colaborativa que nos permitirá crear user personas e integrados con los múltiples mapas para evaluar sus prioridades.
+
+- ***Figma:*** Herramienta colaborativa que nos permitirá desarrollar *Wireframes, Mockups, Wireflows, UsersFlows* y *Tags*. 
+
+- ***Mermaid:*** Plataforma colaborativa que nos permitirá crear nuestro diagrama de base de datos.
+
+- ***PlantUML:*** Plataforma que nos permitirá crear diagramas de clases.
+
+- ***Webstorm:*** *IDE* que utilizaremos para trabajar con *javascript* y desarrollar la *landing page mobile*.
+
+- ***IntelliJ IDEA:*** *IDE* que utilizaremos para trabajar con *Java* y desarrollar el *backend*.
+
+- ***Android Studio/Visual Studio Code:*** *IDE* que utilizaremos para trabajar con *Kotlin/Flutter* y desarrollar el *frontend*.
+
+### *Source Code Management*
+
+Este proyecto se desarrolló en torno a cinco ramas principales:
+
+- **Main:** Rama principal del proyecto, que contiene las publicaciones oficiales y actualizadas del mismo.
+
+- **Ramas de integrantes del equipo:** Compuesto por un equipo de 4 miembros, cada integrante de CodeMinds trabajó de manera independiente en sus respectivas asignaciones. Además, se colaboró en conjunto para abordar los puntos que lo requerían.
+
+::: warn
+***Temporaly - Auth - Backend***
+Para acceder al flujo del *backend*, haga click a la [URL](https://github.com/CodeMinds-AppsMoviles-SW65/CodeMinds-Temporaly-Backend)
+:::
+
+::: warn
+***Temporaly - Email Generate - Backend***
+Para acceder al flujo del *backend*, haga click a la [URL](https://github.com/CodeMinds-AppsMoviles-SW65/CodeMinds-Temporaly-Backend-GenerateMails-Python)
+:::
+
+::: warn
+***Temporaly - Landing Page***
+Para acceder al flujo de la *landing page*, haga click a la [URL](https://github.com/CodeMinds-AppsMoviles-SW65/CodeMinds-LandingPage)
+:::
+
+::: warn
+***Temporaly - Mobile App***
+Para acceder al flujo del *mobile app*, haga click a la [URL](https://github.com/CodeMinds-AppsMoviles-SW65/CodeMinds-Temporaly-MobileApp)
+:::
+
+### *Source Code Style Guide & Conventions*
+
+Para el desarrollo de nuestros proyectos, hemos empleado diversas nomenclaturas, referencias y lenguajes que forman parte de la solución propuesta:
+
+::: box
+***Landing Page***
+:::
+
+- **Tecnologías:** Para el desarrollo de la landing page, utilizamos tecnologías como *HTML5*, *CSS* y *JavaScript*.
+
+- **Herramientas:** Nos apoyamos en herramientas ampliamente utilizadas y recomendadas para el desarrollo web, tales como: *Visual Studio Code*, *WebStorm*, *GitHub*, *Git* y *Figma*.
+
+- **Convenciones de idioma:** Adoptamos el uso del inglés como el idioma principal para la escritura de nuestro código. Sin embargo, la landing page admite *i18n* para usuarios de habla hispana.
+
+- **Lenguaje Gherkin:** Empleamos Gherkin para diseñar las pruebas de cada historia de usuario, siguiendo su estructura básica.
+
+::: box
+***Auth - Backend***
+:::
+
+- **Tecnologías:** Para el desarrollo del *backend*, enfocado en el *auth service*, utilizamos tecnologías como *Java*, *Spring Boot* y *Spring Security*.
+
+- **Herramientas:** Nos apoyamos en herramientas ampliamente utilizadas y recomendadas para el desarrollo *backend*, tales como: *Swagger*, *IntelliJ Idea*, *Github*, *Git* y *Docker*.
+
+- **Convenciones de idioma:** Adoptamos el uso del inglés como el idioma principal para la escritura de nuestro código y la documentación de este en general.
+
+- **Lenguaje Gherkin:** Empleamos Gherkin para diseñar las pruebas de cada historia de usuario, siguiendo su estructura básica.
+
+::: box
+***Email Generate - Backend***
+:::
+
+- **Tecnologías:** Para el desarrollo del backend, enfocado en el *generate temporary email service*, utilizamos tecnologías como *Python*, *Flask* y *TempMail*.
+
+- **Herramientas:** Nos apoyamos en herramientas ampliamente utilizadas y recomendadas para el desarrollo backend, tales como: *Flasgger*, *Termux*, *Github*, *Git* y *Vim*.
+
+- **Convenciones de idioma:** Adoptamos el uso del inglés como el idioma principal para la escritura de nuestro código y la documentación de este en general.
+
+- **Lenguaje Gherkin:** Empleamos Gherkin para diseñar las pruebas de cada historia de usuario, siguiendo su estructura básica.
+
+::: box
+***Mobile App - Android***
+:::
+
+- **Tecnologías:** Para el desarrollo del *mobile app* utilizamos tecnologías como *Kotlin* y *Jetpack Compose*.
+
+- **Herramientas:** Nos apoyamos en herramientas ampliamente utilizadas y recomendadas para el desarrollo *mobile android*, tales como: *Android Studio*, *Github* y *Git*
+
+- **Convenciones de idioma:** Adoptamos el uso del inglés como el idioma principal para la escritura de nuestro código y la documentación de este en general.
+
+- **Lenguaje Gherkin:** Empleamos *Gherkin* para diseñar las pruebas de cada historia de usuario, siguiendo su estructura básica.
+
+Convenciones de Commits: Nuestro equipo de desarrollo sigue las pautas establecidas por las Convenciones de Commits, adoptando el formato "Conventional Commits" en su versión 1.0.0 (disponible en [URL](https://www.conventionalcommits.org/en/v1.0.0/)). Esto nos permite mantener un historial de cambios claro y comprensible. Nos guiamos por la siguiente estructura:
+
+Donde:
+
+::: code
+```
+<type>[scope opcional]: <description>
+```
+:::
+
+- ***type:*** Indica el tipo de modificación realizada, como feat, fix, docs, entre otros.
+  
+- ***scope:*** Define opcionalmente el alcance del cambio en el código.
+
+- ***description:*** Proporciona un resumen breve y claro de los cambios implementados.
+
+**Convenciones de versionado de lanzamientos**
+
+Para la gestión de versiones, seguimos el estándar "Semantic Versioning 2.0.0". En este formato, las versiones se presentan como (X.Y.Z), con las siguientes interpretaciones:
+
+- **X:** Indica una versión principal que introduce cambios incompatibles con versiones anteriores. Comenzamos en 0 durante la fase de desarrollo inicial y pasamos a 1 cuando la versión está lista para su lanzamiento público. Por convención, los números Y y Z se reinician a 0 cada vez que X aumenta.
+
+- **Y:** Representa una versión secundaria que incluye cambios compatibles con versiones anteriores. También abarca los commits de las "release branches" cuando se agregan nuevas funcionalidades. Al igual que con X, Z se reinicia a 0 cuando Y aumenta.
+
+- **Z:** Refleja parches o correcciones de errores menores. Se integra con commits provenientes de la "rama de corrección" y se fusiona con la rama principal.
+
+\newpage
+
+### *Software Deployment Configuration*
+
+::: warn
+Para acceder al flujo de trabajo, haga click a la [URL](https://github.com/orgs/CodeMinds-AppsMoviles-SW65/repositories)
+:::
+
+**Desplegar** ***Landing Page***
+
+1. Seleccionar el repositorio *CodeMinds-LandingPage*
+
+![Organización CodeMinds, imagen extraída de Github](src/img/Cap4/git_repo.png)
+
+\newpage
+
+2. Abrir, descargar y ejecutar en *VSCode* o *WebsTorm* el archivo index.html
+
+![Repositorio de la Landing Page, imagen extraída de Github](src/img/Cap4/git_repo_landing.png)
+
+3. Visualización de la *Landing Page*
+
+![Web Landing Page - CodeMinds, imagen extraída de Github](src/img/Cap4/desk_landing.png)
+
+![Mobile Landing Page - CodeMinds, imagen extraída de Github](src/img/Cap4/mobile_landing.png)
+
+\newpage
+
+**Desplegar** ***Auth - Backend***
+
+1. Seleccionar el repositorio *CodeMinds-Temporaly-Backend*
+
+![Organización CodeMinds, imagen extraída de Github](src/img/Cap4/git_repo.png)
+
+2. Abrir, descargar y ejecutar en *Intellij Idea*
+
+![Repositorio del backend, imagen extraída de Github](src/img/Cap5/auth-backend-configuration.png)
+
+3. Visualización de la documentación *Swagger*
+
+![Swagger, imagen extraída de Github](src/img/Cap5/auth-backend-swagger.png)
+
+\newpage
+
+**Desplegar** ***Email Generate - Backend***
+
+1. Seleccionar el repositorio *CodeMinds-Temporaly-Backend-GenerateMails-Python*
+
+![Organización CodeMinds, imagen extraída de Github](src/img/Cap4/git_repo.png)
+
+\newpage
+
+2. Abrir, descargar y ejecutar en *VSCode*, *Vim* o su editor de preferencia
+
+![Repositorio del backend, imagen extraída de Github](src/img/Cap5/generate-email-backend-configuration.png)
+
+3. Visualización de la documentación *Flasgger*
+
+![Flasgger, imagen extraída de Github](src/img/Cap5/generate-email-backend-flasgger.png)
+
+\newpage
+
+**Desplegar** ***Mobile App - Temporaly***
+
+1. Seleccionar el repositorio *CodeMinds-Temporaly-MobileApp*
+
+![Organización CodeMinds, imagen extraída de Github](src/img/Cap4/git_repo.png)
+
+\newpage
+
+2. Abrir, descargar y ejecutar en Android Studio 
+
+::: important
+ Asegurese de tener la version Android Studio Koala - 2024 - Patch 1 o 2
+:::
+
+![Repositorio del Mobile App, imagen extraída de Github](src/img/Cap5/mobile-app-configuration.png)
+
+\newpage
+
+3. Visualización de la aplicación *Temporaly*
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=1.0\textwidth, height=0.9\textheight]{src/img/Cap5/temporaly-app.png}
+    \caption{Flasgger, imagen extraída de Github}
+    \label{fig:fimag}
+\end{figure}
+
+\newpage
+
+## *Landing Page & Mobile Application Implementation*
+
+### *Sprint 2*
+
+#### *Sprint Planning 2*
+
+\begin{longtable}{|p{5cm}|p{9cm}|}
+\hline
+\textbf{Sprint Planning Background} & \\ \hline
+\endfirsthead
+\hline
+\textbf{Sprint} & \textbf{Sprint 2} \\ \hline
+\endfoot
+\hline
+\textbf{Date} & 27/09/2024 \\ \hline
+\textbf{Time} & 21:00 \\ \hline
+\textbf{Location} & Discord Virtual Meeting \\ \hline
+\textbf{Prepared By} & Ortega Huaraca, Abel Angel \\ \hline
+\textbf{Attendees (to planning meeting)} & Ortega Huaraca, Abel Angel / Avila Asto, Alex Ramon / Vilchez Rios, Mateo Alejandro / Ramos Rios, Belen del Rocio \\ \hline
+\textbf{Sprint 2 Review Summary} & Implementación de los User Stories e integración con el Backend (Cap 4 y 5) \\ \hline
+\textbf{Sprint 2 Retrospective Summary} & El trabajo se realizó a tiempo, y cada integrante terminó lo que se le encomendó. Asimismo, se trabajó en equipo cuando la situación del proyecto lo requería. \\ \hline
+\textbf{Sprint Goal \& User Stories} & Establecer una minidemo de la aplicación Temporaly, en donde se muestre la entrega y cumplimiento de los user stories para este sprint 2 \\ \hline
+\textbf{Sprint 2 Velocity} & 1 Sprint cada semanas \\ \hline
+\textbf{Sum of Story Points} & - 106 \\ \hline
+\end{longtable}
+
+\newpage
+
+#### *Sprint Backlog 2*
 
 En este segundo sprint, el foco ha sido completar e integrar funcionalidades críticas dentro de la aplicación móvil de Temporaly, así como afianzar la conexión con el backend. Las historias de usuario incluidas en este sprint cubren tareas relacionadas con la creación y gestión de correos temporales, personalización de dominios, y optimización del proceso de generación y visualización de correos, asegurando que la experiencia de usuario sea intuitiva y eficiente.
 
@@ -202,7 +448,21 @@ US08 & \parbox[t]{2.5cm}{Personalización del dominio del correo temporal} & WI2
 
 \end{longtable}
 
+**Gestión del Sprint 2 (Tablero Kanban):**
+
+Para mejorar la gestión y seguimiento de las tareas de este *sprint*, se implementó un tablero Kanban. Este tablero permite visualizar claramente los elementos clave a desarrollar, asignar responsables para cada tarea, y utilizar etiquetas *(labels)* que categorizan los Issues de forma precisa. Además, los *Milestones* fueron utilizados estratégicamente para planificar las fechas de entrega y gestionar los entregables, facilitando un control eficiente del progreso del proyecto.
+
+![Tablero Kanban del equipo, imagen extraída de Github](src/img/Cap4/Sprint_Backlog1.png)
+
+\newpage
+
 #### *Development Evidence for Sprint Review*
+
+Evidencia de colaboración en Equipo:
+
+![Imagen extraída de Github](src/img/cap5/development-evidence.png)
+
+\newpage
 
 #### *Testing Suite Evidence for Sprint Review*
 
@@ -920,7 +1180,9 @@ Feature: Personalización del dominio de correos temporales
 
 ```
 
-#### *Execution Suite for Sprint Review*
+\newpage
+
+#### *Execution Evidence for Sprint Review*
 
 Durante este primer sprint se realizó la implementación de las screen y la conexion con el backend desde la aplicacion movil.
 features:
@@ -935,26 +1197,92 @@ En las imágenes y videos adjuntos se podrá apreciar de mejor manera los avance
 
 ![Backend: Imagen extraída del navegador](src/img/Cap5/cap5_backend_1.png)
 
+\newpage
+
 **Implementacion de las pantallas**
 
-![App movil: Imagen extraída de android studio.](src/img/Cap5/cap5_app_1.jpeg)
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=1.0\textwidth, height=0.9\textheight]{src/img/Cap5/cap5_app_1.jpeg}
+    \caption{App movil: Imagen extraída de Android Studio}
+    \label{fig:fimag}
+\end{figure}
 
-![App movil: Imagen extraída de android studio.](src/img/Cap5/cap5_app_2.jpeg)
+![App movil: Imagen extraída de Android Studio.](src/img/Cap5/cap5_app_2.jpeg)
 
-![App movil: Imagen extraída de android studio.](src/img/Cap5/cap5_app_3.jpeg)
+![App movil: Imagen extraída de Android Studio.](src/img/Cap5/cap5_app_3.jpeg)
 
-![App movil: Imagen extraída de android studio.](src/img/Cap5/cap5_app_4.jpeg)
+![App movil: Imagen extraída de Android Studio.](src/img/Cap5/cap5_app_4.jpeg)
 
-![App movil: Imagen extraída de android studio.](src/img/Cap5/cap5_app_5.jpeg)
+![App movil: Imagen extraída de Android Studio.](src/img/Cap5/cap5_app_5.jpeg)
 
 \newpage
 
 #### *Services Documentation Evidence for Sprint Review*
 
+En esta seccion, se muestra la documentacion de los servicios del *backend* de la aplicación móvil, asi como tambien se muestra el uso de Swagger para la documentacion de los servicios.
+
+Utilizamos *SpringBoot*, *Spring Security*, *Spring Mongo*, *Spring Oauthclient*, *JWToken*, *Spring Data* y *Flask*
+
+* https://docs.spring.io/spring-boot/index.html
+
+* https://docs.spring.io/spring-boot/reference/web/spring-security.html#page-title
+
+* https://www.npmjs.com/package/jsonwebtoken
+
+* https://spring.io/projects/spring-data-jpa
+
+* https://github.com/flasgger/flasgger
+
 #### *Software Deployment Evidence for Sprint Review*
+
+**Desplegar** ***Email Generate - Backend***
+
+::: note
+Para acceder al despligue del Backend mediante *Flasgger*, haga click en la [URL](https://deploy-generate-email-temporaly-ldav.vercel.app/apidocs/)
+:::
+
+1. Seleccionar el repositorio *CodeMinds-Temporaly-Backend-GenerateMails-Python*
+
+![Organización CodeMinds, imagen extraída de Github](src/img/Cap4/git_repo.png)
+
+\newpage
+
+2. Abrir, descargar y ejecutar en *VSCode*, *Vim* o su editor de preferencia
+
+![Repositorio del backend, imagen extraída de Github](src/img/Cap5/generate-email-backend-configuration.png)
+
+3. Visualización de la documentación *Flasgger*
+
+![Flasgger, imagen extraída de Github](src/img/Cap5/generate-email-backend-flasgger.png)
+
+\newpage
+
+**Desplegar** ***Mobile App - Temporaly***
+
+::: note
+Para acceder al repositorio del FrontEnd, haga click en la [URL](https://github.com/CodeMinds-AppsMoviles-SW65/CodeMinds-Temporaly-MobileApp)
+:::
+
+1. Seleccionar el repositorio *CodeMinds-Temporaly-MobileApp*
+
+![Organización CodeMinds, imagen extraída de Github](src/img/Cap4/git_repo.png)
+
+\newpage
 
 #### *Team Collaboration Insights during Sprint*
 
+::: warn
+Para acceder a la visualización del flujo del trabajo, haba click en la [URL](https://github.com/orgs/CodeMinds-AppsMoviles-SW65/projects/1/views/2)
+:::
+
+![Imagen extraída de Github - Codeminds](src/img/Cap5/colaboration-insights-1.png)
+
+![Imagen extraída de Github - Codeminds](src/img/Cap5/colaboration-insights-2.png)
+
+![Imagen extraída de Github - Codeminds](src/img/Cap5/colaboration-insights-3.png)
+
+\newpage
 
 ## *Validation Interviews*
 
@@ -995,6 +1323,8 @@ A continuación, exploraremos cómo se diseñaron las entrevistas, cómo se llev
    
 2) ¿Qué cambiarías para hacer la página más comprensible o atractiva para ti?
 
+\newpage
+
 ::: box 
 **Segmento Objetivo 2:** Estudiantes de nivel universitario y superior (pregrado - postgrado) 
 :::
@@ -1027,8 +1357,15 @@ A continuación, exploraremos cómo se diseñaron las entrevistas, cómo se llev
    
 2) ¿Agregarías o cambiarías algo en la estructura o la interfaz para hacerla más efectiva?
 
+\newpage
 
 ### Registro de entrevistas
+
+::: note
+Para acceder al video de las entrevistas, haga click en la [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/ER-HaJJcUCxGhHOERY7D_r8B_lIO8pODYqcrZlTF8wnYoQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=VWGIGs)
+:::
+
+\vspace{0.4cm}
 
 ::: box
 **Segmento Objetivo 1:** Estudiantes de nivel escolar
@@ -1065,7 +1402,7 @@ En resumen, Adriano considera que la aplicación tiene un buen nivel de claridad
 
 ![Imagen extraída del video de entrevistas](src/img/Cap5/AdrianoRamos_LandingPage.png)
 
-
+\newpage
 
 ::: box
 **Segmento Objetivo 2:** Estudiantes de Pregrado/Postgrado
@@ -1077,8 +1414,8 @@ En resumen, Adriano considera que la aplicación tiene un buen nivel de claridad
 \begin{center}  % Centrar la tabla
 \begin{tabular}{|p{5cm}|p{6cm}|}  % Ajusta los anchos de las columnas
 \hline
-\textbf{Nombre y Apellido}    & Daniel Mateo del Castillo \\ \hline
-\textbf{Edad}                 & 19 años                \\ \hline
+\textbf{Nombre y Apellido}    & Kiomara Gil Olivera \\ \hline
+\textbf{Edad}                 & 21 años                \\ \hline
 \textbf{Ubicación geográfica} & Lima, Perú         \\ \hline
 \textbf{Grado}                & Pregrado             \\ \hline
 \textbf{Tiempo de entrevista} & inicio - fin           \\ \hline
@@ -1086,7 +1423,23 @@ En resumen, Adriano considera que la aplicación tiene un buen nivel de claridad
 \end{center}
 \end{table}
 
+En la entrevista con Kiomara Gil Olivera, se evaluó la landing page y funcionalidades de la aplicación Temporaly, enfocada en la creación de correos temporales para proteger la privacidad en línea. Kiomara comentó que el mensaje principal de la aplicación, "protege tu privacidad en línea", le daba una idea básica de lo que hace la aplicación, y que el tamaño de las letras era adecuado para captar la atención del usuario.
 
+Cuando se le preguntó cómo relacionaría la funcionalidad de la aplicación con situaciones cotidianas, como el registro en plataformas académicas o eventos, expresó que Temporaly sería una forma confiable de proteger su información mientras está en línea. Además, mencionó que, dada la facilidad con la que los estudiantes pueden acceder a diversas páginas, Temporaly ayudaría a evitar que su información personal sea mal utilizada.
+
+En cuanto a la usabilidad, Kiomara señaló que, tras leer toda la información de la aplicación, le sería fácil crear y gestionar correos temporales. Considera útil la barra lateral que muestra el historial de correos usados, y cree que la diferencia entre los planes de pago y el plan gratuito es clara, ya que cada uno menciona los beneficios específicos que ofrecen.
+
+Respecto a la seguridad, Kiomara expresó que la aplicación le da confianza, especialmente porque cuenta con una oficina física y un número telefónico, lo que le permite sentir que no todo es virtual. Además, los comentarios de otros usuarios contribuyen a reforzar su confianza en Temporaly. No cree que sea necesario agregar más elementos para mejorar la seguridad de la aplicación.
+
+Sobre el diseño, Kiomara considera que es atractivo y fácil de navegar. Los colores utilizados son llamativos sin ser molestos a la vista, y cada sección está bien organizada y es comprensible. Como sugerencia de mejora, mencionó que sería útil agregar una sección con inteligencia artificial para resolver preguntas frecuentes, lo que mejoraría la experiencia del usuario al proporcionar respuestas inmediatas sobre el funcionamiento de la aplicación.
+
+En resumen, Kiomara valoró positivamente la aplicación y expresó que le daría una oportunidad debido a la confianza que le genera, tanto por sus funcionalidades como por la seguridad que transmite.
+
+
+![Imagen extraída del video de entrevistas](src/img/Cap5/KiomaraOlivera_LandingPage.png)
+
+
+\newpage
 
 ### Evualuaciones segun heuristicas
 
@@ -1110,7 +1463,6 @@ En resumen, Adriano considera que la aplicación tiene un buen nivel de claridad
 
 \vspace{10pt}
 
-
 **SITE o APP A EVALUAR:** *Temporaly*
 
 \vspace{10pt}
@@ -1126,7 +1478,7 @@ El alcance de esta evaluación incluye la revisión de la usabilidad de la \text
     \item \textbf{Diseño visual y navegación}: Facilidad para encontrar secciones clave.
 \end{enumerate}
 
-\vspace{2cm}
+\newpage
 
 **ESCALA DE SEVERIDAD**
 
@@ -1164,6 +1516,7 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 \end{center}
 \end{table}
 
+\newpage
 
 **DESCRIPCIÓN DE PROBLEMAS**
 
@@ -1213,4 +1566,92 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
   **Recomendación:** Mostrar de manera más destacada los logos y asociaciones de seguridad con terceros en la landing page, asegurando que estos elementos visuales refuercen la confianza del usuario.
 
 \vspace{1cm}
+
+### *Sprint 3*
+
+
+#### *Sprint Planning 2*
+
+
+#### *Sprint Backlog 3*
+
+
+En este tercer sprint, el objetivo ha sido continuar con la migración de la aplicación móvil Temporaly de Kotlin a Flutter, manteniendo y mejorando las funcionalidades existentes. Este sprint se enfoca en la implementación de nuevas características clave para optimizar la experiencia de usuario, así como en la integración de la gestión de consentimientos, generación de correos temporales y visualización de correos activos.
+
+Las historias de usuario incluidas en este sprint abarcan tareas críticas relacionadas con la migración de la UI, la conexión a la API del backend y la optimización de la usabilidad en Flutter. Se han priorizado funcionalidades que impactan directamente la interacción del usuario con la app, como el registro, la personalización de dominios, y la duración específica de los correos temporales.
+
+A continuación, se detallan las Historias de Usuario, los Work Items (WI) asignados, las horas estimadas, los responsables y el estado de cada tarea, destacando la colaboración del equipo en el proceso de migración y pruebas para garantizar la fluidez en las nuevas implementaciones.
+
+\begin{longtable}{|c|p{2.5cm}|p{1cm}|p{4cm}|p{2cm}|p{2cm}|p{1cm}|}
+\hline
+\textbf{ID} & \textbf{User Story} & \textbf{Work Item (WI)} & \textbf{Description} & \textbf{Estimation (Hours)} & \textbf{Assigned To} & \textbf{Status} \\ \hline
+
+\multirow{4}{*}{US01} & \multirow{4}{*}{\parbox[t]{2.5cm}{Registro de usuario}} & WI01 & Diseño de la pantalla de registro utilizando Flutter, incluyendo inputs de usuario y contraseña & 6h & Alex Avila & Done \\ \cline{3-7}
+ &  & WI02 & Implementación de la lógica de validación de campos de usuario y conexión con la API & 5h & Alex Avila & Done \\ \cline{3-7}
+ &  & WI03 & Desarrollo de validaciones en tiempo real para la pantalla de registro (usuario, email) & 4h & Alex Avila & Done \\ \cline{3-7}
+ &  & WI04 & Pruebas de usabilidad en la pantalla de registro en diferentes resoluciones móviles & 3h & Alex Avila & Done \\ \hline
+
+\multirow{3}{*}{US02} & \multirow{3}{*}{\parbox[t]{2.5cm}{Confirmación de creación de cuenta}} & WI05 & Conectar la funcionalidad de confirmación de cuenta con la API para validación de correo & 5h & Alex Avila & Done \\ \cline{3-7}
+ &  & WI06 & Diseño de la pantalla de confirmación de cuenta con mensajes de éxito y error & 4h & Alex Avila & Done \\ \cline{3-7}
+ &  & WI07 & Pruebas de interacción con la API para confirmar la creación de cuenta con códigos de verificación & 2h & Alex Avila & Done \\ \hline
+
+\multirow{2}{*}{US03} & \multirow{2}{*}{\parbox[t]{2.5cm}{Verificación de cuenta}} & WI08 & Implementar la pantalla de verificación de cuenta conectada con la API usando Flutter & 4h & Alex Avila & Done \\ \cline{3-7}
+ &  & WI09 & Diseñar un flujo para el reenvío de códigos de verificación en caso de error & 3h & Alex Avila & Done \\ \hline
+
+\multirow{3}{*}{US05} & \multirow{3}{*}{\parbox[t]{2.5cm}{Generación de correo temporal con un click}} & WI12 & Implementar la funcionalidad de generación de correos temporales con un clic, mostrando un correo único & 5h & Abel Ortega & Done \\ \cline{3-7}
+ &  & WI13 & Conectar la funcionalidad de generación de correo con la API para persistencia & 4h & Abel Ortega & Done \\ \cline{3-7}
+ &  & WI14 & Pruebas de generación de correos temporales en diferentes dispositivos y navegadores & 2h & Abel Ortega & Done \\ \hline
+
+\multirow{2}{*}{US06} & \multirow{2}{*}{\parbox[t]{2.5cm}{Duración específica del correo temporal}} & WI15 & Añadir opciones en la UI para que el usuario seleccione la duración del correo generado (10, 30, 60 min) & 4h & Abel Ortega & Done \\ \cline{3-7}
+ &  & WI16 & Implementar conexión de la opción de duración con la API para persistencia del tiempo del correo & 4h & Abel Ortega & Done \\ \hline
+
+\multirow{2}{*}{US07} & \multirow{2}{*}{\parbox[t]{2.5cm}{Confirmación visual de creación de correo}} & WI17 & Mostrar una confirmación visual clara (alerta o modal) cuando se haya generado un correo temporal & 3h & Abel Ortega & Done \\ \cline{3-7}
+ &  & WI18 & Pruebas de confirmación visual en dispositivos móviles y navegadores & 2h & Abel Ortega & Done \\ \hline
+
+\multirow{2}{*}{US08} & \multirow{2}{*}{\parbox[t]{2.5cm}{Personalización del dominio de correo temporal}} & WI19 & Implementar un selector de dominio en la pantalla de generación de correo temporal & 5h & Abel Ortega & Done \\ \cline{3-7}
+ &  & WI20 & Conectar el selector de dominio personalizado con la API para reflejar la opción en el correo generado & 4h & Abel Ortega & Done \\ \hline
+
+\multirow{2}{*}{US09} & \multirow{2}{*}{\parbox[t]{2.5cm}{Generación Múltiple de correos temporales}} & WI21 & Añadir una opción en la UI para generar múltiples correos temporales de manera consecutiva & 4h & Abel Ortega & Done \\ \cline{3-7}
+ &  & WI22 & Pruebas para asegurar que la generación de múltiples correos no cause conflictos en la API & 3h & Abel Ortega & Done \\ \hline
+
+\multirow{2}{*}{US13} & \multirow{2}{*}{\parbox[t]{2.5cm}{Proceso de generación rápido y fluido}} & WI23 & Optimizar el flujo de generación de correos para reducir el tiempo de carga en la UI & 4h & Mateo Vilchez & Done \\ \cline{3-7}
+ &  & WI24 & Pruebas del flujo de generación rápida en diferentes resoluciones y dispositivos & 3h & Alex Avila & Done \\ \hline
+
+\multirow{3}{*}{US15} & \multirow{3}{*}{\parbox[t]{2.5cm}{Acceso a bandeja de entrada de correos temporales}} & WI25 & Implementar una bandeja de entrada para visualizar correos recibidos, con paginación & 4h & Abel Ortega & Done \\ \cline{3-7}
+ &  & WI26 & Conectar la bandeja de entrada con la API para la persistencia de correos recibidos & 4h & Abel Ortega & Done \\ \cline{3-7}
+ &  & WI27 & Pruebas de funcionalidad de la bandeja de entrada en Flutter & 3h & Abel Ortega & Done \\ \hline
+
+\multirow{2}{*}{US16} & \multirow{2}{*}{\parbox[t]{2.5cm}{Visualización de correos recibidos}} & WI28 & Migración de la funcionalidad de visualización de correos recibidos a Flutter con formato responsive & 4h & Alex Avila & Done \\ \cline{3-7}
+ &  & WI29 & Pruebas de visualización de correos en Flutter para asegurar un diseño responsive y correcto renderizado & 3h & Mateo Vilchez & Done \\ \hline
+
+\multirow{2}{*}{US17} & \multirow{2}{*}{\parbox[t]{2.5cm}{Notificación de nuevos correos en la bandeja de entrada}} & WI30 & Implementación de notificaciones push para avisar al usuario de la llegada de nuevos correos & 4h & Mateo Vilchez & Done \\ \cline{3-7}
+ &  & WI31 & Pruebas de funcionalidad de notificaciones en diferentes plataformas móviles & 3h & Abel Ortega & Done \\ \hline
+
+\multirow{2}{*}{US18} & \multirow{2}{*}{\parbox[t]{2.5cm}{Leer y responder correos temporales}} & WI32 & Añadir funcionalidad para que los usuarios puedan leer y responder correos temporales desde la app & 5h & Alex Avila & Done \\ \cline{3-7}
+ &  & WI33 & Pruebas de funcionalidad de lectura y respuesta de correos en Flutter & 3h & Mateo Vilchez & Done \\ \hline
+
+\multirow{2}{*}{US19} & \multirow{2}{*}{\parbox[t]{2.5cm}{Buscar correos en la bandeja de entrada}} & WI34 & Añadir funcionalidad de búsqueda avanzada de correos por remitente y asunto en la bandeja & 4h & Mateo Vilchez & Done \\ \cline{3-7}
+ &  & WI35 & Pruebas de funcionalidad de búsqueda avanzada de correos en la UI en dispositivos móviles & 3h & Belen Ramos & Done \\ \hline
+
+\multirow{2}{*}{US20} & \multirow{2}{*}{\parbox[t]{2.5cm}{Eliminar correos temporales}} & WI36 & Implementar funcionalidad para eliminar correos seleccionados de la bandeja de entrada & 4h & Alex Avila & Done \\ \cline{3-7}
+ &  & WI37 & Pruebas de funcionalidad de eliminación de correos temporales en diferentes dispositivos & 2h & Mateo Vilchez & Done \\ \hline
+
+\multirow{2}{*}{US22} & \multirow{2}{*}{\parbox[t]{2.5cm}{Filtrar correos por fecha o remitente}} & WI38 & Añadir la opción para filtrar correos por fecha o remitente en la bandeja de entrada & 4h & Abel Ortega & Done \\ \cline{3-7}
+ &  & WI39 & Pruebas de funcionalidad de filtrado de correos en diferentes dispositivos & 3h & Belen Ramos & Done \\ \hline
+ 
+\newpage
+\multirow{9}{*}{US32} & \multirow{9}{*}{\parbox[t]{2.5cm}{Manejo de consentimiento de usuario}} & WI40 & Migración del manejo de estado del consentimiento de usuario a Flutter & 3h & Belen Ramos & Done \\ \cline{3-7}
+ &  & WI41 & Migración de la lógica para mostrar/ocultar mensajes según aceptación del consentimiento & 3h & Belen Ramos & Done \\ \cline{3-7}
+ &  & WI42 & Reimplementación de la funcionalidad de "I Agree" con el flujo de consentimiento en Flutter & 3h & Belen Ramos & Done \\ \cline{3-7}
+ &  & WI43 & Navegación entre la pantalla de consentimiento y la pantalla principal en Flutter & 2h & Mateo Vilchez & Done \\ \cline{3-7}
+ &  & WI44 & Implementación del click handler para "Privacy Policy" en Flutter & 2h & Belen Ramos & Done \\ \cline{3-7}
+ &  & WI45 & Pruebas unitarias para la verificación de aceptación en Flutter & 3h & Mateo Vilchez & Done \\ \cline{3-7}
+ &  & WI46 & Manejo de estados para botones según el consentimiento en Flutter & 2h & Belen Ramos & Done \\ \cline{3-7}
+ &  & WI47 & Pruebas de usabilidad del flujo de "Privacy Policy" en Flutter & 2h & Mateo Vilchez & Done \\ \cline{3-7}
+ &  & WI48 & Feedback visual en caso de fallos en el consentimiento en Flutter & 3h & Belen Ramos & Done \\ \hline
+
+\end{longtable}
+
+
+
 
