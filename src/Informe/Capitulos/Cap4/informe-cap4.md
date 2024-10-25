@@ -1057,13 +1057,35 @@ En esta seccion, se muestra la documentacion de los servicios del back end de la
 
 Utilizamos *SpringBoot*, *Spring Security*, *Spring Mongo*, *Spring Oauthclient*, *JWToken* y *Spring Data*
 
-* https://docs.spring.io/spring-boot/index.html
+::: warn
+**https://docs.spring.io/spring-boot/index.html**
+:::
 
-* https://docs.spring.io/spring-boot/reference/web/spring-security.html#page-title
+![Imagen extraída de la documentación de Spring](src/img/Cap5/documentation1.png)
 
-* https://www.npmjs.com/package/jsonwebtoken
+\newpage
 
-* https://spring.io/projects/spring-data-jpa
+::: warn
+**https://docs.spring.io/spring-boot/reference/web/spring-security.html#page-title**
+:::
+
+![Imagen extraída de la documentación de Spring](src/img/Cap5/documentation2.png)
+
+::: warn
+**https://www.npmjs.com/package/jsonwebtoken**
+:::
+
+![Imagen extraída de NPMjs](src/img/Cap5/documentation3.png)
+
+\newpage
+
+::: warn
+**https://spring.io/projects/spring-data-jpa**
+:::
+
+![Imagen extraída de la documentación de Spring](src/img/Cap5/documentation4.png)
+
+\newpage
 
 #### *Software Deployment Evidence for Sprint Review*
 
