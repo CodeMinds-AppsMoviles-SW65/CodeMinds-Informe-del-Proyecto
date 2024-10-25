@@ -1454,21 +1454,41 @@ Feature: User Registration
 
 US02 - Confirmación de creación de cuenta
 
-Feature: Account Creation Confirmation
+Feature: Confirmación de cuenta
+  As a registered user
+  I want to confirm my account via email
+  So that I can complete the registration process
 
-  As a user
-  I want to confirm my account creation
-  So that I can verify my email and activate my account
-
-  Scenario: Successful account confirmation
-    Given the user has registered an account
-    When the user clicks the confirmation link sent to their email
-    Then the account should be confirmed successfully and they can log in
+  Scenario: Account confirmation via API
+    Given the user has received an email with a verification code
+    When the user enters the code
+    Then the account should be confirmed with a success message
 
   Examples:
-    | email               | confirmation_code |
-    | test1@example.com    | 123456            |
-    | test2@example.com    | 789101            |
+    | verification_code |
+    | ABCD1234          |
+    | XYZ7890           |
+
+```
+
+```gherkin
+
+US03 - Verificación de cuenta
+
+Feature: Verificación de cuenta
+  As a user
+  I want to verify my account with a code
+  So that I can secure my account
+
+  Scenario: Code re-sent after failure
+    Given the user has not received a code
+    When the user requests a new verification code
+    Then the system should resend the code
+
+  Examples:
+    | action             |
+    | Resend verification|
+    | Contact support    |
 
 
 ```
@@ -1477,21 +1497,18 @@ Feature: Account Creation Confirmation
 
 US05 - Generación de correo temporal con un clic
 
-Feature: Temporary Email Generation
-
+Feature: Generación de correo temporal
   As a user
-  I want to generate a temporary email with a single click
-  So that I can use it for temporary purposes
+  I want to generate a temporary email address with one click
+  So that I can use it for quick tasks
 
-  Scenario: User generates a temporary email
-    Given the user is logged into the app
-    When the user clicks on "Generate Email"
-    Then a temporary email address should be generated and displayed
+  Scenario: Generate a single-use email
+    Given the user clicks on “Generate Email”
+    Then the app should display a temporary email
 
   Examples:
-    | email_domain         |
-    | @temp1.com           |
-    | @temp2.com           |
+    | button_clicks |
+    | Single-click   |
 
 
 ```
@@ -1500,43 +1517,173 @@ Feature: Temporary Email Generation
 
 US06 - Duración específica del correo temporal
 
-Feature: Specific Duration for Temporary Emails
-
+Feature: Duración del correo temporal
   As a user
-  I want to specify the duration of my temporary email
-  So that the email expires after a set period
+  I want to select the duration of my temporary email
+  So that it expires after a set period
 
-  Scenario: Set a custom expiration time
-    Given the user is generating a temporary email
+  Scenario: Set custom expiration time
+    Given the user is on the email generation screen
     When the user selects a duration of 30 minutes
-    Then the system should set the expiration time to 30 minutes
+    Then the temporary email should expire in 30 minutes
 
   Examples:
-    | duration  |
-    | 10 min    |
-    | 30 min    |
+    | duration |
+    | 10 min   |
+    | 30 min   |
+    | 60 min   |
 
 
 ```
 
 ```gherkin
-US32 - Manejo de consentimiento de usuario
 
-Feature: User Consent Management
+US07 - Confirmación visual de creación de correo
 
+Feature: Confirmación de correo creado
   As a user
-  I want to manage my consent for data processing
-  So that I can agree or deny specific consent options
+  I want to receive a visual confirmation for email generation
+  So that I know my email is ready to use
 
-  Scenario: User agrees to data consent
-    Given the user is on the consent screen
-    When the user clicks "I Agree"
-    Then the system should record their consent and continue to the main application
+  Scenario: Show confirmation alert
+    Given the user generates an email
+    Then the app should display a confirmation message
 
   Examples:
-    | consent      |
-    | Agreed       |
-    | Denied       |
+    | alert_type   |
+    | Modal        |
+    | Notification |
+
+
+```
+
+```gherkin
+
+US08 - Personalización del dominio de correo temporal
+
+Feature: Personalización del dominio
+  As a user
+  I want to choose the domain of my temporary email
+  So that I can customize my email address
+
+  Scenario: Domain selection
+    Given the user is on the email options screen
+    When the user selects a domain
+    Then the generated email should display the chosen domain
+
+  Examples:
+    | domain      |
+    | tempmail.com|
+    | securemail.co|
+
+
+```
+
+```gherkin
+
+US09 - Generación Múltiple de correos temporales
+
+Feature: Generación múltiple de correos temporales
+  As a user
+  I want to generate multiple temporary emails
+  So that I can use them for different tasks
+
+  Scenario: Generate multiple emails consecutively
+    Given the user is on the email generation screen
+    When the user selects the option to generate multiple emails
+    Then the app should display a list of temporary emails
+
+  Examples:
+    | number_of_emails |
+    | 3                |
+    | 5                |
+
+
+```
+
+```gherkin
+
+US13 - Proceso de generación rápido y fluido
+
+Feature: Generación rápida de correos temporales
+  As a user
+  I want the email generation process to be fast and smooth
+  So that I can quickly access my temporary email
+
+  Scenario: Generate email with optimized loading time
+    Given the user initiates email generation
+    Then the app should display the email within 2 seconds
+
+  Examples:
+    | load_time |
+    | <2 sec    |
+    | 1 sec     |
+
+
+```
+
+```gherkin
+
+US15 - Acceso a bandeja de entrada de correos temporales
+
+Feature: Acceso a la bandeja de entrada
+  As a user
+  I want to access my temporary email inbox
+  So that I can view received messages
+
+  Scenario: Access email inbox with pagination
+    Given the user is viewing the inbox
+    When the inbox has more than 10 emails
+    Then the app should display paginated results
+
+  Examples:
+    | page_size |
+    | 10        |
+    | 20        |
+
+
+```
+
+```gherkin
+
+US16 - Visualización de correos recibidos
+
+Feature: Visualización de correos recibidos
+  As a user
+  I want to view received emails in my temporary inbox
+  So that I can read messages sent to my temporary address
+
+  Scenario: Display received emails
+    Given the user has received emails
+    When the user opens the inbox
+    Then the app should list all received emails with the sender and subject
+
+  Examples:
+    | sender          | subject           |
+    | example@test.com| Welcome to TempMail |
+    | service@mail.com| Account Verification|
+
+
+```
+
+```gherkin
+
+US32 - Manejo de consentimiento de usuario
+
+Feature: Manejo de consentimiento de usuario
+  As a user
+  I want to provide consent for data usage
+  So that I can control my privacy settings
+
+  Scenario: Accept consent
+    Given the user is on the consent screen
+    When the user clicks "I Agree"
+    Then the consent status should be saved and a success message shown
+
+  Examples:
+    | consent_action |
+    | I Agree        |
+    | I Decline      |
 
 
 ```
