@@ -1567,3 +1567,91 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 
 \vspace{1cm}
 
+### *Sprint 3*
+
+
+#### *Sprint Planning 2*
+
+
+#### *Sprint Backlog 3*
+
+
+En este tercer sprint, el objetivo ha sido continuar con la migración de la aplicación móvil Temporaly de Kotlin a Flutter, manteniendo y mejorando las funcionalidades existentes. Este sprint se enfoca en la implementación de nuevas características clave para optimizar la experiencia de usuario, así como en la integración de la gestión de consentimientos, generación de correos temporales y visualización de correos activos.
+
+Las historias de usuario incluidas en este sprint abarcan tareas críticas relacionadas con la migración de la UI, la conexión a la API del backend y la optimización de la usabilidad en Flutter. Se han priorizado funcionalidades que impactan directamente la interacción del usuario con la app, como el registro, la personalización de dominios, y la duración específica de los correos temporales.
+
+A continuación, se detallan las Historias de Usuario, los Work Items (WI) asignados, las horas estimadas, los responsables y el estado de cada tarea, destacando la colaboración del equipo en el proceso de migración y pruebas para garantizar la fluidez en las nuevas implementaciones.
+
+\begin{longtable}{|c|p{2.5cm}|p{1cm}|p{4cm}|p{2cm}|p{2cm}|p{1cm}|}
+\hline
+\textbf{ID} & \textbf{User Story} & \textbf{Work Item (WI)} & \textbf{Description} & \textbf{Estimation (Hours)} & \textbf{Assigned To} & \textbf{Status} \\ \hline
+
+\multirow{4}{*}{US01} & \multirow{4}{*}{\parbox[t]{2.5cm}{Registro de usuario}} & WI01 & Diseño de la pantalla de registro utilizando Flutter, incluyendo inputs de usuario y contraseña & 6h & Alex Avila & Done \\ \cline{3-7}
+ &  & WI02 & Implementación de la lógica de validación de campos de usuario y conexión con la API & 5h & Alex Avila & Done \\ \cline{3-7}
+ &  & WI03 & Desarrollo de validaciones en tiempo real para la pantalla de registro (usuario, email) & 4h & Alex Avila & Done \\ \cline{3-7}
+ &  & WI04 & Pruebas de usabilidad en la pantalla de registro en diferentes resoluciones móviles & 3h & Alex Avila & Done \\ \hline
+
+\multirow{3}{*}{US02} & \multirow{3}{*}{\parbox[t]{2.5cm}{Confirmación de creación de cuenta}} & WI05 & Conectar la funcionalidad de confirmación de cuenta con la API para validación de correo & 5h & Alex Avila & Done \\ \cline{3-7}
+ &  & WI06 & Diseño de la pantalla de confirmación de cuenta con mensajes de éxito y error & 4h & Alex Avila & Done \\ \cline{3-7}
+ &  & WI07 & Pruebas de interacción con la API para confirmar la creación de cuenta con códigos de verificación & 2h & Alex Avila & Done \\ \hline
+
+\multirow{2}{*}{US03} & \multirow{2}{*}{\parbox[t]{2.5cm}{Verificación de cuenta}} & WI08 & Implementar la pantalla de verificación de cuenta conectada con la API usando Flutter & 4h & Alex Avila & Done \\ \cline{3-7}
+ &  & WI09 & Diseñar un flujo para el reenvío de códigos de verificación en caso de error & 3h & Alex Avila & Done \\ \hline
+
+\multirow{3}{*}{US05} & \multirow{3}{*}{\parbox[t]{2.5cm}{Generación de correo temporal con un click}} & WI12 & Implementar la funcionalidad de generación de correos temporales con un clic, mostrando un correo único & 5h & Abel Ortega & Done \\ \cline{3-7}
+ &  & WI13 & Conectar la funcionalidad de generación de correo con la API para persistencia & 4h & Abel Ortega & Done \\ \cline{3-7}
+ &  & WI14 & Pruebas de generación de correos temporales en diferentes dispositivos y navegadores & 2h & Abel Ortega & Done \\ \hline
+
+\multirow{2}{*}{US06} & \multirow{2}{*}{\parbox[t]{2.5cm}{Duración específica del correo temporal}} & WI15 & Añadir opciones en la UI para que el usuario seleccione la duración del correo generado (10, 30, 60 min) & 4h & Abel Ortega & Done \\ \cline{3-7}
+ &  & WI16 & Implementar conexión de la opción de duración con la API para persistencia del tiempo del correo & 4h & Abel Ortega & Done \\ \hline
+
+\multirow{2}{*}{US07} & \multirow{2}{*}{\parbox[t]{2.5cm}{Confirmación visual de creación de correo}} & WI17 & Mostrar una confirmación visual clara (alerta o modal) cuando se haya generado un correo temporal & 3h & Abel Ortega & Done \\ \cline{3-7}
+ &  & WI18 & Pruebas de confirmación visual en dispositivos móviles y navegadores & 2h & Abel Ortega & Done \\ \hline
+
+\multirow{2}{*}{US08} & \multirow{2}{*}{\parbox[t]{2.5cm}{Personalización del dominio de correo temporal}} & WI19 & Implementar un selector de dominio en la pantalla de generación de correo temporal & 5h & Abel Ortega & Done \\ \cline{3-7}
+ &  & WI20 & Conectar el selector de dominio personalizado con la API para reflejar la opción en el correo generado & 4h & Abel Ortega & Done \\ \hline
+
+\multirow{2}{*}{US09} & \multirow{2}{*}{\parbox[t]{2.5cm}{Generación Múltiple de correos temporales}} & WI21 & Añadir una opción en la UI para generar múltiples correos temporales de manera consecutiva & 4h & Abel Ortega & Done \\ \cline{3-7}
+ &  & WI22 & Pruebas para asegurar que la generación de múltiples correos no cause conflictos en la API & 3h & Abel Ortega & Done \\ \hline
+
+\multirow{2}{*}{US13} & \multirow{2}{*}{\parbox[t]{2.5cm}{Proceso de generación rápido y fluido}} & WI23 & Optimizar el flujo de generación de correos para reducir el tiempo de carga en la UI & 4h & Mateo Vilchez & Done \\ \cline{3-7}
+ &  & WI24 & Pruebas del flujo de generación rápida en diferentes resoluciones y dispositivos & 3h & Alex Avila & Done \\ \hline
+
+\multirow{3}{*}{US15} & \multirow{3}{*}{\parbox[t]{2.5cm}{Acceso a bandeja de entrada de correos temporales}} & WI25 & Implementar una bandeja de entrada para visualizar correos recibidos, con paginación & 4h & Abel Ortega & Done \\ \cline{3-7}
+ &  & WI26 & Conectar la bandeja de entrada con la API para la persistencia de correos recibidos & 4h & Abel Ortega & Done \\ \cline{3-7}
+ &  & WI27 & Pruebas de funcionalidad de la bandeja de entrada en Flutter & 3h & Abel Ortega & Done \\ \hline
+
+\multirow{2}{*}{US16} & \multirow{2}{*}{\parbox[t]{2.5cm}{Visualización de correos recibidos}} & WI28 & Migración de la funcionalidad de visualización de correos recibidos a Flutter con formato responsive & 4h & Alex Avila & Done \\ \cline{3-7}
+ &  & WI29 & Pruebas de visualización de correos en Flutter para asegurar un diseño responsive y correcto renderizado & 3h & Mateo Vilchez & Done \\ \hline
+
+\multirow{2}{*}{US17} & \multirow{2}{*}{\parbox[t]{2.5cm}{Notificación de nuevos correos en la bandeja de entrada}} & WI30 & Implementación de notificaciones push para avisar al usuario de la llegada de nuevos correos & 4h & Mateo Vilchez & Done \\ \cline{3-7}
+ &  & WI31 & Pruebas de funcionalidad de notificaciones en diferentes plataformas móviles & 3h & Abel Ortega & Done \\ \hline
+
+\multirow{2}{*}{US18} & \multirow{2}{*}{\parbox[t]{2.5cm}{Leer y responder correos temporales}} & WI32 & Añadir funcionalidad para que los usuarios puedan leer y responder correos temporales desde la app & 5h & Alex Avila & Done \\ \cline{3-7}
+ &  & WI33 & Pruebas de funcionalidad de lectura y respuesta de correos en Flutter & 3h & Mateo Vilchez & Done \\ \hline
+
+\multirow{2}{*}{US19} & \multirow{2}{*}{\parbox[t]{2.5cm}{Buscar correos en la bandeja de entrada}} & WI34 & Añadir funcionalidad de búsqueda avanzada de correos por remitente y asunto en la bandeja & 4h & Mateo Vilchez & Done \\ \cline{3-7}
+ &  & WI35 & Pruebas de funcionalidad de búsqueda avanzada de correos en la UI en dispositivos móviles & 3h & Belen Ramos & Done \\ \hline
+
+\multirow{2}{*}{US20} & \multirow{2}{*}{\parbox[t]{2.5cm}{Eliminar correos temporales}} & WI36 & Implementar funcionalidad para eliminar correos seleccionados de la bandeja de entrada & 4h & Alex Avila & Done \\ \cline{3-7}
+ &  & WI37 & Pruebas de funcionalidad de eliminación de correos temporales en diferentes dispositivos & 2h & Mateo Vilchez & Done \\ \hline
+
+\multirow{2}{*}{US22} & \multirow{2}{*}{\parbox[t]{2.5cm}{Filtrar correos por fecha o remitente}} & WI38 & Añadir la opción para filtrar correos por fecha o remitente en la bandeja de entrada & 4h & Abel Ortega & Done \\ \cline{3-7}
+ &  & WI39 & Pruebas de funcionalidad de filtrado de correos en diferentes dispositivos & 3h & Belen Ramos & Done \\ \hline
+ 
+\newpage
+\multirow{9}{*}{US32} & \multirow{9}{*}{\parbox[t]{2.5cm}{Manejo de consentimiento de usuario}} & WI40 & Migración del manejo de estado del consentimiento de usuario a Flutter & 3h & Belen Ramos & Done \\ \cline{3-7}
+ &  & WI41 & Migración de la lógica para mostrar/ocultar mensajes según aceptación del consentimiento & 3h & Belen Ramos & Done \\ \cline{3-7}
+ &  & WI42 & Reimplementación de la funcionalidad de "I Agree" con el flujo de consentimiento en Flutter & 3h & Belen Ramos & Done \\ \cline{3-7}
+ &  & WI43 & Navegación entre la pantalla de consentimiento y la pantalla principal en Flutter & 2h & Mateo Vilchez & Done \\ \cline{3-7}
+ &  & WI44 & Implementación del click handler para "Privacy Policy" en Flutter & 2h & Belen Ramos & Done \\ \cline{3-7}
+ &  & WI45 & Pruebas unitarias para la verificación de aceptación en Flutter & 3h & Mateo Vilchez & Done \\ \cline{3-7}
+ &  & WI46 & Manejo de estados para botones según el consentimiento en Flutter & 2h & Belen Ramos & Done \\ \cline{3-7}
+ &  & WI47 & Pruebas de usabilidad del flujo de "Privacy Policy" en Flutter & 2h & Mateo Vilchez & Done \\ \cline{3-7}
+ &  & WI48 & Feedback visual en caso de fallos en el consentimiento en Flutter & 3h & Belen Ramos & Done \\ \hline
+
+\end{longtable}
+
+
+
+
