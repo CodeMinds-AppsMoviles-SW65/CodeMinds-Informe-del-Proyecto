@@ -1427,6 +1427,21 @@ Evidencia de colaboración en Equipo:
 
 #### *Execution Evidence for Sprint Review*
 
+Durante este primer sprint se comenzo la reimplementacion en flutter, asi mismo se integro el sistema de generacion de correo y historial al backend.
+
+• Se implementó un sistema de limite de correos por usuarios
+• Se implemento el sistema de filtro de correo falso.
+• Se historial de correos y expiracion de estos.
+
+En las imágenes y videos adjuntos se podrá apreciar de mejor manera los avances mencionados.
+
+**Implementación del sistema de correos falso**
+
+![Backend: Imagen extraída del navegador](src/img/Cap5/temp_back_5_2.png)
+
+**Reimplementacion en flutter.**
+
+![Backend: Imagen extraída de visual studio](src/img/Cap5/flutter_cap_5.png)
 
 \newpage
 
