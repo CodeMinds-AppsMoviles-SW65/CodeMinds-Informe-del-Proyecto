@@ -42,7 +42,6 @@ header-includes:
   \usepackage{array}
   \usepackage{lscape}
   \usepackage{multirow}
-  \usepackage{longtable}
   \usepackage{geometry}
   \usepackage{booktabs}
  
@@ -1264,7 +1263,7 @@ Utilizamos *SpringBoot*, *Spring Security*, *Spring Mongo*, *Spring Oauthclient*
 
 **Desplegar** ***Email Generate - Backend***
 
-::: note
+::: warn
 Para acceder al despligue del Backend mediante *Flasgger*, haga click en la [URL](https://deploy-generate-email-temporaly-ldav.vercel.app/apidocs/)
 :::
 
@@ -1286,7 +1285,7 @@ Para acceder al despligue del Backend mediante *Flasgger*, haga click en la [URL
 
 **Desplegar** ***Mobile App - Temporaly***
 
-::: note
+::: warn
 Para acceder al repositorio del FrontEnd, haga click en la [URL](https://github.com/CodeMinds-AppsMoviles-SW65/CodeMinds-Temporaly-MobileApp)
 :::
 
@@ -1299,7 +1298,7 @@ Para acceder al repositorio del FrontEnd, haga click en la [URL](https://github.
 #### *Team Collaboration Insights during Sprint*
 
 ::: warn
-Para acceder a la visualización del flujo del trabajo, haba click en la [URL](https://github.com/orgs/CodeMinds-AppsMoviles-SW65/projects/1/views/2)
+Para acceder a la visualización del flujo del trabajo, haba click en la [URL](https://github.com/orgs/CodeMinds-AppsMoviles-SW65/projects/1)
 :::
 
 ![Imagen extraída de Github - Codeminds](src/img/Cap5/colaboration-insights-1.png)
@@ -1412,6 +1411,12 @@ A continuación, se detallan las Historias de Usuario, los *Work Items* (WI) asi
  &  & WI48 & Feedback visual en caso de fallos en el consentimiento en Flutter & 3h & Belen Ramos & Done \\ \hline
 
 \end{longtable}
+
+**Gestión del Sprint 3 (Tablero Kanban):**
+
+Para mejorar la gestión y seguimiento de las tareas de este *sprint*, se implementó un tablero Kanban. Este tablero permite visualizar claramente los elementos clave a desarrollar, asignar responsables para cada tarea, y utilizar etiquetas *(labels)* que categorizan los Issues de forma precisa. Además, los *Milestones* fueron utilizados estratégicamente para planificar las fechas de entrega y gestionar los entregables, facilitando un control eficiente del progreso del proyecto.
+
+![Tablero Kanban del equipo, imagen extraída de Github](src/img/Cap4/Sprint_Backlog1.png)
 
 \newpage
 
@@ -1688,6 +1693,7 @@ Feature: Manejo de consentimiento de usuario
 
 ```
 
+\newpage
 
 #### *Execution Evidence for Sprint Review*
 
@@ -1703,9 +1709,16 @@ En las imágenes y videos adjuntos se podrá apreciar de mejor manera los avance
 
 ![Backend: Imagen extraída del navegador](src/img/Cap5/temp_back_5_2.png)
 
-**Reimplementacion en flutter.**
+\newpage
 
-![Backend: Imagen extraída de visual studio](src/img/Cap5/flutter_cap_5.png)
+**Reimplementación en flutter.**
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=1.0\textwidth, height=0.9\textheight]{src/img/Cap5/flutter_cap_5.png}
+    \caption{App movil: Imagen extraída de Visual Studio Code}
+    \label{fig:rnf1}
+\end{figure}
 
 \newpage
 
@@ -1753,8 +1766,64 @@ Utilizamos *SpringBoot*, *Spring Security*, *Spring Mongo*, *Spring Oauthclient*
 
 #### *Software Deployment Evidence for Sprint Review*
 
+**Desplegar** ***Temporaly - Backend***
+
+::: warn
+Para acceder al despliegue del Backend de la aplicación, haga click en la [URL](https://temporally-api.ryzeon.me/swagger-ui/index.html)
+:::
+
+1. Seleccionar el repositorio *CodeMinds-Temporaly-Backend*
+
+![Organización CodeMinds, imagen extraída de Github](src/img/Cap5/despliegue-backend-1.png)
+
+2. Abrir, descargar y ejecutar en *IntelliJ IDEA* o su editor de preferencia para *Java*
+
+![Repositorio del backend, imagen extraída de Github](src/img/Cap5/despliegue-backend-2.png)
+
+3. Visualización de la documentación *Swagger*
+
+![Swagger UI, imagen extraída de la API](src/img/Cap5/despliegue-backend-3.png)
+
+\newpage
+
+**Desplegar** ***Mobile App - Temporaly - Flutter Version***
+
+::: warn
+Para acceder al repositorio del FrontEnd, haga click en la [URL](https://github.com/CodeMinds-AppsMoviles-SW65/CodeMinds-Temporaly-FlutterApp)
+:::
+
+1. Seleccionar el repositorio CodeMinds-Temporaly-FlutterApp
+
+![Organización CodeMinds, imagen extraída de Github](src/img/Cap5/despliegue-backend-1.png)
+
+2. Abrir, descargar y ejecutar en *Visual Studio Code* o su editor de preferencia para *Flutter*
+
+![Repositorio de la aplicación móvil, imagen extraída de Github](src/img/Cap5/despliegue-backend-4.png)
+
+\newpage
+
+3. Visualización de la aplicación
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=1.0\textwidth, height=0.9\textheight]{src/img/Cap5/flutter_cap_5.png}
+    \caption{App movil: Imagen extraída de Visual Studio Code}
+    \label{fig:rnf2}
+\end{figure}
+
+\newpage
+
 #### *Team Collaboration Insights During Sprint*
 
+::: warn
+Para acceder a la visualización del flujo del trabajo, haba click en la [URL](https://github.com/orgs/CodeMinds-AppsMoviles-SW65/projects/1)
+:::
+
+![Imagen extraída de Github - Codeminds](src/img/Cap5/team-colaboration-tb3-1.png)
+
+![Imagen extraída de Github - Codeminds](src/img/Cap5/team-colaboration-tb3-2.png)
+
+![Imagen extraída de Github - Codeminds](src/img/Cap5/team-colaboration-tb3-3.png)
 
 \newpage
 
@@ -1835,7 +1904,7 @@ A continuación, exploraremos cómo se diseñaron las entrevistas, cómo se llev
 
 ### Registro de entrevistas
 
-::: note
+::: warn
 Para acceder al video de las entrevistas, haga click en la [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/ER-HaJJcUCxGhHOERY7D_r8B_lIO8pODYqcrZlTF8wnYoQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=VWGIGs)
 :::
 
