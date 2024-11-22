@@ -2345,6 +2345,282 @@ Para acceder a la visualización del flujo del trabajo, haba click en la [URL](h
 
 \newpage
 
+### *Sprint 5*
+
+#### *Sprint Planning 5*
+
+#### *Sprint Backlog 5*
+
+#### *Development Evidence for Sprint Review*
+
+#### *Testing Suite Evidence for Sprint Review*
+
+***EP03 (Access and Management of an Inbox)***
+
+```gherkin
+US15 - Access to Temporary Email Inbox
+
+Feature: Access temporary email inbox
+  As a user
+  I want to access an inbox for my temporary emails
+  So that I can view and manage received emails securely
+
+  Scenario: Access the temporary email inbox
+    Given the user has generated a temporary email
+    When the user navigates to the inbox
+    Then the system should display all emails associated with the temporary address
+
+```
+
+```gherkin
+US16 - View Received Emails
+
+Feature: View received temporary emails
+  As a user
+  I want to see the emails received in my temporary inbox
+  So that I can read them without revealing my real email
+
+  Scenario: Display received emails
+    Given the user has received emails in the temporary inbox
+    When the user opens the inbox
+    Then the system should show a list of all received emails
+
+```
+
+```gherkin
+US17 - Notification for New Emails
+
+Feature: Notify user about new emails
+  As a user
+  I want to receive notifications when new emails arrive in my temporary inbox
+  So that I am informed promptly of any updates
+
+  Scenario: Notify on email reception
+    Given the user has enabled notifications
+    When a new email arrives in the inbox
+    Then the system should send a push notification to the user
+
+```
+
+```gherkin
+US18 - Read and Respond to Temporary Emails
+
+Feature: Read and respond to temporary emails
+  As a user
+  I want to read and reply to emails in my temporary inbox
+  So that I can interact with the sender
+
+  Scenario: Read and respond to an email
+    Given the user has an email in the temporary inbox
+    When the user opens the email and writes a response
+    Then the system should send the response from the temporary address
+
+```
+
+```gherkin
+US19 - Search Emails in Inbox
+
+Feature: Search emails in the inbox
+  As a user
+  I want to search emails by sender or subject
+  So that I can quickly locate specific emails
+
+  Scenario: Search for an email
+    Given the user has multiple emails in the inbox
+    When the user searches by sender or subject
+    Then the system should filter and display matching emails
+
+```
+
+```gherkin
+US20 - Delete Temporary Emails
+
+Feature: Delete emails from the inbox
+  As a user
+  I want to delete specific emails from my temporary inbox
+  So that I can manage my inbox efficiently
+
+  Scenario: Delete an email
+    Given the user has selected an email
+    When the user confirms the deletion
+    Then the system should remove the email from the inbox
+
+```
+
+```gherkin
+US21 - Mark Emails as Important
+
+Feature: Mark temporary emails as important
+  As a user
+  I want to mark specific emails as important
+  So that I can easily identify and prioritize them
+
+  Scenario: Mark an email as important
+    Given the user has an email in the temporary inbox
+    When the user selects the "Mark as Important" option
+    Then the system should label the email as important
+
+```
+
+```gherkin
+US22 - Filter Emails by Date or Sender
+
+Feature: Filter emails by date or sender
+  As a user
+  I want to filter emails based on date or sender
+  So that I can easily locate specific emails
+
+  Scenario: Filter emails by sender
+    Given the user has multiple emails in the inbox
+    When the user applies a filter for a specific sender
+    Then the system should display only the emails from that sender
+
+  Scenario: Filter emails by date
+    Given the user has multiple emails in the inbox
+    When the user applies a filter for a specific date range
+    Then the system should display only the emails within that range
+
+```
+
+```gherkin
+US23 - Verify Recently Used Temporary Emails
+
+Feature: Verify recently used temporary emails
+  As a user
+  I want to see a list of recently used temporary emails
+  So that I can track and manage previously used addresses
+
+  Scenario: View recently used emails
+    Given the user has generated multiple temporary emails
+    When the user navigates to the history section
+    Then the system should display a list of recently used temporary emails
+
+```
+
+```gherkin
+US24 - Attach Files to Email Responses
+
+Feature: Attach files to email responses
+  As a user
+  I want to attach files when replying to emails
+  So that I can share necessary documents
+
+  Scenario: Attach a file to a response
+    Given the user is replying to an email
+    When the user selects a file to attach
+    Then the system should include the file in the email response
+
+```
+
+***EP03 (Access and Management of an Inbox)***
+
+```gherkin
+US25 - View Session History
+
+Feature: View session history
+  As a user
+  I want to view the history of my generated temporary emails
+  So that I can review emails and sessions I have used in the past
+
+  Scenario: Display session history
+    Given the user has generated multiple temporary email sessions
+    When the user navigates to the session history section
+    Then the system should display a chronological list of all past sessions
+
+```
+
+```gherkin
+US26 - Search Session History
+
+Feature: Search within session history
+  As a user
+  I want to search through my session history
+  So that I can quickly find a specific email session
+
+  Scenario: Search for a session by email address
+    Given the user has multiple entries in the session history
+    When the user enters an email address in the search bar
+    Then the system should display only the sessions related to that email
+
+```
+
+```gherkin
+US27 - Access Details of a Temporary Email
+
+Feature: Access detailed information of a temporary email session
+  As a user
+  I want to access details of a specific session
+  So that I can retrieve information about my past temporary email usage
+
+  Scenario: View detailed session information
+    Given the user is in the session history section
+    When the user selects a specific session entry
+    Then the system should display details such as email address, creation date, and expiration time
+
+```
+
+```gherkin
+US28 - Delete Session History Entries
+
+Feature: Delete entries from session history
+  As a user
+  I want to delete specific entries from my session history
+  So that I can manage and clean up my session records
+
+  Scenario: Delete a session history entry
+    Given the user is in the session history section
+    When the user selects the delete option for an entry
+    Then the system should remove the entry from the history
+
+```
+
+```gherkin
+US29 - Export Session History
+
+Feature: Export session history
+  As a user
+  I want to export my session history
+  So that I can keep an offline record of my email usage
+
+  Scenario: Export session history as a CSV file
+    Given the user is in the session history section
+    When the user selects the "Export" option
+    Then the system should generate a downloadable CSV file containing the session history
+
+```
+
+```gherkin
+US30 - Restore Temporary Emails from History
+
+Feature: Restore expired temporary emails from session history
+  As a user
+  I want to restore an expired temporary email
+  So that I can access important information linked to it
+
+  Scenario: Restore a temporary email
+    Given the user is in the session history section
+    When the user selects the restore option for an expired email
+    Then the system should reactivate the email and allow access to its inbox
+
+```
+
+```gherkin
+US31 - Filter Session History by Date
+
+Feature: Filter session history by date
+  As a user
+  I want to filter my session history based on dates
+  So that I can easily locate sessions from a specific time period
+
+  Scenario: Filter history by date range
+    Given the user is in the session history section
+    When the user applies a date range filter
+    Then the system should display only the sessions within the specified date range
+
+```
+
+\newpage
+
 ## *Validation Interviews*
 
 Las entrevistas de validación son una herramienta clave en el proceso de diseño centrado en el usuario. A través de estas entrevistas, se busca obtener información directa de los usuarios sobre cómo interactúan con el producto, lo que permite validar su usabilidad y funcionalidad. Este método es esencial para identificar problemas, detectar oportunidades de mejora y asegurar que el producto final cumpla con las expectativas del público objetivo. Las entrevistas de validación no solo ayudan a mejorar la experiencia del usuario, sino que también garantizan que las decisiones de diseño estén basadas en datos reales y no en suposiciones.
