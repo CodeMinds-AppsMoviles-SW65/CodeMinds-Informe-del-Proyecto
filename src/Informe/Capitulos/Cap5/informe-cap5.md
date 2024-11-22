@@ -2351,6 +2351,74 @@ Para acceder a la visualización del flujo del trabajo, haba click en la [URL](h
 
 #### *Sprint Backlog 5*
 
+En este quinto y último *sprint*, el objetivo principal ha sido completar todas las funcionalidades pendientes de la aplicación móvil *Temporaly* en *Flutter*, incluyendo la implementación de mejoras y optimizaciones clave. Este sprint se ha centrado en finalizar tareas relacionadas con la gestión de correos temporales, la bandeja de entrada, y el historial de sesiones, garantizando que todas las funcionalidades estén completamente operativas y probadas.
+
+Las historias de usuario incluidas en este sprint abarcan tareas críticas para la experiencia del usuario, como el acceso y manejo de correos temporales, notificaciones, filtros avanzados, y funcionalidades relacionadas con el historial. También se ha trabajado en pruebas exhaustivas para asegurar la calidad del producto final, priorizando aspectos como la integración de la API, la estabilidad de las nuevas características y la usabilidad en diferentes dispositivos.
+
+A continuación, se detallan las Historias de Usuario, los *Work Items* (WI) asignados, las horas estimadas, los responsables y el estado de cada tarea, resaltando la colaboración del equipo en este cierre del proyecto:
+
+
+\begin{longtable}{|c|p{2.5cm}|p{1cm}|p{4cm}|p{2cm}|p{2cm}|p{1cm}|}
+\hline
+\textbf{ID} & \textbf{User Story} & \textbf{Work Item (WI)} & \textbf{Description} & \textbf{Estimation (Hours)} & \textbf{Assigned To} & \textbf{Status} \\ \hline
+
+\multirow{3}{*}{US15} & \multirow{3}{*}{\parbox[t]{2.5cm}{Acceso a bandeja de entrada de correos temporales}} & WI01 & Crear la pantalla para visualizar la bandeja de entrada con paginación y diseño responsive & 5h & Abel Ortega & Done \\ \cline{3-7}
+ &  & WI02 & Conectar la funcionalidad de acceso a la bandeja con la API para obtener datos actualizados & 4h & Abel Ortega & Done \\ \cline{3-7}
+ &  & WI03 & Pruebas de funcionalidad para acceso y navegación en la bandeja de entrada & 3h & Abel Ortega & Done \\ \hline
+
+\multirow{2}{*}{US16} & \multirow{2}{*}{\parbox[t]{2.5cm}{Visualización de correos recibidos}} & WI04 & Diseñar y construir la pantalla de correos recibidos con formato adecuado & 4h & Abel Ortega & Done \\ \cline{3-7}
+ &  & WI05 & Implementar conexión con la API para actualizar los correos recibidos en tiempo real & 3h & Abel Ortega & Done \\ \hline
+
+\multirow{2}{*}{US17} & \multirow{2}{*}{\parbox[t]{2.5cm}{Notificación de nuevos correos}} & WI06 & Implementar notificaciones push para avisar al usuario sobre nuevos correos & 5h & Abel Ortega & Done \\ \cline{3-7}
+ &  & WI07 & Pruebas para validar el envío y recepción de notificaciones en dispositivos móviles & 3h & Abel Ortega & Done \\ \hline
+
+\multirow{3}{*}{US18} & \multirow{3}{*}{\parbox[t]{2.5cm}{Leer y responder correos temporales}} & WI08 & Diseñar la pantalla para lectura y respuesta de correos, con editor de texto básico & 5h & Abel Ortega & Done \\ \cline{3-7}
+ &  & WI09 & Implementar funcionalidad para responder correos directamente desde la bandeja & 4h & Abel Ortega & Done \\ \cline{3-7}
+ &  & WI10 & Pruebas de funcionalidad para lectura y respuesta en dispositivos móviles & 3h & Abel Ortega & Done \\ \hline
+
+\multirow{2}{*}{US19} & \multirow{2}{*}{\parbox[t]{2.5cm}{Buscar correos en la bandeja de entrada}} & WI11 & Crear un buscador avanzado para localizar correos por remitente o asunto & 4h & Abel Ortega & Done \\ \cline{3-7}
+ &  & WI12 & Pruebas de funcionalidad de búsqueda en distintos escenarios y casos de uso & 3h & Abel Ortega & Done \\ \hline
+
+\multirow{2}{*}{US20} & \multirow{2}{*}{\parbox[t]{2.5cm}{Eliminar correos temporales}} & WI13 & Implementar funcionalidad para eliminar correos seleccionados de la bandeja de entrada & 4h & Alex Avila & Done \\ \cline{3-7}
+ &  & WI14 & Pruebas de funcionalidad de eliminación de correos temporales seleccionados & 3h & Mateo Vilchez & Done \\ \hline
+
+\multirow{2}{*}{US21} & \multirow{2}{*}{\parbox[t]{2.5cm}{Marcar correos como importantes}} & WI15 & Diseñar funcionalidad para marcar correos importantes con una estrella o marcador visual & 4h & Mateo Vilchez & Done \\ \cline{3-7}
+ &  & WI16 & Pruebas de funcionalidad para verificar el correcto marcado y persistencia en la API & 3h & Mateo Vilchez & Done \\ \hline
+
+\multirow{2}{*}{US22} & \multirow{2}{*}{\parbox[t]{2.5cm}{Filtrar correos por fecha o remitente}} & WI17 & Crear filtros avanzados para clasificar correos por fecha y remitente desde la bandeja & 4h & Belen Ramos & Done \\ \cline{3-7}
+ &  & WI18 & Pruebas para validar los filtros en diferentes combinaciones y dispositivos & 3h & Belen Ramos & Done \\ \hline
+
+\multirow{2}{*}{US23} & \multirow{2}{*}{\parbox[t]{2.5cm}{Verificar correos temporales usados recientemente}} & WI19 & Implementar sección para mostrar correos usados recientemente con etiquetas temporales & 4h & Alex Avila & Done \\ \cline{3-7}
+ &  & WI20 & Pruebas para verificar el correcto manejo de la lista de correos usados & 3h & Alex Avila & Done \\ \hline
+
+\multirow{2}{*}{US24} & \multirow{2}{*}{\parbox[t]{2.5cm}{Adjuntar archivos en respuestas}} & WI21 & Diseñar funcionalidad para adjuntar archivos a respuestas de correos, con validaciones & 4h & Mateo Vilchez & Done \\ \cline{3-7}
+ &  & WI22 & Pruebas para verificar la subida y manejo de archivos adjuntos & 3h & Mateo Vilchez & Done \\ \hline
+
+\multirow{2}{*}{US25} & \multirow{2}{*}{\parbox[t]{2.5cm}{Visualización del historial de sesiones}} & WI23 & Diseñar la pantalla para mostrar un historial detallado de sesiones previas & 4h & Belen Ramos & Done \\ \cline{3-7}
+ &  & WI24 & Implementar conexión con la API para obtener datos del historial en tiempo real & 3h & Mateo Vilchez & Done \\ \hline
+
+\multirow{2}{*}{US26} & \multirow{2}{*}{\parbox[t]{2.5cm}{Buscar en historial de sesiones}} & WI25 & Crear funcionalidad de búsqueda avanzada para localizar sesiones específicas por fecha o remitente & 4h & Alex Avila & Done \\ \cline{3-7}
+ &  & WI26 & Pruebas de funcionalidad para asegurar la precisión de los resultados de búsqueda & 3h & Mateo Vilchez & Done \\ \hline
+
+\multirow{2}{*}{US27} & \multirow{2}{*}{\parbox[t]{2.5cm}{Acceso detallado a correos temporales anteriores}} & WI27 & Implementar pantalla con detalles de correos anteriores, incluyendo metadatos & 4h & Abel Ortega & Done \\ \cline{3-7}
+ &  & WI28 & Pruebas para validar el correcto acceso y presentación de correos del historial & 3h & Abel Ortega & Done \\ \hline
+
+\multirow{2}{*}{US28} & \multirow{2}{*}{\parbox[t]{2.5cm}{Eliminar entradas del historial de sesiones}} & WI29 & Implementar funcionalidad para eliminar entradas seleccionadas del historial de sesiones & 4h & Abel Ortega & Done \\ \cline{3-7}
+ &  & WI30 & Pruebas para validar la eliminación de entradas en distintos casos de uso & 3h & Abel Ortega & Done \\ \hline
+
+\multirow{2}{*}{US29} & \multirow{2}{*}{\parbox[t]{2.5cm}{Exportar el historial de sesiones}} & WI31 & Diseñar una funcionalidad para exportar el historial de sesiones a formatos como CSV o PDF & 5h & Alex Avila & Done \\ \cline{3-7}
+ &  & WI32 & Pruebas para asegurar la correcta exportación del historial en diferentes formatos & 3h & Belen Ramos & Done \\ \hline
+
+\multirow{2}{*}{US30} & \multirow{2}{*}{\parbox[t]{2.5cm}{Restaurar correos temporales del historial}} & WI33 & Diseñar funcionalidad para restaurar correos seleccionados desde el historial & 4h & Abel Ortega & Done \\ \cline{3-7}
+ &  & WI34 & Pruebas para verificar la restauración en diferentes casos de uso & 3h & Abel Ortega & Done \\ \hline
+
+\multirow{2}{*}{US31} & \multirow{2}{*}{\parbox[t]{2.5cm}{Filtrar historial por fecha}} & WI35 & Implementar filtros avanzados por fecha y remitente en la pantalla de historial & 4h & Abel Ortega & Done \\ \cline{3-7}
+ &  & WI36 & Pruebas de funcionalidad de los filtros en diferentes combinaciones & 3h & Abel Ortega & Done \\ \hline
+
+\end{longtable}
+
+
+
 #### *Development Evidence for Sprint Review*
 
 #### *Testing Suite Evidence for Sprint Review*
@@ -2627,7 +2695,7 @@ Las entrevistas de validación son una herramienta clave en el proceso de diseñ
 
 A continuación, exploraremos cómo se diseñaron las entrevistas, cómo se llevó a cabo el registro de las mismas y las evaluaciones realizadas basadas en principios heurísticos.
 
-### Diseño de entrevistas
+### Diseño de entrevistas Landing Page
 
 ::: box 
 **Segmento Objetivo 1:** Estudiantes de nivel escolar 
@@ -2695,6 +2763,7 @@ A continuación, exploraremos cómo se diseñaron las entrevistas, cómo se llev
 2) ¿Agregarías o cambiarías algo en la estructura o la interfaz para hacerla más efectiva?
 
 \newpage
+
 
 ### Registro de entrevistas
 
@@ -2904,3 +2973,24 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 
 \vspace{1cm}
 
+
+### Diseño de entrevistas para la aplicación
+
+### Registro de Entrevistas
+
+### Evaluaciones según heuristicas
+
+## *Video About the Product*
+
+
+# Conclusiones
+
+##  Conclusiones y recomendaciones.
+
+##  Video App Validation
+
+
+##  Video About the product
+
+
+##  Video About the team
