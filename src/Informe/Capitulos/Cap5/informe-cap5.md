@@ -2976,6 +2976,81 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 
 ### Diseño de entrevistas para la aplicación
 
+::: box 
+**Segmento Objetivo 1:** Estudiantes de nivel escolar 
+:::
+
+**Evaluar la claridad del propósito y funcionalidades principales de la app:**
+
+1) ¿Qué impresión te da la app al abrirla por primera vez?
+   
+2)  Si tuvieras que explicar qué hace esta app, ¿cómo lo describirías a un amigo?
+   
+3)  ¿Encuentras útil poder crear un correo temporal para usarlo en situaciones específicas (por ejemplo, registro en juegos, promociones, etc.)? ¿Por qué?
+   
+**Evaluar la facilidad de uso de las funcionalidades clave:**
+
+4) ¿Fue fácil entender cómo generar un correo temporal? Si no, ¿qué fue confuso?
+   
+5)  ¿Qué tan intuitivo te parece visualizar el historial de correos usados en la app?
+  
+6)   ¿Te resulta sencillo abrir un correo y leer los detalles dentro de la app?
+   
+7)   ¿Consideras útil poder responder correos desde la misma app? ¿Lo usarías?
+   
+**Confianza en la seguridad y experiencia general:**
+
+8) ¿Sientes que tus datos están protegidos al usar Temporaly? ¿Qué te hace sentir seguro o inseguro?
+   
+9)  ¿Crees que esta app es confiable para manejar información personal?
+
+**Sugerencias para mejorar la experiencia:**
+
+10) ¿Te gusta el diseño de la app? ¿Qué cambiarías para hacerlo más atractivo?
+    
+11) Si pudieras agregar alguna funcionalidad nueva, ¿qué sería?
+
+\newpage
+
+::: box 
+**Segmento Objetivo 2:** Estudiantes de nivel universitario y superior (pregrado - postgrado) 
+:::
+
+
+**Evaluar la claridad del propósito y funcionalidades principales de la app:**
+
+
+1) ¿Te queda claro cómo proteger tu privacidad con esta app en situaciones como registros en plataformas académicas o eventos?
+   
+2) ¿Encuentras útil la funcionalidad de historial de correos? ¿Cómo lo usarías en tu día a día?
+   
+3) ¿Cómo describirías el propósito de Temporaly a alguien que no la conoce?
+   
+**Evaluar la facilidad de uso de las funcionalidades clave:**
+
+4) ¿Qué tan fácil es para ti generar un correo temporal en la app?
+   
+5) ¿Encuentras intuitiva la manera de navegar entre los correos recibidos, el historial y las demás secciones?
+   
+6) ¿Cómo valorarías la opción de responder correos directamente desde la app? ¿Es claro el proceso?
+   
+7) ¿La opción de organizar o eliminar correos desde el historial te resulta útil?
+   
+**Confianza en la seguridad y experiencia general:**
+
+8) ¿Qué tan seguro te sientes al usar esta app para proteger tu información personal?
+   
+9)  ¿Hay algo que podríamos mejorar para aumentar tu confianza en Temporaly?
+
+**Sugerencias para mejorar la experiencia:**
+
+10) ¿Te parece atractivo el diseño de la interfaz? ¿Qué cambiarías para mejorar la experiencia?
+ 
+12) ¿Qué funcionalidad extra te gustaría ver en la app para que sea más útil para ti?
+  
+
+\newpage
+
 ### Registro de Entrevistas
 
 ### Evaluaciones según heuristicas
