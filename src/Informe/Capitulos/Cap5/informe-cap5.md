@@ -2345,6 +2345,18 @@ Para acceder a la visualización del flujo del trabajo, haba click en la [URL](h
 
 \newpage
 
+### *Sprint 5*
+
+#### *Sprint Planning 5*
+
+#### *Sprint Backlog 5*
+
+#### *Development Evidence for Sprint Review*
+
+#### *Testing Suite Evidence for Sprint Review*
+
+\newpage
+
 ## *Validation Interviews*
 
 Las entrevistas de validación son una herramienta clave en el proceso de diseño centrado en el usuario. A través de estas entrevistas, se busca obtener información directa de los usuarios sobre cómo interactúan con el producto, lo que permite validar su usabilidad y funcionalidad. Este método es esencial para identificar problemas, detectar oportunidades de mejora y asegurar que el producto final cumpla con las expectativas del público objetivo. Las entrevistas de validación no solo ayudan a mejorar la experiencia del usuario, sino que también garantizan que las decisiones de diseño estén basadas en datos reales y no en suposiciones.
