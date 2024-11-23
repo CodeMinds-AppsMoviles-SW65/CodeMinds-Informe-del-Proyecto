@@ -3159,9 +3159,118 @@ En resumen, Pol evaluó Temporaly como una herramienta práctica, segura y fáci
 \newpage
 
 
+### Evaluaciones según heuristicas para la Aplicación
 
-### Evaluaciones según heuristicas
+\begin{center}
+\textbf{UX Heuristics \& Principles Evaluation} \\
+\textbf{Usability – Inclusive Design – Information Architecture}
+\end{center}
 
+\vspace{10pt}
+
+\begin{tabbing}
+\hspace{5cm} \= \kill
+\textbf{CARRERA:} \> Ingeniería de Software \\
+\textbf{CURSO:} \> Aplicaciones para Dispositivos Móviles \\
+\textbf{SECCIÓN:} \>  SW65 \\
+\textbf{PROFESORES:} \> Jorge Luis Mayta Guillermo \\
+\textbf{AUDITOR:} \> CodeMinds \\
+\textbf{CLIENTE(S):} \> Estudiantes de nivel escolar y estudiantes de Pregrado/Postgrado \\
+\end{tabbing}
+\hrule
+
+\vspace{10pt}
+
+**SITE o APP A EVALUAR:** *Temporaly*
+
+\vspace{10pt}
+
+\textbf{TAREAS A EVALUAR:}  
+
+El alcance de esta evaluación incluye las siguientes áreas de la aplicación Temporaly, basadas en las entrevistas realizadas:
+
+
+\begin{enumerate}
+    \item \textbf{Comunicación del propósito de la app:} Claridad sobre la utilidad de Temporaly como generador de correos temporales.
+    \item \textbf{Usabilidad y flujo de funcionalidades:} Facilidad para crear correos temporales, gestionar el historial, personalizar y eliminar correos.
+    \item \textbf{Confianza y seguridad:} Percepción de seguridad por parte de los usuarios.
+    \item \textbf{Accesibilidad visual y funcional:} Comprensión de la interfaz y navegación, especialmente para usuarios nuevos.
+    \item \textbf{Sugerencias de mejoras:} Inclusión de nuevas funcionalidades y soporte multilingüe.
+\end{enumerate}
+
+
+\newpage
+
+
+**Escala de Severidad de Problemas**
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+\begin{table}[H] 
+\begin{center} 
+\begin{tabular}{|c|p{12cm}|} \\ \hline 
+\textbf{Nivel} & \textbf{Descripción} \\ \hline 
+1 & Problema superficial: se supera fácilmente o rara vez ocurre. Solución opcional. \\ \hline 
+2 & Problema menor: ocurre ocasionalmente o requiere más esfuerzo del usuario. Prioridad baja. \\ \hline 
+3 & Problema mayor: ocurre frecuentemente o impide un flujo fluido. Prioridad alta. \\ \hline 
+4 & Problema crítico: afecta significativamente la experiencia o impide continuar. Prioridad inmediata. \\ \hline 
+\end{tabular} 
+\end{center} 
+\end{table}
+
+
+**Tabla Resumen de Problemas Identificados**
+
+\begin{table}[H] 
+\begin{center}
+\begin{tabular}{|c|p{5cm}|c|p{6cm}|} 
+\hline 
+\textbf{\#} & \textbf{Problema} & \textbf{Escala de Severidad} & \textbf{Heurística/Principio Violado} \\ \hline 
+1 & Falta de clasificación de correos en leídos/no leídos & 2 & Usabilidad: Flexibilidad y eficiencia de uso \\ \hline 
+2 & Ausencia de traducción de correos y soporte multilingüe & 3 & Usabilidad: Reconocimiento en lugar de recuerdo \\ \hline 
+3 & Necesidad de una función de eliminación automática de correos revisados & 2 & Usabilidad: Diseño minimalista y eficiente \\ \hline 
+4 & Inexistencia de indicadores visuales para reforzar confianza & 3 & Usabilidad: Confianza y seguridad \\ \hline 
+\end{tabular} 
+\end{center} 
+\end{table}
+
+\newpage
+
+**Descripción de Problemas Identificados**
+
+
+- **PROBLEMA \#1: Ausencia de traducción de correos y soporte multilingüe**
+  
+  **Severidad:** 3
+  
+  **Heurística violada:** Usabilidad – Reconocimiento en lugar de recuerdo
+  
+  **Problema:** Pol sugirió que algunos usuarios podrían enfrentar dificultades al recibir correos en idiomas extranjeros o interactuar con una interfaz solo en inglés.
+  
+  **Recomendación:** Incorporar soporte multilingüe para la interfaz y un traductor automático para correos recibidos, mejorando la accesibilidad para usuarios globales.
+
+- **PROBLEMA \#2: Necesidad de una función de eliminación automática de correos revisados**
+  
+  **Severidad:** 2
+  
+  **Heurística violada:** Usabilidad – Diseño minimalista y eficiente
+  
+  **Problema:** La gestión manual de correos puede volverse tediosa para usuarios frecuentes.
+  
+  **Recomendación:** Agregar una opción de eliminación automática para correos marcados como leídos o con un tiempo de expiración definido.
+
+- **PROBLEMA \#3: Inexistencia de indicadores visuales para reforzar confianza**
+  
+  **Severidad:** 3
+  
+  **Heurística violada:** Usabilidad – Confianza y seguridad
+  
+  **Problema:** Aunque los entrevistados consideraron a Temporaly confiable, sugirieron que incluir elementos visuales como certificados o asociaciones destacadas mejoraría la percepción de seguridad.
+  
+  **Recomendación:** Incorporar elementos visuales en la landing page, como iconos de certificados de seguridad, sellos de confianza o referencias a empresas asociadas.
+
+
+\newpage
 
 
 ## *Video About the Product*
