@@ -3053,9 +3053,120 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 
 ### Registro de Entrevistas
 
+::: warn
+Para acceder al video de las entrevistas, haga click en la [URL]()
+:::
+
+\vspace{0.4cm}
+
+::: box
+**Segmento Objetivo 1:** Estudiantes de nivel escolar
+:::
+
+**Entrevista #1**
+
+\begin{table}[H]
+\begin{center} 
+\begin{tabular}{|p{5cm}|p{6cm}|}  
+\hline
+\textbf{Nombre y Apellido}    & Carlet Gil Olivera \\ \hline
+\textbf{Edad}                 & 17 años                \\ \hline
+\textbf{Ubicación geográfica} & Trujillo, Perú         \\ \hline
+\textbf{Grado}                & Secundaria             \\ \hline
+\textbf{Tiempo de entrevista} & 06:00 - 08:57          \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
+**Resumen de la entrevista**
+
+En la entrevista con Carlet Gil Olivera, se le mostró y pidió evaluar la aplicación Temporaly, una herramienta para generar correos electrónicos temporales con el objetivo de proteger la privacidad y evitar el spam. Durante la conversación, Carlet expresó una impresión inicial de curiosidad por tratarse de una aplicación novedosa y práctica.
+
+Carlet entendió que el principal objetivo de Temporaly es facilitar la creación de correos electrónicos temporales para situaciones como registros en plataformas y aplicaciones, evitando el uso del correo personal. Expresó que encuentra útil esta herramienta para separar correos importantes de los que no lo son, y consideró que su propósito está bien definido y es fácil de explicar a otras personas.
+Destacó que Temporaly resulta ideal para situaciones donde, por apuro, se podría registrar en sitios web que luego envían spam, valorando que la aplicación permite mantener la privacidad y organización de la bandeja de entrada.
+Por otro lado, Carlet encontró la aplicación intuitiva y sencilla de usar. Logró comprender cómo generar un correo temporal, personalizarlo, gestionar el historial de correos y eliminar los que ya no son útiles. Además, mencionó que la interfaz visual es clara y funcional, sin elementos innecesarios, lo que contribuye a una experiencia fluida.
+Durante la demostración, destacó lo fácil que fue abrir correos desde la aplicación y utilizar las funcionalidades principales. También consideró útil la posibilidad de responder correos directamente desde Temporaly.
+Asimismo, Carlet manifestó sentirse segura al usar Temporaly. Percibió la aplicación como confiable para manejar información personal, al transmitir un enfoque claro en la protección de datos y evitar riesgos de spam. Comentó que el diseño minimalista y directo contribuye a generar confianza en los usuarios.
+
+Aunque valoró positivamente las funcionalidades actuales, Carlet sugirió incorporar una opción para clasificar correos en leídos y no leídos, y añadió que sería práctico incluir una función que elimine automáticamente los correos ya revisados.
+Finalmente, Carlet Gil Olivera evaluó Temporaly como una aplicación útil, confiable y fácil de usar, con un diseño claro que facilita su funcionalidad. Destacó su utilidad para mantener la privacidad en línea y evitar el desorden en la bandeja de entrada. Sus sugerencias, centradas en clasificaciones y automatizaciones, apuntan a mejorar aún más la experiencia del usuario y hacer la aplicación aún más versátil.
+
+
+![Imagen extraída del video de entrevistas](src/img/Cap5/entrevista01_Segmento01.png)
+
+\newpage
+
+**Entrevista #2**
+
+\begin{table}[H]
+\begin{center}  
+\begin{tabular}{|p{5cm}|p{6cm}|}  
+\hline
+\textbf{Nombre y Apellido}    & Pol Adriano Ramos Rios \\ \hline
+\textbf{Edad}                 & 14 años                \\ \hline
+\textbf{Ubicación geográfica} & Trujillo, Perú         \\ \hline
+\textbf{Grado}                & Secundaria             \\ \hline
+\textbf{Tiempo de entrevista} & 08:57 - 19:17          \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+**Resumen de la entrevista**
+
+En la entrevista con Pol Adriano Ramos Ríos, se le presentó la aplicación Temporaly, una herramienta diseñada para generar correos electrónicos temporales que protegen la privacidad y evitan el spam. Pol expresó una primera impresión positiva, destacando el diseño minimalista y funcional de la aplicación. Desde su perspectiva, Temporaly es ideal para registros en páginas web de dudosa confianza o para utilizarla como una cuenta secundaria temporalmente.
+
+Durante la demostración, se le mostró cómo personalizar un correo temporal con su nombre y cómo usarlo para registros en plataformas como Duolingo o Pinterest. Pol comprobó que la aplicación permite enviar y recibir correos de manera efectiva y gestionar un historial de correos temporales, lo cual consideró práctico para evitar el desorden en la bandeja de entrada. Además, destacó la posibilidad de borrar correos antiguos y generar nuevos automáticamente, lo que consideró una funcionalidad útil para mantener la organización.
+
+En cuanto a su utilidad, Pol señaló que Temporaly es una herramienta efectiva para evitar usar el correo personal en situaciones donde podría recibir spam o para pruebas temporales, como juegos o promociones. Indicó que fue muy fácil entender cómo generar un correo temporal y calificó la aplicación como intuitiva y sencilla. No obstante, mencionó que podría ser útil ofrecer soporte en varios idiomas, ya que algunas personas podrían no sentirse cómodas con una interfaz solo en inglés.
+
+Respecto a la seguridad, Pol manifestó sentirse tranquilo al usar la aplicación, ya que un correo temporal minimiza el riesgo de exponer datos personales o cuentas privadas. En cuanto al diseño, valoró el enfoque minimalista y funcional, mencionando que no haría cambios importantes. Sin embargo, sugirió agregar una funcionalidad de traducción automática para los correos recibidos en otros idiomas, lo que facilitaría su uso en un contexto global.
+
+En resumen, Pol evaluó Temporaly como una herramienta práctica, segura y fácil de usar. Reconoció su utilidad para proteger la privacidad y destacó la claridad de su diseño e interfaz. Como mejora, sugirió incluir opciones multilingües y un traductor para los correos, lo que aumentaría su accesibilidad y versatilidad.
+
+
+![Imagen extraída del video de entrevistas](src/img/Cap5/entrevista02_Segmento01.png)
+
+
+
+\newpage
+
+
+
+::: box
+**Segmento Objetivo 2:** Estudiantes de Pregrado/Postgrado
+:::
+
+**Entrevista #1**
+
+\begin{table}[H]
+\begin{center}  
+\begin{tabular}{|p{5cm}|p{6cm}|}  
+\hline
+\textbf{Nombre y Apellido}    & NOMBRE \\ \hline
+\textbf{Edad}                 & EDAD            \\ \hline
+\textbf{Ubicación geográfica} & Lima, Perú         \\ \hline
+\textbf{Grado}                & Pregrado             \\ \hline
+\textbf{Tiempo de entrevista} & inicio - fin           \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+**Resumen de la entrevista**
+
+
+
+\newpage
+
+
+
 ### Evaluaciones según heuristicas
 
+
+
 ## *Video About the Product*
+
+
 
 
 # Conclusiones
