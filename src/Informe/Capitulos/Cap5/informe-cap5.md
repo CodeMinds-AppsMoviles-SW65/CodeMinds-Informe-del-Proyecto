@@ -2744,6 +2744,8 @@ Durante este quinto sprint se completo la implementacion en Kotlin de las funcio
     \label{fig:rnf1}
 \end{figure}
 
+\newpage
+
 \begin{figure}[h!]
     \centering
     \includegraphics[width=1.0\textwidth, height=0.9\textheight]{src/img/Cap5/demo02.jpg}
@@ -2751,12 +2753,16 @@ Durante este quinto sprint se completo la implementacion en Kotlin de las funcio
     \label{fig:rnf1}
 \end{figure}
 
+\newpage
+
 \begin{figure}[h!]
     \centering
     \includegraphics[width=1.0\textwidth, height=0.9\textheight]{src/img/Cap5/demo03.jpg}
     \caption{App movil: Imagen extraída de Android Studio}
     \label{fig:rnf1}
 \end{figure}
+
+\newpage
 
 \begin{figure}[h!]
     \centering
@@ -3167,18 +3173,12 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 \vspace{1cm}
 
 
-
-
-
-
-# Conclusiones
-
-##  Conclusiones y recomendaciones
-
-
 ##  Video App Validation
 
-Esta sección documenta el proceso de validación de la aplicación Temporaly a través de entrevistas en video realizadas con usuarios pertenecientes a los segmentos objetivo: estudiantes de nivel escolar y estudiantes de pregrado/postgrado. El objetivo de estas entrevistas fue evaluar la claridad del propósito de la aplicación, la facilidad de uso de sus funcionalidades clave, y la percepción de confianza y seguridad que genera. Además, se recopilaron observaciones y sugerencias para mejorar la experiencia de usuario.
+Esta sección documenta el proceso de validación de la aplicación Temporaly a través de entrevistas en video realizadas con usuarios pertenecientes a los segmentos objetivo: estudiantes de nivel escolar y estudiantes de pregrado/postgrado. 
+
+El objetivo de estas entrevistas fue evaluar la claridad del propósito de la aplicación, la facilidad de uso de sus funcionalidades clave, y la percepción de confianza y seguridad que genera. 
+Además, se recopilaron observaciones y sugerencias para mejorar la experiencia de usuario.
 
 ### Diseño de entrevistas para la aplicación
 
@@ -3257,7 +3257,7 @@ Esta sección documenta el proceso de validación de la aplicación Temporaly a 
 
 \newpage
 
-### Registro de Entrevistas
+### Registro de Entrevistas (App Validation)
 
 ::: warn
 Para acceder al video de las entrevistas, haga click en la [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/EVPpQxXcLJJDnOCqWeLUuiYB7Ts1CDl75PiiycnrxtprCw?e=WLvBE0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
@@ -3530,7 +3530,13 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 
 
 
+
 ##  Video About the product
+
+En esta sección, se presenta un video que ofrece una visión general sobre Temporaly, destacando su propósito, principales funcionalidades y beneficios para los usuarios. Este video tiene como objetivo comunicar de manera clara y atractiva las características clave del producto, mostrando cómo puede ser utilizado para proteger la privacidad y optimizar la gestión de correos temporales.
+
+El video está diseñado para proporcionar una experiencia visual que complemente la documentación escrita y permita a los usuarios potenciales comprender rápidamente el valor que Temporaly aporta en contextos cotidianos.
+
 ::: warn
 Para acceder al video  about the product, haga click en la [URL](https://youtu.be/VEjg2eKx958)
 
@@ -3540,7 +3546,61 @@ Link acortado: https://youtu.be/VEjg2eKx958
 
 ![Imagen extraída del video about the product](src/img/Cap5/about-the-product.jpg)
 
+\newpage
+
+
+# Conclusiones
+
+##  Conclusiones y recomendaciones
+ 
+- **Conclusiones**
+  
+  - Como equipo, concluimos que Temporaly ha logrado cumplir su propósito principal: ofrecer una herramienta confiable y accesible para generar correos electrónicos temporales, lo que permite a los usuarios proteger su privacidad y evitar el spam. La implementación de funcionalidades clave como la gestión del historial y la eliminación automática de correos revisados ha optimizado la experiencia del usuario.
+  
+  - El uso de metodologías ágiles y la implementación de tecnología avanzada han sido claves para optimizar la experiencia del usuario. Este enfoque nos ha permitido asegurar que las funcionalidades de Temporaly sean relevantes y efectivas para el segmento objetivo, manteniéndonos competitivos en un mercado en constante evolución.
+  
+  - Nuestro enfoque en la segmentación por nivel educativo (estudiantes de secundaria, pregrado y postgrado) ha garantizado que cada funcionalidad esté alineada con las necesidades específicas de cada grupo. Esto fortalece la propuesta de valor de Temporaly y asegura una experiencia personalizada para diferentes tipos de usuarios.
+  
+  - Con Temporaly, ofrecemos una solución que puede impactar positivamente la vida digital de los usuarios, especialmente estudiantes que buscan proteger su información personal al interactuar con plataformas académicas y sociales. Esto refuerza el valor del proyecto y su relevancia en un contexto de creciente preocupación por la privacidad digital.
+
+- **Recomendaciones**
+  
+  - Sugerimos desarrollar campañas educativas dirigidas a estudiantes, padres y educadores para promover un mejor entendimiento de la seguridad digital. Esto permitirá maximizar el impacto de Temporaly como herramienta de protección en línea y fomentar su uso consciente.
+  
+  - Recomendamos integrar nuevas funcionalidades, como soporte multilingüe, traducción automática de correos, opciones avanzadas de personalización y tiempos de expiración más largos. Estas características pueden aumentar el atractivo de la aplicación para diferentes segmentos y mejorar la retención de usuarios.
+  
+  - Proponemos realizar pruebas de usabilidad periódicas y encuestas a los usuarios para identificar áreas de mejora. La implementación de estos ajustes debe realizarse mediante iteraciones ágiles para mantener la relevancia y eficiencia del producto.
+  
+  - Para asegurar el éxito a largo plazo, es esencial implementar un plan de mantenimiento que incluya monitoreo continuo de la infraestructura, actualizaciones regulares y escalabilidad de los servicios para manejar el crecimiento de usuarios.
+  
+
+##  Video App Validation
+
+::: warn
+Para acceder al video de las entrevistas, haga click en la [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/EVPpQxXcLJJDnOCqWeLUuiYB7Ts1CDl75PiiycnrxtprCw?e=WLvBE0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+Link acortado: https://n9.cl/temporalyappvalidation
+
+:::
+
+![Imagen extraída del video de entrevistas](src/img/Cap5/entrevista01_Segmento02.jpg)
+
+\newpage
+
+##  Video About the product
+
+::: warn
+Para acceder al video  about the product, haga click en la [URL](https://youtu.be/VEjg2eKx958)
+
+Link acortado: https://youtu.be/VEjg2eKx958
+
+:::
+
+![Imagen extraída del video about the product](src/img/Cap5/about-the-product.jpg)
+
+
 ##  Video About the team
+
 ::: warn
 Para acceder al video de las entrevistas, haga click en la [URL]()
 
@@ -3549,3 +3609,97 @@ Link acortado:
 :::
 
 ![Imagen extraída del video about the team](src/img/Cap5/about-the-team.png)
+
+\newpage
+
+# Glosario
+
+1. **API (Application Programming Interface):**
+Conjunto de definiciones y protocolos que permiten la comunicación entre diferentes sistemas o aplicaciones, facilitando el intercambio de datos y la integración de funcionalidades.
+
+2. **Correo Temporal:**
+Dirección de correo electrónico creada con un propósito específico y por un tiempo limitado. Se utiliza para proteger la privacidad y evitar el spam al registrarse en plataformas o servicios.
+
+3. **Flutter:**
+Framework de desarrollo de código abierto creado por Google, utilizado para crear aplicaciones móviles, web y de escritorio desde una base de código única.
+
+4. **Metodologías Ágiles:**
+Conjunto de principios y prácticas para la gestión de proyectos y desarrollo de software que enfatizan la colaboración, la flexibilidad y la entrega continua de valor.
+
+5. **Privacidad Digital:**
+Derecho de los usuarios a proteger su información personal en línea, controlando quién tiene acceso a sus datos y cómo se utilizan.
+
+6. **Segmentación de Usuarios:**
+Proceso de dividir una audiencia en grupos más pequeños con características similares (por ejemplo, nivel educativo) para personalizar los productos y servicios ofrecidos.
+
+7. **Seguridad Digital:**
+Conjunto de medidas diseñadas para proteger los sistemas informáticos y los datos contra accesos no autorizados, ataques o pérdida de información.
+
+8. **Sprint:**
+Unidad de trabajo en las metodologías ágiles, generalmente de 1 a 4 semanas, durante la cual se desarrolla y entrega un conjunto específico de funcionalidades o mejoras.
+
+9.  **Swagger:**
+Herramienta para diseñar, construir y documentar APIs de manera interactiva, proporcionando una interfaz amigable para explorar y probar los endpoints.
+
+10. **Temporaly:**
+Aplicación desarrollada para la creación y gestión de correos electrónicos temporales, enfocada en proteger la privacidad de los usuarios y evitar el spam en registros en línea.
+
+11. ***Testing (Pruebas):***
+Proceso de evaluación de una aplicación o sistema para garantizar que las funcionalidades cumplan con los requisitos y que el software sea estable y confiable.
+
+12. ***UI/UX (User Interface/User Experience):***
+Diseño de la interfaz y experiencia del usuario en un producto o aplicación, enfocado en la facilidad de uso, la funcionalidad y la satisfacción del usuario.
+
+13. ***Work Item (WI):***
+Unidad de trabajo específica dentro de un sprint, que representa una tarea o funcionalidad a desarrollar, asignada a un miembro del equipo.
+
+14. **Repositorio:**
+Espacio centralizado donde se almacena, gestiona y comparte el código fuente de un proyecto, a menudo utilizado en plataformas como GitHub.
+
+15. **Notificaciones Push:**
+Mensajes enviados desde una aplicación a los dispositivos de los usuarios para informarles sobre eventos o actualizaciones importantes en tiempo real.
+
+16. **Historial de Sesiones:**
+Registro de las actividades realizadas en una aplicación, que en el caso de Temporaly, permite a los usuarios revisar y gestionar correos electrónicos temporales usados previamente.
+
+17. **Microservicios:**
+Arquitectura de software donde las aplicaciones se estructuran como un conjunto de servicios pequeños e independientes que se comunican entre sí, típicamente mediante APIs.
+
+18. ***Mockup:***
+Representación visual de un diseño que muestra cómo se verá la interfaz de usuario sin detallar su funcionalidad.
+
+19. **Prototipo:**
+Modelo preliminar de un producto o sistema que permite probar y evaluar sus funcionalidades antes del desarrollo final.
+
+20. ***Sprint Backlog:***
+Lista de tareas o actividades que un equipo debe completar durante un sprint, alineada con los objetivos del proyecto.
+
+21. ***Wireframe:***
+Esquema o representación básica de la estructura de una interfaz, que sirve para planificar el diseño y funcionalidad de una página o aplicación.
+
+22. ***Lean UX:***
+Metodología de diseño centrada en el usuario que busca reducir el tiempo de desarrollo mediante iteraciones rápidas y retroalimentación constante.
+
+23. ***Testing Suite:***
+Conjunto de pruebas diseñadas para evaluar la funcionalidad, rendimiento y seguridad de un software.
+
+24. ***Empathy Mapping:***
+Herramienta para entender las necesidades, pensamientos y emociones de los usuarios, basada en sus experiencias y puntos de vista.
+
+25. ***Bounded Context:***
+Término de diseño de software que define un límite dentro del cual un modelo específico es válido, usado comúnmente en la arquitectura orientada a dominios.
+
+26. ***SEO (Search Engine Optimization):***
+Estrategias y prácticas diseñadas para mejorar la visibilidad de un sitio web en los resultados orgánicos de los motores de búsqueda.
+
+27. ***CI/CD (Integración Continua/Despliegue Continuo):***
+Práctica de desarrollo que automatiza la integración de código y su despliegue, asegurando actualizaciones rápidas y sin errores.
+
+28. ***User Journey Mapping:***
+Técnica para visualizar el recorrido completo que realiza un usuario al interactuar con un producto o servicio, identificando puntos de mejora.
+
+29. ***RESTful:***
+Estilo arquitectónico para sistemas de software que utiliza operaciones HTTP estándar, como GET, POST, PUT y DELETE, para interactuar con recursos web.
+
+30. ***Cloud Deployment:***
+Proceso de implementar aplicaciones y servicios en servidores remotos en la nube, accesibles a través de internet.
