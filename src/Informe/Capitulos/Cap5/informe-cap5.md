@@ -2215,7 +2215,7 @@ Feature: Manejo de consentimiento de usuario
 
 #### *Execution Evidence for Sprint Review*
 
-Durante este primer sprint se comenzo la reimplementacion en flutter, asi mismo se integro el sistema de generacion de correo y historial al backend.
+Durante este cuarto sprint se comenzo la reimplementacion en flutter, asi mismo se integro el sistema de generacion de correo y historial al backend.
 
 • Se implementó un sistema de limite de correos por usuarios
 • Se implemento el sistema de filtro de correo falso.
@@ -2720,11 +2720,166 @@ Feature: Filter session history by date
 
 #### Execution Evidence for Sprint Review
 
+Durante este quinto sprint se completo la implementacion en Kotlin de las funciones de nuestra aplicacíon, asi mismo se integro el video about-the-team y el video about-the-product en la landing page.
+
+• Se implemento el sistema de filtro de correo falso.
+• Se implemento el historial de correos y expiracion de estos.
+• Se implemento un dominio personalizado.
+• Se implementaron las barras de navegación dentro de la aplicación.
+• Se implemento poder borrar un correo temporal y los correos asociados a este.
+
+
+**Implementación del sistema de correos falso**
+
+![Backend: Imagen extraída del navegador](src/img/Cap5/temp_back_5_2.png)
+
+\newpage
+
+**Implementación en Kotlin.**
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=1.0\textwidth, height=0.9\textheight]{src/img/Cap5/demo01.jpg}
+    \caption{App movil: Imagen extraída de Android Studio}
+    \label{fig:rnf1}
+\end{figure}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=1.0\textwidth, height=0.9\textheight]{src/img/Cap5/demo02.jpg}
+    \caption{App movil: Imagen extraída de Android Studio}
+    \label{fig:rnf1}
+\end{figure}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=1.0\textwidth, height=0.9\textheight]{src/img/Cap5/demo03.jpg}
+    \caption{App movil: Imagen extraída de Android Studio}
+    \label{fig:rnf1}
+\end{figure}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=1.0\textwidth, height=0.9\textheight]{src/img/Cap5/demo04.jpg}
+    \caption{App movil: Imagen extraída de Android Studio}
+    \label{fig:rnf1}
+\end{figure}
+
+**Implementación de videos en la landing Page**
+
+![Imagen extraída de la Landing Page](src/img/Cap5/documentation1.png)
+
+
+\newpage
+
 #### Services Documentation Evidence for Sprint Review
+En esta seccion, se muestra la documentacion de los servicios del *backend* de la aplicación móvil, asi como tambien se muestra el uso de Swagger para la documentacion de los servicios.
+
+Utilizamos *SpringBoot*, *Spring Security*, *Spring Mongo*, *Spring Oauthclient*, *JWToken*, *Spring Data* y *Flask*
+
+::: warn
+**https://docs.spring.io/spring-boot/index.html**
+:::
+
+![Imagen extraída de la documentación de Spring](src/img/Cap5/documentation1.png)
+
+\newpage
+
+::: warn
+**https://docs.spring.io/spring-boot/reference/web/spring-security.html#page-title**
+:::
+
+![Imagen extraída de la documentación de Spring](src/img/Cap5/documentation2.png)
+
+::: warn
+**https://www.npmjs.com/package/jsonwebtoken**
+:::
+
+![Imagen extraída de NPMjs](src/img/Cap5/documentation3.png)
+
+\newpage
+
+::: warn
+**https://spring.io/projects/spring-data-jpa**
+:::
+
+![Imagen extraída de la documentación de Spring](src/img/Cap5/documentation4.png)
+
+::: warn
+**https://github.com/flasgger/flasgger**
+:::
+
+![Imagen extraída de la documentación de Flasgger](src/img/Cap5/documentation5.png)
+
+\newpage
 
 #### Software Deployment Evidence for Sprint Review
+**Desplegar** ***Temporaly - Backend***
+
+::: warn
+Para acceder al despliegue del Backend de la aplicación, haga click en la [URL](https://temporally-api.ryzeon.me/swagger-ui/index.html)
+:::
+
+1. Seleccionar el repositorio *CodeMinds-Temporaly-Backend*
+
+![Organización CodeMinds, imagen extraída de Github](src/img/Cap5/despliegue-backend-1.png)
+
+2. Abrir, descargar y ejecutar en *IntelliJ IDEA* o su editor de preferencia para *Java*
+
+![Repositorio del backend, imagen extraída de Github](src/img/Cap5/despliegue-backend-2.png)
+
+3. Visualización de la documentación *Swagger*
+
+![Swagger UI, imagen extraída de la API](src/img/Cap5/despliegue-backend-3.png)
+
+\newpage
+
+**Desplegar** ***Mobile App - Temporaly - Flutter Version***
+
+::: warn
+Para acceder al repositorio del FrontEnd, haga click en la [URL](https://github.com/CodeMinds-AppsMoviles-SW65/CodeMinds-Temporaly-FlutterApp)
+:::
+
+1. Seleccionar el repositorio *CodeMinds-Temporaly-MobileApp*
+
+![Organización CodeMinds, imagen extraída de Github](src/img/Cap4/git_repo.png)
+
+\newpage
+
+2. Abrir, descargar y ejecutar en Android Studio 
+
+::: important
+ Asegurese de tener la version Android Studio Koala - 2024 - Patch 1 o 2
+:::
+
+![Repositorio del Mobile App, imagen extraída de Github](src/img/Cap5/mobile-app-configuration.png)
+
+\newpage
+
+3. Visualización de la aplicación
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=1.0\textwidth, height=0.9\textheight]{src/img/Cap5/demo01.jpg}
+    \caption{App movil: Imagen extraída de Android Studio}
+    \label{fig:rnf2}
+\end{figure}
+
+\newpage
 
 #### Team Collaboration Insights during Sprint
+
+::: warn
+Para acceder a la visualización del flujo del trabajo, haba click en la [URL](https://github.com/orgs/CodeMinds-AppsMoviles-SW65/projects/1)
+:::
+
+![Imagen extraída de Github - Codeminds](src/img/Cap5/team-colaboration-tb3-1.png)
+
+![Imagen extraída de Github - Codeminds](src/img/Cap5/team-colaboration-tb3-2.png)
+
+![Imagen extraída de Github - Codeminds](src/img/Cap5/team-colaboration-tb3-3.png)
+
+\newpage
 
 
 ## *Validation Interviews*
@@ -3377,13 +3532,13 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 
 ##  Video About the product
 ::: warn
-Para acceder al video  about the product, haga click en la [URL]()
+Para acceder al video  about the product, haga click en la [URL](https://youtu.be/VEjg2eKx958)
 
-Link acortado: 
+Link acortado: https://youtu.be/VEjg2eKx958
 
 :::
 
-![Imagen extraída del video about the product](src/img/Cap5/)
+![Imagen extraída del video about the product](src/img/Cap5/about-the-product.jpg)
 
 ##  Video About the team
 ::: warn
@@ -3393,4 +3548,4 @@ Link acortado:
 
 :::
 
-![Imagen extraída del video about the team](src/img/Cap5/)
+![Imagen extraída del video about the team](src/img/Cap5/about-the-team.png)
