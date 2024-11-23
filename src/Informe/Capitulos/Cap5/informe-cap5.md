@@ -3106,7 +3106,8 @@ Esta sección documenta el proceso de validación de la aplicación Temporaly a 
 ### Registro de Entrevistas
 
 ::: warn
-Para acceder al video de las entrevistas, haga click en la [URL]()
+Para acceder al video de las entrevistas, haga click en la [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/EVPpQxXcLJJDnOCqWeLUuiYB7Ts1CDl75PiiycnrxtprCw?e=WLvBE0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
 :::
 
 \vspace{0.4cm}
@@ -3195,17 +3196,63 @@ En resumen, Pol evaluó Temporaly como una herramienta práctica, segura y fáci
 \begin{center}  
 \begin{tabular}{|p{5cm}|p{6cm}|}  
 \hline
-\textbf{Nombre y Apellido}    & NOMBRE \\ \hline
-\textbf{Edad}                 & EDAD            \\ \hline
+\textbf{Nombre y Apellido}    & Carlos Sanchez \\ \hline
+\textbf{Edad}                 & 20            \\ \hline
 \textbf{Ubicación geográfica} & Lima, Perú         \\ \hline
 \textbf{Grado}                & Pregrado             \\ \hline
-\textbf{Tiempo de entrevista} & inicio - fin           \\ \hline
+\textbf{Tiempo de entrevista} & 19:19 - 28:03        \\ \hline
 \end{tabular}
 \end{center}
 \end{table}
 
 **Resumen de la entrevista**
 
+En la entrevista con Carlos Sánchez, se le presentó la aplicación Temporaly, una herramienta para generar correos electrónicos temporales que permite proteger la privacidad y gestionar registros en sitios web de manera segura. Carlos describió la aplicación como una solución innovadora y útil para proteger la identidad digital, especialmente al interactuar con plataformas de baja confianza.
+
+Durante la demostración, se creó un correo temporal personalizado con su nombre, que se utilizó para registrarse en Medium y enviar mensajes de prueba. Carlos destacó la facilidad para generar correos y valoró la posibilidad de personalizarlos, lo que añadió un nivel de comodidad al proceso. Además, comprobó la utilidad del historial de correos, una función que permite revisar, organizar y eliminar los correos usados previamente, lo cual consideró esencial para mantener control y orden en su uso.
+
+Carlos mencionó que la aplicación es intuitiva y sencilla, con un diseño minimalista que facilita su navegación. Apreció que las funcionalidades están claramente indicadas mediante botones simples, lo que la hace accesible incluso para usuarios menos experimentados. También indicó que la posibilidad de responder correos desde la aplicación sería un añadido valioso para casos específicos, como comunicaciones legales.
+
+En términos de seguridad, Carlos afirmó sentirse confiado al usar Temporaly, ya que no solicita datos personales ni credenciales sensibles, lo que refuerza su confianza en la herramienta. No obstante, sugirió que incluir documentación adicional sobre los protocolos de seguridad utilizados podría aumentar aún más su confianza. Además, propuso una funcionalidad extra que registre los sitios web donde se ha utilizado un correo temporal, para mantener un control más detallado de las actividades realizadas con la aplicación.
+
+En resumen, Carlos evaluó positivamente Temporaly, destacando su utilidad, facilidad de uso y diseño atractivo. Sus sugerencias para mejorar la aplicación incluyen opciones para responder correos, mayor transparencia sobre su seguridad y un registro detallado de los sitios donde se han utilizado los correos temporales. Consideró que la herramienta es efectiva para proteger la privacidad y mantener la organización en actividades online.
+
+
+![Imagen extraída del video de entrevistas](src/img/Cap5/entrevista01_Segmento02.jpg)
+
+\newpage
+
+
+**Entrevista #2**
+
+\begin{table}[H]
+\begin{center}  
+\begin{tabular}{|p{5cm}|p{6cm}|}  
+\hline
+\textbf{Nombre y Apellido}    & Mateo Daniel Del Castillo \\ \hline
+\textbf{Edad}                 & 20            \\ \hline
+\textbf{Ubicación geográfica} & Lima, Perú         \\ \hline
+\textbf{Grado}                & Pregrado             \\ \hline
+\textbf{Tiempo de entrevista} & 28:03 - 40:52          \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+**Resumen de la entrevista**
+
+En la entrevista con Mateo Daniel Del Castillo, se le presentó la aplicación Temporaly, una herramienta para la creación de correos electrónicos temporales, diseñada para proteger la privacidad y evitar el spam en registros en plataformas o servicios online. Mateo destacó que la aplicación le parece una solución eficiente y clara para proteger la identidad digital, especialmente útil en situaciones donde no se desea utilizar un correo personal.
+
+Durante la demostración, Mateo pudo observar cómo se generaba un correo temporal personalizado con su nombre y un dominio predeterminado, comprobando su funcionalidad al enviarse correos y registrarse en aplicaciones como Medium o Trello. Aunque tuvo algunos inconvenientes iniciales con un captcha, confirmó que el proceso era sencillo y que la aplicación cumplía con su propósito principal. Además, valoró la funcionalidad del historial para revisar o eliminar correos, resaltando que las cuentas creadas con los correos temporales se mantienen activas en las plataformas externas.
+
+Mateo describió la aplicación como una forma rápida y segura de generar un correo temporal sin necesidad de procesos de autenticación complejos. Esto, según él, es especialmente útil para recibir spam o registrarse en sitios de dudosa confianza. La generación del correo le resultó intuitiva, destacando la facilidad de uso del botón “New” y la selección automática de dominios, lo que optimiza el proceso.
+
+En cuanto a la interfaz, Mateo la encontró minimalista, bien organizada y visualmente atractiva. Comentó que los elementos de diseño, como las animaciones y los colores, le parecieron llamativos y bien ejecutados. En términos de seguridad, expresó sentirse totalmente tranquilo, ya que la aplicación no solicita datos personales ni requiere autenticación adicional, lo que considera fundamental para un servicio de este tipo.
+
+Como sugerencia, Mateo propuso implementar un historial organizado por fechas, que permita buscar correos antiguos de manera más eficiente. También consideró valiosa la posibilidad de responder correos desde la aplicación en casos específicos, aunque reconoce que el propósito principal de un correo temporal no es necesariamente la comunicación bidireccional.
+
+En conclusión, Mateo evaluó Temporaly como una aplicación útil, confiable y fácil de usar, con un diseño atractivo y funcionalidades claras. Destacó su utilidad para proteger la identidad digital y gestionar correos temporales, proponiendo mejoras enfocadas en la organización del historial y posibles funciones adicionales para responder correos de manera ocasional.
+
+![Imagen extraída del video de entrevistas](src/img/Cap5/entrevista02_Segmento02.jpg)
 
 
 \newpage
