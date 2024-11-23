@@ -2767,7 +2767,7 @@ Durante este quinto sprint se completo la implementacion en Kotlin de las funcio
 
 **Implementación de videos en la landing Page**
 
-![Imagen extraída de la Landing Page](src/img/Cap5/documentation1.png)
+![Imagen extraída de la Landing Page](src/img/Cap5/aboutUsLanding.png)
 
 
 \newpage
