@@ -3014,13 +3014,12 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 
 
 
-## *Video About the Product*
-
 
 
 # Conclusiones
 
-##  Conclusiones y recomendaciones.
+##  Conclusiones y recomendaciones
+
 
 ##  Video App Validation
 
@@ -3107,6 +3106,8 @@ Esta sección documenta el proceso de validación de la aplicación Temporaly a 
 
 ::: warn
 Para acceder al video de las entrevistas, haga click en la [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/EVPpQxXcLJJDnOCqWeLUuiYB7Ts1CDl75PiiycnrxtprCw?e=WLvBE0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+Link acortado: https://n9.cl/temporalyappvalidation
 
 :::
 
@@ -3375,6 +3376,21 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 
 
 ##  Video About the product
+::: warn
+Para acceder al video  about the product, haga click en la [URL]()
 
+Link acortado: 
+
+:::
+
+![Imagen extraída del video about the product](src/img/Cap5/)
 
 ##  Video About the team
+::: warn
+Para acceder al video de las entrevistas, haga click en la [URL]()
+
+Link acortado: 
+
+:::
+
+![Imagen extraída del video about the team](src/img/Cap5/)
