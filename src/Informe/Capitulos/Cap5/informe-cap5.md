@@ -2349,6 +2349,28 @@ Para acceder a la visualización del flujo del trabajo, haba click en la [URL](h
 
 #### *Sprint Planning 5*
 
+\begin{longtable}{|p{5cm}|p{9cm}|}
+\hline
+\textbf{Sprint Planning Background} & \\ \hline
+\endfirsthead
+\hline
+\textbf{Sprint} & \textbf{Sprint 4} \\ \hline
+\endfoot
+\hline
+\textbf{Date} & 11/11/2024 \\ \hline
+\textbf{Time} & 21:00 \\ \hline
+\textbf{Location} & Discord Virtual Meeting \\ \hline
+\textbf{Prepared By} & Ortega Huaraca, Abel Angel \\ \hline
+\textbf{Attendees (to planning meeting)} & Ortega Huaraca, Abel Angel / Avila Asto, Alex Ramon / Vilchez Rios, Mateo Alejandro / Ramos Rios, Belen del Rocio \\ \hline
+\textbf{Sprint 5 Review Summary} & Consolidación de funcionalidades clave y mejoras de rendimiento en Kotlin \\ \hline
+\textbf{Sprint 5 Retrospective Summary} & Trabajo coordinado y mayor optimización en la entrega de tareas críticas. Aumento en la velocidad del equipo. \\ \hline
+\textbf{Sprint Goal \& User Stories} & Finalizar integración de todas las funcionalidades clave, asegurar pruebas finales de QA y preparar la app para producción. \\ \hline
+\textbf{Sprint 5 Velocity} & 1 Sprint cada semanas \\ \hline
+\textbf{Sum of Story Points} & 120 \\ \hline
+\end{longtable}
+
+\newpage
+
 #### *Sprint Backlog 5*
 
 En este quinto y último *sprint*, el objetivo principal ha sido completar todas las funcionalidades pendientes de la aplicación móvil *Temporaly* en *Flutter*, incluyendo la implementación de mejoras y optimizaciones clave. Este sprint se ha centrado en finalizar tareas relacionadas con la gestión de correos temporales, la bandeja de entrada, y el historial de sesiones, garantizando que todas las funcionalidades estén completamente operativas y probadas.
@@ -2420,6 +2442,12 @@ A continuación, se detallan las Historias de Usuario, los *Work Items* (WI) asi
 
 
 #### *Development Evidence for Sprint Review*
+
+Evidencia de colaboración en Equipo:
+
+![Imagen extraída de Github](src/img/cap5/development-evidence.png)
+
+\newpage
 
 #### *Testing Suite Evidence for Sprint Review*
 
@@ -2688,6 +2716,16 @@ Feature: Filter session history by date
 ```
 
 \newpage
+
+
+#### Execution Evidence for Sprint Review
+
+#### Services Documentation Evidence for Sprint Review
+
+#### Software Deployment Evidence for Sprint Review
+
+#### Team Collaboration Insights during Sprint
+
 
 ## *Validation Interviews*
 
@@ -2974,6 +3012,20 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 \vspace{1cm}
 
 
+
+
+## *Video About the Product*
+
+
+
+# Conclusiones
+
+##  Conclusiones y recomendaciones.
+
+##  Video App Validation
+
+Esta sección documenta el proceso de validación de la aplicación Temporaly a través de entrevistas en video realizadas con usuarios pertenecientes a los segmentos objetivo: estudiantes de nivel escolar y estudiantes de pregrado/postgrado. El objetivo de estas entrevistas fue evaluar la claridad del propósito de la aplicación, la facilidad de uso de sus funcionalidades clave, y la percepción de confianza y seguridad que genera. Además, se recopilaron observaciones y sugerencias para mejorar la experiencia de usuario.
+
 ### Diseño de entrevistas para la aplicación
 
 ::: box 
@@ -3159,7 +3211,7 @@ En resumen, Pol evaluó Temporaly como una herramienta práctica, segura y fáci
 \newpage
 
 
-### Evaluaciones según heuristicas para la Aplicación
+### Evaluaciones según heuristicas (App Validation)
 
 \begin{center}
 \textbf{UX Heuristics \& Principles Evaluation} \\
@@ -3273,16 +3325,6 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 \newpage
 
 
-## *Video About the Product*
-
-
-
-
-# Conclusiones
-
-##  Conclusiones y recomendaciones.
-
-##  Video App Validation
 
 
 ##  Video About the product
