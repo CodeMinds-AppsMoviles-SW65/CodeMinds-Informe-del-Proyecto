@@ -3602,9 +3602,9 @@ Link acortado: https://youtu.be/VEjg2eKx958
 ##  Video About the team
 
 ::: warn
-Para acceder al video de las entrevistas, haga click en la [URL]()
+Para acceder al video de las entrevistas, haga click en la [URL](https://youtu.be/GrUNL56e6eo)
 
-Link acortado: 
+Link acortado: https://youtu.be/GrUNL56e6eo
 
 :::
 
